@@ -1,0 +1,58 @@
+---
+---
+
+$sidebar-bg-color: #ab9764 !default;
+$sidebar-title-color: #3a4507 !default;
+
+@import "{{ site.theme }}";
+
+body.index h2.post-title {
+  font-size: 1.2rem;
+}
+
+#sidebar {
+  a#github-download-link {
+    display: none;
+  }
+
+  .site-title a,
+  a {
+    color: $sidebar-title-color;
+  }
+
+  a svg,
+  a:focus svg,
+  a:hover svg {
+    color: $sidebar-title-color;
+    fill: $sidebar-title-color;
+  }
+
+  color: $sidebar-title-color;
+
+  p.lead {
+    font-size: 1rem;
+  }
+
+  img.logo {
+    display: none;
+  }
+
+  @media (min-width: $large-breakpoint) {
+    img.logo {
+      display: block;
+    }
+  }
+}
+
+ul,
+ol,
+dl {
+  margin-left: 1rem;
+}
+
+@media (min-width: 49rem) {
+  .container {
+    padding: 4rem;
+    padding-bottom: 4rem;
+  }
+}
