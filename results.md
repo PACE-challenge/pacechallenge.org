@@ -6,7 +6,7 @@ sidebar_link: true
 sidebar_sort_order: 2
 ---
 
-The results of the PACE challenge are documented in a report that is published in the IPEC proceedings.
+The results of each PACE challenge are documented in a report that is published in the IPEC proceedings.
 
 - PACE 2018 (report in preparation, [talk](https://bit.ly/PACE2018-talk)): Steiner Tree
 - PACE 2017 ([report](https://dx.doi.org/10.4230/LIPIcs.IPEC.2017.30)): Treewidth and Minimum Fill-In
