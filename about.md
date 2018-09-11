@@ -6,15 +6,21 @@ sidebar_link: true
 sidebar_sort_order: 1
 ---
 
-The goal of the Parameterized Algorithms and Computational Experiments Challenge is to investigate the applicability of algorithmic ideas studied and developed in the subfields of multivariate, fine-grained, parameterized, or fixed-parameter tractable algorithms.
+The Parameterized Algorithms and Computational Experiments Challenge (PACE) was
+conceived in Fall 2015 to deepen the relationship between parameterized algorithms and
+practice.
+Topics from multivariate algorithms, exact algorithms, fine-grained complexity, and related fields are in scope.
 
 ## Our Mission
 
-- provide a bridge between the theory of design and analysis of algorithms and the algorithm engineering practice
-- inspire new theoretical developments
-- investigate the competitiveness of analytical and design frameworks developed in the communities of parameterized complexity, exact algorithm, and fine-grained complexity
-- produce universally accessible libraries of implementations and repositories of benchmark instances
-- encourage the dissemination of these findings in scientific papers
+PACE aims to:
+
+- Bridge the divide between the theory of algorithm design and analysis, and the practice
+of algorithm engineering
+- Inspire new theoretical developments
+- Investigate in how far theoretical algorithms from parameterized complexity and related fields are competitive in practice
+- Produce universally accessible libraries of implementations and repositories of benchmark instances
+- Encourage the dissemination of these findings in scientific papers
 
 ### Steering Committee
 
