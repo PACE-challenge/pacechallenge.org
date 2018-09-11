@@ -15,8 +15,8 @@ body.index h2.post-title {
     display: none;
   }
 
-  .site-title a,
-  a {
+  a,
+  .site-title a {
     color: $sidebar-title-color;
   }
 
@@ -55,4 +55,10 @@ dl {
     padding: 4rem;
     padding-bottom: 4rem;
   }
+}
+
+input[type="email"] {
+  padding: $padding-v $padding-h;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
 }
