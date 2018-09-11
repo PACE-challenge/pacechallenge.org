@@ -11,9 +11,9 @@ Science](http://www2.cs.put.poznan.pl/) of [Poznan University of
 Technology](https://www.put.poznan.pl/).
 
 For all the tracks, the participants have the possibility to submit
-their code and run it on the 100 public test instances.  [Due to the
-workload, submissions are allowed only once every 24 hours. 
-]{.message_body}There is also a lite version of the public instances in
+their code and run it on the 100 public test instances.  Due to the
+workload, submissions are allowed only once every 24 hours.
+There is also a lite version of the public instances in
 which the program can be tested on fewer instances and with a shorter
 timeout of 5 minutes.
 
