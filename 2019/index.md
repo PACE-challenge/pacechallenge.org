@@ -1,7 +1,7 @@
 ---
 layout: page
-title: PACE 2019
-sidebar_link: false
+title: Current Challenge
+sidebar_link: true
 sidebar_sort_order: 6
 ---
 
