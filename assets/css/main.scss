@@ -3,6 +3,8 @@
 
 $sidebar-bg-color: #ab9764 !default;
 $sidebar-title-color: #3a4507 !default;
+$body-color: #313131 !default;
+$heading-color: #313131 !default;
 
 @import "{{ site.theme }}";
 
@@ -50,10 +52,9 @@ dl {
   margin-left: 1rem;
 }
 
-@media (min-width: 49rem) {
+@media (min-width: $large-breakpoint) {
   .container {
     padding: 4rem;
-    padding-bottom: 4rem;
   }
 }
 
