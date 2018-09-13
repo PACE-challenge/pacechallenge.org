@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Frist PACE Challenge"
+title:  "The First PACE Challenge"
 ---
 The goal of the Parameterized Algorithms and Computational Experiments Challenge (PACE) is to investigate the applicability of algorithmic ideas studied and developed in the subfields of multivariate, fine-grained, parameterized, or fixed-parameter tractable algorithms. In particular, it aims to
 
