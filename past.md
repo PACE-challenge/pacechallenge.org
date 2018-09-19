@@ -1,16 +1,20 @@
 ---
 layout: page
-title: Results
-permalink: /results/
+title: Past Challenges
 sidebar_link: true
-sidebar_sort_order: 2
+sidebar_sort_order: 3
 ---
 
 The results of each PACE challenge are documented in a report that is published in the IPEC proceedings.
 
-- PACE 2018 (report in preparation, [talk](https://bit.ly/PACE2018-talk)): Steiner Tree
-- PACE 2017 ([report](https://dx.doi.org/10.4230/LIPIcs.IPEC.2017.30)): Treewidth and Minimum Fill-In
-- PACE 2016 ([report](https://dx.doi.org/10.4230/LIPIcs.IPEC.2016.30)): Treewidth and Feedback Vertex Set
+- PACE 2018: **Steiner Tree**<br/>
+  (report in preparation,
+  [slides](https://bit.ly/PACE2018-talk),
+  [challenge description](/2018/))
+- PACE 2017: **Treewidth** and **Minimum Fill-In**<br/>
+  ([official report](https://dx.doi.org/10.4230/LIPIcs.IPEC.2017.30), [challenge descriptions](/2017/))
+- PACE 2016: **Treewidth** and **Feedback Vertex Set**<br/>
+  ([official report](https://dx.doi.org/10.4230/LIPIcs.IPEC.2016.30), [challenge descriptions](/2016/))
 
 ## Impact
 
