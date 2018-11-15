@@ -46,6 +46,16 @@ plugins:
 
 sidebar_home_link:  false
 
+toc:
+- title: Group 1
+    subfolderitems:
+    - page: Thing 1
+      url: /thing1.html
+    - page: Thing 2
+      url: /thing2.html
+    - page: Thing 3
+      url: /thing3.html
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

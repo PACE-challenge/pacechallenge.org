@@ -6,11 +6,20 @@ sidebar_sort_order: 6
 ---
 
 ## Problems
-1. Vertex Cover
-2. [Hypertree Width](https://www.mat.unical.it/~ggreco/files/GottlobGrecoScarcello.pdf)
+1. [Vertex Cover](vc/index)
+2. [Hypertree Width](htd/index)
 
-## Tracks
-tba
+## Tracks / Challenges
+1a. *Vertex Cover* **Exact**
+(Compute a vertex cover of smalles size)
+
+
+2a. *Hypertree Width* **Exact** 
+(Compute a hypertree decomposition of hypertree width)
+    
+2b. *Hypertree Width* **Heuristic** 
+(Compute a decent hypertree decomposition fast)
+
 
 ## Dates
 

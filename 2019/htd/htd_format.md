@@ -1,7 +1,7 @@
 ---
 layout: page
-title: PACE 2019 (Hypertree decomposition / Format) 
-sidebar_link: true
+title: Format - Hypertree decomposition 
+sidebar_link: false
 sidebar_sort_order: 6
 ---
 
@@ -35,7 +35,8 @@ The hypergraph format extends the PACE2016 and [PACE2017 graph](https://pacechal
 Example:
 
 ```AsciiDoc
-c This file describes a hypergraph in htd PACE2019 format with 6 vertices and 4 hyperedges
+c This file describes a hypergraph in htd PACE2019 format
+c with 6 vertices and 4 hyperedges
 p htd 6 4
 1 2 3
 2 3 4
@@ -49,7 +50,8 @@ Alternative (works by autodetection):
 * Starting a line edge lines with character 'e', i.e., "e 1 2 3"
 
 ```AsciiDoc
-c This file describes a hypergraph in htd PACE2019 format with 6 vertices and 4 hyperedges
+c This file describes a hypergraph in htd PACE2019 format
+c with 6 vertices and 4 hyperedges
 p edge 6 4
 e 1 2 3
 e 2 3 4
@@ -72,15 +74,15 @@ See: https://arxiv.org/abs/1611.01090 for a compact definition of various hypert
   * Form "s htd NumBags MaxBagSize NumVertices NumHyperedges"
     * Line starting with character s
     * followed by the problem descriptor htd
-    * followed by number of bags l
-    * followed by the computed largest bag size z (i.e., z=width+1)
+    * followed by number of bags
+    * followed by the computed largest bag size (i.e., width+1)
     * followed by number of vertices n
     * followed by number of hyperedges m
     * each separated by space each time
   * Unique (No other line may start with p)
   * Has to be the first line (except comments)
 * Bag description
-  * BagIDs run consecutively from 1 to l
+  * BagIDs run consecutively from 1 to b
   * Form "b BagID Vertex1 Vertex2 Vertex3 ..."
     * Lines starting with character b
     * followed by an identifier of the bag
@@ -90,18 +92,17 @@ See: https://arxiv.org/abs/1611.01090 for a compact definition of various hypert
     * specifies that bag number 4 
     * contains the vertices 3, 4, 6, and 7 of the original hypergraph
   * Bags may be empty
-  * Bags can contain at most z may vertices
   * For every bag i, there must be exactly one line starting with b i. 
 * Width description
   * Describe the width function mapping for the bags
   * Value is in {0,1}
-  * Form "w BagID Vertex Value"
+  * Form "w BagID VertexID Value"
     * Lines starting with character w
     * followed by an identifier for the bag
     * followed by the vertex
     * followed by the value in {0,1} the function maps to 
     * each separated by space each time
-  * In order to save space we allow to skip width descriptions for (bag,vertex) |-> 0 (i.e., if the function is not specified for a (bag,vertex), we implicitly assume value 0.)
+  * In order to save space we allow to skip width descriptions for (bag,vertex) -> 0 (i.e., if the function is not specified for a (bag,vertex), we implictly assume value 0.)
 * Tree description
   * NodeIDs run consecutively from 1 to l
   * Lines not starting with a character in {c,s,b,w} indicate an edge in the tree decomposition
@@ -114,7 +115,8 @@ See: https://arxiv.org/abs/1611.01090 for a compact definition of various hypert
 
 
 ```AsciiDoc
-c This file describes a hypertree decomposition with 5 bags, width 2
+c This file describes a hypertree decomposition
+c with 5 bags, width 2 
 c for a hypergraph with 5 vertices and 5 hyperedges
 s htd 5 2 5 5
 b 1 1 2 3
@@ -159,7 +161,8 @@ w 5 5 1
 
 or in compressed version
 ```AsciiDoc
-c This file describes a hypertree decomposition with 5 bags, width 2
+c This file describes a hypertree decomposition 
+c with 5 bags, width 2
 c for a hypergraph with 5 vertices and 5 hyperedges
 s htd 5 2 5 5
 b 1 1 2 3
