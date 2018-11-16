@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Format - Hypertree decomposition 
+title: Format - Hypertree decomposition (Draft)
 sidebar_link: false
 sidebar_sort_order: 6
 ---
