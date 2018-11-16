@@ -11,16 +11,17 @@ sidebar_sort_order: 6
 
 ## Tracks / Challenges
 1a. *Vertex Cover* **Exact**
-(Compute a vertex cover of smallest size)
+(Compute a vertex cover of smallest size):
+[Details for the track (Exact)](vc/vc_format); [Download Instances tba (Exact)](tba);  [Input Format](vc/vc_format)
 
 
-2a. *Hypertree Width* **Exact** 
-(Compute a hypertree decomposition of hypertree width)
-[Details for the track (Exact)](htd/htd_exact); [Download Instances tba (Exact)](tba)    
+2a. *Hypertree Width* **Exact**
+ (Compute a hypertree decomposition of hypertree width):
+ [Details for the track (Exact)](htd/htd_exact); [Download Instances tba (Exact)](tba); [Input Format](htd/htd_format)    
     
 2b. *Hypertree Width* **Heuristic** 
-(Compute a decent hypertree decomposition fast)
-[Details for the track (Heuristic)](htd/htd_heur); [Download Instances tba (Heuristic)](tba)
+(Compute a decent hypertree decomposition fast):
+[Details for the track (Heuristic)](htd/htd_heur); [Download Instances tba (Heuristic)](tba); [Input Format](htd/htd_format)
 
 ## Dates
 
