@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PACE 2019 (Vertexcover / Format) 
+title: PACE 2019 (Vertex Cover / Format) 
 sidebar_link: false
 sidebar_sort_order: 7
 ---
@@ -60,7 +60,7 @@ e 4 6
 
 
 
-### Vertexcover Format (.vc)
+### Vertex Cover Format (.vc)
 
 * Line separator ‘\n’
 * Lines starting with character c are interpreted as comments
@@ -70,12 +70,12 @@ e 4 6
     * Line starting with character s
     * followed by the problem descriptor vc
     * followed by number n of vertices
-    * followed by the number v of vertices in the vertexcover
+    * followed by the number v of vertices in the vertex cover
     * each separated by space each time
   * Unique (No other line may start with p)
   * Has to be the first line (except comments)
-* Vertexcover description
-  * Lists the vertices in the vertexcover (at most v many)
+* Vertex cover description
+  * Lists the vertices in the vertex cover (at most v many)
   * Form "Vertex"
     * Lines consist only of one vertex identifier
 * Empty lines or lines consisting of spaces may occur and only will be ignored  
@@ -83,7 +83,7 @@ e 4 6
 
 ```AsciiDoc
 c This file describes for a graph with 5 vertices
-c a vertexcover consisting of 2 vertices 
+c a vertex cover consisting of 2 vertices 
 s vc 5 2
 2
 4
