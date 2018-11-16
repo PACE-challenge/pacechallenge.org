@@ -129,7 +129,7 @@ Description
   * Unique (No other line may start with p)
   * Has to be the first line (except comments)
 * Bag description
-  * BagIDs run consecutively from 1 to b
+  * BagIDs run consecutively from 1 to l
   * Form "b BagID Vertex1 Vertex2 Vertex3 ..."
     * Lines starting with character b
     * followed by an identifier of the bag
