@@ -13,10 +13,10 @@ Task:
 Output a vertex cover of smallest size.
 
 
-TODO
+
 ### Input format
 
-See [Details](htd_format)
+See [Details](vc_format)
 
 ### Tracks
 1a. [Exact Track](vc_exact)
