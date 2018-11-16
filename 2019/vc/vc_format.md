@@ -12,7 +12,7 @@ See: TBA
 
 ### Graph (.gr)
 
-The graph format coincides with [PACE2017 graph](https://pacechallenge.wordpress.com/pace-2017/track-a-treewidth/) format.
+The graph format is similar to the PACE2016 and [PACE2017 graph](https://pacechallenge.wordpress.com/pace-2017/track-a-treewidth/) format.
 
 * Line separator ‘\n’
 * Lines starting with character c are interpreted as comments
