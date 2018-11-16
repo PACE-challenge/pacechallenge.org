@@ -121,10 +121,10 @@ Description
   * Form "s htd NumBags MaxBagSize NumVertices NumHyperedges"
     * Line starting with character s
     * followed by the problem descriptor htd
-    * followed by number of bags
-    * followed by the computed largest bag size (i.e., width+1)
-    * followed by number of vertices n
-    * followed by number of hyperedges m
+    * followed by number l of bags
+    * followed by the computed largest bag size z (i.e., z=width+1)
+    * followed by number n of vertices
+    * followed by number m of hyperedges
     * each separated by space each time
   * Unique (No other line may start with p)
   * Has to be the first line (except comments)
@@ -139,17 +139,18 @@ Description
     * specifies that bag number 4 
     * contains the vertices 3, 4, 6, and 7 of the original hypergraph
   * Bags may be empty
+  * Bags can contain at most z many vertices
   * For every bag i, there must be exactly one line starting with b i. 
 * Width description
   * Describe the width function mapping for the bags
   * Value is in {0,1}
-  * Form "w BagID VertexID Value"
+  * Form "w BagID Vertex Value"
     * Lines starting with character w
     * followed by an identifier for the bag
     * followed by the vertex
     * followed by the value in {0,1} the function maps to 
     * each separated by space each time
-  * In order to save space we allow to skip width descriptions for (bag,vertex) -> 0 (i.e., if the function is not specified for a (bag,vertex), we implictly assume value 0.)
+  * In order to save space we allow to skip width descriptions for (bag,vertex) -> 0 (i.e., if the function is not specified for a (bag,vertex), we implicitly assume value 0.)
 * Tree description
   * NodeIDs run consecutively from 1 to l
   * Lines not starting with a character in {c,s,b,w} indicate an edge in the tree decomposition
