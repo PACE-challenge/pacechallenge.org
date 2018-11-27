@@ -12,7 +12,7 @@ See: [htd_validate](https://github.com/daajoe/htd_validate/tree/pace2019)
 
 ### Hypergraph (.hgr)
 
-The hypergraph format extends the PACE2016 and [PACE2017 graph](https://pacechallenge.wordpress.com/pace-2017/track-a-treewidth/) format.
+The hypergraph format extends the PACE2016 and [PACE2017 graph](/2017/treewidth/) format.
 
 Example:
 
