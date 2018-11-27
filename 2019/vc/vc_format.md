@@ -6,13 +6,14 @@ sidebar_sort_order: 7
 ---
 
 ## Checker
-See: TBA
+See: [vc_validate](https://github.com/hmarkus/vc_validate/tree/master)
+
 
 ## Input Format
 
 ### Graph (.gr)
 
-The graph format is similar to the PACE2016 and [PACE2017 graph](https://pacechallenge.wordpress.com/pace-2017/track-a-treewidth/) format.
+The graph format is similar to the PACE2016 and [PACE2017 graph](/2017/treewidth/) format.
 
 * Line separator ‘\n’
 * Lines starting with character c are interpreted as comments
