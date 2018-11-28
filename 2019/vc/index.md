@@ -13,7 +13,7 @@ A graph.
 Task:
 Output a vertex cover of smallest size.
 
-### Description:
+#### What is a vertex cover?
 An undirected graph or simply a graph is a pair $G=(V,E)$ where $V\neq \emptyset$
 is a set of vertices and $E \subseteq \\{ \\{u, v\\} \subseteq V : u \neq v \\}$ is a 
 set of edges.
