@@ -3,6 +3,7 @@ layout: page
 title: PACE 2019 (Track Vertex Cover Exact)
 sidebar_link: false
 sidebar_sort_order: 6
+math: true
 ---
 
 ## Vertex Cover 
