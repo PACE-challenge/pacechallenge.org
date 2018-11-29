@@ -27,8 +27,8 @@ sidebar_sort_order: 6
 
 - October 5th, 2018: Announcement of the challenge (Problems)
 - November 16th, 2018: Announcement of the tracks and additional informations (input formats and problem feasibility checker are available online)
-- November 30th, 2018: Public instances are available
-- December 11th, 2018: optil.io open for submission and testing (see [tba](#))
+- December 6th, 2018: Public instances are available
+- December 18th, 2018: optil.io open for submission and testing (see [tba](#))
 - **tba / May 2nd, 2019 (AOE) or 2 weeks prior to IPEC Deadline<sup>1</sup> -- Deadline (DS) -- Submission** of the final version of the solver
 - **tba / IPEC Deadline (tba) -- Deadline (DD) --  Submission** of a **solver description / short abstract** (via Easychair)
 - *tba / IPEC Notification*: Notification about the solver performance

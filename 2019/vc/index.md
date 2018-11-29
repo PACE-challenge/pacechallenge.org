@@ -37,12 +37,12 @@ See [Details](vc_format)
 [[ChenKanjXia06](https://arxiv.org/abs/1611.01090)]: 
 Chen J., Kanj I.A., Xia G. Improved Parameterized Upper Bounds for Vertex Cover. In: Královič R., Urzyczyn P. (eds) Mathematical Foundations of Computer Science (MFCS'06). Lecture Notes in Computer Science, vol 4162. Springer. 2006.
 
-[[CyganEtAl15]](https://www.springer.com/de/book/9783319212746)
+[[CyganEtAl15](https://www.springer.com/de/book/9783319212746)]:
 Marek Cygan, Fedor V. Fomin, Łukasz Kowalik, Daniel Lokshtanov, Daniel Marx, Marcin Pilipczuk, Michał Pilipczuk, Saket Saurabh: Parameterized Algorithms. ISBN 978-3-319-35702-7. Theoretical Computer Science. Springer. 2015.
 
-[[DonweyFellows13]](https://www.springer.com/de/book/9781447155584) 
+[[DonweyFellows13](https://www.springer.com/de/book/9781447155584)]:
 Rod Downey, Michael R. Fellows. Fundamentals of Parameterized Complexity. Texts in Computer Science. Springer. 2013.  
 
-[[Niedermeier06]](https://www.akt.tu-berlin.de/index.php?id=110570) 
+[[Niedermeier06](https://www.akt.tu-berlin.de/index.php?id=110570)]:
 Rolf Niedermeier.  
 Invitation to Fixed Parameter Algorithms. Oxford Lecture Series in Mathematics And Its Applications. Oxford University Press. 2006. 

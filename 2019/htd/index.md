@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PACE 2019 (Track Hypertreewidth)
+title: PACE 2019 (Track Hypertree Width)
 sidebar_link: false
 sidebar_sort_order: 6
 ---
@@ -51,15 +51,15 @@ $\mathcal{G}$ is the size of a largest edge cover $\lambda(t)$ over all
 $t\in V(T)$. A __hypertree decomposition__ is a generalized
 hypertree decomposition that satisfies the following additional property:
 for every $n \in V(T)$ and every $h \in \lambda(n)$, we have $h \cap \chi^+(n) \subseteq \chi(n)$, 
-where $T_n$ denotes the subtree of $T$ rooted at $n$, and $\chi^+(n)$ the set of all vertices
-occuring in the $\chi$ labeling of the subtree $T_n$ (_special condition or Decendant Condition_). 
+where $T_n$ denotes the subtree of $T$ rooted at $n$, and $\chi^+(n)$ refers to the set of all vertices
+occurring in $\chi$ of the subtree $T_n$ (_special condition or Decendant Condition_). 
 
   
   The _hypertree width_ $htw(H)$ is the smallest width over all hypertree
 decompositions of $H$.
 
 
-We refer to [[GottlobGrecoScarcello02]](https://www.sciencedirect.com/science/article/pii/S0022000001918094).
+We refer to [[GottlobGrecoScarcello02](https://www.sciencedirect.com/science/article/pii/S0022000001918094)].
 
 
 ### Input format
@@ -74,7 +74,7 @@ See [Details](htd_format)
 ### Literature
 
 
-[[GottlobGrecoScarcello02](https://www.sciencedirect.com/science/article/pii/S0022000001918094):
+[[GottlobGrecoScarcello02](https://www.sciencedirect.com/science/article/pii/S0022000001918094)]:
  Georg Gottlob, Nicola Leone, Francesco Scarcello. 
  Hypertree Decompositions and Tractable Queries. Journal of Computer and System Sciences. Elsevier. 2002.
 
