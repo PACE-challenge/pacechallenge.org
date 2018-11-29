@@ -73,6 +73,10 @@ See [Details](htd_format)
 ### Literature
 
 
+[[FischEtAl18](https://arxiv.org/abs/1611.01090)]:  
+Wolfgang Fischl, Georg Gottlob, Reinhard Pichler. General and Fractional Hypertree Decompositions: Hard and Easy Cases. CoRR 1611.01090.
+
+
 [[GottlobGrecoScarcello02](https://www.sciencedirect.com/science/article/pii/S0022000001918094)]:
  Georg Gottlob, Nicola Leone, Francesco Scarcello. 
  Hypertree Decompositions and Tractable Queries. Journal of Computer and System Sciences. Elsevier. 2002.
@@ -82,8 +86,6 @@ See [Details](htd_format)
 Georg Gottlob, Gianluigi Greco, and Francesco Scarcello. Treewidth and Hypertree Width. ICALP'09.
 
 
-[[FischEtAl18](https://arxiv.org/abs/1611.01090)]:  
-Wolfgang Fischl, Georg Gottlob, Reinhard Pichler. General and Fractional Hypertree Decompositions: Hard and Easy Cases. CoRR 1611.01090.
  
 
 

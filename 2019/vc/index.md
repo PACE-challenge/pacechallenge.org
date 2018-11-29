@@ -34,8 +34,6 @@ See [Details](vc_format)
 ### Literature
 
 
-[[Wikipedia](https://en.wikipedia.org/wiki/Vertex_cover)]: Wikipedia contributors, "Vertex cover," Wikipedia, The Free Encyclopedia. (accessed November 28, 2018).
-
 [[ChenKanjXia06](https://arxiv.org/abs/1611.01090)]: 
 Chen J., Kanj I.A., Xia G. Improved Parameterized Upper Bounds for Vertex Cover. In: Královič R., Urzyczyn P. (eds) Mathematical Foundations of Computer Science (MFCS'06). Lecture Notes in Computer Science, vol 4162. Springer. 2006.
 
@@ -48,4 +46,6 @@ Rod Downey, Michael R. Fellows. Fundamentals of Parameterized Complexity. Texts 
 [[Niedermeier06](https://www.akt.tu-berlin.de/index.php?id=110570)]:
 Rolf Niedermeier.  
 Invitation to Fixed Parameter Algorithms. Oxford Lecture Series in Mathematics And Its Applications. Oxford University Press. 2006. 
+
+[[Wikipedia](https://en.wikipedia.org/wiki/Vertex_cover)]: Wikipedia contributors, "Vertex cover," Wikipedia, The Free Encyclopedia. (accessed November 28, 2018).
 
