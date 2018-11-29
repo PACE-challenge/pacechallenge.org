@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PACE 2019 (Track Hypertreewidth/Exact)
+title: PACE 2019 (Track Hypertree&nbsp;Width/Exact)
 sidebar_link: false
 sidebar_sort_order: 6
 ---
