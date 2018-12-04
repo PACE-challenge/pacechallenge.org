@@ -41,27 +41,10 @@ Description
   * Has to be the first line (except comments)
 * Remaining lines indicate a hyperedge
   * consisting of decimal integers separated by space
-  * Line: "1 2 3\n" indicates a hyperedge
+  * Line: "1 2 3\n" indicates a hyperedge on vertices 1, 2, and 3
+  * Note: we implicitly assume that hyperedges are consecutively numbered starting from 1
 * Empty lines or lines consisting of spaces may occur and only will be ignored  
 * Hypergraphs may contain isolated vertices, multiple hyperedges, and loops
-
-
-
-Alternative (works by autodetection):
-* Problem line in DIMACS edge format: "p edge NumVertices NumHyperedges"
-* Starting a line edge lines with character 'e', i.e., "e 1 2 3"
-
-```AsciiDoc
-c This file describes a hypergraph in htd PACE2019 format
-c with 6 vertices and 4 hyperedges
-p edge 6 4
-e 1 2 3
-e 2 3 4
-c this is a comment and will be ignored
-e 3 4 5
-e 4 5 6
-```
-
 
 
 ### Hypertree Decomposition Format (.htd)
