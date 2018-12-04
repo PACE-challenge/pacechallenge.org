@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Format - Hypertree decomposition (Draft Updated _2018-12-02_)
+title: Format - Hypertree decomposition (Draft Updated 2018-12-02)
 sidebar_link: false
 sidebar_sort_order: 6
 ---
@@ -20,11 +20,11 @@ Example:
 c This file describes a hypergraph in htd PACE2019 format
 c with 6 vertices and 4 hyperedges
 p htd 6 4
-1 1 2
+1 1 2 3
 2 2 3 4
 c this is a comment and will be ignored
-3 4 5
-4 5 6
+3 3 4 5
+4 4 5 6
 ```
 Description
 * Line separator ‘\n’
@@ -43,7 +43,7 @@ Description
   * consisting of decimal integers separated by space
   * Starting with an integer that identifies the number of the hyperedge
   * followed by the hyperedge
-  * _Line: "1 1 2\n" indicates a hyperedge No 1 on vertices 1, and 2_
+  * _Line: "1 1 2 3\n" indicates a hyperedge No 1 on vertices 1, 2, and 3_
 * Empty lines or lines consisting of spaces may occur and only will be ignored  
 * Hypergraphs may contain isolated vertices, multiple hyperedges, and loops
 
