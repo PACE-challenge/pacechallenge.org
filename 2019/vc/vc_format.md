@@ -45,22 +45,6 @@ c this is a comment and will be ignored
 4 6
 ```
 
-Alternative (works by autodetection):
-* Problem line in DIMACS edge format: "p edge NumVertices NumEdges"
-* Starting a line edge lines with character 'e', i.e., "e 1 2"
-
-```AsciiDoc
-c This file describes a graph in td PACE2019 format with 6 vertices and 4 edges
-p edge 6 4
-e 1 2
-e 2 3
-c this is a comment and will be ignored
-e 4 5
-e 4 6
-```
-
-
-
 ### Vertex Cover Format (.vc)
 
 * Line separator ‘\n’

@@ -47,20 +47,6 @@ Description
 
 
 
-Alternative (works by autodetection):
-* Problem line in DIMACS edge format: "p edge NumVertices NumHyperedges"
-* Starting a line edge lines with character 'e', i.e., "e 1 2 3"
-
-```AsciiDoc
-c This file describes a hypergraph in htd PACE2019 format
-c with 6 vertices and 4 hyperedges
-p edge 6 4
-e 1 2 3
-e 2 3 4
-c this is a comment and will be ignored
-e 3 4 5
-e 4 5 6
-```
 
 
 
