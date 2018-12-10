@@ -16,14 +16,23 @@ We also do not prescribe the algorithmic paradigm that is to be used; if a SAT o
 
 ### Instances
 
-Download: tba
+Download: [Download Public Exact Instances (Heuristic)](/files/pace2019-htd-exact-public.tar.bz2)
 
-There are 200 benchmark instances, labeled htd-exact_001.hgr to htd-exact_200.hgr. 
+
+There are 100 public benchmark instances, labeled htd-exact_001.hgr, htd-exact_003.hgr, ... to htd-exact_199.hgr. 
 
  
-Larger numbers in the filename should (as a rule of thumb) correspond to harder instances. The odd instances are public and the even instances are secret. 
+Larger numbers in the filename should (as a rule of thumb) correspond to harder instances. The odd instances are public and the even instances will be provided later (secret). 
 
-For verification and precommitment purposes, we also publish the sha1sum of the public and secret archives:
+For verification purposes, we also publish the sha1sum of the public archives:
+
+SHA1 sum | filename 
+--- | --- 
+ f7fe7a9d1ed6c9de51e81f059e176ec8b57c80cc  | pace2019-htd-exact-public.tar 
+
+For individual files we refer to [Download SHA1 sums](/files/pace2019-htd-exact-public-shasums.txt).
+
+
 
 Details:
 tba
