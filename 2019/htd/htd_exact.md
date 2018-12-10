@@ -16,7 +16,7 @@ We also do not prescribe the algorithmic paradigm that is to be used; if a SAT o
 
 ### Instances
 
-Download: [Download Public Exact Instances (Heuristic)](/files/pace2019-htd-exact-public.tar.bz2)
+Download: [Download Public Instances (Exact)](/files/pace2019-htd-exact-public.tar.bz2)
 
 
 There are 100 public benchmark instances, labeled htd-exact_001.hgr, htd-exact_003.hgr, ... to htd-exact_199.hgr. 
@@ -32,10 +32,6 @@ SHA1 sum | filename
 
 For individual files we refer to [Download SHA1 sums](/files/pace2019-htd-exact-public-shasums.txt).
 
-
-
-Details:
-tba
 
 ### Evaluation 
 - timeout: 30 minutes per instance
