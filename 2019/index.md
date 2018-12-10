@@ -47,7 +47,7 @@ sidebar_sort_order: 6
 
 
 ## Evaluation
-tba
+For details consult the page of the separate tracks.
 
 
 Then, to participate, you will just upload your code to the platform optil.io as stated on this page. Current leader board on public instances will be live on optil.io. The final ranking will be done on the private instances, using the last valid submission on public instances on optil.io. We kindly ask the participants to send by email to the PC the name of the participants in the team, the name used on optil.io for each track, a link to the public repository as well as a short description of the program and algorithm.
