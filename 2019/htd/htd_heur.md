@@ -22,10 +22,10 @@ But note that we will bump up submissions that find good solutions very fast.
 
 ### Instances
 
-Download: [Download Public Exact Instances (Heuristic)](/files/pace2019-htd-exact-public.tar.bz2)
+Download: [Download Public Instances (Heuristic)](/files/pace2019-htd-heur-public.tar.bz2)
 
 
-There are 100 public benchmark instances, labeled htd-exact_001.hgr, htd-exact_003.hgr, ... to htd-exact_199.hgr. 
+There are 100 public benchmark instances, labeled htd-heur_001.hgr, htd-heur_003.hgr, ... to htd-heur_199.hgr. 
 
  
 Larger numbers in the filename should (as a rule of thumb) correspond to harder instances. The odd instances are public and the even instances will be provided later (secret). 
@@ -37,9 +37,6 @@ SHA1 sum | filename
  f58cbe066cc5feffc9d9d0683a1b2dd20cb292b9   | pace2019-htd-heur-public.tar 
 
 For individual files we refer to [Download SHA1 sums](/files/pace2019-htd-heur-public-shasums.txt).
-
-Details:
-tba
 
 ### Evaluation 
 - timeout: 30 minutes per instance
