@@ -20,11 +20,11 @@ Detailed instructions and an instance set: <https://pacechallenge.wordpress.com/
 
 ## Timeline
 
-December 1st, 2016: Announcement of the challenges
-March 1st, 2017: Submission of preliminary version for bugfixing and leaderboard
-May 1st, 2017: Submission of final version
-June 1st, 2017: Announcement of the results
-September 4-8, 2017: Award ceremony at the International Symposium on Parameterized and Exact Computation (IPEC 2017) in Vienna
+- December 1st, 2016: Announcement of the challenges
+- March 1st, 2017: Submission of preliminary version for bugfixing and leaderboard
+- May 1st, 2017: Submission of final version
+- June 1st, 2017: Announcement of the results
+- September 4-8, 2017: Award ceremony at the International Symposium on Parameterized and Exact Computation (IPEC 2017) in Vienna
 
 ## Program Committee
 
