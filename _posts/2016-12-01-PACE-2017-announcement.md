@@ -10,13 +10,15 @@ We are happy to announce the second iteration of PACE, the Parameterized Algorit
 
 2) Compute some tree-decomposition. You have 30 minutes per instance. Win by printing solutions of smaller width than the other participants.
 
-Detailed instructions and fresh instance sets: <https://pacechallenge.wordpress.com/pace-2017/track-a-treewidth/>
+Detailed instructions and fresh instance sets:
+[https://pacechallenge.org/2017/treewidth/](/2017/treewidth/)
 
 ## Track B (Minimum Fill-In Challenge)
 
 Given an undirected graph G, compute a smallest set of edges E such that adding E to G results in a chordal graph. You have 30 minutes per instance. Win by solving more instances than the other participants.
 
-Detailed instructions and an instance set: <https://pacechallenge.wordpress.com/pace-2017/track-b-minimum-fill-in/>
+Detailed instructions and an instance set:
+[https://pacechallenge.org/2017/minimum-fill-in/](/2017/minimum-fill-in/)
 
 ## Timeline
 
