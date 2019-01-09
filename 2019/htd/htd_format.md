@@ -128,13 +128,13 @@ Description
 * Width description
   * Describe the width function mapping for the bags
   * Value is in {0,1}
-  * Form "w BagID Vertex Value"
+  * Form "w BagID Hyperedge Value"
     * Lines starting with character w
     * followed by an identifier for the bag
-    * followed by the vertex
+    * followed by the hyperedge
     * followed by the value in {0,1} the function maps to 
     * each separated by space each time
-  * In order to save space we allow to skip width descriptions for (bag,vertex) -> 0 (i.e., if the function is not specified for a (bag,vertex), we implicitly assume value 0.)
+  * In order to save space we allow to skip width descriptions for (bag,hyperedge) -> 0 (i.e., if the function is not specified for a (bag,hyperedge), we implicitly assume value 0.)
 * Tree description
   * NodeIDs run consecutively from 1 to l
   * Lines not starting with a character in {c,s,b,w} indicate an edge in the tree decomposition
