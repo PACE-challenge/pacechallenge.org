@@ -30,8 +30,6 @@ SHA1 sum | filename
  4c5278b6680813a1a210b6e898ef4d20ecc246bd  | pace2019-vc-exact-public.tar 
 
 
-{% For verification and precommitment purposes, we also publish the sha1sum of the public and secret archives: %}
-
 
 ### Evaluation 
 - timeout: 30 minutes per instance
