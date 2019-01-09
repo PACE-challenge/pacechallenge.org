@@ -23,14 +23,14 @@ There are 200 benchmark instances, labeled vc-exact_001.hgr to vc-exact_200.hgr.
  
 Larger numbers in the filename should (as a rule of thumb) correspond to harder instances. The odd instances are public and the even instances will be provided later (secret). 
 
-For verification purposes, we also publish the sha1sum of the public archives:
+For verification purposes, we also publish the sha1sum of the public archive:
 
 SHA1 sum | filename 
 --- | --- 
  4c5278b6680813a1a210b6e898ef4d20ecc246bd  | pace2019-vc-exact-public.tar 
 
 
-For verification and precommitment purposes, we also publish the sha1sum of the public and secret archives:
+{% For verification and precommitment purposes, we also publish the sha1sum of the public and secret archives: %}
 
 
 ### Evaluation 
