@@ -34,9 +34,7 @@ For verification purposes, we also publish the sha1sum of the public archives:
 
 SHA1 sum | filename 
 --- | --- 
- f58cbe066cc5feffc9d9d0683a1b2dd20cb292b9   | pace2019-htd-heur-public.tar 
-
-For individual files we refer to [Download SHA1 sums](/files/pace2019-htd-heur-public-shasums.txt).
+ee40ca1fb10f8d27b5780175a1cd4eb9cbf2eea2   | pace2019-htd-heur-public.tar.bz2
 
 ### Evaluation 
 - timeout: 30 minutes per instance

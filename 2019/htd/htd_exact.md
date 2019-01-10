@@ -28,9 +28,7 @@ For verification purposes, we also publish the sha1sum of the public archives:
 
 SHA1 sum | filename 
 --- | --- 
- f7fe7a9d1ed6c9de51e81f059e176ec8b57c80cc  | pace2019-htd-exact-public.tar 
-
-For individual files we refer to [Download SHA1 sums](/files/pace2019-htd-exact-public-shasums.txt).
+478afc600c11f98b20c969ecd5ff4a1badbabebc  | pace2019-htd-exact-public.tar.bz2
 
 
 ### Evaluation 

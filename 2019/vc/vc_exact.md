@@ -27,7 +27,7 @@ For verification purposes, we also publish the sha1sum of the public archive:
 
 SHA1 sum | filename 
 --- | --- 
- 4c5278b6680813a1a210b6e898ef4d20ecc246bd  | pace2019-vc-exact-public.tar 
+daafdb24087442a75ab84842b1d6e1c05757942a  | pace2019-vc-exact-public.tar.bz2
 
 
 
