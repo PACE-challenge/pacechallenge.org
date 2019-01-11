@@ -102,11 +102,11 @@ Description
 * Lines starting with character c are interpreted as comments
 * Vertices are consecutively numbered from 1 to n
 * Solution description
-  * Form "s htd NumBags MaxBagSize NumVertices NumHyperedges"
+  * Form "s htd NumBags Width NumVertices NumHyperedges"
     * Line starting with character s
     * followed by the problem descriptor htd
     * followed by number l of bags
-    * followed by the computed largest bag size z (i.e., z=width+1)
+    * followed by the computed width
     * followed by number n of vertices
     * followed by number m of hyperedges
     * each separated by space each time

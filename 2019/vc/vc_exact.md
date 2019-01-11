@@ -29,7 +29,7 @@ SHA1 sum | filename
 --- | --- 
 daafdb24087442a75ab84842b1d6e1c05757942a  | pace2019-vc-exact-public.tar.bz2
 
-
+For individual files we refer to [Download SHA1 sums](/files/pace2019-vc-exact-public-shasums.txt)
 
 ### Evaluation 
 - timeout: 30 minutes per instance

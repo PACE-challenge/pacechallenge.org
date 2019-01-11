@@ -30,11 +30,13 @@ There are 100 public benchmark instances, labeled htd-heur_001.hgr, htd-heur_003
  
 Larger numbers in the filename should (as a rule of thumb) correspond to harder instances. The odd instances are public and the even instances will be provided later (secret). 
 
-For verification purposes, we also publish the sha1sum of the public archives:
+For verification purposes, we also publish the sha1sum of the public archive:
 
 SHA1 sum | filename 
 --- | --- 
 ee40ca1fb10f8d27b5780175a1cd4eb9cbf2eea2   | pace2019-htd-heur-public.tar.bz2
+
+For individual files we refer to [Download SHA1 sums](/files/pace2019-htd-heur-public-shasums.txt)
 
 ### Evaluation 
 - timeout: 30 minutes per instance
