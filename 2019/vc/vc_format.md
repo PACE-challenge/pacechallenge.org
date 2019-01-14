@@ -57,7 +57,7 @@ c this is a comment and will be ignored
     * followed by number n of vertices
     * followed by the number v of vertices in the vertex cover
     * each separated by space each time
-  * Unique (No other line may start with p)
+  * Unique (No other line may start with s)
   * Has to be the first line (except comments)
 * Vertex cover description
   * Lists the vertices in the vertex cover (at most v many)
