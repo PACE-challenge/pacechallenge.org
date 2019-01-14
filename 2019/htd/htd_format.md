@@ -110,7 +110,7 @@ Description
     * followed by number n of vertices
     * followed by number m of hyperedges
     * each separated by space each time
-  * Unique (No other line may start with p)
+  * Unique (No other line may start with s)
   * Has to be the first line (except comments)
 * Bag description
   * BagIDs run consecutively from 1 to l
