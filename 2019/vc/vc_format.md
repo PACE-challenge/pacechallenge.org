@@ -29,7 +29,7 @@ The graph format is similar to the PACE2016 and [PACE2017 graph](/2017/treewidth
   * Has to be the first line (except comments)
 * Remaining lines indicate edges
   * consisting of two decimal integers separated by space
-  * Line: "1 3\n" indicates an edge
+  * Line "1 3\n" indicates an edge between vertex 1 and vertex 3
 * Empty lines or lines consisting of spaces may occur and only will be ignored  
 * Graphs may contain isolated vertices, multiple edges, and loops
 
