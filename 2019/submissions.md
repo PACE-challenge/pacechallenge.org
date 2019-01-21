@@ -5,6 +5,14 @@ sidebar_link: true
 sidebar_sort_order: 7
 ---
 
+#### Registration
+1. Register at optil.io (https://www.optil.io/optilion/login)
+2. Access Easychair (https://easychair.org/conferences/?conf=pace2019) and register your group 
+   - Use as title of the paper your login name at optil
+   - Place the name of your solver in the abstract
+3. Submit your solution via optil (as soon as the optil submission is open) 
+
+
 #### Requirements
 1. Open Source (e.g. GPL, MIT, or public domain)
 2. Source code is available on a public repository (e.g., [Bitbucket](https://bitbucket.org), [GitHub](https://github.com), [Gitlab](https://gitlab.com))
