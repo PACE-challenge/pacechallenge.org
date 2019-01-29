@@ -139,8 +139,8 @@ Description
   * NodeIDs run consecutively from 1 to l
   * Lines not starting with a character in {c,s,b,w} indicate an edge in the tree decomposition
   * Form: "Node1 Node2"
-    * Lines starting with an identifier of the node
-    * followed by an identifier of the node
+    * Lines starting with an identifier Node1 of the parent node
+    * followed by an identifier Node2 of the child node
     * each separated by space each time
-  * The graph described in this way must be a tree
+  * The graph described in this way must be a tree, i.e., root nodes do not have a preceding node
 * Empty lines or lines consisting of spaces may occur and only will be ignored  
