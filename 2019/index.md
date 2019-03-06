@@ -12,7 +12,7 @@ sidebar_sort_order: 6
 ## Tracks / Challenges
 1a. *Vertex Cover* **Exact**
 (Compute a vertex cover of smallest size):
-[Details for the track (Exact)](vc/vc_exact); [Download Instances (Exact)](/files/pace2019-vc-exact-public.tar.bz2);  [Input Format](vc/vc_format)
+[Details for the track (Exact)](vc/vc_exact); [**Download Instances (Exact, Updated: March 05, 2019)**](/files/pace2019-vc-exact-public-v2.tar.bz2);  [Input Format](vc/vc_format)
 
 
 2a. *Hypertree Width* **Exact**

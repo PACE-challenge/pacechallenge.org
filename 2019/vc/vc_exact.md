@@ -16,7 +16,7 @@ We also do not prescribe the algorithmic paradigm that is to be used; if a SAT o
 
 ### Instances
 
-Download: [Download Public Instances (Exact)](/files/pace2019-vc-exact-public.tar.bz2)
+Download: [**Download (Updated: March 05, 2019) Public Instances (Exact)**](/files/pace2019-vc-exact-public-v2.tar.bz2)
 
 There are 200 benchmark instances, labeled vc-exact_001.hgr to vc-exact_200.hgr. 
 
@@ -27,9 +27,9 @@ For verification purposes, we also publish the sha1sum of the public archive:
 
 SHA1 sum | filename 
 --- | --- 
-daafdb24087442a75ab84842b1d6e1c05757942a  | pace2019-vc-exact-public.tar.bz2
+e7ca305528a0257235a95c41742f2b3431e1e485  | pace2019-vc-exact-public-v2.tar.bz2
 
-For individual files we refer to [Download SHA1 sums](/files/pace2019-vc-exact-public-shasums.txt)
+For individual files we refer to [Download SHA1 sums](/files/pace2019-vc-exact-public-shasums-v2.txt)
 
 ### Evaluation 
 - timeout: 30 minutes per instance
