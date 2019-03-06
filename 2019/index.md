@@ -41,8 +41,8 @@ sidebar_sort_order: 6
 [Submission details](submissions)
 
 ## Restrictions
-- External Libraries
-   - tba (likely upon request due to optil restrictions)
+- External Dependencies
+   - likely upon request, see [submission details](submissions)
    - please **contact us in time** after optil setup is available
 
 
