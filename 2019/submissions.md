@@ -15,7 +15,8 @@ sidebar_sort_order: 7
 
 #### Requirements
 1. Open Source (e.g. GPL, MIT, or public domain)
-2. Source code is available on a public repository (e.g., [Bitbucket](https://bitbucket.org), [GitHub](https://github.com), [Gitlab](https://gitlab.com))
+2. Source code is available on a public repository (e.g., [Bitbucket](https://bitbucket.org), [GitHub](https://github.com), [Gitlab](https://gitlab.com)).
+**Note that we allow a limited use of external open source dependencies. However, please contact us in advance, since we need to get it running on optil.io. Further, there will be special awards for good self-contained solvers without external code and dependencies.**
 3. Submissions Solver: Deadline (DS)
    1. Submission via [optil.io](https://www.optil.io/optilion/)
    2. Register solver and participants via [EasyChair](https://easychair.org/conferences/?conf=pace2019)
