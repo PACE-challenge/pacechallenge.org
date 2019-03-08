@@ -1,13 +1,13 @@
 ---
 layout: page
-title: PACE 2019 (Submissions)
+title: Submission requirements
 sidebar_link: true
 sidebar_sort_order: 7
 ---
 
 #### Registration
-1. Register at optil.io (https://www.optil.io/optilion/login)
-2. Access Easychair (https://easychair.org/conferences/?conf=pace2019) and register your group 
+1. Register at optil.io (<https://www.optil.io/optilion/login>)
+2. Access Easychair (<https://easychair.org/conferences/?conf=pace2019>) and register your group 
    - Use as title of the paper your login name at optil
    - Place the name of your solver in the abstract
 3. Submit your solution via optil (as soon as the optil submission is open) 
@@ -16,7 +16,7 @@ sidebar_sort_order: 7
 #### Requirements
 1. Open Source (e.g. GPL, MIT, or public domain)
 2. Source code is available on a public repository (e.g., [Bitbucket](https://bitbucket.org), [GitHub](https://github.com), [Gitlab](https://gitlab.com)).
-**Note that we allow a limited use of external open source dependencies. However, please contact us in advance, since we need to get it running on optil.io. Further, there will be special awards for good self-contained solvers without external code and dependencies.**
+**Note:** We allow a limited use of external open source dependencies. However, please contact us in advance, since we need to get it running on optil.io. Further, there will be special awards for good self-contained solvers without external code and dependencies.
 3. Submissions Solver: Deadline (DS)
    1. Submission via [optil.io](https://www.optil.io/optilion/)
    2. Register solver and participants via [EasyChair](https://easychair.org/conferences/?conf=pace2019)
