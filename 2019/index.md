@@ -30,7 +30,15 @@ sidebar_sort_order: 6
 - December 10th, 2018: Public htd instances are available
 - January 7th, 2019: Public vc instances are available
 - **March 8th, 2019**: Leaderboard online (by organizers) and submission *open* for preliminary versions (bugfixing for the authors and initial comparison on public instances)
-- **May 2nd, 2019 (AOE)  -- Deadline (DS) -- Submission** of the final version of the solver
+- **May 2nd, 2019 (AOE)  -- Deadline (DS) -- Submission** of the final version of the solver **WILL BE EXTENDED**
+
+We are currently experiencing problems with the optil system. The problem was first reported yesterday morning. According to optil they ran a system update. We are in contact with the optil guys. 
+Unfortunately, there is a public holiday on May 1st and May 3rd in Poland, so we might get answers not before Monday. 
+
+We will try to reduce the effect to PACE submitters as good as possible. 
+
+Therefore, we will extend the deadline for the duration when submission was impossible until the problem has been resolved.
+
 - **June 1st, 2019 (AOE) -- Deadline (DD) -- Submission** of a **solver description / short abstract** (via Easychair)
 - July 1st, 2019: Announcement of the results
 - September 11-13, 2019 (International Symposium on Parameterized and Exact Computation ([IPEC 2019](http://fpt.wikidot.com/ipec)) in Munich, Germany)
