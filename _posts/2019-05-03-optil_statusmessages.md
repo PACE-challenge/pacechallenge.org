@@ -1,3 +1,7 @@
+---
+layout: post
+title:  "How to interpret Optil's status messages"
+---
 Jan from optil.io informed us that their system sometimes gets stuck when a submission is killed due to reaching the time limit.
 
 If you get an "internal error", it might be related.
