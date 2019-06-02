@@ -1,3 +1,7 @@
+---
+layout: post
+title: "Deadline extension for the solver description (due to problems with easychair)."
+---
 Due to problems with the submission system easychair, we extend the deadline until Monday June 3st, 2019 (AOE).
 We've been informed on May 30th that easychair is experiencing network problems which however should have already beenresolved on May 31st (see below).
 Nonetheless, due to several requests still reporting problems, we decided to extend the deadline further.
