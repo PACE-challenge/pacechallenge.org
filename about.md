@@ -24,14 +24,14 @@ of algorithm engineering
 
 ### Steering Committee
 
-- [Édouard Bonnet](http://www.lamsade.dauphine.fr/~bonnet/) (Middlesex University, London)
+- [Édouard Bonnet](https://www.lamsade.dauphine.fr/~bonnet/) (Middlesex University, London)
 - [Holger Dell](https://holgerdell.com) (IT University of Copenhagen)
 - [Bart M. P. Jansen](https://www.win.tue.nl/~bjansen/) (chair) (Eindhoven University of Technology)
-- [Thore Husfeldt](http://thorehusfeldt.com/) (IT University of Copenhagen and Lund University)
+- [Thore Husfeldt](https://thorehusfeldt.com/) (IT University of Copenhagen and Lund University)
 - [Petteri Kaski](https://users.ics.aalto.fi/pkaski/) (Aalto University)
-- [Christian Komusiewicz](http://users.minet.uni-jena.de/~komusiewicz/) (Philipps-Universität Marburg)
-- [Frances A. Rosamond](http://www.cdu.edu.au/engit/staff-profiles/frances-rosamond) (University of Bergen)
-- [Florian Sikora](http://www.lamsade.dauphine.fr/~sikora/) (LAMSADE, Université Paris Dauphine)
+- [Christian Komusiewicz](https://www.uni-marburg.de/fb12/arbeitsgruppen/algorithmik/index_html?language_sync=1) (Philipps-Universität Marburg)
+- [Frances A. Rosamond](https://www.uib.no/en/persons/Frances.Rosamond) (University of Bergen)
+- [Florian Sikora](https://www.lamsade.dauphine.fr/~sikora/) (LAMSADE, Université Paris Dauphine)
 
 ### Sponsors
 
