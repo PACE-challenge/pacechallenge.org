@@ -25,9 +25,9 @@ of algorithm engineering
 ### Steering Committee
 
 - [Édouard Bonnet](http://www.lamsade.dauphine.fr/~bonnet/) (Middlesex University, London)
-- [Holger Dell](https://www.holgerdell.com) (IT University of Copenhagen)
-- [Bart M. P. Jansen](https://www.win.tue.nl/~bjansen/) (chair) ( Eindhoven University of Technology)
-- [Thore Husfeldt](http://thorehusfeldt.com/) (ITU Copenhagen and Lund University)
+- [Holger Dell](https://holgerdell.com) (IT University of Copenhagen)
+- [Bart M. P. Jansen](https://www.win.tue.nl/~bjansen/) (chair) (Eindhoven University of Technology)
+- [Thore Husfeldt](http://thorehusfeldt.com/) (IT University of Copenhagen and Lund University)
 - [Petteri Kaski](https://users.ics.aalto.fi/pkaski/) (Aalto University)
 - [Christian Komusiewicz](http://users.minet.uni-jena.de/~komusiewicz/) (Philipps-Universität Marburg)
 - [Frances A. Rosamond](http://www.cdu.edu.au/engit/staff-profiles/frances-rosamond) (University of Bergen)
