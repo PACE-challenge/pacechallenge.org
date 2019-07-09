@@ -9,6 +9,20 @@ sidebar_sort_order: 6
 1. [Vertex Cover](vc/index)
 2. [Hypertree Width](htd/index)
 
+## Results
+1a. Vertex Cover:
+1. WeGotYouCovered (87 solved)
+2. peaty (77 solved)
+3. bogdan (76 solved)
+
+2a. Hypertree Width Exact
+1. asc
+2. TULongo
+3. hypebeast
+
+2b. Hypertree Width Heuristic
+tba
+
 ## Tracks / Challenges
 1a. *Vertex Cover* **Exact**
 (Compute a vertex cover of smallest size):
