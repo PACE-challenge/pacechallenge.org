@@ -9,7 +9,7 @@ sidebar_sort_order: 6
 1. [Vertex Cover](vc/index)
 2. [Hypertree Width](htd/index)
 
-## Results
+## Preliminary Results
 1a. Vertex Cover:
 1. [WeGotYouCovered](https://github.com/sebalamm/pace-2019/releases/tag/pace-2019)  [[doi:10.5281/zenodo.2816116](https://doi.org/10.5281/zenodo.2816116)] (87 solved)
 2. [peaty](https://github.com/jamestrimble/peaty) [[doi:10.5281/zenodo.308235](https://doi.org/10.5281/zenodo.3082356)] (77 solved)
@@ -23,25 +23,28 @@ sidebar_sort_order: 6
 
 2b. Hypertree Width Heuristic
 
-| Rank | Score  | Solver                                                                        | doi                                                                               | Solved    | PAR1      | PAR2      | PAR10     | Quality (cumwidth) [1]| Quality (better 1st vs 2nd)   |  
-| ---  | ---:   | ---                                                                           |:---:                                                                              | ---:      | ---:      | ---:      |---:       | ---:                  | ---:                          |
-| -    |        |Judge: [htdecomp](https://www.dbai.tuwien.ac.at/proj/hypertree/downloads.html) |                                                                                   |100        | -         | -         | -         | 603                   | -                             |
-| 1    |   5.0  |[hypebeast](https://github.com/jamestrimble/heidi)                             | [[doi:10.5281/zenodo.3236358](https://zenodo.org/record/3236358#.XScTYS2ZM_M)]    |100        | 430.5     | 430.5     | 430.5     | 1104                  | 0                             | 
-| 2    |  14.1  |[TULongo](https://github.com/TULongo/pace-2019-HD-exact)                       | [[doi:10.5281/zenodo.3236333](https://zenodo.org/record/3236333#.XScU2yaxU5k)]    |98         | 8161.2    | 15360.9   | 72960.9   | 614                   | 86                            |
-| 3    | 128.9  |[asc](https://github.com/ASchidler/frasmt_pace)                                | [[doi:10.5281/zenodo.3237427](https://doi.org/10.5281/zenodo.3237427)]            |           |           |           |           |                       |                               |
+| Rank | Score  | Solver                                                                        | doi                                                                               | Solved    | PAR1      | cumwidth | cumdiff| 1st vs 2nd |  
+| ---  | ---:   | ---                                                                           |:---:                                                                              | ---:      | ---:      | ---:     | ---:| ---:       |
+| -    |        |Judge: [htdecomp](https://www.dbai.tuwien.ac.at/proj/hypertree/downloads.html) |                                                                                   |100        | -         | 603      | |-          |
+| 1    |   5.0  |[hypebeast](https://github.com/jamestrimble/heidi)                             | [[doi:10.5281/zenodo.3236358](https://zenodo.org/record/3236358#.XScTYS2ZM_M)]    |100        | 430.5     | 1104     | 501 |0          | 
+| 2    |  14.1  |[TULongo](https://github.com/TULongo/pace-2019-HD-exact)                       | [[doi:10.5281/zenodo.3236333](https://zenodo.org/record/3236333#.XScU2yaxU5k)]    |98         | 8161.2    | 614      | 20 |86         |
+| 3    | 128.9  |[asc](https://github.com/ASchidler/frasmt_pace)                                | [[doi:10.5281/zenodo.3237427](https://doi.org/10.5281/zenodo.3237427)]            | 30          | 98995.9  | na      | 11  | na         |
 
 
 Score: 
 (50,000 + wall + 50 * (user_width - judge_with)) /1000000
 
-PAR2:
-wall (but timeouts count as 1800 x 2)
+PAR1:
+Cumulated sum of the wall clock 
 
-PAR10:
-wall (but timeouts count as 1800 x 10)
+Cumwidth: 
+Solution quality by cumulating the computed widths by summing up over all computed widths
 
-Quality (cumwidth): 
-Cumulated sum of the computed widths 
+Cumdiff: 
+Cumulated difference from the best known value
+
+1st vs. 2nd:
+Number of instances where solver X was better than solver Y (TULongo performed better on 86 instances)
 
 
 ## Tracks / Challenges
