@@ -11,17 +11,38 @@ sidebar_sort_order: 6
 
 ## Results
 1a. Vertex Cover:
-1. WeGotYouCovered (87 solved)
-2. peaty (77 solved)
-3. bogdan (76 solved)
+1. [WeGotYouCovered](https://github.com/sebalamm/pace-2019/releases/tag/pace-2019)  [[doi:10.5281/zenodo.2816116](https://doi.org/10.5281/zenodo.2816116)] (87 solved)
+2. [peaty](https://github.com/jamestrimble/peaty) [[doi:10.5281/zenodo.308235](https://doi.org/10.5281/zenodo.3082356)] (77 solved)
+3. [bogdan](https://github.com/zbogdan/pace-2019) [[doi:10.5281/zenodo.3228802](https://zenodo.org/badge/latestdoi/185278234)] (76 solved)
 
 2a. Hypertree Width Exact
-1. asc
-2. TULongo
-3. hypebeast
+1. [asc](https://github.com/ASchidler/frasmt_pace) [[doi:10.5281/zenodo.3236333](https://zenodo.org/record/3236333#.XScU2yaxU5k)]
+2. [TULongo](https://github.com/TULongo/pace-2019-HD-exact) [[doi:10.5281/zenodo.3236358
+](https://zenodo.org/record/3236358#.XScTYS2ZM_M)]
+3. [hypebeast](https://github.com/jamestrimble/heidi) [[doi:10.5281/zenodo.3237427](https://doi.org/10.5281/zenodo.3237427)]
 
 2b. Hypertree Width Heuristic
-tba
+
+| Rank | Score  | Solver                                                                        | doi                                                                               | Solved    | PAR1      | PAR2      | PAR10     | Quality (cumwidth) [1]| Quality (better 1st vs 2nd)   |  
+| ---  | ---:   | ---                                                                           |:---:                                                                              | ---:      | ---:      | ---:      |---:       | ---:                  | ---:                          |
+| -    |        |Judge: [htdecomp](https://www.dbai.tuwien.ac.at/proj/hypertree/downloads.html) |                                                                                   |100        | -         | -         | -         | 603                   | -                             |
+| 1    |   5.0  |[hypebeast](https://github.com/jamestrimble/heidi)                             | [[doi:10.5281/zenodo.3236358](https://zenodo.org/record/3236358#.XScTYS2ZM_M)]    |100        | 430.5     | 430.5     | 430.5     | 1104                  | 0                             | 
+| 2    |  14.1  |[TULongo](https://github.com/TULongo/pace-2019-HD-exact)                       | [[doi:10.5281/zenodo.3236333](https://zenodo.org/record/3236333#.XScU2yaxU5k)]    |98         | 8161.2    | 15360.9   | 72960.9   | 614                   | 86                            |
+| 3    | 128.9  |[asc](https://github.com/ASchidler/frasmt_pace)                                | [[doi:10.5281/zenodo.3237427](https://doi.org/10.5281/zenodo.3237427)]            |           |           |           |           |                       |                               |
+
+
+Score: 
+(50,000 + wall + 50 * (user_width - judge_with)) /1000000
+
+PAR2:
+wall (but timeouts count as 1800 x 2)
+
+PAR10:
+wall (but timeouts count as 1800 x 10)
+
+Quality (cumwidth): 
+Cumulated sum of the computed widths 
+
 
 ## Tracks / Challenges
 1a. *Vertex Cover* **Exact**
