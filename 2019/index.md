@@ -26,9 +26,9 @@ sidebar_sort_order: 6
 | Rank | Score  | Solver                                                                        | doi                                                                               | Solved    | PAR1      | cumwidth | cumdiff| 1st vs 2nd |  
 | ---  | ---:   | ---                                                                           |:---:                                                                              | ---:      | ---:      | ---:     | ---:| ---:       |
 | -    |        |Judge: [htdecomp](https://www.dbai.tuwien.ac.at/proj/hypertree/downloads.html) |                                                                                   |100        | -         | 603      | |-          |
-| 1    |   5.0  |[hypebeast](https://github.com/jamestrimble/heidi)                             | [[doi:10.5281/zenodo.3236358](https://zenodo.org/record/3236358#.XScTYS2ZM_M)]    |100        | 430.5     | 1104     | 501 |0          | 
-| 2    |  14.1  |[TULongo](https://github.com/TULongo/pace-2019-HD-exact)                       | [[doi:10.5281/zenodo.3236333](https://zenodo.org/record/3236333#.XScU2yaxU5k)]    |98         | 8161.2    | 614      | 20 |86         |
-| 3    | 128.9  |[asc](https://github.com/ASchidler/frasmt_pace)                                | [[doi:10.5281/zenodo.3237427](https://doi.org/10.5281/zenodo.3237427)]            | 30          | 98995.9  | na      | 11  | na         |
+| 1    |   5.0  |[hypebeast](https://github.com/jamestrimble/heidi)                             | [[doi:10.5281/zenodo.3237427](https://doi.org/10.5281/zenodo.3237427)]    |100        | 430.5     | 1104     | 501 |0          | 
+| 2    |  14.1  |[TULongo](https://github.com/TULongo/pace-2019-HD-exact)                       |  [[doi:10.5281/zenodo.3236358](https://zenodo.org/record/3236358#.XScTYS2ZM_M)]   |98         | 8161.2    | 614      | 20 |86         |
+| 3    | 128.9  |[asc](https://github.com/ASchidler/frasmt_pace)                                | [[doi:10.5281/zenodo.3236333](https://zenodo.org/record/3236333#.XScU2yaxU5k)]             | 30          | 98995.9  | na      | 11  | na         |
 
 
 Score: 
