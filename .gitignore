@@ -2,3 +2,9 @@ _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+
+#MacOS
+.DS_Store
+
+#IDEA
+.idea/
