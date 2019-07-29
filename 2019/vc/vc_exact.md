@@ -5,7 +5,7 @@ sidebar_link: false
 sidebar_sort_order: 7
 ---
 
-## Exact 2a. Vertex Cover/Exact
+## Exact 1a. Vertex Cover/Exact
 ### Requirement: 
 The vertex cover has to be optimal, i.e., of smallest size. 
 
