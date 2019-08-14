@@ -22,8 +22,9 @@ But note that we will bump up submissions that find good solutions very fast.
 
 ### Instances
 
-Download: [Download Public Instances (Heuristic)](/files/pace2019-htd-heur-public.tar.bz2)
-
+Download: 
+- [Download Public Instances (Heuristic)](/files/pace2019-htd-heur-public.tar.bz2)
+- [Download Public + Private Instances (Exact)](https://doi.org/10.5281/zenodo.3354606)
 
 There are 100 public benchmark instances, labeled htd-heur_001.hgr, htd-heur_003.hgr, ... to htd-heur_199.hgr. 
 

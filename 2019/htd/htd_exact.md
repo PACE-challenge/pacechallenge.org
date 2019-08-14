@@ -16,7 +16,9 @@ We also do not prescribe the algorithmic paradigm that is to be used; if a SAT o
 
 ### Instances
 
-Download: [Download Public Instances (Exact)](/files/pace2019-htd-exact-public.tar.bz2)
+Download: 
+- [Download Public Instances (Exact)](/files/pace2019-htd-exact-public.tar.bz2)
+- [Download Public + Private Instances (Exact)](https://doi.org/10.5281/zenodo.3354606)
 
 
 There are 100 public benchmark instances, labeled htd-exact_001.hgr, htd-exact_003.hgr, ... to htd-exact_199.hgr. 
