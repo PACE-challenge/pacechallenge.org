@@ -16,7 +16,9 @@ We also do not prescribe the algorithmic paradigm that is to be used; if a SAT o
 
 ### Instances
 
-Download: [**Download (Updated: March 05, 2019) Public Instances (Exact)**](/files/pace2019-vc-exact-public-v2.tar.bz2)
+Download: 
+- [**Download (Updated: March 05, 2019) Public Instances (Exact)**](/files/pace2019-vc-exact-public-v2.tar.bz2)
+- [Download Public + Private Instances (Exact)](https://doi.org/10.5281/zenodo.3354609)
 
 There are 200 benchmark instances, labeled vc-exact_001.hgr to vc-exact_200.hgr. 
 
