@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Submission requirements
-sidebar_link: true
+title: Submission requirements (2019)
+sidebar_link: false
 sidebar_sort_order: 7
 ---
 
