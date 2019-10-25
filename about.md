@@ -26,11 +26,11 @@ of algorithm engineering
 
 - [Édouard Bonnet](https://www.lamsade.dauphine.fr/~bonnet/) (Middlesex University, London)
 - [Holger Dell](https://holgerdell.com) (IT University of Copenhagen)
+- [Johannes Fichte](https://iccl.inf.tu-dresden.de/web/Johannes_Fichte) (TU Dresden, Germany)
+- [Markus Hecher](https://www.dbai.tuwien.ac.at/staff/hecher/) (TU Vienna, Austria)
 - [Bart M. P. Jansen](https://www.win.tue.nl/~bjansen/) (chair) (Eindhoven University of Technology)
-- [Thore Husfeldt](https://thorehusfeldt.com/) (IT University of Copenhagen and Lund University)
 - [Petteri Kaski](https://users.ics.aalto.fi/pkaski/) (Aalto University)
 - [Christian Komusiewicz](https://www.uni-marburg.de/fb12/arbeitsgruppen/algorithmik/index_html?language_sync=1) (Philipps-Universität Marburg)
-- [Frances A. Rosamond](https://www.uib.no/en/persons/Frances.Rosamond) (University of Bergen)
 - [Florian Sikora](https://www.lamsade.dauphine.fr/~sikora/) (LAMSADE, Université Paris Dauphine)
 
 ### Sponsors
