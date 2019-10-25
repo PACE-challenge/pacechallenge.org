@@ -1,7 +1,7 @@
 
 ---
 layout: page
-title: PACE 2019 
+title: PACE 2020
 sidebar_link: false
 sidebar_sort_order: 6
 ---
