@@ -1,8 +1,5 @@
-
 ---
-layout: page
 title: Treedepth
-sidebar_link: false
 ---
 
 ## Treedepth
