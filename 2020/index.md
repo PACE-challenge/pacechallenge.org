@@ -1,44 +1,36 @@
-
 ---
-layout: page
-title: PACE 2020
+layout: post
+title: "PACE 2020"
 sidebar_link: true
 sidebar_sort_order: 7
 ---
 
-## Treedepth
+## Challenge decription
 
-- **Input:**  A connected undirected graph $G=(V,E)$
-- **Output:**  A treedepth decomposition of $G$
+- [Treedepth](td.md)
+
+## Timeline
+
+- October 25th, 2019: Announcement of the challenge (Problem)  
+- November 11th, 2019: Announcement of the tracks and additional information 
+- December 16th, 2019: Public instances are available  
+- TBA / March, 2020: Submission of preliminary version for bugfixing and leaderboard
+- TBA / June, 2020 (AOE) – Submission of final version (solver description two weeks after the code)  
+- TBA / July, 2020: Announcement of the results  
+- TBA / December 14-16, 2020 Award ceremony at the International Symposium on Parameterized and Exact Computation (IPEC 2020) in Hong Kong
+
+## Prizes
+Thanks to the generous sponsoring of the [NETWORKS project](http://thenetworkcenter.nl/) prize money and travel support is available for the winners of the competition.
+
+## Program Committee
+
+- [Łukasz Kowalik](mailto:kowalik@mimuw.edu.pl) (chair) (University of Warsaw)
+- Marcin Mucha (University of Warsaw)
+- Wojciech Nadara (University of Warsaw)
+- Marcin Pilipczuk (University of Warsaw)
+- Manuel Sorge (University of Warsaw)
+- Piotr Wygocki (University of Warsaw)
 
 
-#### What is a treedepth decompositon?
-
-Treedepth decomposition has many equivalent definitions. Here we mention two of them.
-
-**Definition 1** 
-: A *treedepth decomposition* of a connected graph $G=(V,E)$ is a rooted tree $T=(V,E_T)$ such that every edge of $G$ connects a pair of nodes that have an ancestor-descendant relationship in $T$. 
-
-**Definition 2** 
-:  A *treedepth  decomposition* of a connected graph $G=(V,E)$ is every rooted  tree  $T=(V,E_T)$ that can be obtained in the following recursive procedure. If $G$ has one vertex, then $T=G$. Otherwise pick a vertex $v\in V$ as the root of $T$, build a  treedepth  decomposition of each connected component of $G-v$ and add all these decompositions to $T$ by joining their roots to $v$.
-
-**Example**
-: ![Example](tdsmall.png)
-
-The *depth* of a tree is the maximum number of nodes in a root-vertex path in the tree. The *treedepth* of $G$ is a minimum depth of a treedepth decomposition of $G$.
-
-
-## Tracks
-
-Two tracks are planned:
-
- 1. **Exact**: Compute a treedepth decomposition of minimum depth. You have 30 minutes per instance.  Contestants are ranked by number of instances solved and time required. Detailed ranking method TBA.
- 2.  **Heuristic**: Compute some treedepth decomposition of decent depth. You have 30 minutes per instance. Contestants are ranked by quality of results and time required. Detailed ranking method TBA.
-
-Detailed instructions and public instances will be published later.
-
-## Input/Output format (for both tracks)
-
-TBA
 
 
