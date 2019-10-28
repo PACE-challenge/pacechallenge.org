@@ -24,10 +24,10 @@ of algorithm engineering
 
 ### Steering Committee
 
-- [Édouard Bonnet](https://www.lamsade.dauphine.fr/~bonnet/) (Middlesex University, London)
+- [Édouard Bonnet](https://www.lamsade.dauphine.fr/~bonnet/) (LIP, ENS Lyon)
 - [Holger Dell](https://holgerdell.com) (IT University of Copenhagen)
-- [Johannes Fichte](https://iccl.inf.tu-dresden.de/web/Johannes_Fichte) (TU Dresden, Germany)
-- [Markus Hecher](https://www.dbai.tuwien.ac.at/staff/hecher/) (TU Vienna, Austria)
+- [Johannes Fichte](https://iccl.inf.tu-dresden.de/web/Johannes_Fichte) (Technische Universität Dresden)
+- [Markus Hecher](https://www.dbai.tuwien.ac.at/staff/hecher/) (Technische Universität Wien)
 - [Bart M. P. Jansen](https://www.win.tue.nl/~bjansen/) (chair) (Eindhoven University of Technology)
 - [Petteri Kaski](https://users.ics.aalto.fi/pkaski/) (Aalto University)
 - [Christian Komusiewicz](https://www.uni-marburg.de/fb12/arbeitsgruppen/algorithmik/index_html?language_sync=1) (Philipps-Universität Marburg)
