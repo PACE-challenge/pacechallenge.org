@@ -6,6 +6,10 @@ sidebar_sort_order: 3
 ---
 
 The results of each PACE challenge are documented in a report that is published in the IPEC proceedings.
+- PACE 2019: **Vertex Cover** and **Hypertree Width**<br/>
+  (official report tba,
+  [slides](/files/PACE19-slides.pdf),
+  [challenge description](/2019/))
 - PACE 2018: **Steiner Tree**<br/>
   ([official report](https://dx.doi.org/10.4230/LIPIcs.IPEC.2018.26),
   [slides](/files/PACE18-slides.pdf),
