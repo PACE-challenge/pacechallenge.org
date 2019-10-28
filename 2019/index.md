@@ -1,8 +1,6 @@
 ---
 layout: page
-title: PACE 2019 
-sidebar_link: true
-sidebar_sort_order: 6
+title: PACE 2019
 ---
 
 ## Problems
