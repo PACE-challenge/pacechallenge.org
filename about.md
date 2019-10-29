@@ -38,3 +38,8 @@ of algorithm engineering
 PACE is supported by the NWO Gravitation project ‘[NETWORKS](http://thenetworkcenter.nl/)’.
 
 ![NETWORKS Logo](/assets/img/networks-logopartners-lang-rgb-1000px.jpg)
+
+### Other Challenges
+
+Martin Josef Geiger keeps a nice [list of various other computational challenges](https://www.hsu-hh.de/logistik/research/challenges) out there.
+
