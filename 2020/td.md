@@ -37,12 +37,51 @@ TBA
 
 ## Appendix A: Input format (for both tracks)
 
-TBA
+The input graph is given via the standard input, which follows the DIMACS-like .gr file format described below.
+
+Lines are separated by the character '\\n'. Each line that starts with the character c is considered to be a comment line. The first non-comment line must be a line starting with p followed by the problem descriptor tdp and the number of vertices n and edges m (separated by a single space each time). No other line may start with p. Every other line indicates an edge, and must consist of two decimal integers from 1 to n separated by a space; moreover, graphs are considered undirected. Isolated vertices, multiple edges, and loops are forbidden. It can be assumed that the graph is connected. For example, a path with four edges can be defined as follows:
 
 
-## Appendix B: Output format and validity checker (for both tracks)
+```
+c This file describes a path with five vertices and four edges.
+p tdp 5 4
+1 2
+2 3
+c we are half-way done with the instance definition.
+3 4
+4 5
+```
 
-TBA
+
+## Appendix B: Output format (for both tracks)
+
+The output tree should be given via the standard output, and should follow the .tree file format given below.
+
+Tree description consists of n+1 lines, where n is the number of vertices in the tree. Lines are separated by the character '\\n'. The first line contains a single integer, namely the depth of the tree. Each of the following n lines consists of a single integer between 0 and n. For i=1,...n, if the number in the (i+1)-th line is 0, then i is the root of the tree. Otherwise, the number in the (i+1)-th line denotes the parent of vertex i in the tree. 
+
+E.g., the following file
+```
+3
+2
+3
+0
+3
+4
+```
+corresponds to the tree:
+```
+    3
+   / \
+  2   4
+ /     \ 
+1       5
+```
+
+## Appendix C: Validity checker (for both tracks)
+
+We will provide validity checker soon. (For a given graph G in the .gr format and tree T in .tree format it checks whether T is a treedepth decomposition of G.)
+
+
 
 
 
