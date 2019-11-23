@@ -79,7 +79,7 @@ corresponds to the tree:
 
 ## Appendix C: Validity checker (for both tracks)
 
-Download [verify.cpp]. For a given graph G in the .gr format and tree T in .tree format it checks whether T is a treedepth decomposition of G.
+Download [verify.cpp](/2020/verify.cpp). For a given graph G in the .gr format and tree T in .tree format it checks whether T is a treedepth decomposition of G (possibly with suboptimal depth).
 
 Compile using 
 ```
