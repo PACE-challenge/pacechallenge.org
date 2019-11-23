@@ -89,7 +89,7 @@ g++ -std=c++14 verify.cpp -o verify -O3
 
 Usage:
 ```
-./verify graph\_file.gr treedepth\_decomposition.tree
+./verify graph_file.gr treedepth_decomposition.tree
 
 ```
 
