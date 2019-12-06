@@ -5,7 +5,7 @@ sidebar_link: true
 sidebar_sort_order: 7
 ---
 
-## Challenge decription
+## Challenge description
 
 - [Treedepth](td.md)
 
