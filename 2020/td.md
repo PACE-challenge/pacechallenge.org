@@ -41,7 +41,7 @@ There are 200 benchmark instances, labeled exact001.gr to exact200.gr. The insta
 
 ![Histogram](sizecount_exact_selected.png)
 
-You can download the **public instances** [here]((/files/pace2020-exact-public.tgz)).
+You can download the **public instances** [here](/files/pace2020-exact-public.tgz).
 
 **Ranking method** Contestants are ranked by number of instances solved and the total time required for the solved instances as a tiebreaker. For the final ranking only private instances are used.
 
@@ -57,7 +57,7 @@ There are 200 benchmark instances, labeled heur001.gr to heur200.gr. The instanc
 
 ![Histogram](sizecount_heur_selected.png)
 
-You can download the **public instances** [here]((/files/pace2020-heur-public.tgz)) (55MB).
+You can download the **public instances** [here](/files/pace2020-heur-public.tgz) (55MB).
 
 **Ranking method** For each instance, your submission gets 100 * min / d points where d is the depth of the decomposition returned by the submission and min is the smallest width of the decomposition returned by any of the participants. When your submission does not return a treedepth decomposition, d is set to n (the number of vertices). The contestants are ranked by the total number of points for all instances. For the final ranking only private instances are used.
 
