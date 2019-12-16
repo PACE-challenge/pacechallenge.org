@@ -39,7 +39,7 @@ The implementation you submit should compute a treedepth decomposition of minimu
 
 There are 200 benchmark instances, labeled exact001.gr to exact200.gr. The instances are ordered lexicographically by non-decreasing (n,m) where n is the number of vertices and m is the number of edges. The odd instances are public and the even instances are secret. Graphs exact001.gr - exact176.gr have from 15 to 200 vertices and graphs exact177.gr - exact200.gr have from 201 to 500 vertices (see the histogram below).
 
-: [Histogram](sizecount_exact_selected.png)
+![Histogram](sizecount_exact_selected.png)
 
 You can download the **public instances** [here]((/files/pace2020-exact-public.tgz)).
 
@@ -55,7 +55,7 @@ If in your output the depth reported in the first line does not match the depth 
 
 There are 200 benchmark instances, labeled heur001.gr to heur200.gr. The instances are ordered lexicographically by non-decreasing (n,m) where n is the number of vertices and m is the number of edges. The odd instances are public and the even instances are secret. The number of vertices is between 100 and 2,000,000 and the number of edges does not exceed 3,000,000 (see the histogram below).
 
-: [Histogram](sizecount_heur_selected.png)
+![Histogram](sizecount_heur_selected.png)
 
 You can download the **public instances** [here]((/files/pace2020-heur-public.tgz)) (55MB).
 
