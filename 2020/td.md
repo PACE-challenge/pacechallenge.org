@@ -37,7 +37,7 @@ The *depth* of a tree is the maximum number of nodes in a root-leaf path in the 
 
 The implementation you submit should compute a treedepth decomposition of minimum depth. We anticipate submissions to be based on a provably optimal algorithm, although we do not make this a formal requirement. Instead, if your submission halts on some instance within the allotted time and does not output an optimal solution, the submission will be disqualified. If in your output the depth reported in the first line does not match the depth of the tree reported in the following lines, this is treated as a non-optimal solution.
 
-There are 200 benchmark instances, labeled exact001.gr to exact200.gr. The instances are ordered lexicographically by non-decreasing (n,m) where n is the number of vertices and m is the number of edges. The odd instances are public and the even instances are secret. Graphs exact001.gr - exact176.gr have from 15 to 200 vertices and graphs exact177.gr - exact200.gr have from 201 to 500 vertices (see the histogram below).
+There are 200 benchmark instances, labeled exact001.gr to exact200.gr. The instances are ordered lexicographically by non-decreasing (n,m) where n is the number of vertices and m is the number of edges. The odd instances are public and the even instances are secret. Graphs exact001.gr - exact176.gr have from 10 to 200 vertices and graphs exact177.gr - exact200.gr have from 201 to 500 vertices (see the histogram below).
 
 ![Histogram](sizecount_exact_selected.png)
 
