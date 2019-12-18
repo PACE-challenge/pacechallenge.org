@@ -1,0 +1,10 @@
+---
+layout: post
+title: "PACE 2020: Detailed rules of the PACE 2020 and the collections of public instances"
+---
+
+Detailed rules of the PACE 2020 and the collections of public instances are now online, enjoy!
+
+See the [PACE 2020 challenge description](/2020/td/) and [general information](/2020/).
+
+

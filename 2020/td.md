@@ -42,7 +42,7 @@ There are 200 benchmark instances, labeled exact001.gr to exact200.gr. The insta
 ![Histogram](sizecount_exact_selected.png)
 
 You can download the **public instances** [here](/files/pace2020-exact-public.tgz)
-and see them [here](visualize.html)
+and see them [here](/2020/visualize.html)
 
 **Ranking method** Contestants are ranked by number of instances solved and the total time required for the solved instances as a tiebreaker. For the final ranking only private instances are used.
 
