@@ -9,7 +9,7 @@ title: PACE 2018
 
 ## Outcomes
 
--   [Report](/files/PACE18-report.pdf) published in the IPEC proceedings
+-   [Report](https://doi.org/10.4230/LIPIcs.IPEC.2018.26) published in the IPEC proceedings
 -   [Slides](/files/PACE18-slides.pdf) presented at IPEC 2018
 
 
