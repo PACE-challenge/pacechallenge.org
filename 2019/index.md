@@ -7,6 +7,10 @@ title: PACE 2019
 1. [Vertex Cover](vc/index)
 2. [Hypertree Width](htd/index)
 
+## Outcomes
+- [Report](https://doi.org/10.4230/LIPIcs.IPEC.2019.25) published in the IPEC proceedings
+- [Slides](https://pacechallenge.org/files/PACE19-slides.pdf) presented at IPEC 2019
+
 ## Preliminary Results
 1a. Vertex Cover:
 1. [WeGotYouCovered](https://github.com/sebalamm/pace-2019/releases/tag/pace-2019)  [[doi:10.5281/zenodo.2816116](https://doi.org/10.5281/zenodo.2816116)] (87 solved)
