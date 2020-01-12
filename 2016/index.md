@@ -10,8 +10,8 @@ title: PACE 2016
 
 ## Outcomes
 
--   Results were [announced](/2016/09/12/results-PACE-2016/) on August 25 at ALGO 2016
--   [Report](https://dx.doi.org/10.4230/LIPIcs.IPEC.2016.30) published in the IPEC proceedings
+- [Report](https://dx.doi.org/10.4230/LIPIcs.IPEC.2016.30) published in the IPEC proceedings
+- [Slides](/files/PACE16-slides.pdf) presented at IPEC 2016, also see [blog post](/2016/09/12/results-PACE-2016/)
 
 ## Programme committee
 
