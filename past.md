@@ -7,17 +7,17 @@ sidebar_sort_order: 3
 
 The results of each PACE challenge are documented in a report that is published in the IPEC proceedings.
 - PACE 2019: **Vertex Cover** and **Hypertree Width**<br/>
-  (official report tba,
+  ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2019.25),
   [slides](/files/PACE19-slides.pdf),
   [challenge description](/2019/))
 - PACE 2018: **Steiner Tree**<br/>
-  ([official report](https://dx.doi.org/10.4230/LIPIcs.IPEC.2018.26),
+  ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2018.26),
   [slides](/files/PACE18-slides.pdf),
   [challenge description](/2018/))
 - PACE 2017: **Treewidth** and **Minimum Fill-In**<br/>
-  ([official report](https://dx.doi.org/10.4230/LIPIcs.IPEC.2017.30), [slides](/files/PACE17-slides.pdf), [challenge descriptions](/2017/))
+  ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2017.30), [slides](/files/PACE17-slides.pdf), [challenge descriptions](/2017/))
 - PACE 2016: **Treewidth** and **Feedback Vertex Set**<br/>
-  ([official report](https://dx.doi.org/10.4230/LIPIcs.IPEC.2016.30), [slides](/files/PACE16-slides.pdf), [challenge descriptions](/2016/))
+  ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2016.30), [slides](/files/PACE16-slides.pdf), [challenge descriptions](/2016/))
 
 ## Impact
 

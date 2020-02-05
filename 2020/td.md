@@ -54,7 +54,7 @@ The implementation you submit should compute a treedepth decomposition within 30
 
 If in your output the depth reported in the first line does not match the depth of the tree reported in the following lines, this is treated as if the submission did not output a treedepth decomposition.
 
-There are 200 benchmark instances, labeled heur001.gr to heur200.gr. The instances are ordered lexicographically by non-decreasing (n,m) where n is the number of vertices and m is the number of edges. The odd instances are public and the even instances are secret. The number of vertices is between 100 and 2,000,000 and the number of edges does not exceed 3,000,000 (see the histogram below).
+There are 200 benchmark instances, labeled heur001.gr to heur200.gr. The instances are ordered lexicographically by non-decreasing (n,m) where n is the number of vertices and m is the number of edges. The odd instances are public and the even instances are secret. The number of vertices is between 100 and 2,000,000 (see the histogram below) and the number of edges does not exceed 3,000,000.
 
 ![Histogram](sizecount_heur_selected.png)
 

@@ -5,12 +5,13 @@ title: PACE 2017
 
 ## Challenge Descriptions
 
--   [Track A: Tree width](treewidth/)
--   [Track B: Minimum Fill-In](minimum-fill-in/)
+- [Track A: Tree width](treewidth/)
+- [Track B: Minimum Fill-In](minimum-fill-in/)
 
 ## Outcomes
 
--   [Report](https://dx.doi.org/10.4230/LIPIcs.IPEC.2017.30) published in the IPEC proceedings
+- [Report](https://dx.doi.org/10.4230/LIPIcs.IPEC.2017.30) published in the IPEC proceedings
+- [Slides](/files/PACE17-slides.pdf) presented at IPEC 2017
 
 ## Program Committee
 
