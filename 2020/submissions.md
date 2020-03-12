@@ -21,7 +21,7 @@ title: Submission requirements (2020)
    3. Create a release in the public repository of the solver (name: pace-2020)
 5. Submission Description: 
    1. Place the source code of the solver in a digital library (e.g., [Zenodo](https://zenodo.org/)) and generate a DOI 
-   2. Submit the solver description via [EasyChair](<!-- https://easychair.org/conferences/?conf=pace2019--> link to be provided) use DOI to refer to the solver and include a reference to the public source code repository 
+   2. Submit the solver description via [EasyChair](https://easychair.org/conferences/?conf=pace2020) use DOI to refer to the solver and include a reference to the public source code repository 
 
 
 ##### Solver
