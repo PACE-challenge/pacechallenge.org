@@ -5,7 +5,7 @@ title: Submission requirements (2020)
 #### Registration
 
 1. Register at optil.io (<https://www.optil.io/optilion/login>)
-2. Access Easychair (link to be provided <!-- <https://easychair.org/conferences/?conf=pace2019>-->) and register your group 
+2. Access [EasyChair](https://easychair.org/conferences/?conf=pace2020) and register your group 
    - Use as title of the paper your login name at optil
    - Place the name of your solver in the abstract
 3. Submit your solution via optil (as soon as the optil submission is open) 
@@ -17,7 +17,7 @@ title: Submission requirements (2020)
 3. We allow a limited use of external **open source** dependencies, preferably with source code included in the submission. If you need to install software on the target platform, please contact us in advance, and we will ask the optil.io team if it is possible (the open source requirement still applies).
 4. Submissions Solver: 
    1. Submission via [optil.io](https://www.optil.io/), please refer to the SUBMITTING SOLUTION section of optil.io [help page](https://www.optil.io/optilion/help)
-   2. Register solver and participants via [EasyChair](https://easychair.org/conferences/?conf=pace2019)
+   2. Register solver and participants via [EasyChair](https://easychair.org/conferences/?conf=pace2020)
    3. Create a release in the public repository of the solver (name: pace-2020)
 5. Submission Description: 
    1. Place the source code of the solver in a digital library (e.g., [Zenodo](https://zenodo.org/)) and generate a DOI 
