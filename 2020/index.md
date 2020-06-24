@@ -16,7 +16,7 @@ sidebar_sort_order: 7
 - December 16th, 2019: Public instances are available  
 - March 13, 2020: submiting via optil.io is running (for testing and unofficial, auxiliary leaderboard)
 - June 1, 2020 (AOE) – Submission of final version (solver description two weeks after the code)  
-- July, 2020: Announcement of the results  
+- July, 2020: Announcement of the [results](results.md)  
 - TBA / December 14-16, 2020 Award ceremony at the International Symposium on Parameterized and Exact Computation (IPEC 2020) in Hong Kong
 
 ## Prizes
