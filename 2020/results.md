@@ -1,9 +1,9 @@
 ---
 title: Results of PACE 2020
 ---
-Below we publish the results of PACE 2020 challenge for [the exact track](#exact) and [the heuristic track](#heur) 
+This page contains the results of [PACE 2020](/2020/) treedepth challenge for [the exact track](#exact-track) and [the heuristic track](#heuristic-track).
 
-## <a id="exact"></a> Exact track
+## Exact track
 
 | Rank |  Team | Institute | Solver | #pts | time | git repo |
 |--|--|--|--|--|--|--|
@@ -24,7 +24,7 @@ Below we publish the results of PACE 2020 challenge for [the exact track](#exact
 15 | Marcelo Garlet Milani (mgmilani) | Technische Universität Berlin (Germany) | td-milani | DQ | 0 | [[git]](https://gitlab.tu-berlin.de/mgmillani1/treedepth-pace20)|
 
 
-## <a id="heur"></a>Heuristic track
+## Heuristic track
 
 | Rank |  Team | Institute | Solver | #pts | git repo |
 |--|--|--|--|--|--|
