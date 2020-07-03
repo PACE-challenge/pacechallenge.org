@@ -15,7 +15,7 @@ Minimum fill-in is notorious for being one of the open problems in the first edi
 
 ## Contest Rules
 
-The following contest rules are there to make the contest interesting and fair. The submission can be made by an individual or by a team. If you would like to participate, but find that the rules are impeding you or are unclear, please contact us at komusiewiczinformatik.uni-marburg.de.
+The following contest rules are there to make the contest interesting and fair. The submission can be made by an individual or by a team. If you would like to participate, but find that the rules are impeding you or are unclear, please contact us at komusiewicz@informatik.uni-marburg.de.
 
 **Test Cases.** The test cases are 100 graphs which can be downloaded [here](https://github.com/PACE-challenge/Minimum-Fill-In-PACE-2017-instances).
 
