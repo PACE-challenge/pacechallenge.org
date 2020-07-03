@@ -15,9 +15,9 @@ Minimum fill-in is notorious for being one of the open problems in the first edi
 
 ## Contest Rules
 
-The following contest rules are there to make the contest interesting and fair. The submission can be made by an individual or by a team. If you would like to participate, but find that the rules are impeding you or are unclear, please contact us at christian.komusiewicz@uni-jena.de.
+The following contest rules are there to make the contest interesting and fair. The submission can be made by an individual or by a team. If you would like to participate, but find that the rules are impeding you or are unclear, please contact us at komusiewiczinformatik.uni-marburg.de.
 
-**Test Cases.** The test cases are 100 graphs which can be downloaded [here](http://users.minet.uni-jena.de/~komusiewicz/instances.zip).
+**Test Cases.** The test cases are 100 graphs which can be downloaded [here](https://github.com/PACE-challenge/Minimum-Fill-In-PACE-2017-instances).
 
 **Evaluation.** This track focuses on fixed-parameter algorithms computing optimal solutions. Evaluation criterion is the number of instances that can be solved within the time limit (30 minutes per instance) on the evaluation machine (we will soon post details on this machine). To evaluate the algorithms we will use a set of 100 hidden instances which are similar in structure to the public test cases and revealed after the contest. Participants are strongly encouraged to submit preliminary versions (up to once per week) and will receive feedback on correctness and performance. We will publish a leader board with the three currently best submissions.
 
