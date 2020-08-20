@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "PACE 2020"
 sidebar_link: true
 sidebar_sort_order: 7
