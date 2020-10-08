@@ -24,14 +24,22 @@ of algorithm engineering
 
 ### Steering Committee
 
-- [Édouard Bonnet](https://www.lamsade.dauphine.fr/~bonnet/) (LIP, ENS Lyon)
-- [Holger Dell](https://holgerdell.com) (IT University of Copenhagen)
-- [Johannes Fichte](https://iccl.inf.tu-dresden.de/web/Johannes_Fichte) (Technische Universität Dresden)
-- [Markus Hecher](https://www.dbai.tuwien.ac.at/staff/hecher/) (Technische Universität Wien)
-- [Bart M. P. Jansen](https://www.win.tue.nl/~bjansen/) (chair) (Eindhoven University of Technology)
-- [Petteri Kaski](https://users.ics.aalto.fi/pkaski/) (Aalto University)
-- [Christian Komusiewicz](https://www.uni-marburg.de/fb12/arbeitsgruppen/algorithmik/index_html?language_sync=1) (Philipps-Universität Marburg)
-- [Florian Sikora](https://www.lamsade.dauphine.fr/~sikora/) (LAMSADE, Université Paris Dauphine)
+- (since 2017) [Édouard Bonnet](https://www.lamsade.dauphine.fr/~bonnet/) (LIP, ENS Lyon)
+- (since 2016) [Holger Dell](https://holgerdell.com) (Goethe University Frankfurt and IT University of Copenhagen)
+- (since 2019) [Johannes Fichte](https://iccl.inf.tu-dresden.de/web/Johannes_Fichte) (Technische Universität Dresden)
+- (since 2019) [Markus Hecher](https://www.dbai.tuwien.ac.at/staff/hecher/) (Technische Universität Wien)
+- (since 2016) [Bart M. P. Jansen](https://www.win.tue.nl/~bjansen/) (chair) (Eindhoven University of Technology)
+- (since 2020) [Łukasz Kowalik](https://www.mimuw.edu.pl/~kowalik/) (University of Warsaw)
+- (since 2020) [Marcin Pilipczuk](https://www.mimuw.edu.pl/~malcin/) (University of Warsaw)
+- (since 2020) [Manuel Sorge](https://manyu.pro/) (University of Warsaw)
+
+### Former members
+
+- (2016-2019) [Thore Husfeldt](https://thorehusfeldt.com/) (IT University of Copenhagen and Lund University)
+- (2016-2020) [Petteri Kaski](https://users.ics.aalto.fi/pkaski/) (Aalto University)
+- (2016-2020) [Christian Komusiewicz](https://www.uni-marburg.de/fb12/arbeitsgruppen/algorithmik/index_html?language_sync=1) (Philipps-Universität Marburg)
+- (2016-2019) [Frances Rosamond](https://www.uib.no/en/persons/Frances.Rosamond) (University of Bergen)
+- (2017-2020) [Florian Sikora](https://www.lamsade.dauphine.fr/~sikora/) (LAMSADE, Université Paris Dauphine)
 
 ### Sponsors
 
