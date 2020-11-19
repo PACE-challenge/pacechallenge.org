@@ -16,8 +16,22 @@ You can find more details on Cluster Editing [here](cluster-editing/).
 
 ## Tracks
 
-As usual, we will have one track for **Exact** algorithms and another for **Heuristic** algorithms.
-More details are TBA.
+As in PACE 2020, we will have one track for **Exact** algorithms and another for **Heuristic** algorithms.
+In addition, we will have another track for **Data Reduction** algorithms:
+
+**Exact:**
+Your task is to find an optimal solution of each Cluster Editing instance within the time limit of 30 minutes.
+You will be ranked by the number of solved instances.
+
+**Heuristic:**
+Your task is to find the best solution of each Cluster Editing instance within the time limit of 10 minutes.
+You will be ranked by the quality of the solution.
+
+**Kernelization:**
+Your task is to find an equivalent instance of each Cluster Editing instance within the time limit of 5 minutes.
+You will be ranked by the size of the returned instance.
+
+You can find more details on the ranking methods [here](tracks/).
 
 ## Timeline
 
