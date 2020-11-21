@@ -27,6 +27,8 @@ Cluster Editing is NP-hard but fixed parameter tractable (FPT) for the minimum s
 In fact, there is a simple $O(3^k \cdot (|V| + |E|))$-time branching algorithm.
 If there is an induced path $(u, v, w)$ on three vertices (which can be found in linear time), we branch into three cases: add an edge $uw$, delete the edge $uv$, or delete the edge $vw$.
 
+![Illustration of the branching rule](/2021/img/cluster-editing-branching.png)
+
 ### Literature
 
 - van Bevern, R., Froese, V. and Komusiewicz, C., 2018. Parameterizing edge modification problems above lower bounds. Theory of Computing Systems, 62(3), pp.739-770.
