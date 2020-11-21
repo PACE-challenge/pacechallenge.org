@@ -31,7 +31,7 @@ of algorithm engineering
 - (since 2016) [Bart M. P. Jansen](https://www.win.tue.nl/~bjansen/) (chair) (Eindhoven University of Technology)
 - (since 2020) [Łukasz Kowalik](https://www.mimuw.edu.pl/~kowalik/) (University of Warsaw)
 - (since 2020) [Marcin Pilipczuk](https://www.mimuw.edu.pl/~malcin/) (University of Warsaw)
-- (since 2020) [Manuel Sorge](https://manyu.pro/) (University of Warsaw)
+- (since 2020) [Manuel Sorge](https://manyu.pro/) (Technische Universität Wien)
 
 ### Former members
 
