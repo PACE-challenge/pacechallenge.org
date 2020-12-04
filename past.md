@@ -7,7 +7,10 @@ sidebar_sort_order: 3
 
 The results of each PACE challenge are documented in a report that is published in the IPEC proceedings.
 - PACE 2020: **Treedepth**<br/>
-  ([results](/2020/results/), [challenge description](/2020/))
+  ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2020.37),
+  [results](/2020/results/), 
+  [instances](https://github.com/lkowalik/Treedepth-PACE-2020-instances), 
+  [challenge description](/2020/))
 - PACE 2019: **Vertex Cover** and **Hypertree Width**<br/>
   ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2019.25),
   [slides](/files/PACE19-slides.pdf),
