@@ -23,8 +23,7 @@ See also the [input format](#appendix-input-format).
 You will be ranked by the number of solved instances.
 In case of a tie, the winner is determined by the time required to solve all instances.
 
-**Benchmark:**
-Details on the benchmark instances are to be announced shortly.
+See also the [details on the benchmark instances](#benchmark-for-exact-track-and-kernelization-track).
 
 ## Heuristic Track
 
@@ -42,9 +41,7 @@ You will be ranked by the average over all instances of 100 × (best solution si
 Here, (solution size) is the size of the solution returned by your submission and (best solution size) is the size of the smallest solution known to the PC committee (which may not be optimal).
 If the output of your program turns out to be not a cluster editing (or there is no output on SIGKILL) for some instance, (solution size) for the instance will be regarded as infinity (so you will receive no point).
 
-
-**Benchmark:**
-Details on the benchmark instances are to be announced shortly.
+See also the [details on the benchmark instances](benchmark-for-heuristic-track).
 
 ## Kernelization Track
 
@@ -83,7 +80,9 @@ You will be ranked by the average over all instances of 100 × (best points) / (
 Here, (your points) is $1 + (|V'| + |E'|) / d$, where $(V', E')$ is the graph returned by your submission and (best points) is the smallest points among all submissions.
 Note that +1 in (your points) guarantees the positive amount of points (to avoid division by 0).
 
-## Appendix: Input Format
+See also the [details on the benchmark instances](#benchmark-for-exact-track-and-kernelization-track).
+
+## Input Format
 
 The input graph is given via the standard input, which follows the DIMACS-like .gr file format described below.
 
@@ -102,6 +101,22 @@ c we are half-way done with the instance definition.
 3 4
 4 5
 ```
+## Benchmark for Exact Track and Kernelization Track
+
+We use the same benchmark instances for evaluating Exact Track and Kernelization Track.
+There are 200 instances, labeled exact001.gr to exact200.gr.
+The instances are ordered lexicographically by non-decreasing $(n,m)$ where $n$ is the number of vertices and $m$ is the number of edges.
+The odd instances are public and the even instances are private.
+
+Download the instances [https://fpt.akt.tu-berlin.de/pace2021/exact.tar.gz](here).
+
+## Benchmark for Heuristic Track
+
+There are 200 instances, labeled heur001.gr to heur200.gr.
+The instances are ordered lexicographically by non-decreasing $(n,m)$ where $n$ is the number of vertices and $m$ is the number of edges.
+The odd instances are public and the even instances are private.
+
+Download the instances [https://fpt.akt.tu-berlin.de/pace2021/heur.tar.gz](here).
 
 ## Appendix: Discussion on Kernelization Track
 
