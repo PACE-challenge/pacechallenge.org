@@ -108,7 +108,7 @@ There are 200 instances, labeled exact001.gr to exact200.gr.
 The instances are ordered lexicographically by non-decreasing $(n,m)$ where $n$ is the number of vertices and $m$ is the number of edges.
 The odd instances are public and the even instances are private.
 
-Download the instances [https://fpt.akt.tu-berlin.de/pace2021/exact.tar.gz](here).
+Download the instances [here](https://fpt.akt.tu-berlin.de/pace2021/exact.tar.gz).
 
 ## Benchmark for Heuristic Track
 
@@ -116,7 +116,7 @@ There are 200 instances, labeled heur001.gr to heur200.gr.
 The instances are ordered lexicographically by non-decreasing $(n,m)$ where $n$ is the number of vertices and $m$ is the number of edges.
 The odd instances are public and the even instances are private.
 
-Download the instances [https://fpt.akt.tu-berlin.de/pace2021/heur.tar.gz](here).
+Download the instances [here](https://fpt.akt.tu-berlin.de/pace2021/heur.tar.gz).
 
 ## Appendix: Discussion on Kernelization Track
 
