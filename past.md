@@ -8,6 +8,7 @@ sidebar_sort_order: 3
 The results of each PACE challenge are documented in a report that is published in the IPEC proceedings.
 - PACE 2020: **Treedepth**<br/>
   ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2020.37),
+  [slides](/2020/slides.pdf),
   [results](/2020/results/), 
   [instances](https://github.com/lkowalik/Treedepth-PACE-2020-instances), 
   [challenge description](/2020/))
