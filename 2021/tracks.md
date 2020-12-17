@@ -107,6 +107,12 @@ We use the same benchmark instances for evaluating Exact Track and Kernelization
 There are 200 instances, labeled exact001.gr to exact200.gr.
 The instances are ordered lexicographically by non-decreasing $(n,m)$ where $n$ is the number of vertices and $m$ is the number of edges.
 The odd instances are public and the even instances are private.
+Instances exact001.gr to exact157.gr have graph size ($n + m$) at most 10,000.
+The largest instance does not exceed size 200,000.
+For every instance, the number of vertices is at most 700.
+See below for the distribution of instance sizes.
+
+![exact](/2021/img/exact.png)
 
 Download the instances [here](https://fpt.akt.tu-berlin.de/pace2021/exact.tar.gz).
 
@@ -115,6 +121,12 @@ Download the instances [here](https://fpt.akt.tu-berlin.de/pace2021/exact.tar.gz
 There are 200 instances, labeled heur001.gr to heur200.gr.
 The instances are ordered lexicographically by non-decreasing $(n,m)$ where $n$ is the number of vertices and $m$ is the number of edges.
 The odd instances are public and the even instances are private.
+Instances heur001.gr to heur170.gr have graph size ($n + m$) at most one million.
+The largest instance does not exceed size five million.
+For every instance, the number of vertices is at most two million and there are at least 100 instances in which the number of vertices is at most 1,000.
+See below for the distribution of instance sizes.
+
+![heur](/2021/img/heur.png)
 
 Download the instances [here](https://fpt.akt.tu-berlin.de/pace2021/heur.tar.gz).
 
