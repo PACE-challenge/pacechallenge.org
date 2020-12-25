@@ -9,15 +9,15 @@ For PACE 2021, we offer the following three tracks:
 - [**Heuristic Track**](#heuristic-track)
 - [**Kernelization Track**](#kernelization-track)
 
-You can participate in any subset of the three tracks. In each tack we use this [input format](#appendix-input-format).
+You can participate in any subset of the three tracks. In each tack we use this [input format](#input-format).
 
 ## Exact Track
 
-Your submission should find an optimal cluster editing (a set of edge modifications that turns the input graph into a cluster graph; see also the [problem description](cluster-editing/)) within 30 minutes.
+Your submission should find an optimal cluster editing (a set of edge modifications that turns the input graph into a cluster graph; see also the [problem description](/2021/cluster-editing/)) within 30 minutes.
 We expect your submission to be an exact algorithm, although we do not ask you to provide a proof of it.
 If for some instance your program returns a solution that is not optimal within the time limit, your submission will be disqualified.
 Moreover, if the output of your program for any instance turns out to be not a cluster editing, your submission will be disqualified as well.
-See also the [input format](#appendix-input-format).
+See also the [input format](#input-format).
 
 **Ranking method:**
 You will be ranked by the number of solved instances.
@@ -27,8 +27,8 @@ See also the [details on the benchmark instances](#benchmark-for-exact-track-and
 
 ## Heuristic Track
 
-Your submission should find a cluster editing (a set of edge modifications that turns the input graph into a cluster graph; see also the [problem description](cluster-editing/)) within 10 minutes.
-See also the [input format](#appendix-input-format).
+Your submission should find a cluster editing (a set of edge modifications that turns the input graph into a cluster graph; see also the [problem description](/2021/cluster-editing/)) within 10 minutes.
+See also the [input format](#input-format).
 
 **Termination:**
 Your program will receive the Unix signal SIGTERM on timeout.
