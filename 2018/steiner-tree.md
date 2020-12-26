@@ -40,7 +40,7 @@ If you want to participate, register now at <https://goo.gl/forms/4mkuCcSjVVkMUZ
 
 The implementation you submit should compute an optimal Steiner tree of the given graph. We anticipate submissions to be based on a provably optimal algorithm, although we do not make this a formal requirement. Instead, if your submission halts on some instance within the allotted time and produces a solution that is known to be non-optimal, the submission will be disqualified.
 
-There are 200 benchmark instances, labeled instance001.gr to instance200.gr. Larger numbers in the filename should, as a rule of thumb, correspond to harder instances since the instances are ordered lexicographically by increasing (t,m) where t is the number of terminals and m is the number of edges. The odd instances are public and the even instances are secret. You can download the public instances [here](http://www.lamsade.dauphine.fr/~sikora/pace18/exactLowTerm.zip).
+There are 200 benchmark instances, labeled instance001.gr to instance200.gr. Larger numbers in the filename should, as a rule of thumb, correspond to harder instances since the instances are ordered lexicographically by increasing (t,m) where t is the number of terminals and m is the number of edges. The odd instances are public and the even instances are secret. You can download the public instances [here](http://www.lamsade.dauphine.fr/~sikora/pace18/exactLowTerm.zip) (update: the public and hidden instances can now be found on [github](https://github.com/PACE-challenge/SteinerTree-PACE-2018-instances)).
 
 Submitted implementations will essentially be executed as follows (reading from standard input, writing to standard output):
 
@@ -52,7 +52,7 @@ If your program is deterministic, it should ignore the option -s 4321; otherwise
 
 It is the same as track 1 except that all instances have low treewidth and a tree decomposition is given in the input file. On almost half of the instances, the provided tree decomposition has guaranteed minimum width. The details on how the decompositions are given can be found in Appendix A. They have been computed thanks to the winning implementations of the previous PACE challenge. Nothing prevents you from re-computing your own tree decomposition.
 
-There are 200 benchmark instances, labeled instance001 to instance200.gr. The instances are ordered lexicographically by increasing (b,m) where b is the maximum bag size of the given tree decomposition and m is the number of edges. The odd instances are public and the even instances are secret. You can download the public instances [here](http://www.lamsade.dauphine.fr/~sikora/pace18/exactLowTw.zip).
+There are 200 benchmark instances, labeled instance001 to instance200.gr. The instances are ordered lexicographically by increasing (b,m) where b is the maximum bag size of the given tree decomposition and m is the number of edges. The odd instances are public and the even instances are secret. You can download the public instances [here](http://www.lamsade.dauphine.fr/~sikora/pace18/exactLowTw.zip) (update: the public and hidden instances can now be found on [github](https://github.com/PACE-challenge/SteinerTree-PACE-2018-instances)).
 
 ### Evaluation and Ranking for the exact tracks
 
@@ -64,7 +64,7 @@ There are 200 benchmark instances, labeled instance001 to instance200.gr. The i
 
 The implementation you submit must compute a Steiner tree of the graph within the allotted time. You don’t need to implement a timer: We will send the Unix signal SIGTERM when the timeout is reached.
 
-There are 200 benchmark instances, labeled instance001 to instance200.gr. The odd instances are public and the even instances are secret. You can download the public instances [here](http://www.lamsade.dauphine.fr/~sikora/pace18/heuristic.zip).
+There are 200 benchmark instances, labeled instance001 to instance200.gr. The odd instances are public and the even instances are secret. You can download the public instances [here](http://www.lamsade.dauphine.fr/~sikora/pace18/heuristic.zip) (update: the public and hidden instances can now be found on [github](https://github.com/PACE-challenge/SteinerTree-PACE-2018-instances)).
 
 **SIGTERM**: When your process receives this signal, it must immediately print the current best Steiner tree to standard output and then halt. We will send the signal by issuing the following command:
 
