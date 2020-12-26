@@ -3,9 +3,10 @@ layout: page
 title: PACE 2018
 ---
 
-## Challenge Description
+## Challenge Details
 
--   [Steiner Tree](steiner-tree/)
+-   [Steiner Tree Challenge Description](/2018/steiner-tree/)
+-   [Steiner Tree Instances](https://github.com/PACE-challenge/SteinerTree-PACE-2018-instances)
 
 ## Outcomes
 
