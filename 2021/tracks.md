@@ -17,7 +17,7 @@ Your submission should find an optimal cluster editing (a set of edge modificati
 We expect your submission to be an exact algorithm, although we do not ask you to provide a proof of it.
 If for some instance your program returns a solution that is not optimal within the time limit, your submission will be disqualified.
 Moreover, if the output of your program for any instance turns out to be not a cluster editing, your submission will be disqualified as well.
-See also the [input format](#input-format).
+See also the [input format](#input-format) and [output format](#output-format-for-exact-track-and-heuristic-track).
 
 **Ranking method:**
 You will be ranked by the number of solved instances.
@@ -27,8 +27,8 @@ See also the [details on the benchmark instances](#benchmark-for-exact-track-and
 
 ## Heuristic Track
 
-Your submission should find a cluster editing (a set of edge modifications that turns the input graph into a cluster graph; see also the [problem description](/2021/cluster-editing/)) within 10 minutes.
-See also the [input format](#input-format).
+Your submission should find a cluster editing (a set of edge modifications that turns the input graph into a cluster graph; see also the [problem description](cluster-editing/)) within 10 minutes.
+See also the [input format](#input-format) and [output format](#output-format-for-exact-track-and-heuristic-track).
 
 **Termination:**
 Your program will receive the Unix signal SIGTERM on timeout.
@@ -70,10 +70,9 @@ graph and repeat until the graph is empty.
 
 **Output Format:**
 The output graph $G'$ has to be given in the same format as the input, i.e.,
-starting with a line with the number $n$ of vertices and $m$ edges and the
-subsequent $m$ lines being a list of edges where each line consists of two
-integers in the range $1$ to $n$.
-More details to be announced.
+the first line contains `p cep` followed by the number $n$ of vertices and $m$ edges (separated by a whitespace)
+and the subsequent $m$ lines contain a list of edges where each line consists of two integers in the range $1$ to $n$.
+See the [input format](#input-format) for the details.
 
 **Ranking method:**
 You will be ranked by the average over all instances of 100 × (best points) / (your points).
@@ -88,7 +87,7 @@ The input graph is given via the standard input, which follows the DIMACS-like .
 
 Lines are separated by the character `\n`. Each line that starts with the character `c` is considered to be a comment line.
 The first non-comment line must be a line starting with `p` followed by the problem descriptor `cep` and the number of vertices `n` and edges `m` (separated by a single space each time).
-No other line may start with `p`. Every other line indicates an edge, and must consist of two decimal integers from `1` to `n` separated by a space;
+No other line may start with `p`. Every other line represents an edge, and must consist of two decimal integers from `1` to `n` separated by a space;
 moreover, graphs are considered to be undirected. Multiple edges and loops are forbidden.
 For example, a path with four edges can be defined as follows:
 
@@ -101,6 +100,26 @@ c we are half-way done with the instance definition.
 3 4
 4 5
 ```
+
+## Output Format for Exact Track and Heuristic Track
+
+Every line must in the form `i j` followed by the new line character `\n`, where `i j` represents an edge modification.
+Here's some example:
+
+```
+1 2
+2 3
+3 4
+4 1
+```
+
+Use [this](/2021/verifier.zip) to verify whether the output is a cluster editing.
+To compile this verifier for Cluster Editing execute `make all` in the command line.
+Afterwards, there is an executable `verifier`. 
+The verifier takes two arguments: paths to an input graph file and a solution file containing a list of edges.
+It checks whether the graph is a cluster graph after the edge modifications in the solution file are made.
+Note that it does not check for optimality.
+
 ## Benchmark for Exact Track and Kernelization Track
 
 We use the same benchmark instances for evaluating Exact Track and Kernelization Track.
