@@ -27,7 +27,7 @@ See also the [details on the benchmark instances](#benchmark-for-exact-track-and
 
 ## Heuristic Track
 
-Your submission should find a cluster editing (a set of edge modifications that turns the input graph into a cluster graph; see also the [problem description](cluster-editing/)) within 10 minutes.
+Your submission should find a cluster editing (a set of edge modifications that turns the input graph into a cluster graph; see also the [problem description](/2021/cluster-editing/)) within 10 minutes.
 See also the [input format](#input-format) and [output format](#output-format-for-exact-track-and-heuristic-track).
 
 **Termination:**
@@ -41,7 +41,7 @@ You will be ranked by the average over all instances of 100 × (best solution si
 Here, (solution size) is the size of the solution returned by your submission and (best solution size) is the size of the smallest solution known to the PC committee (which may not be optimal).
 If the output of your program turns out to be not a cluster editing (or there is no output on SIGKILL) for some instance, (solution size) for the instance will be regarded as infinity (so you will receive no point).
 
-See also the [details on the benchmark instances](benchmark-for-heuristic-track).
+See also the [details on the benchmark instances](#benchmark-for-heuristic-track).
 
 ## Kernelization Track
 
