@@ -54,9 +54,9 @@ More precisely, for an input graph $G$, your submission has to return a graph $G
 Moreover, we provide four heuristics (see below for explanations and source code for these heuristics). Your submission has to use these heuristics to compute cluster editing sets $S_1', ..., S_4'$ for $G'$.
 From these solutions $S_1', ..., S_4'$, your submission has to compute solutions $S_1, ..., S_4$ for $G$ such that $|S_i| \le |S_i'| + d$ for each $i = 1, \dots, 4$.
 Your submission will be disqualified if $\mathrm{opt}(G) \ne \mathrm{opt}(G') + d$, $S_i$ is not correct, or $|S_i| > |S_i'| + d$ for any $i = 1, \dots, 4$.
-To verify $\mathrm{opt}(G) = \mathrm{opt}(G') + d$, an optimal solution for a Cluster Editing instance constructed by your submission is required.
-This is most likely infeasible on [optil.io](optil.io).
-Thus, participants need to verify this on their own machine.
+It is unfortunately impossible to verify $\mathrm{opt}(G) = \mathrm{opt}(G') + d$ on [optil.io](optil.io), since it requires an optimal solution for a Cluster Editing instance constructed by your submission.
+Rather, any submission will be accepted as long as $S_i$ is a cluster editing with $|S_i| \le |S_i'| + d$.
+Thus, participants need to ensure $\mathrm{opt}(G) = \mathrm{opt}(G') + d$ on their own machine.
 Final submission detected to violate this requirement will be disqualified.
 
 **Heuristics:**
@@ -69,15 +69,41 @@ graph and repeat until the graph is empty.
 4. Same as 3 but with $v$ being the vertex with the largest name.
 
 **Output Format:**
-The output graph $G'$ has to be given in the same format as the input, i.e.,
-the first line contains `p cep` followed by the number $n$ of vertices and $m$ edges (separated by a whitespace)
+The first line contains a single number $d$.
+The following lines contain the output graph $G' = (V', E')$, which has be given in the same way as the input, i.e.,
+the second line contains `p cep` followed by the number $n$ of vertices and $m$ edges (separated by a whitespace)
 and the subsequent $m$ lines contain a list of edges where each line consists of two integers in the range $1$ to $n$.
 See the [input format](#input-format) for the details.
+Then, $S_1, \dots S_4$ must be given in this order.
+The first line for $S_i$ contains $|S_i|$.
+For the following $|S_i|$ lines are in the form `i j` followed by the new line character `\n`, where `i j` represents an edge modification.
+Here is a dummy example.
+```
+1
+p cep 3 2
+1 2
+2 3
+2
+1 3
+4 5
+2
+1 3
+4 5
+2
+1 3
+4 5
+2
+1 3
+4 5
+```
+Note that in the final submission (to EasyChair), the output should only contain the first $|E'| + 2$ lines.
 
 **Ranking method:**
 You will be ranked by the average over all instances of 100 × (best points) / (your points).
-Here, (your points) is $1 + (|V'| + |E'|) / d$, where $(V', E')$ is the graph returned by your submission and (best points) is the smallest points among all submissions.
-Note that +1 in (your points) guarantees the positive amount of points (to avoid division by 0).
+Here, (your points) is $(|V'| + |E'| + 1) / (d + 1)$, where $(V', E')$ is the graph returned by your submission and (best points) is the smallest points among all submissions.
+Note that +1 in (your points) is included to avoid division by 0.
+
+(March 26th: Ranking method has been updated.)
 
 See also the [details on the benchmark instances](#benchmark-for-exact-track-and-kernelization-track).
 
