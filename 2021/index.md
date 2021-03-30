@@ -33,14 +33,20 @@ You will be ranked by the size of the returned instance.
 
 You can find more details on the ranking methods [here](tracks/).
 
+## Submission
+
+You submit your solver to [optil.io](https://optil.io/) and its description to [EasyChair](https://easychair.org/conferences/?conf=pace2021).
+See [submission requirements](submissions/) for details.
+
 ## Timeline
 
 - October 22nd, 2020: Announcement of the challenge (Problem)
 - November 2020: Announcement of the tracks and additional information
-- November/December 2020: Public instances are available
-- TBA: Submission via [optil.io](https://optil.io/) is open (for testing and unofficial, auxiliary leaderboard)
-- TBA, 2021: Submission of the final version (solver description due two weeks after the source code)
-- TBA, 2021: Announcement of the results
+- December 2020: Public instances are available
+- March 2021: Submission via [optil.io](https://optil.io/) is open (for testing and unofficial, auxiliary leaderboard)
+- June 1st, 2021 (AoE): Submission deadline for solver
+- June 15th, 2021 (AoE): Submission deadline for solver description
+- July, 2021: Announcement of the results
 - September 2021: Award ceremony at the International Symposium on Parameterized and Exact Computation (IPEC 2021) 
 
 <!--

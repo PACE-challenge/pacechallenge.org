@@ -45,13 +45,16 @@ See also the [details on the benchmark instances](#benchmark-for-heuristic-track
 
 ## Kernelization Track
 
-Our goal for this track is to develop efficient and effective preprocessing software that can be combined with exact or heuristic algorithms.
+Our goal for this track is to develop efficient and effective preprocessing software that can be combined with exact or heuristic algorithms
 (see also [discussion](#appendix-discussion-on-kernelization-track)).
 Your submission should return a smaller "equivalent instance" to the one given as input within 5 minutes.
-Moreover, your submission should also be able to efficiently compute a solution for the input graph given a (not necessarily optimal) solution for the equivalent instance constructed by your submission.
+Moreover, your submission should contain a "solution-lifting algorithm" that efficiently computes a solution for the input graph given a (not necessarily optimal) solution for the equivalent instance constructed by your submission.
 
-More precisely, for an input graph $G$, your submission has to return a graph $G'$ and a number $d$ such that $\mathrm{opt}(G) = \mathrm{opt}(G') + d$, where $\mathrm{opt}(H)$ denotes the minimum number of edge modifications to required to turn $H$ into a cluster graph (cf. see also the [problem description](/2021/cluster-editing/)) for the graph $H$.
-Moreover, we provide four heuristics (see below for explanations and source code for these heuristics). Your submission has to use these heuristics to compute cluster editing sets $S_1', ..., S_4'$ for $G'$.
+More precisely, for an input graph $G$, your submission has to return a number $d$ and a graph $G'$ such that $\mathrm{opt}(G) = \mathrm{opt}(G') + d$, where $\mathrm{opt}(H)$ denotes the minimum number of edge modifications to required to turn $H$ into a cluster graph (cf. see also the [problem description](/2021/cluster-editing/)) for the graph $H$.
+
+**Submission to optil.io:**
+Since two programs cannot be verified together on optil.io, we use the following adjusted requirements (only for [optil.io](optil.io), not final submission).
+We provide four heuristics (see below for explanations and source code for these heuristics). Your submission has to use these heuristics to compute cluster editing sets $S_1', ..., S_4'$ for $G'$.
 From these solutions $S_1', ..., S_4'$, your submission has to compute solutions $S_1, ..., S_4$ for $G$ such that $|S_i| \le |S_i'| + d$ for each $i = 1, \dots, 4$.
 Your submission will be disqualified if $\mathrm{opt}(G) \ne \mathrm{opt}(G') + d$, $S_i$ is not correct, or $|S_i| > |S_i'| + d$ for any $i = 1, \dots, 4$.
 It is unfortunately impossible to verify $\mathrm{opt}(G) = \mathrm{opt}(G') + d$ on [optil.io](optil.io), since it requires an optimal solution for a Cluster Editing instance constructed by your submission.
@@ -61,7 +64,7 @@ Final submission detected to violate this requirement will be disqualified.
 
 **Heuristics:**
 1. Delete all edges.
-2. Insert all nonedges. (Together with heuristic 1 this ensures that no
+2. Insert all nonedgpes. (Together with heuristic 1 this ensures that no
 edge is handled equally in all heuristics.)
 3. Greedy: Take vertex $v$ with smallest name (vertices are named $1$ to $n$),
 make $N[v]$ a clique in the resulting cluster graph. Delete $N[v]$ from the
@@ -96,7 +99,12 @@ p cep 3 2
 1 3
 4 5
 ```
-Note that in the final submission (to EasyChair), the output should only contain the first $|E'| + 2$ lines.
+
+**Final submission:**
+In the source code referred in the submission to [EasyChair](https://easychair.org/conferences/?conf=pace2021), the output should only contain the first $|E'| + 2$ lines, i.e. the lines for $S_1, \dots S_4$ should be excluded.
+Note that a "solution-lifting algorithm" must be included as well.
+Your "solution-lifting algorithm" gets as input the input graph, the output of your kernelization, and a heuristic solution $S'$ for the kernel and needs to compute a solution $S$ for the input graph with $|S| \le |S'| + d$.
+The format of $S$ and $S'$ does not include the respective size (unlike in the optil.io variant), instead we use the format as specified in [Output Format for Exact Track and Heuristic Track](#output-format-for-exact-track-and-heuristic-track).
 
 **Ranking method:**
 You will be ranked by the average over all instances of 100 × (best points) / (your points).
