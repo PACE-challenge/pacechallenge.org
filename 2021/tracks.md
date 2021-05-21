@@ -101,11 +101,26 @@ p cep 3 2
 ```
 
 **Final submission:**
-In the source code referred in the submission to [EasyChair](https://easychair.org/conferences/?conf=pace2021), the output should only contain the first $|E'| + 2$ lines, i.e. the lines for $S_1, \dots S_4$ should be excluded.
+In the source code submitted to [EasyChair](https://easychair.org/conferences/?conf=pace2021), the output should only contain the first $|E'| + 2$ lines, i.e. the lines for $S_1, \dots S_4$ should be excluded.
 Your output may contain comment lines, starting with the character `c`.
 Note that a "solution-lifting algorithm" must be included as well.
-Your "solution-lifting algorithm" gets as input the input graph, the output of your kernelization, and a heuristic solution $S'$ for the kernel and needs to compute a solution $S$ for the input graph with $|S| \le |S'| + d$.
+The input for "solution-lifting algorithm" has three parts: 1. the input graph, 2. the output of your kernelization, and 3 a heuristic solution $S'$ for the kernel.
 The format of $S$ and $S'$ does not include the respective size (unlike in the optil.io variant), instead we use the format as specified in [Output Format for Exact Track and Heuristic Track](#output-format-for-exact-track-and-heuristic-track).
+For part 3, every line is in the form `i j` followed by the new line character `\n`, where `i j` represents an edge modification.
+There are two lines consisting of `#` to indicate the end of first part and second part.
+Here is an example.
+```
+p cep 3 2
+1 2
+2 3
+#
+p cep 2 1
+1 2
+#
+1 3
+```
+Your "solution-lifting algorithm" needs to compute a solution $S$ for the input graph with $|S| \le |S'| + d$.
+For the output, use the same format as [Exact Track and Heuristic Track](#output-format-for-exact-track-and-heuristic-track).
 
 **Ranking method:**
 You will be ranked by the average over all instances of 100 × (best points) / (your points).
