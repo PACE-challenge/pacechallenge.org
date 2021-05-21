@@ -104,9 +104,11 @@ p cep 3 2
 In the source code submitted to [EasyChair](https://easychair.org/conferences/?conf=pace2021), the output should only contain the first $|E'| + 2$ lines, i.e. the lines for $S_1, \dots S_4$ should be excluded.
 Your output may contain comment lines, starting with the character `c`.
 Note that a "solution-lifting algorithm" must be included as well.
-The input for "solution-lifting algorithm" has three parts: 1. the input graph, 2. the output of your kernelization, and 3 a heuristic solution $S'$ for the kernel.
-The format of $S$ and $S'$ does not include the respective size (unlike in the optil.io variant), instead we use the format as specified in [Output Format for Exact Track and Heuristic Track](#output-format-for-exact-track-and-heuristic-track).
-For part 3, every line is in the form `i j` followed by the new line character `\n`, where `i j` represents an edge modification.
+The input for "solution-lifting algorithm" has three parts:
+1. The input graph (see [Input Format](#input-format))
+2. The output of your kernelization (see above).
+3. A heuristic solution $S'$ for the kernel (every line is in the form `i j` followed by the new line character `\n`, where `i j` represents an edge modification).
+
 There are two lines consisting of `#` to indicate the end of first part and second part.
 Here is an example.
 ```
@@ -114,6 +116,7 @@ p cep 3 2
 1 2
 2 3
 #
+3
 p cep 2 1
 1 2
 #
