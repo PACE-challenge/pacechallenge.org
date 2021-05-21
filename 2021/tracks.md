@@ -116,11 +116,11 @@ p cep 3 2
 1 2
 2 3
 #
-3
+1
 p cep 2 1
 1 2
 #
-1 3
+1 2
 ```
 Your "solution-lifting algorithm" needs to compute a solution $S$ for the input graph with $|S| \le |S'| + d$.
 For the output, use the same format as [Exact Track and Heuristic Track](#output-format-for-exact-track-and-heuristic-track).
