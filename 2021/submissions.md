@@ -19,7 +19,7 @@ title: Submission requirements (2021)
 5. Submissions Solver: 
    1. Submission via [optil.io](https://www.optil.io/), please refer to the SUBMITTING SOLUTION section of optil.io [help page](https://www.optil.io/optilion/help)
    2. Register solver and participants via [EasyChair](https://easychair.org/conferences/?conf=pace2021)
-   3. Create a release in the public repository of the solver (name: pace-2020)
+   3. Create a release in the public repository of the solver (name: pace-2021)
 6. Submission Description: 
    1. Place the source code of the solver in a digital library (e.g., [Zenodo](https://zenodo.org/)) and generate a DOI 
    2. Submit the solver description via [EasyChair](https://easychair.org/conferences/?conf=pace2021) use DOI to refer to the solver and include a reference to the public source code repository 
