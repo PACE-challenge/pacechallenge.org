@@ -39,7 +39,7 @@ In March 2017, we will publish a *leaderboard*, that is, a ranking of all prelim
 
 The implementation you submit should compute an optimal tree decomposition of the given graph. We anticipate submissions to be based on a provably optimal algorithm, although we do not make this a formal requirement. Instead, if your submission halts on some instance within the allotted time and produces a solution that is known to be non-optimal, the submission will be disqualified. We also do not prescribe the algorithmic paradigm that is to be used; if a SAT-solver based submission consistently outperforms more direct approaches, this will be valuable information.
 
-There are 200 benchmark instances, labeled ex001.gr to ex200.gr. Larger numbers in the filename should (as a rule of thumb) correspond to harder instances. The odd instances are public and the even instances are secret. You can download the public instances at <https://people.mmci.uni-saarland.de/~hdell/pace17/ex-instances-PACE2017-public-2016-12-02.tar.bz2>. All instances are based on real-world data, but about 50 were boosted in hardness using a natural random process. For verification and precommitment purposes, we also publish the sha1sum of the public and secret archives:
+There are 200 benchmark instances, labeled ex001.gr to ex200.gr. Larger numbers in the filename should (as a rule of thumb) correspond to harder instances. The odd instances are public and the even instances are secret. You can download the instances at <https://github.com/PACE-challenge/Treewidth-PACE-2017-instances>. All instances are based on real-world data, but about 50 were boosted in hardness using a natural random process. For verification and precommitment purposes, we also publish the sha1sum of the public and secret archives:
 
     41659bfd2af78296419468a4dbe7334a9466b437 ex-instances-PACE2017-public-2016-12-02.tar.bz2
     cd14c2eab0eae8415cbc5265a3227ce19c3b8ea5 ex-instances-PACE2017-secret-2016-12-02.tar.bz2
@@ -68,7 +68,7 @@ If your program is deterministic, it should ignore the option -s 4321; otherwise
 
 The implementation you submit must compute a tree decomposition of the graph within the allotted time. <span style="font-weight:400;">You don’t need to implement a timer: We will send the Unix signal SIGTERM when the timeout is reached.</span>
 
-There are 200 benchmark instances, labeled he001.gr to he200.gr. The odd instances are public and the even instances are secret. You can download the public instances at <https://people.mmci.uni-saarland.de/~hdell/pace17/he-instances-PACE2017-public-2016-12-02.tar.bz2> (~1 GB when extracted). For verification and precommitment purposes, we also publish the sha1sum of the public and secret archives:
+There are 200 benchmark instances, labeled he001.gr to he200.gr. The odd instances are public and the even instances are secret. You can download the instances at <https://github.com/PACE-challenge/Treewidth-PACE-2017-instances> (~1 GB when extracted). For verification and precommitment purposes, we also publish the sha1sum of the public and secret archives:
 
     4ac30341a54bc0ced46c1294882cd820589b660f  he-instances-PACE2017-public-2016-12-02.tar.bz2
     28e5dd3c67db617076ff50ec3faa68f85e4ac005  he-instances-PACE2017-secret-2016-12-02.tar.bz2
