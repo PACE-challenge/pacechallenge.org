@@ -24,17 +24,18 @@ of algorithm engineering
 
 ### Steering Committee
 
-- (since 2017) [Édouard Bonnet](https://www.lamsade.dauphine.fr/~bonnet/) (LIP, ENS Lyon)
 - (since 2016) [Holger Dell](https://holgerdell.com) (Goethe University Frankfurt and IT University of Copenhagen)
 - (since 2019) [Johannes Fichte](https://iccl.inf.tu-dresden.de/web/Johannes_Fichte) (Technische Universität Dresden)
 - (since 2019) [Markus Hecher](https://www.dbai.tuwien.ac.at/staff/hecher/) (Technische Universität Wien)
 - (since 2016) [Bart M. P. Jansen](https://www.win.tue.nl/~bjansen/) (chair) (Eindhoven University of Technology)
 - (since 2020) [Łukasz Kowalik](https://www.mimuw.edu.pl/~kowalik/) (University of Warsaw)
+- (since 2021) [André Nichterlein](https://www.akt.tu-berlin.de/menue/team/nichterlein_andre/) (Technical University of Berlin)
 - (since 2020) [Marcin Pilipczuk](https://www.mimuw.edu.pl/~malcin/) (University of Warsaw)
 - (since 2020) [Manuel Sorge](https://manyu.pro/) (Technische Universität Wien)
 
 ### Former members
 
+- (2017-2021) [Édouard Bonnet](http://perso.ens-lyon.fr/edouard.bonnet/) (LIP, ENS Lyon)
 - (2016-2019) [Thore Husfeldt](https://thorehusfeldt.com/) (IT University of Copenhagen and Lund University)
 - (2016-2020) [Petteri Kaski](https://users.ics.aalto.fi/pkaski/) (Aalto University)
 - (2016-2020) [Christian Komusiewicz](https://www.uni-marburg.de/fb12/arbeitsgruppen/algorithmik/index_html?language_sync=1) (Philipps-Universität Marburg)
