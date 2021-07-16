@@ -46,7 +46,7 @@ See [submission requirements](submissions/) for details.
 - March 2021: Submission via [optil.io](https://optil.io/) is open (for testing and unofficial, auxiliary leaderboard)
 - June 1st, 2021 (AoE): Submission deadline for solver
 - June 15th, 2021 (AoE): Submission deadline for solver description
-- July, 2021: Announcement of the results
+- July 16th: Announcement of the [results](results/)
 - September 2021: Award ceremony at the International Symposium on Parameterized and Exact Computation (IPEC 2021) 
 
 <!--
