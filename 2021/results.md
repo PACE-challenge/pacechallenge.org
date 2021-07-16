@@ -34,10 +34,10 @@ This page contains the results of [PACE 2021](/2021/) cluster editing challenge.
 5 | Emir Demirović | Delft University of Technology (Netherlands) | Kanpai | 99.9793 | [Link](https://bitbucket.org/EmirD/pace-2021/)
 6 | Ben Strasser | -- | CELMEC | 99.9704 | [Link](https://github.com/ben-strasser/cluster-editing-pace2021)
 7 | Angus Ritossa, Paula Tennent, Tiana Tsang Ung, Akshay Valluru | UNSW Sydney (Australia) | angus | 99.8420 | [Link](https://bitbucket.org/randomsampling/pace21/)
-9 | Sachin Agarwal, Sahil Bajaj, Ojasv Singh, Srinibas Swain | IIIT Guwahati (India) | CoRBeC | 99.6591 | [Link](https://github.com/sahilbajaj82/PACE-2021-Cluster-Editing)
-10 | Václav Blažej, Radovan Červený, Dušan Knop, Jan Pokorný, Šimon Schierreich, Ondřej Suchý | Czech Technical University in Prague (Czech Republic) | GOAT | 99.4749 | [Link](https://gitlab.fit.cvut.cz/pace-challenge/2021/goat/heuristic)
-11 | Jona Dirks, Mario Grobler, Tobias Meis, Roman Rabinovich, Yannik Schnaubelt, Sebastian Siebertz, Maximilian Sonneborn | University of Bremen (Germany), Technische Universität Berlin (Germany) | PACA-JAVA | 88.1243 | [Link](https://gitlab.informatik.uni-bremen.de/parametrisierte-algorithmen/java/pace-2021-paca-java)
-12 | Joshua Harmsen, A.J. Zuckerman | Hamilton College (USA) | -- | 77.47654008695335 | [Link](https://github.com/joshuaharmsen845/PACE-Challenge/tree/sol1)
+8 | Sachin Agarwal, Sahil Bajaj, Ojasv Singh, Srinibas Swain | IIIT Guwahati (India) | CoRBeC | 99.6591 | [Link](https://github.com/sahilbajaj82/PACE-2021-Cluster-Editing)
+9 | Václav Blažej, Radovan Červený, Dušan Knop, Jan Pokorný, Šimon Schierreich, Ondřej Suchý | Czech Technical University in Prague (Czech Republic) | GOAT | 99.4749 | [Link](https://gitlab.fit.cvut.cz/pace-challenge/2021/goat/heuristic)
+10 | Jona Dirks, Mario Grobler, Tobias Meis, Roman Rabinovich, Yannik Schnaubelt, Sebastian Siebertz, Maximilian Sonneborn | University of Bremen (Germany), Technische Universität Berlin (Germany) | PACA-JAVA | 88.1243 | [Link](https://gitlab.informatik.uni-bremen.de/parametrisierte-algorithmen/java/pace-2021-paca-java)
+11 | Joshua Harmsen, A.J. Zuckerman | Hamilton College (USA) | -- | 77.47654008695335 | [Link](https://github.com/joshuaharmsen845/PACE-Challenge/tree/sol1)
 
 ## Kernel track
 
