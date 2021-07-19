@@ -21,7 +21,7 @@ This page contains the results of [PACE 2021](/2021/) cluster editing challenge.
 -- | Moritz Lichter, Oliver Bachtler, Tim Bergner, Irene Heinrich, Alexander Schiewe | TU Darmstadt (Germany), TU Kaiserslautern (Germany) | Alphabetic | DQ | [Link](https://gitlab.rlp.net/aschiewe/alphabetic)
 -- | Mario Grobler, Roman Rabinovich, Sebastian Siebertz | University of Bremen (Germany), Technische Universität Berlin (Germany) | PACA-CPP | DQ | [Link](https://gitlab.informatik.uni-bremen.de/parametrisierte-algorithmen/cc/pace-2021-paca-cpp)
 -- | Sachin Agarwal, Sahil Bajaj, Ojasv Singh, Srinibas Swain | IIIT Guwahati (India) | CLIPWS | DQ | [Link](https://github.com/sachin-4099/PACE_2021_ClusterEditing)
--- | Kenneth Dietrich, Mario Grobler,  Ozan Heydt, Roman Rabinovich, Sebastian Siebertz, Nick Siering, Leon Stichternath, Julian Tat | University of Bremen (Germany), Technische Universität Berlin (Germany) | PACA-RUST-exact | DQ | [Link](https://gitlab.informatik.uni-bremen.de/parametrisierte-algorithmen/rust/ceperus/-/tree/v1.0.0)
+-- | Kenneth Dietrich, Mario Grobler,  Ozan Heydt, Roman Rabinovich, Sebastian Siebertz, Nick Siering, Leon Stichternath, Julian Tat | University of Bremen (Germany), Technische Universität Berlin (Germany) | PACA-RUST-exact | DQ | [Link](https://gitlab.informatik.uni-bremen.de/parametrisierte-algorithmen/rust/ceperus/-/tree/v2.0.0)
 
 ## Heuristic track
 
@@ -37,12 +37,14 @@ This page contains the results of [PACE 2021](/2021/) cluster editing challenge.
 8 | Sachin Agarwal, Sahil Bajaj, Ojasv Singh, Srinibas Swain | IIIT Guwahati (India) | CoRBeC | 99.6591 | [Link](https://github.com/sahilbajaj82/PACE-2021-Cluster-Editing)
 9 | Václav Blažej, Radovan Červený, Dušan Knop, Jan Pokorný, Šimon Schierreich, Ondřej Suchý | Czech Technical University in Prague (Czech Republic) | GOAT | 99.4749 | [Link](https://gitlab.fit.cvut.cz/pace-challenge/2021/goat/heuristic)
 10 | Jona Dirks, Mario Grobler, Tobias Meis, Roman Rabinovich, Yannik Schnaubelt, Sebastian Siebertz, Maximilian Sonneborn | University of Bremen (Germany), Technische Universität Berlin (Germany) | PACA-JAVA | 88.1243 | [Link](https://gitlab.informatik.uni-bremen.de/parametrisierte-algorithmen/java/pace-2021-paca-java)
-11 | Joshua Harmsen, A.J. Zuckerman | Hamilton College (USA) | -- | 77.47654008695335 | [Link](https://github.com/joshuaharmsen845/PACE-Challenge/tree/sol1)
+11 | Joshua Harmsen, A.J. Zuckerman | Hamilton College (USA) | -- | 77.4765 | [Link](https://github.com/joshuaharmsen845/PACE-Challenge/tree/sol1)
 
 ## Kernel track
 
+| Rank |  Team | Institute | Solver | Points | git repo |
+|--|--|--|--|--|--|
 1 | Sylwester Swat | Poznań University of Technology (Poland) | CluES | 65.4439     | [Link](https://github.com/swacisko/pace-2021)
--- | Václav Blažej, Radovan Červený, Dušan Knop, Jan Pokorný, Šimon Schierreich, Ondřej Suchý | Czech Technical University in Prague (Czech Republic) | GOAT | DQ | [Link](https://gitlab.fit.cvut.cz/pace-challenge/2021/goat/exact)
+-- | Václav Blažej, Radovan Červený, Dušan Knop, Jan Pokorný, Šimon Schierreich, Ondřej Suchý | Czech Technical University in Prague (Czech Republic) | GOAT | DQ | [Link](https://gitlab.fit.cvut.cz/pace-challenge/2021/goat/kernelization)
 -- | Kenneth Dietrich, Mario Grobler,  Ozan Heydt, Roman Rabinovich, Sebastian Siebertz, Nick Siering, Leon Stichternath, Julian Tat | University of Bremen (Germany), Technische Universität Berlin (Germany) | PACA-RUST-kernel | DQ | [Link](https://gitlab.informatik.uni-bremen.de/parametrisierte-algorithmen/rust/ceperus/-/tree/v2.0.0)
 -- | Jona Dirks, Mario Grobler, Tobias Meis, Roman Rabinovich, Yannik Schnaubelt, Sebastian Siebertz, Maximilian Sonneborn | University of Bremen (Germany), Technische Universität Berlin (Germany) | PACA-JAVA | DQ | [Link](https://gitlab.informatik.uni-bremen.de/parametrisierte-algorithmen/java/pace-2021-paca-java)
 -- | Valentin Bartier, Gabriel Bathie, Nicolas Bousquet, Marc Heinrich, Théo Pierron, Ulysse Prieto | Grenoble INP (France), École Normale Supérieure de Lyon (France), Université de Lyon (France), University of Leeds (UK) | PaSTEC | DQ | [Link]( https://framagit.org/theo_pierron/pace-2021)
