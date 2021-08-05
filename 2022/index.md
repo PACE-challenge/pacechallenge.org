@@ -4,7 +4,7 @@ title: "PACE 2022"
 sidebar_link: false
 sidebar_sort_order: 8
 ---
-## Challenge description
+## Challenge Description
 
 The challenge for this year is **Directed Feedback Vertex Set**:
 
