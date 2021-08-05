@@ -12,7 +12,7 @@ Thus a feedback vertex set of a graph is a set of vertices whose deletion leaves
 
 ### Example
 
-![Example]("/2022/img/examplemergedscaled.png)
+![Example](/2022/img/examplemergedscaled.png)
 
 In this example, deleting/removing the red vertex in the left graph and its edges, results in the graph on the right hand side and leaves the remaining graph without any cycles.
 
