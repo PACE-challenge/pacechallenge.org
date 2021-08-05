@@ -12,7 +12,7 @@ Thus a feedback vertex set of a graph is a set of vertices whose deletion leaves
 
 ### Example
 
-<img src="/2022/img/example.png" alt="example" style="float: left; width:200px;"/>
+<img src="/2022/img/example.png" alt="example" style="float: left; width:200px; margin-right: 3%;"/>
 <img src="/2022/img/exampleremoved.png" alt="exampleremoved" style="float: left; width:200px;"/>
 <p style="clear: both;">
 
