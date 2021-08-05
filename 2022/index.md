@@ -8,8 +8,9 @@ sidebar_sort_order: 8
 
 The challenge for this year is **Directed Feedback Vertex Set**:
 
-**Input:** A directed graph $G = (V, E)$ and a positive integer $k$. <br/>
-**Output:** Is there a subset $X \subseteq V$ with $|X| \leq k$ such that, when all vertices of $X$ and their adjacent edges are deleted from $F$, the remainder is cycle-free?
+**Input:** A directed graph $G = (V, E)$. <br/>
+**Output:** Find the smallest subset $X \subseteq V$ such that, when all vertices of $X$ and their adjacent edges are deleted from $F$, the remainder is cycle-free.
+
 
 You can find more details on Directed Feedback Vertex Set [here](directed-fvs/).
 
@@ -18,7 +19,7 @@ You can find more details on Directed Feedback Vertex Set [here](directed-fvs/).
 As in PACE 2021, we will have one track for **Exact** algorithms and another for **Heuristic** algorithms.
 
 **Exact:**
-Your task is to find an optimal solution of each Directed Feedback Vertex Set instance within the time limit of 10 minutes.
+Your task is to find an optimal solution of each Directed Feedback Vertex Set instance within the time limit of 30 minutes.
 You will be ranked by the number of solved instances.
 
 **Heuristic:**
@@ -36,7 +37,7 @@ See [submission requirements](submissions/) for details.
 -->
 ## Timeline
 
-- October 2021: Announcement of the challenge (Problem)
+- September 2021: Announcement of the challenge (Problem)
 - November 2021: Announcement of the tracks and additional information
 - December 2021: Public instances are available
 - March 2022: Submission via [optil.io](https://optil.io/) is open (for testing and unofficial, auxiliary leaderboard)
