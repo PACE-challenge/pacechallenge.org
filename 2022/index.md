@@ -11,7 +11,7 @@ The challenge for this year is **Directed Feedback Vertex Set**:
 **Input:** A directed graph $G = (V, E)$ and a positive integer $k$. <br/>
 **Output:** Is there a subset $X \subseteq V$ with $|X| \leq k$ such that, when all vertices of $X$ and their adjacent edges are deleted from $F$, the remainder is cycle-free?
 
-<!--You can find more details on Directed Feedback Vertex Set [here](directed-fvs/).-->
+You can find more details on Directed Feedback Vertex Set [here](directed-fvs/).
 
 ## Tracks
 
