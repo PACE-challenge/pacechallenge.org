@@ -4,57 +4,51 @@ title: "PACE 2022"
 sidebar_link: false
 sidebar_sort_order: 8
 ---
-<!--text from PACE 2021
 ## Challenge description
 
-The challenge for this year is **not yet announced**:
+The challenge for this year is **Directed Feedback Vertex Set**:
 
-**Input:** An undirected graph $G = (V, E)$. <br/>
-**Output:**
+**Input:** A directed graph $G = (V, E)$ and a positive integer $k$. <br/>
+**Output:** Is there a subset $X \subseteq V$ with $|X| \leq k$ such that, when all vertices of $X$ and their adjacent edges are deleted from $F$, the remainder is cycle-free?
 
-You can find more details on Cluster Editing [here](cluster-editing/).
+<!--You can find more details on Directed Feedback Vertex Set [here](directed-fvs/).-->
 
 ## Tracks
 
-As in PACE 2020, we will have one track for **Exact** algorithms and another for **Heuristic** algorithms.
-In addition, we will have another track for **Data Reduction** algorithms:
+As in PACE 2021, we will have one track for **Exact** algorithms and another for **Heuristic** algorithms.
 
 **Exact:**
-Your task is to find an optimal solution of each Cluster Editing instance within the time limit of 30 minutes.
+Your task is to find an optimal solution of each Directed Feedback Vertex Set instance within the time limit of 10 minutes.
 You will be ranked by the number of solved instances.
 
 **Heuristic:**
-Your task is to find the best solution of each Cluster Editing instance within the time limit of 10 minutes.
+Your task is to find the best solution of each Directed Feedback Vertex Set instance within the time limit of 10 minutes.
 You will be ranked by the quality of the solution.
 
-**Kernelization:**
-Your task is to find an equivalent instance of each Cluster Editing instance within the time limit of 5 minutes.
-You will be ranked by the size of the returned instance.
+<!--You can find more details on the ranking methods [here](tracks/).-->
 
-You can find more details on the ranking methods [here](tracks/).
-
+<!--text from PACE 2021
 ## Submission
 
 You submit your solver to [optil.io](https://optil.io/) and its description to [EasyChair](https://easychair.org/conferences/?conf=pace2021).
 See [submission requirements](submissions/) for details.
 
+-->
 ## Timeline
 
-- October 22nd, 2020: Announcement of the challenge (Problem)
-- November 2020: Announcement of the tracks and additional information
-- December 2020: Public instances are available
-- March 2021: Submission via [optil.io](https://optil.io/) is open (for testing and unofficial, auxiliary leaderboard)
-- June 1st, 2021 (AoE): Submission deadline for solver
-- June 15th, 2021 (AoE): Submission deadline for solver description
-- July, 2021: Announcement of the results
-- September 2021: Award ceremony at the International Symposium on Parameterized and Exact Computation (IPEC 2021) 
+- October 2021: Announcement of the challenge (Problem)
+- November 2021: Announcement of the tracks and additional information
+- December 2021: Public instances are available
+- March 2022: Submission via [optil.io](https://optil.io/) is open (for testing and unofficial, auxiliary leaderboard)
+- June 1st, 2022 (AoE): Submission deadline for solver
+- June 15th, 2022 (AoE): Submission deadline for solver description
+- July, 2022: Announcement of the results
+- September 2022: Award ceremony at the International Symposium on Parameterized and Exact Computation (IPEC 2021) 
 
-<!--
-## Prizes
-
-TBA
--->
 
 ## Program Committee
 
 - [Christian Schulz](https://schulzchristian.github.io/) (chair) (Universität Heidelberg)
+- [Darren Strash](https://darrenstrash.github.io/) (Hamilton College)
+- [Tobias Heuer](https://algo2.iti.kit.edu/heuer.php) (Karlsruher Institut für Technologie)
+- [Ernestine Großmann](https://ae.ifi.uni-heidelberg.de/ernestine.html) (Universität Heidelberg)
