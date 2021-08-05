@@ -8,3 +8,11 @@ The Directed Feedback Vertex Set Problem is defined as follows:
 **Output:** Is there a subset $X \subseteq V$ with $|X| \leq k$ such that, when all vertices of $X$ and their adjacent edges are deleted from $F$, the remainder is cycle-free?
 
 Thus a feedback vertex set of a graph is a set of vertices whose deletion leaves a graph cycle-free.
+
+### Example
+
+![Example](/2022/img/example.png)
+
+In this example, deleting/removing the red vertex and its edges leaves the remaining graph without any cycles.
+
+
