@@ -26,7 +26,7 @@ The Directed Feedback Vertex Set Problem has a wide range of applications includ
 ### Literature
 
  - Karp, Richard M. (1972), "Reducibility Among Combinatorial Problems", Proc. Symposium on Complexity of Computer Computations, IBM Thomas J. Watson Res. Center, Yorktown Heights, N.Y., New York: Plenum, pp. 85--103
- - Razgon, I. (2007), "Computing minimum directed feedback vertex set in O*(1.9977n)", in Proceedings of the 10th Italian Conference on Theoretical Computer Science, World Scientific, pp. 70–81
+ - Razgon, I. (2007), "Computing minimum directed feedback vertex set in $O^*(1.9977^n)$", in Proceedings of the 10th Italian Conference on Theoretical Computer Science, World Scientific, pp. 70–81
  - Chen, Jianer; Liu, Yang; Lu, Songjian; O'Sullivan, Barry; Razgon, Igor (2008), "A fixed-parameter algorithm for the directed feedback vertex set problem", Journal of the ACM, 55 (5), Art. 21
 
 
