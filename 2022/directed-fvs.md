@@ -14,7 +14,7 @@ Thus a feedback vertex set of a graph is a set of vertices whose deletion leaves
 
 <img src="/2022/img/example.png" alt="example" style="float: left; width:200px; margin-right: 3%;"/>
 <img src="/2022/img/exampleremoved.png" alt="exampleremoved" style="float: left; width:200px;"/>
-<p style="clear: both;">
+<!--<p style="clear: both;">-->
 
 In this example, deleting/removing the red vertex in the left graph and its edges, results in the graph on the right hand side and leaves the remaining graph without any cycles.
 
@@ -25,6 +25,7 @@ The Directed Feedback Vertex Set Problem has a wide range of applications includ
 
 ### Literature
 
+ - Karp, Richard M. (1972), "Reducibility Among Combinatorial Problems", Proc. Symposium on Complexity of Computer Computations, IBM Thomas J. Watson Res. Center, Yorktown Heights, N.Y., New York: Plenum, pp. 85--103
  - Razgon, I. (2007), "Computing minimum directed feedback vertex set in O*(1.9977n)", in Proceedings of the 10th Italian Conference on Theoretical Computer Science, World Scientific, pp. 70–81
  - Chen, Jianer; Liu, Yang; Lu, Songjian; O'Sullivan, Barry; Razgon, Igor (2008), "A fixed-parameter algorithm for the directed feedback vertex set problem", Journal of the ACM, 55 (5), Art. 21
 
