@@ -18,7 +18,7 @@ Thus a feedback vertex set of a graph is a set of vertices whose deletion leaves
 
 In this example, deleting/removing the red vertex in the left graph and its edges, results in the graph on the right hand side and leaves the remaining graph without any cycles.
 
-<!--## Background -->
+### Background 
 
 <!--The Directed Feedback Vertex Set Problem has a wide range of applications including deadlock detection, program verification and VLSI chip design.  The problem is NP-complete even if restricted to graphs with maximum in- and out-degree two. The corresonding optimizion problem, i.e. finding the smallest cardinality feedback vertex set, can be solved in $O^*(1.9977^{|V|})$ due to an algorithm by Razgon. Chen et al. have shown that the problem is fixed-parameter tracktable if parameterized with the solution size $k$, i.e. Chen et al. develop an algorithm with running time $4^kk!n^{O(1)}$.-->
 
