@@ -16,7 +16,7 @@ You can find more details on Directed Feedback Vertex Set [here](directed-fvs/).
 
 ## Tracks
 
-As in PACE 2021, we will have one track for **Exact** algorithms and another for **Heuristic** algorithms.
+We will have one track for **Exact** algorithms and another for **Heuristic** algorithms.
 
 **Exact:**
 Your task is to find an optimal solution of each Directed Feedback Vertex Set instance within the time limit of 30 minutes.
