@@ -38,8 +38,8 @@ See [submission requirements](submissions/) for details.
 -->
 ## Timeline
 
-- September 2021: Announcement of the challenge (Problem)
-- November 2021: Announcement of the tracks and additional information
+- September 2021: Announcement of the challenge (Problem) and tracks
+- November 2021: Announcement of additional information and ranking methods
 - December 2021: Public instances are available
 - March 2022: Submission via [optil.io](https://optil.io/) is open (for testing and unofficial, auxiliary leaderboard)
 - June 1st, 2022 (AoE): Submission deadline for solver
