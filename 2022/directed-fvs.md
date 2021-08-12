@@ -19,7 +19,7 @@ In this example, deleting/removing the red vertex and its edges in the left grap
 
 ### Background 
 
-The Directed Feedback Vertex Set Problem has a wide range of applications including deadlock detection, program verification and VLSI chip design.  The problem is NP-complete even if restricted to graphs with maximum in- and out-degree two. The corresponding optimization problem, i.e. finding the smallest cardinality feedback vertex set, can be solved in $O^*(1.9977^n)$ due to an algorithm by Razgon. 
+The Directed Feedback Vertex Set Problem has a wide range of applications including deadlock detection, program verification and VLSI chip design.  The problem is NP-complete even if restricted to graphs with maximum in- and out-degree two. The optimization problem can be solved in $O^*(1.9977^n)$ due to an algorithm by Razgon. 
 Chen et al. have shown that the problem is fixed-parameter tractable if parameterized with the solution size $k$, i.e. Chen et al. develop an algorithm with running time $4^kk!n^{O(1)}$.
 
 
