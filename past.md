@@ -19,6 +19,7 @@ The results of each PACE challenge are documented in a report that is published 
 - PACE 2018: **Steiner Tree**<br/>
   ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2018.26),
   [slides](/files/PACE18-slides.pdf),
+  [instances](https://github.com/PACE-challenge/SteinerTree-PACE-2018-instances),
   [challenge description](/2018/))
 - PACE 2017: **Treewidth** and **Minimum Fill-In**<br/>
   ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2017.30), [slides](/files/PACE17-slides.pdf), [challenge descriptions](/2017/))
