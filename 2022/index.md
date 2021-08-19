@@ -9,7 +9,7 @@ sidebar_sort_order: 8
 The challenge for this year is **Directed Feedback Vertex Set**:
 
 **Input:** A directed graph $G = (V, E)$. <br/>
-**Output:** Find the smallest subset $X \subseteq V$ such that, when all vertices of $X$ and their adjacent edges are deleted from $G$, the remainder is cycle-free.
+**Output:** Find a minimum subset $X \subseteq V$ such that, when all vertices of $X$ and their adjacent edges are deleted from $G$, the remainder is acyclic.
 
 
 You can find more details on Directed Feedback Vertex Set [here](directed-fvs/).
@@ -45,7 +45,7 @@ See [submission requirements](submissions/) for details.
 - June 1st, 2022 (AoE): Submission deadline for solver
 - June 15th, 2022 (AoE): Submission deadline for solver description
 - July, 2022: Announcement of the results
-- September 2022: Award ceremony at the International Symposium on Parameterized and Exact Computation (IPEC 2021) 
+- September 2022: Award ceremony at the International Symposium on Parameterized and Exact Computation (IPEC 2022) 
 
 
 ## Program Committee

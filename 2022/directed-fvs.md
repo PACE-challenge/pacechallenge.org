@@ -6,10 +6,10 @@ title: "PACE 2022 - Directed Feedback Vertex Set"
 The Directed Feedback Vertex Set Problem is defined as follows:
 
 **Input:** A directed graph $G = (V, E)$. <br/>
-**Output:** Find the smallest subset $X \subseteq V$ such that, when all vertices of $X$ and their adjacent edges are deleted from $G$, the remainder is cycle-free.
+**Output:** Find a minimum subset $X \subseteq V$ such that, when all vertices of $X$ and their adjacent edges are deleted from $G$, the remainder is acyclic.
 
 
-Thus a feedback vertex set of a graph is a set of vertices whose deletion leaves a graph cycle-free.
+Thus a feedback vertex set of a graph is a set of vertices whose deletion leaves a graph acyclic.
 
 ### Example
 
@@ -24,7 +24,8 @@ Chen et al. have shown that the problem is fixed-parameter tractable if paramete
 
 
 ## Literature
-
+ 
+ - Cygan, Marek; Fomin, Fedor V.; Kowalik, Lukasz; Lokshtanov, Daniel; Marx, Daniel; Pilipczuk, Marcin; Pilipczuk, Michal; Saurabh, Saket (2015),  "Parameterized Algorithms", Chapter 8.6, Springer.
  - Karp, Richard M. (1972), "Reducibility Among Combinatorial Problems", Proc. Symposium on Complexity of Computer Computations, IBM Thomas J. Watson Res. Center, Yorktown Heights, N.Y., New York: Plenum, pp. 85--103
  - Razgon, I. (2007), "Computing minimum directed feedback vertex set in $O^*(1.9977^n)$", in Proceedings of the 10th Italian Conference on Theoretical Computer Science, World Scientific, pp. 70–81
  - Chen, Jianer; Liu, Yang; Lu, Songjian; O'Sullivan, Barry; Razgon, Igor (2008), "A fixed-parameter algorithm for the directed feedback vertex set problem", Journal of the ACM, 55 (5), Art. 21
