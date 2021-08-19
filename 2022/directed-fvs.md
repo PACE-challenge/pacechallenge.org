@@ -21,7 +21,7 @@ In this example, deleting/removing the red vertex and its edges in the left grap
 
 The Directed Feedback Vertex Set Problem has a wide range of applications including deadlock detection, program verification and VLSI chip design.  The problem is NP-complete even if restricted to graphs with maximum in- and out-degree two. The optimization problem can be solved in $O^*(1.9977^n)$ due to an algorithm by Razgon. 
 Chen et al. have shown that the problem is fixed-parameter tractable if parameterized with the solution size $k$, i.e. Chen et al. develop an algorithm with running time $4^kk!n^{O(1)}$.
-
+Note that the problem is equivalent to the edge-deletion variant commonly called Feedback Arc Set: there are reductions in both ways that preserve the value of the optimal solution and only blow up the size of the graph (sum of vertices and edges) by a polynomial factor. 
 
 ## Literature
  
