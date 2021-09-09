@@ -47,7 +47,7 @@ See [submission requirements](submissions/) for details.
 - June 1st, 2021 (AoE): Submission deadline for solver
 - June 15th, 2021 (AoE): Submission deadline for solver description
 - July 16th: Announcement of the [results](results/)
-- September 2021: Award ceremony at the International Symposium on Parameterized and Exact Computation (IPEC 2021) 
+- September 2021: Award ceremony at the International Symposium on Parameterized and Exact Computation (IPEC 2021) ([slides](pace2021-award-ceremony.pdf))
 
 <!--
 ## Prizes
