@@ -2,6 +2,8 @@
 title: Results of PACE 2021
 ---
 This page contains the results of [PACE 2021](/2021/) cluster editing challenge.
+Watch the [recording](https://fpt.akt.tu-berlin.de/pace2021/pace-award-recording.mp4) of the awarding ceremony!
+Due to technical issues, the first few minutes of the talk were not recorded and the slides are not shown in the first 25 minutes.
 
 ## Exact track
 

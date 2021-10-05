@@ -6,6 +6,13 @@ sidebar_sort_order: 3
 ---
 
 The results of each PACE challenge are documented in a report that is published in the IPEC proceedings.
+- PACE 2021: **Cluster Editing**<br/>
+  (official report,
+  [slides](/2021/pace2021-award-ceremony.pdf),
+  [video](https://fpt.akt.tu-berlin.de/pace2021/pace-award-recording.mp4),
+  [results](/2021/results/), 
+  [instances](https://github.com/PACE-challenge/Cluster-Editing-PACE-2021-instances), 
+  [challenge description](/2021/))
 - PACE 2020: **Treedepth**<br/>
   ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2020.37),
   [slides](/2020/slides.pdf),

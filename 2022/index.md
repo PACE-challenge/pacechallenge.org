@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "PACE 2022"
-sidebar_link: false
-sidebar_sort_order: 8
+sidebar_link: true
+sidebar_sort_order: 9
 ---
 ## Challenge Description
 
