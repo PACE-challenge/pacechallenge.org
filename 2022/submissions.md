@@ -16,7 +16,7 @@ title: Submission requirements (2022)
 1. Open Source (e.g. GPL, MIT, or public domain)
 2. Source code is available on a public repository (e.g., [Bitbucket](https://bitbucket.org), [GitHub](https://github.com), [Gitlab](https://gitlab.com)).
 3. We allow a limited use of external **open source** dependencies, preferably with source code included in the submission. If you need to install software on the target platform, please contact us in advance, and we will ask the optil.io team if it is possible (the open source requirement still applies).
-4. We allow at most three solvers per team per track. However, these solvers can not have a common code base, i.e. they cannot share code. Shared external libraries are however allowed. For example, you are not allowed to submit the same solver using different parameters. Moreover, if you submit more than one solver, we will rank the team and not submissions according to the best solver of a team.
+4. We allow at most three solvers per team per track. However, these solvers can not have a common code base, i.e. they cannot share code. Shared external libraries are however allowed. For example, you are not allowed to submit the same solver using different parameters. Moreover, if you submit more than one solver, we will rank the team (and not submissions) according to the best solver of a team.
 5. Submissions Solver: 
    1. Submission via [optil.io](https://www.optil.io/), please refer to the SUBMITTING SOLUTION section of optil.io [help page](https://www.optil.io/optilion/help)
    2. Register solver and participants via [EasyChair](https://easychair.org/conferences/?conf=pace2022)
