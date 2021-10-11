@@ -1,8 +1,6 @@
 ---
 layout: page
 title: "PACE 2021"
-sidebar_link: true
-sidebar_sort_order: 8
 ---
 
 ## Challenge description
