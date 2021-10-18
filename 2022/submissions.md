@@ -6,7 +6,7 @@ title: Submission requirements (2022)
 
 1. Register at optil.io (<https://www.optil.io/optilion/login>)
 2. Access [EasyChair](https://easychair.org/conferences/?conf=pace2022) and register your group 
-   - Use as title of the paper your login name at optil
+   - Use as title of the paper your login name at optil.io
    - Place the name of your solver in the abstract
 3. Submit your solution via optil (as soon as the optil submission is open) 
 
