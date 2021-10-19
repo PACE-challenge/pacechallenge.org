@@ -29,13 +29,11 @@ You will be ranked by the quality of the solution.
 More details on the ranking methods will be disclosed later on.
 <!--You can find more details on the ranking methods [here](tracks/).-->
 
-<!--text from PACE 2021
 ## Submission
 
-You submit your solver to [optil.io](https://optil.io/) and its description to [EasyChair](https://easychair.org/conferences/?conf=pace2021).
+You submit your solver to [optil.io](https://optil.io/) and its description to [EasyChair](https://easychair.org/conferences/?conf=pace2022).
 See [submission requirements](submissions/) for details.
 
--->
 ## Timeline
 
 - September 2021: Announcement of the challenge (Problem) and tracks
