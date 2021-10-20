@@ -13,7 +13,7 @@ You can participate in any subset of the two tracks.
 ## Exact Track
 
 Your submission should find an optimal feedback vertex set (see also the [problem description](/2022/directed-fvs/)) within 30 minutes.
-We expect your submission to be an exact algorithm, although we do not ask you to provide a proof of it. If we find through code checks or experiments that you algorihtm is not an exact algorithm, then it will be excluded from the track.
+We expect your submission to be an exact algorithm, although we do not ask you to provide a proof of it. If we find through code checks or experiments that you algorithm is not an exact algorithm, then it will be excluded from the track.
 If for some instance your program returns a solution that is not optimal within the time limit, your submission will be disqualified.
 Moreover, if the output of your program for any instance turns out to be not a feedback vertex set, your submission will be disqualified as well.
 See also the [input format](#input-format) and [output format](#output-format-for-exact-track-and-heuristic-track).
