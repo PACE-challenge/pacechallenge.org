@@ -12,11 +12,10 @@ You can participate in any subset of the two tracks.
 
 ## Exact Track
 
-Your submission should find an optimal feedback vertex set (see also the [problem description](/2022/directed-fvs/)) within 30 minutes.
+Your submission should find an optimal (minimum) feedback vertex set (see also the [problem description](/2022/directed-fvs/)) within 30 minutes.
 We expect your submission to be an exact algorithm, although we do not ask you to provide a proof of it. If we find through code checks or experiments that your algorithm is not an exact algorithm, then it will be excluded from the track.
-If for some instance your program returns a solution that is not optimal within the time limit, your submission will be disqualified.
-Moreover, if the output of your program for any instance turns out to be not a feedback vertex set, your submission will be disqualified as well.
-See also the [input format](#input-format) and [output format](#output-format).
+If your program does not find an optimum solution within the time limit, you have to return a solution file that contains only the number `-1`.
+If for some instance your program returns a solution that is not optimal within the time limit, either because it is not minimum or not a feedback vertex set, then your submission will be disqualified. See also the [input format](#input-format) and [output format](#output-format).
 
 **Ranking method:**
 You will be ranked by the number of solved instances.
@@ -34,12 +33,12 @@ When your process receives this signal, it must immediately print the current be
 You can find examples how to handle SIGTERM in [several popular programming languages](https://www.optil.io/optilion/help/signals).
 If the process blocks for too long, say 30 seconds after the initial SIGTERM signal, we will forcefully stop it with SIGKILL.
 If we forcefully stopped the program, then the instance counts as time limit exceeded and you get 0 points for this instance.
-Note that the optil.io system may not work 100% correctly all the time, i.e. the default of your program should be that your program returns a solution after 10 minutes (heuristic track) or 30 minutes (exact track).
+Note that the optil.io system may not work 100% correctly all the time, i.e. the default of your program should be that your program returns a solution after 10 minutes.
 
 **Ranking method:**
 You will be ranked by the geometric mean over all instances of 100 × (best solution size) / (solution size).
 Here, (solution size) is the size of the solution returned by your submission and (best solution size) is the size of the smallest solution known to the PC (which may not be optimal).
-If the output of your program turns out to be not a feedback vertex set (or there is no output on SIGKILL) for some instance, (solution size) for the instance will be regarded as infinity (so you will receive no point).
+If the output of your program turns out to be not a feedback vertex set (or there is no output on SIGKILL) for some instance, (solution size) for the instance will be regarded as infinity (so you will receive no point for that instance).
 
 
 ## Input Format
@@ -47,12 +46,12 @@ If the output of your program turns out to be not a feedback vertex set (or ther
 The input graph is given via the standard input, which follows the Metis file format described below.
 
 Lines are separated by the character `\n`. Each line that starts with the character `%` is considered to be a comment line.
-The first non-comment line contains the number of vertices `n` and edges `m` and an identifier `t` (separated by a single space each time). The identifier `t` indicates wheter the graph
-contains node or edge weights. Since we only consider unweighted graphs, `t` will be always equal to `0`.
+The first non-comment line contains the number of vertices `n` and edges `m` and an identifier `t` (separated by a single space each time). The identifier `t` indicates whether the graph
+contains node or edge weights. Since we only consider unweighted graphs, `t` will always equal `0`.
 The next `n` non-comment lines contain the adjacency lists of the nodes. Let $L = \{l_1, \ldots, l_n\}$ denote these lines.
-Then, each line $l_u$ is of the form `v1 v2 ... vl` (separated by a single space each time) representing the adjacency list of node `u`. That means `u` is connected to `v1` by an edge `(u,v1)`, and to `v2` by an edge `(u,v2)` and so forth.  Note that the nodes are `1`-indexed.
+Then, each line $l_u$ is of the form `v1 v2 ... vl` (separated by a single space each time) representing the adjacency list of node `u`. That means `u` is connected to `v1` by an edge `(u,v1)`, and to `v2` by an edge `(u,v2)` and so forth.  Note that the nodes are numbered `1` to `n`.
 
-Moreover, graphs are considered to be directed. Multiple edges and loops are forbidden.
+Moreover, graphs are considered to be directed and simple, i.e. parallel edges and self-loops are forbidden.
 For example, a graph with four vertices and five directed edges can be defined as follows:
 
 ```
@@ -66,7 +65,7 @@ For example, a graph with four vertices and five directed edges can be defined a
 ```
 
 ## Output Format 
-Every line must be in the form `u` followed by the new line character `\n`, where `u` represents a node contained in your feedback vertex set. Here is some example:
+Every line must be in the form `u` followed by the new line character `\n`, where `u` represents a node contained in your feedback vertex set. Here is an example:
 
 ```
 1
