@@ -3,7 +3,7 @@ layout: page
 title: "PACE 2022 - Track Details"
 ---
 
-For PACE 2022, we offer the following three tracks:
+For PACE 2022, we offer the following two tracks:
 
 - [**Exact Track**](#exact-track)
 - [**Heuristic Track**](#heuristic-track)
@@ -13,10 +13,10 @@ You can participate in any subset of the two tracks.
 ## Exact Track
 
 Your submission should find an optimal feedback vertex set (see also the [problem description](/2022/directed-fvs/)) within 30 minutes.
-We expect your submission to be an exact algorithm, although we do not ask you to provide a proof of it. If we find through code checks or experiments that you algorithm is not an exact algorithm, then it will be excluded from the track.
+We expect your submission to be an exact algorithm, although we do not ask you to provide a proof of it. If we find through code checks or experiments that your algorithm is not an exact algorithm, then it will be excluded from the track.
 If for some instance your program returns a solution that is not optimal within the time limit, your submission will be disqualified.
 Moreover, if the output of your program for any instance turns out to be not a feedback vertex set, your submission will be disqualified as well.
-See also the [input format](#input-format) and [output format](#output-format-for-exact-track-and-heuristic-track).
+See also the [input format](#input-format) and [output format](#output-format).
 
 **Ranking method:**
 You will be ranked by the number of solved instances.
@@ -26,18 +26,19 @@ In case of a tie, the winner is determined by the time required to solve all ins
 ## Heuristic Track
 
 Your submission should find a feedback vertex set (see also the [problem description](/2022/directed-fvs/)) within 10 minutes.
-See also the [input format](#input-format) and [output format](#output-format-for-exact-track-and-heuristic-track).
+See also the [input format](#input-format) and [output format](#output-format).
 
 **Termination:**
 Your program will receive the Unix signal SIGTERM on timeout.
 When your process receives this signal, it must immediately print the current best solution to the standard output and then halt.
 You can find examples how to handle SIGTERM in [several popular programming languages](https://www.optil.io/optilion/help/signals).
 If the process blocks for too long, say 30 seconds after the initial SIGTERM signal, we will forcefully stop it with SIGKILL.
+If we forcefully stopped the program, then the instance counts as time limit exceeded and you get 0 points for this instance.
 Note that the optil.io system may not work 100% correctly all the time, i.e. the default of your program should be that your program returns a solution after 10 minutes (heuristic track) or 30 minutes (exact track).
 
 **Ranking method:**
 You will be ranked by the geometric mean over all instances of 100 × (best solution size) / (solution size).
-Here, (solution size) is the size of the solution returned by your submission and (best solution size) is the size of the smallest solution known to the PC committee (which may not be optimal).
+Here, (solution size) is the size of the solution returned by your submission and (best solution size) is the size of the smallest solution known to the PC (which may not be optimal).
 If the output of your program turns out to be not a feedback vertex set (or there is no output on SIGKILL) for some instance, (solution size) for the instance will be regarded as infinity (so you will receive no point).
 
 
@@ -49,7 +50,7 @@ Lines are separated by the character `\n`. Each line that starts with the charac
 The first non-comment line contains the number of vertices `n` and edges `m` and an identifier `t` (separated by a single space each time). The identifier `t` indicates wheter the graph
 contains node or edge weights. Since we only consider unweighted graphs, `t` will be always equal to `0`.
 The next `n` non-comment lines contain the adjacency lists of the nodes. Let $L = \{l_1, \ldots, l_n\}$ denote these lines.
-Then, each line $l_u$ is of the form `v1 v2 ... vl` (separated by a single space each time) representing the adjacency list of node `u`. Note that the nodes are `1`-indexed.
+Then, each line $l_u$ is of the form `v1 v2 ... vl` (separated by a single space each time) representing the adjacency list of node `u`. That means `u` is connected to `v1` by an edge `(u,v1)`, and to `v2` by an edge `(u,v2)` and so forth.  Note that the nodes are `1`-indexed.
 
 Moreover, graphs are considered to be directed. Multiple edges and loops are forbidden.
 For example, a graph with four vertices and five directed edges can be defined as follows:
@@ -64,8 +65,7 @@ For example, a graph with four vertices and five directed edges can be defined a
 1
 ```
 
-## Output Format
-
+## Output Format 
 Every line must be in the form `u` followed by the new line character `\n`, where `u` represents a node contained in your feedback vertex set. Here is some example:
 
 ```
@@ -76,7 +76,7 @@ Every line must be in the form `u` followed by the new line character `\n`, wher
 Use [this](/2022/verifier.tar.gz) to verify whether the output is a feedback vertex set.
 To compile this verifier for feedback vertex set execute `make all` in the command line.
 Afterwards, there is an executable `verifier`.
-The verifier takes two arguments: paths to an input graph file and a solution file containing.
+The verifier takes two arguments: paths to an input graph file and a solution file containing the solution (see [output format](#output-format).
 Note that it does not check for optimality.
 
 
