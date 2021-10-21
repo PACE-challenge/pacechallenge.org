@@ -76,7 +76,7 @@ Every line must be in the form `u` followed by the new line character `\n`, wher
 Use [this](/2022/verifier.tar.gz) to verify whether the output is a feedback vertex set.
 To compile this verifier for feedback vertex set execute `make all` in the command line.
 Afterwards, there is an executable `verifier`.
-The verifier takes two arguments: paths to an input graph file and a solution file containing the solution (see [output format](#output-format).
+The verifier takes two arguments: paths to an input graph file and a solution file containing the solution (see [output format](#output-format)).
 Note that it does not check for optimality.
 
 
