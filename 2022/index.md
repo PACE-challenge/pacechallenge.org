@@ -27,7 +27,7 @@ Your task is to find the best solution of each Directed Feedback Vertex Set inst
 You will be ranked by the quality of the solution.
 
 More details on the ranking methods will be disclosed later on.
-<!--You can find more details on the ranking methods [here](tracks/).-->
+You can find more details on the ranking methods [here](tracks/).
 
 ## Submission
 
