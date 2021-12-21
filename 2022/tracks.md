@@ -22,6 +22,9 @@ You will be ranked by the number of solved instances.
 In case of a tie, the winner is determined by the time required to solve all instances.
 
 
+**Download:**
+You can download the public instances for the exact track [here](https://heibox.uni-heidelberg.de/d/6884ee58a1df4457a00a/).
+
 ## Heuristic Track
 
 Your submission should find a feedback vertex set (see also the [problem description](/2022/directed-fvs/)) within 10 minutes.
@@ -40,6 +43,8 @@ You will be ranked by the geometric mean over all instances of 100 × (best solu
 Here, (solution size) is the size of the solution returned by your submission and (best solution size) is the size of the smallest solution known to the PC (which may not be optimal).
 If the output of your program turns out to be not a feedback vertex set (or there is no output on SIGKILL) for some instance, (solution size) for the instance will be regarded as infinity (so you will receive no points for that instance).
 
+**Download:**
+You can download the public instances for the heuristic track [here](https://heibox.uni-heidelberg.de/d/09a719d5d58f4804b717/).
 
 ## Input Format
 
