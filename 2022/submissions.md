@@ -24,7 +24,7 @@ title: Submission requirements (2022)
 6. Submission Description: 
    1. Place the source code of the solver in a digital library (e.g., [Zenodo](https://zenodo.org/)) and generate a DOI 
    2. Submit the solver description via [EasyChair](https://easychair.org/conferences/?conf=pace2022) use DOI to refer to the solver and include a reference to the public source code repository 
-
+7. Codes using parallelism will be disqualified
 
 ##### Solver
 
