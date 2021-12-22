@@ -24,6 +24,7 @@ In case of a tie, the winner is determined by the time required to solve all ins
 
 **Download:**
 You can download the public instances for the exact track [here](https://heibox.uni-heidelberg.de/d/6884ee58a1df4457a00a/).
+Alternatively, you can download a zip file containing all the instances [here](https://heibox.uni-heidelberg.de/f/5ed3b67c88b44935834d/?dl=1).
 
 ## Heuristic Track
 
@@ -45,6 +46,7 @@ If the output of your program turns out to be not a feedback vertex set (or ther
 
 **Download:**
 You can download the public instances for the heuristic track [here](https://heibox.uni-heidelberg.de/d/09a719d5d58f4804b717/).
+Alternatively, you can download a zip file containing all the instances [here](https://heibox.uni-heidelberg.de/f/c3aa711ba7d74a2c93e7/?dl=1).
 
 ## Input Format
 
