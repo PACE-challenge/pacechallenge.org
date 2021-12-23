@@ -26,7 +26,6 @@ You will be ranked by the number of solved instances.
 Your task is to find the best solution of each Directed Feedback Vertex Set instance within the time limit of 10 minutes.
 You will be ranked by the quality of the solution.
 
-More details on the ranking methods will be disclosed later on.
 You can find more details on the ranking methods [here](tracks/).
 
 ## Submission
