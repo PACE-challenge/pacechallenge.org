@@ -37,7 +37,7 @@ See [submission requirements](submissions/) for details.
 
 - September 2021: Announcement of the challenge (Problem) and tracks
 - November 2021: Announcement of additional information and ranking methods
-- ~~December 2021~~ January 2021: Public instances are available
+- ~~December 2021~~ January 2022: Public instances are available
 - March 2022: Submission via [optil.io](https://optil.io/) is open (for testing and unofficial, auxiliary leaderboard)
 - June 1st, 2022 (AoE): Submission deadline for solver
 - June 15th, 2022 (AoE): Submission deadline for solver description
@@ -48,6 +48,6 @@ See [submission requirements](submissions/) for details.
 ## Program Committee
 
 - [Christian Schulz](https://schulzchristian.github.io/) (chair) (Universität Heidelberg)
-- [Darren Strash](https://darrenstrash.github.io/) (Hamilton College)
-- [Tobias Heuer](https://algo2.iti.kit.edu/heuer.php) (Karlsruher Institut für Technologie)
 - [Ernestine Großmann](https://ae.ifi.uni-heidelberg.de/ernestine.html) (Universität Heidelberg)
+- [Tobias Heuer](https://algo2.iti.kit.edu/heuer.php) (Karlsruher Institut für Technologie)
+- [Darren Strash](https://darrenstrash.github.io/) (Hamilton College)
