@@ -80,7 +80,7 @@ The verifier takes two arguments: paths to an input graph file and a solution fi
 Note that it does not check for optimality.
 
 
-The instances for both tracks will be available to download in December. <!--Download the instances [here](https://).-->
+The instances for both tracks will be available to download in January 2022. <!--Download the instances [here](https://).-->
 
 ## Example Instances and Solutions 
 <!--[>TODO update<]-->
