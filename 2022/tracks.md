@@ -93,6 +93,6 @@ The instances for both tracks will be available to download in January 2022. <!-
 <!--See below for the distribution of instance sizes.-->
 
 
-Download example instances with solutions [here](2022/examples.tar.gz).
+Download example instances with solutions [here](/2022/examples.tar.gz).
 
 
