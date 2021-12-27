@@ -82,7 +82,7 @@ Note that it does not check for optimality.
 
 The instances for both tracks will be available to download in December. <!--Download the instances [here](https://).-->
 
-<!--## Benchmark for Heuristic Track-->
+## Example Instances and Solutions 
 <!--[>TODO update<]-->
 <!--There are 200 instances, labeled heur001.gr to heur200.gr.-->
 <!--The instances are ordered lexicographically by non-decreasing $(n,m)$ where $n$ is the number of vertices and $m$ is the number of edges.-->
@@ -93,6 +93,6 @@ The instances for both tracks will be available to download in December. <!--Dow
 <!--See below for the distribution of instance sizes.-->
 
 
-<!--TODO Download the instances [here](https://).-->
+Download example instances with solutions [here](2022/examples.tar.gz).
 
 
