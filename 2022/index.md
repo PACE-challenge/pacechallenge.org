@@ -51,3 +51,12 @@ See [submission requirements](submissions/) for details.
 - [Ernestine Großmann](https://ae.ifi.uni-heidelberg.de/ernestine.html) (Universität Heidelberg)
 - [Tobias Heuer](https://algo2.iti.kit.edu/heuer.php) (Karlsruher Institut für Technologie)
 - [Darren Strash](https://darrenstrash.github.io/) (Hamilton College)
+
+## Sponsors
+
+
+On behalf of the Organization Committee of the 7th PACE Challenge, we invite you to participate in the sponsoring of metals and travel support for PACE-22.
+
+[NETWORKS](http://thenetworkcenter.nl/) already announced sponsoring for PACE 2022. 
+
+<img src="/assets/img/networks-logopartners-lang-rgb-1000px.jpg" alt="NETWORKS logo" style="width: 300px;"/>
