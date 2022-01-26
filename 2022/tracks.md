@@ -22,6 +22,7 @@ You will be ranked by the number of solved instances.
 In case of a tie, the winner is determined by the time required to solve all instances.
 
 
+You can download a tar.gz file containing all public instances for the exact track [here](https://heibox.uni-heidelberg.de/f/be4337d9e4234bca8606/?dl=1).
 
 ## Heuristic Track
 
@@ -41,6 +42,7 @@ You will be ranked by the geometric mean over all instances of 100 × (best solu
 Here, (solution size) is the size of the solution returned by your submission and (best solution size) is the size of the smallest solution known to the PC (which may not be optimal).
 If the output of your program turns out to be not a feedback vertex set (or there is no output on SIGKILL) for some instance, (solution size) for the instance will be considered as `|V|`.
 
+You can download a tar.gz file containing all public the instances for the heuristic track [here](https://heibox.uni-heidelberg.de/f/4fc21bd9748140bd8307/?dl=1).
 
 ## Input Format
 
