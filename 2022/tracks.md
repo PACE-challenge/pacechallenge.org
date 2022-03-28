@@ -40,8 +40,8 @@ Note that the optil.io system may not work 100% correctly all the time, i.e. the
 **Ranking method:**
 You will be ranked by the geometric mean over all instances of 100 × (best solution size) / (solution size).
 Here, (solution size) is the size of the solution returned by your submission and (best solution size) is the size of the smallest solution known to the PC (which may not be optimal).
-If the output of your program turns out to be not a feedback vertex set, your program will be disqualified. 
-If your program does not return an output on SIGKILL) for some instance, (solution size) for the instance will be considered as `|V|`.
+If the output of your program turns out to be not a feedback vertex set, your program will be disqualified. Note that the optil.io platform ranking differs here slightly due to technical reasons: on optil.io if the output of your program turns out to be not a feedback vertex set, it will use `|V|`. 
+If your program does not return an output on SIGKILL for some instance, (solution size) for the instance will be considered as `|V|`.
 
 You can download a tar.gz file containing all public the instances for the heuristic track [here](https://heibox.uni-heidelberg.de/f/4fc21bd9748140bd8307/?dl=1).
 
