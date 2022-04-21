@@ -39,6 +39,7 @@ See [submission requirements](submissions/) for details.
 - November 2021: Announcement of additional information and ranking methods
 - ~~December 2021~~ January 2022: Public instances are available
 - March 2022: Submission via [optil.io](https://optil.io/) is open (for testing and unofficial, auxiliary leaderboard)
+- May 25th, 2022 (AoE): Leaderboards on [optil.io](https://optil.io) will be closed. Solver submissin will still be possible, but the leaderboard will not be updated.
 - June 1st, 2022 (AoE): Submission deadline for solver
 - June 15th, 2022 (AoE): Submission deadline for solver description
 - July, 2022: Announcement of the results
