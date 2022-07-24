@@ -42,7 +42,7 @@ See [submission requirements](submissions/) for details.
 - May 25th, 2022 (AoE): Leaderboards on [optil.io](https://optil.io) will be closed. Solver submission will still be possible, but the leaderboard will not be updated.
 - June 1st, 2022 (AoE): Submission deadline for solver
 - June 15th, 2022 (AoE): Submission deadline for solver description
-- July, 2022: Announcement of the results
+- July, 2022: Announcement of the [results](results/)
 - September 2022: Award ceremony at the International Symposium on Parameterized and Exact Computation (IPEC 2022) 
 
 
