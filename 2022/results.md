@@ -46,4 +46,4 @@ Solvers marked with DQ have been disqualified as their initial submission comput
 14 |  	Enna Gerhard, Jona Dirks, Moritz Bergenthal, Jakob Gahde, Thorben Frese, Mario Grobler and Sebastian Siebertz                   |  Universität Bremen     | grapa-java | 91.3693130673| [Link](https://gitlab.informatik.uni-bremen.de/grapa/java/)
 15 |  	Mert Biyikli                   | Heidelberg University      | BreakingCycles         | 74.6128073180| [Link](https://github.com/MertBiyikli/BreakingCycles.git)
 
-
+Note that the rank is according to the best solver of a team.
