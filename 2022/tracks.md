@@ -23,6 +23,7 @@ In case of a tie, the winner is determined by the time required to solve all ins
 
 
 You can download a tar.gz file containing all public instances for the exact track [here](https://heibox.uni-heidelberg.de/f/be4337d9e4234bca8606/?dl=1).
+UPDATE: You can download a tar.gz file containing all instances (public+private) for the exact track [here](https://heibox.uni-heidelberg.de/f/75c18a4d83b642db9a58/?dl=1).
 
 ## Heuristic Track
 
@@ -44,6 +45,7 @@ If the output of your program turns out to be not a feedback vertex set, your pr
 If your program does not return an output on SIGKILL for some instance, (solution size) for the instance will be considered as `|V|`.
 
 You can download a tar.gz file containing all public the instances for the heuristic track [here](https://heibox.uni-heidelberg.de/f/4fc21bd9748140bd8307/?dl=1).
+UPDATE: You can download a tar.gz file containing all instances (public + private) for the heuristic track [here](https://heibox.uni-heidelberg.de/f/97634323e3cb4aab8291/?dl=1).
 
 ## Input Format
 
