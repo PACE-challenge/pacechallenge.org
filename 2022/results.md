@@ -47,3 +47,17 @@ Solvers marked with DQ have been disqualified as their initial submission comput
 15 |  	Mert Biyikli                   | Heidelberg University      | BreakingCycles         | 74.6128073180| [Link](https://github.com/MertBiyikli/BreakingCycles.git)
 
 Note that the rank is according to the best solver of a team.
+
+## Student Submissions
+
+A student submission in this years iteration of the PACE Challenge has been defined as:
+
+"A student is someone who is not and has not been enrolled in a PhD program before the submission deadline. A submission is eligible for the Best Student Submission Award if either all its authors are students, or besides student co-author(s) there is one non-student co-author that confirms, at the moment of submission, that a clear majority of conceptual work on the paper was done by the student co-author(s)."
+
+
+In the exact track the following submissions were reported as student submissions:
+grapa-java (best student submission), mt-doom (second best student submission), DUM, rubengoetz, DRIP
+
+
+In the heuristic track the following submissions were reported as student submissions:
+fedrer (best student submission), UAIC_AndreiArhire (second best student submission), orodruin, THS_heuristic, grapa-rust, grapa-java (heuristic), BreakingCycles 
