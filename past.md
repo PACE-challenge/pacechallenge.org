@@ -7,7 +7,7 @@ sidebar_sort_order: 3
 
 The results of each PACE challenge are documented in a report that is published in the IPEC proceedings.
 - PACE 2022: **Directed Feedback Vertex Set**<br/>
-  ([slides](https://docs.google.com/presentation/d/1SEBhIRcxsvSyyunvVITGDFeQKXi_wVDxWNj_HVQLzm4/edit?usp=sharing),
+  ([slides](/2022/PACE22-slides.pdf),
   [results](/2022/results/),
   [challenge description](/2022/))
 - PACE 2021: **Cluster Editing**<br/>
