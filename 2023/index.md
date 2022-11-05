@@ -23,7 +23,8 @@ for a given graph of small width. More precisely:
 vertex. <br/>
 **Measure:** The width of the contraction sequence. 
 
-<em style="color:#db8a00">Details about the input and output format will be made available in October.</em>
+<em style="color:#ff0000">New:</em> Details about the input and output
+format can be found [here](./io.md). 
 
 ### Tracks
 
@@ -86,8 +87,10 @@ insights. This year's incarnation of the PACE supports this idea in two ways:
 There will be three benchmark set:
 
 1. A *tiny set* for debugging that contains graphs together with their
-   twinwidth.
-   - <em style="color:#db8a00">This set will be made available in October.</em>
+   twinwidth. <em style="color:#ff0000">New!</em>
+   - [instances](./tiny-set.zip)
+   - [solutions](./tiny-set-sol.zip)
+   - [images](./tiny-set.pdf)
 2. The *exact set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
