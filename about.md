@@ -31,6 +31,7 @@ of algorithm engineering
 - (since 2020) [Łukasz Kowalik](https://www.mimuw.edu.pl/~kowalik/) (University of Warsaw)
 - (since 2021) [André Nichterlein](https://www.akt.tu-berlin.de/menue/team/nichterlein_andre/) (Technical University of Berlin)
 - (since 2020) [Marcin Pilipczuk](https://www.mimuw.edu.pl/~malcin/) (University of Warsaw)
+- (since 2022) [Christian Schulz](https://schulzchristian.github.io/) (Universität Heidelberg)
 - (since 2020) [Manuel Sorge](https://manyu.pro/) (Technische Universität Wien)
 
 ### Former members
