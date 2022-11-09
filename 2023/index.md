@@ -30,13 +30,15 @@ format can be found [here](./io.md).
 
 As in previous incarnations of the challenge, we will have *two*
 tracks: One focusing on **Exact** algorithms and one for **Heuristic**
-solutions.
+solutions. 
+
+<em style="color:#ff0000">New:</em> Details about the scoring methods can be found [here](./scoring).
 
 #### The Exact Track
 The task is to compute an optimal solution for each given graph, that
 is, a contraction sequence of *minimum* width. For each instance, the
 solver has to output a solution within a time limit of <em
-style="color:#db8a00">$x$</em> minutes.
+style="color:#db8a00">30 minutes</em>.
 
 Submissions should be based on provably optimal algorithms, however,
 this is *not* a formal requirement. Submissions that output an
@@ -45,13 +47,11 @@ will be **disqualified**. Besides dedicated algorithms, we also
 encourage submissions based on other paradigms such as SAT, MaxSAT,
 or ILPs.
 
-<em style="color:#db8a00">The scoring-scheme and the precise value of $x$ will be announced in November.</em>
-
 #### The Heuristic Track
 
 In this track the solver shall compute a *good* solution
 *quickly*. The solver will be run on each instance for <em
-style="color:#db8a00">$y$</em> minutes and receives the Unix signal
+style="color:#db8a00">5 minutes</em> and receives the Unix signal
 SIGTERM afterwards. When receiving this signal, the process has to
 output a correct contraction sequence immediately to the standard
 output and terminate. If the program does not halt in a reasonable
@@ -62,8 +62,6 @@ programming languages can be found on the [optil.io webpage](https://www.optil.i
 
 For this track solutions do *not* have to be optimal. However, solvers
 that produce *incorrect* solution will be **disqualified**.
-
-<em style="color:#db8a00">The scoring-scheme and the precise value of $y$ will be announced in November.</em>
 
 ### Theory Awareness 
 

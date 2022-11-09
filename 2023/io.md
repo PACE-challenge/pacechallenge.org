@@ -1,3 +1,8 @@
+---
+layout: page 
+title: "PACE 2023 - Input and Output"
+---
+
 The task of this year's challenge is to compute an *optimal* contraction sequence of a given undirected graph. 
 
 ## The Input Format
