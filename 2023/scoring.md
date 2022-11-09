@@ -24,7 +24,7 @@ smallest solution known to the PC *(which may not be optimal)*.
 
 ## Technical Notes on Optil.io
 
-Note that the [optil.io](www.optil.io) platform ranking differs here
+Note that the [optil.io](https://www.optil.io) platform ranking differs here
 slightly due to technical reasons: On optil.io if the output of your
 program turns out to be invalid, it will use `|V|`.  If your program
 does not return an output on SIGKILL for some instance, (solution
