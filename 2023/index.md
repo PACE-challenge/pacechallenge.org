@@ -23,8 +23,7 @@ for a given graph of small width. More precisely:
 vertex. <br/>
 **Measure:** The width of the contraction sequence. 
 
-<em style="color:#ff0000">New:</em> Details about the input and output
-format can be found [here](./io.md). 
+Details about the input and output format can be found [here](./io.md). 
 
 ### Tracks
 
@@ -32,7 +31,7 @@ As in previous incarnations of the challenge, we will have *two*
 tracks: One focusing on **Exact** algorithms and one for **Heuristic**
 solutions. 
 
-<em style="color:#ff0000">New:</em> Details about the scoring methods can be found [here](./scoring).
+Details about the scoring methods can be found [here](./scoring).
 
 #### The Exact Track
 The task is to compute an optimal solution for each given graph, that
@@ -85,7 +84,7 @@ insights. This year's incarnation of the PACE supports this idea in two ways:
 There will be three benchmark set:
 
 1. A *tiny set* for debugging that contains graphs together with their
-   twinwidth. <em style="color:#ff0000">New!</em>
+   twinwidth.
    - [instances](./tiny-set.zip)
    - [solutions](./tiny-set-sol.zip)
    - [images](./tiny-set.pdf)
@@ -93,16 +92,16 @@ There will be three benchmark set:
    public instances for development and 100 private instances used for
    evaluation.
    - <em style="color:#db8a00">The public instances will be made
-     available in December; the private instances after the challenge.</em>
+     available in ~~December~~ January; the private instances after the challenge.</em>
 3. The *heuristic set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for evaluation.
    - <em style="color:#db8a00">The public instances will be made
-     available in December; the private instances after the challenge.</em>
+     available in ~~December~~ January; the private instances after the challenge.</em>
 
 ### Submission
 
-<em style="color:#db8a00">Details about the submission requirements
-will be provided in November.</em>
+<em style="color:#ff0000">New:</em> Details about the submission
+requirements ca be found [here](submissions).
 
 ### Timeline
 
@@ -112,15 +111,14 @@ will be provided in November.</em>
   - A verifier will be provided.
 - November 2022: Announcement of the ranking methods and additional
   information about the submission process.
-- December 2022: Public instances and details about the benchmark set
+- ~~December 2022~~ January 2023: Public instances and details about the benchmark set
   get published.
 - March 2023: Submission on [optil.io](www.optil.io) opens with public
   leaderboard.
 - May 2023: The public leaderboard gets frozen.
 - June 2023: Submission Deadline.
-  - <em style="color:#db8a00">The precise deadline will be announced in
-    November.</em>
-  - Solver descriptions have to be submitted within two weeks after the deadline.
+	- June 1st, 2023 (AoE): Submission deadline for solver.
+	- June 15th, 2023 (AoE): Submission deadline for solver description.
 - July 2023: Announcement of the Results.
 - IPEC 2023: Award ceremony.
 
