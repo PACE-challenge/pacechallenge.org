@@ -52,15 +52,20 @@ def read_sequence(f):
         seq.append((int(v), int(w)))
     return seq
 
-# Return the red degree of the now contracted graph
-def red_deg(g, e):
-    (v,w) = e
+# Return the maximum red degree of the graph
+def red_deg(g):
     (black_edges, red_edges) = g
-    return len(red_edges[v])
+    tmp = 0
+    for v in red_edges.keys():
+        tmp = max(tmp, len(red_edges[v]))
+    return tmp
 
 # Test whether both endpoints of e are still part of the graph
 def check_in_graph(g,e):
     (v,w) = e
+    if v == w:
+        print("The vertex " + str(v) + " cannot be contracted with itself")
+        raise Exception("VertexSelfContraction", str(v))
     (black_edges, red_edges) = g
     if v not in black_edges and v not in red_edges:
         print("The vertex " + str(v) + " is not part of the graph anymore")
@@ -71,6 +76,7 @@ def check_in_graph(g,e):
         
 # Contracts the vertices in e in g and update the edges
 def contract(g, e):
+
     # We need to consider several different situations regarding vertices z
     # and their relation to v and w
     (v,w) = e
@@ -134,7 +140,7 @@ def check_sequence(g, seq):
             raise Exception("AlreadyContracted")
         check_in_graph(g,e)
         contract(g,e)
-        rd = red_deg(g,e)
+        rd = red_deg(g)
         max_red_deg = max(max_red_deg, rd)
 
     # check whether the graph is completely contracted

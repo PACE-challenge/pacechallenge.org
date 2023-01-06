@@ -78,7 +78,8 @@ Here is an example:
 
 ## Verifier
 
-This [Python script](../verifier.py) can be used to check whether a given
+This [Python script](../verifier.py) <em
+style="color:#ff0000">(new version from 06.01.2023)</em> can be used to check whether a given
 contraction sequence is valid for a given graph. The output will
 either be the sequence width or an error message.
 
