@@ -91,17 +91,14 @@ There will be three benchmark set:
 2. The *exact set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
-   - <em style="color:#db8a00">The public instances will be made
-     available in ~~December~~ January; the private instances after the challenge.</em>
+   - <em style="color:#ff0000">New:</em> [public instances](https://cloudtcs.tcs.uni-luebeck.de/index.php/s/M7WGpQCKXYZKBNL)
 3. The *heuristic set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for evaluation.
-   - <em style="color:#db8a00">The public instances will be made
-     available in ~~December~~ January; the private instances after the challenge.</em>
+   - <em style="color:#ff0000">New:</em> [public instances](https://cloudtcs.tcs.uni-luebeck.de/index.php/s/QMxJFWgDZF4bEo2)
 
 ### Submission
 
-<em style="color:#ff0000">New:</em> Details about the submission
-requirements ca be found [here](submissions).
+Details about the submission requirements ca be found [here](submissions).
 
 ### Timeline
 
