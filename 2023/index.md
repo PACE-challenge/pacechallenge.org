@@ -91,10 +91,12 @@ There will be three benchmark set:
 2. The *exact set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
-   - <em style="color:#ff0000">New:</em> [public instances](https://cloudtcs.tcs.uni-luebeck.de/index.php/s/M7WGpQCKXYZKBNL)
+   - [public
+     instances](https://cloudtcs.tcs.uni-luebeck.de/index.php/s/Dm5pZfzxkoP8cL6)
+     <em style="color:#ff0000">(Update from 15.02.2023: The set contained duplicates, which have now been replaced.)</em>
 3. The *heuristic set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for evaluation.
-   - <em style="color:#ff0000">New:</em> [public instances](https://cloudtcs.tcs.uni-luebeck.de/index.php/s/QMxJFWgDZF4bEo2)
+   - [public instances](https://cloudtcs.tcs.uni-luebeck.de/index.php/s/QMxJFWgDZF4bEo2)
 
 ### Submission
 
