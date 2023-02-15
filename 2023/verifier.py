@@ -53,11 +53,11 @@ def read_sequence(f):
     return seq
 
 # Return the maximum red degree of the graph
-def red_deg(g):
+def red_deg(g, v):
     (black_edges, red_edges) = g
-    tmp = 0
-    for v in red_edges.keys():
-        tmp = max(tmp, len(red_edges[v]))
+    tmp = len(red_edges[v])
+    for w in red_edges[v]:
+        tmp = max(tmp, len(red_edges[w]))
     return tmp
 
 # Test whether both endpoints of e are still part of the graph
@@ -140,7 +140,8 @@ def check_sequence(g, seq):
             raise Exception("AlreadyContracted")
         check_in_graph(g,e)
         contract(g,e)
-        rd = red_deg(g)
+        (v,w) = e
+        rd = red_deg(g, v)
         max_red_deg = max(max_red_deg, rd)
 
     # check whether the graph is completely contracted
