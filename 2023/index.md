@@ -37,7 +37,8 @@ Details about the scoring methods can be found [here](./scoring).
 The task is to compute an optimal solution for each given graph, that
 is, a contraction sequence of *minimum* width. For each instance, the
 solver has to output a solution within a time limit of <em
-style="color:#db8a00">30 minutes</em>.
+style="color:#db8a00">30 minutes</em> and a memory limit of <em
+style="color:#db8a00">8 GB</em>.
 
 Submissions should be based on provably optimal algorithms, however,
 this is *not* a formal requirement. Submissions that output an
@@ -57,7 +58,8 @@ output and terminate. If the program does not halt in a reasonable
 time after reserving the signal, it will be stopped via SIGKILL. In
 this case the instance is counted as *time limited
 exceeded*. Information on how to handle Unix signals in various
-programming languages can be found on the [optil.io webpage](https://www.optil.io/optilion/help/signals).
+programming languages can be found on the [optil.io webpage](https://www.optil.io/optilion/help/signals). The memory limit for this track is <em
+style="color:#db8a00">8 GB</em> as well.
 
 For this track solutions do *not* have to be optimal. However, solvers
 that produce *incorrect* solution will be **disqualified**.
@@ -84,7 +86,9 @@ insights. This year's incarnation of the PACE supports this idea in two ways:
 There will be three benchmark set:
 
 1. A *tiny set* for debugging that contains graphs together with their
-   twinwidth.
+   twinwidth. On [optil.io](https://www.optil.io/optilion/problem/3204) this set as a time limit of <em
+style="color:#db8a00">60 seconds</em> and memory limit of <em
+style="color:#db8a00">100 Kb</em>.
    - [instances](./tiny-set.zip)
    - [solutions](./tiny-set-sol.zip)
    - [images](./tiny-set.pdf)
