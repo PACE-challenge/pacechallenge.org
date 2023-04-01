@@ -103,7 +103,7 @@ style="color:#db8a00">100 Kb</em>.
 
 ### Submission
 
-Details about the submission requirements ca be found [here](submissions).
+Details about the submission requirements can be found [here](submissions).
 
 ### Timeline
 

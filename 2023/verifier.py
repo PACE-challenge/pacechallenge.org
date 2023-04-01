@@ -55,9 +55,11 @@ def read_sequence(f):
 # Return the maximum red degree of the graph
 def red_deg(g, v):
     (black_edges, red_edges) = g
+    tmps = [v]
     tmp = len(red_edges[v])
     for w in red_edges[v]:
         tmp = max(tmp, len(red_edges[w]))
+        tmps.append(w)
     return tmp
 
 # Test whether both endpoints of e are still part of the graph
@@ -83,12 +85,14 @@ def contract(g, e):
     (black_edges, red_edges) = g
     remove_edge(black_edges, e)
     remove_edge(red_edges,   e)
+    to_check = [v]
 
     to_be_removed_black = []
     for zw in black_edges[w]:
         # If z is connected to w, but not to v, add a red edge
         if zw not in black_edges[v]:
             add_edge(red_edges,(zw,v))
+            to_check.append(zw)            
         # As w will be removed, delete the edge
         to_be_removed_black.append((w,zw))
 
@@ -96,6 +100,7 @@ def contract(g, e):
     for zw in red_edges[w]:
         # All red edges of w are transfered to v
         add_edge(red_edges,(zw,v))
+        to_check.append(zw)        
         # Red edges replace black edges
         remove_edge(black_edges,(zw,v))
         # As w will be removed, delete the edge
@@ -108,6 +113,7 @@ def contract(g, e):
         # If z is connected to v, but not to w, replace the black edge by an red edge
         if zv not in black_edges[w]:
             add_edge(red_edges,(zv,v))
+            to_check.append(zv)                    
             to_be_removed_black.append((zv,v))
 
     for ze in to_be_removed_black:
@@ -116,6 +122,12 @@ def contract(g, e):
     # For simplicity, remove w
     black_edges.pop(w)
     red_edges.pop(w)
+
+    tmps = []
+    for zw in to_check:
+        tmps.append(len(red_edges[zw]))
+    return max(tmps)
+
     
 # Add an edge e to the graph g    
 def add_edge(g,e):
@@ -139,9 +151,7 @@ def check_sequence(g, seq):
             print("The graph is already contracted.")
             raise Exception("AlreadyContracted")
         check_in_graph(g,e)
-        contract(g,e)
-        (v,w) = e
-        rd = red_deg(g, v)
+        rd = contract(g,e)
         max_red_deg = max(max_red_deg, rd)
 
     # check whether the graph is completely contracted
