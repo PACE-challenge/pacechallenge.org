@@ -96,11 +96,13 @@ style="color:#db8a00">100 Kb</em>.
    public instances for development and 100 private instances used for
    evaluation.
    - [public instances](https://cloudtcs.tcs.uni-luebeck.de/index.php/s/Dm5pZfzxkoP8cL6)
-   - [properties](./properties)   
+   - [properties](./properties)
+   - [optil.io](https://www.optil.io/optilion/problem/3205) <em style="color:#ff0000">New!</em>
 3. The *heuristic set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for evaluation.
    - [public instances](https://cloudtcs.tcs.uni-luebeck.de/index.php/s/QMxJFWgDZF4bEo2)
-
+   - [optil.io](https://www.optil.io/optilion/problem/3206) <em style="color:#ff0000">New!</em>
+   
 ### Submission
 
 Details about the submission requirements can be found [here](submissions).
