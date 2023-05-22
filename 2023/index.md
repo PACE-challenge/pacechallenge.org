@@ -31,7 +31,7 @@ As in previous incarnations of the challenge, we will have *two*
 tracks: One focusing on **Exact** algorithms and one for **Heuristic**
 solutions. 
 
-Details about the scoring methods can be found [here](./scoring).
+<em style="color:#ff0000">Update!</em> Details about the scoring methods can be found [here](./scoring).
 
 #### The Exact Track
 The task is to compute an optimal solution for each given graph, that
@@ -97,11 +97,11 @@ style="color:#db8a00">100 Kb</em>.
    evaluation.
    - [public instances](https://cloudtcs.tcs.uni-luebeck.de/index.php/s/Dm5pZfzxkoP8cL6)
    - [properties](./properties)
-   - [optil.io](https://www.optil.io/optilion/problem/3205) <em style="color:#ff0000">New!</em>
+   - [optil.io](https://www.optil.io/optilion/problem/3205) 
 3. The *heuristic set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for evaluation.
    - [public instances](https://cloudtcs.tcs.uni-luebeck.de/index.php/s/QMxJFWgDZF4bEo2)
-   - [optil.io](https://www.optil.io/optilion/problem/3206) <em style="color:#ff0000">New!</em>
+   - [optil.io](https://www.optil.io/optilion/problem/3206)
    
 ### Submission
 

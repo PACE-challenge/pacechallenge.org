@@ -11,8 +11,12 @@ solution is output.
 
 ## Exact Track
 
+<em style="color:#ff0000">Update!</em>
 You will be ranked by the <em style="color:#db8a00">number of solved instances</em>.
-In case of a tie, the winner is determined by the time required to process all instances.
+In case of a tie, the winner is determined by <del>the time required
+to process all instances</del> the total time spent on the
+<em>solved</em> instances. In particular, there is no need to abort a
+"hopeless" run early.
 
 ## Heuristic Track
 
