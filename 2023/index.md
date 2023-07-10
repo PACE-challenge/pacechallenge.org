@@ -13,6 +13,10 @@ co-graph. The parameter was introduced in
 a multitude of theoretical
 [results](https://dblp.uni-trier.de/search?q=twin-width) since then.
 
+### Results of the Challenge
+
+We are happy to announce the [results of PACE 2023](results). Congratulations to the winners and all the participants
+
 ### Challenge Description
 
 The goal of this year's challenge is to compute a contraction sequence
@@ -31,7 +35,7 @@ As in previous incarnations of the challenge, we will have *two*
 tracks: One focusing on **Exact** algorithms and one for **Heuristic**
 solutions. 
 
-<em style="color:#ff0000">Update!</em> Details about the scoring methods can be found [here](./scoring).
+Details about the scoring methods can be found [here](./scoring).
 
 #### The Exact Track
 The task is to compute an optimal solution for each given graph, that
@@ -126,7 +130,7 @@ Details about the submission requirements can be found [here](submissions).
 - July 2023: Announcement of the Results.
 - IPEC 2023: Award ceremony.
 
-## Program Committee
+### Program Committee
 
 - [Max Bannach](http://www.tcs.uni-luebeck.de/mitarbeiter/bannach/) (Universität zu Lübeck)
 - [Sebastian Berndt](http://www.tcs.uni-luebeck.de/de/mitarbeiter/berndt/) (Universität zu Lübeck)
