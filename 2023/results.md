@@ -30,7 +30,7 @@ We are happy to announce the results of PACE 2023. Congratulations to the winner
 | 1    | GUTHM                    | Alexander Leonhardt, Holger Dell, Anselm Haak, Frank Kammer, Johannes Meintrup, Ulrich Meyer and Manuel Penschuck | x                  | 9103  | 30004.94 | [Link](https://github.com/manpen/twin_width)                                     |
 | 2    | Zygosity                 | Emmanuel Arrighi, Petra Wolf, Pål Grønas Drange, Kenneth Langedal, Farhad Vadiee and Martin Vatshelle             |                    | 8604  | 24924.32 | [Link](https://bitbucket.org/Petra2334/pace2023-code/src/master/Zygosity_Exact/) |
 | 3    | YetAnotherPaceChallenger | Édouard Bonnet and Julien Duron                                                                                   |                    | 7739  | 22924.65 | [Link](https://bitbucket.org/tennobe/red-alert)                                  |
-| 4    | HATTER                   | Aman Jain, Sachin Agarwal, Talika Gupta and Srinibas Swain                                                        |                    | 6196  | 30003.79 | [Link](https://zenodo.org/record/8045969)                                        |
+| 4    | HATTER                   | Aman Jain, Sachin Agarwal, Talika Gupta and Srinibas Swain                                                        | x                  | 6196  | 30003.79 | [Link](https://zenodo.org/record/8045969)                                        |
 | 5    | HeiTwin                  | Thomas Möller, Nikita-Nick Funk, Dennis Jakob and Ernestine Großmann                                              | x                  | 6165  | 30122.17 | [Link](https://github.com/HeiTwin/HeiTwin-Heuristic)                             |
 | 6    | UAIC Twin Width          | Andrei Arhire, Matei Chiriac and Radu Timofte                                                                     | x                  | 5937  | 28015.79 | [Link](https://github.com/AndreiiArhire/PACE2023)                                |
 | 7    | Greetwin                 | Jippe Hoogeveen                                                                                                   | x                  | 5749  | 7265.07  | [Link](https://github.com/jippehoogeveenuu/Greetwin)                             |
@@ -58,7 +58,7 @@ vertex separators.
 # Awards for Student Submissions
 
 We recognizing outstanding achievements from student submission, by
-awarding the top two student submissions of each track. By honoring
+awarding the top three student submissions of each track. By honoring
 their achievements, we aim to inspire and motivate young researchers to
 participate in PACE.
 
@@ -68,4 +68,5 @@ participate in PACE.
 | Exact 2     | HeiTwin         | Thomas Möller, Nikita-Nick Funk, Dennis Jakob and Ernestine Großmann                                              |
 |             |                 |                                                                                                                   |
 | Heuristic 1 | GUTHM           | Alexander Leonhardt, Holger Dell, Anselm Haak, Frank Kammer, Johannes Meintrup, Ulrich Meyer and Manuel Penschuck |
-| Heuristic 2 | HeiTwin         | Thomas Möller, Nikita-Nick Funk, Dennis Jakob and Ernestine Großmann                                              |
+| Heuristic 2 | HATTER          | Aman Jain, Sachin Agarwal, Talika Gupta and Srinibas Swain                                                        |
+| Heuristic 3 | HeiTwin         | Thomas Möller, Nikita-Nick Funk, Dennis Jakob and Ernestine Großmann                                              |
