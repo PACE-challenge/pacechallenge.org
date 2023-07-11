@@ -16,7 +16,7 @@ We are happy to announce the results of PACE 2023. Congratulations to the winner
 | 5    | Soapen                       | Christopher Weyand and Marcus Wilhelm                                                                                                           |                    | 33    | 250.48   | [Link](https://github.com/chistopher/twinwidth)                                  |
 | 6    | GBathie                      | Gabriel Bathie, Jérôme Boillot, Nicolas Bousquet and Théo Pierron                                                                               |                    | 31    | 1183.32  | [Link](https://github.com/GBathie/pace2023-tinywidth)                            |
 | 7    | Zygosity                     | Emmanuel Arrighi, Petra Wolf, Pål Grønas Drange, Kenneth Langedal, Farhad Vadiee and Martin Vatshelle                                           |                    | 29    | 391.21   | [Link](https://bitbucket.org/Petra2334/pace2023-code/src/master/Zygosity_Exact/) |
-| 8    | trex-ufmg                    | Alan Cabral Trindade Prado, Emanuel Juliano Morais Silva, Guilherme de Castro Mendes Gomes, Kaio Henrique Masse Vieira and Laila Melo Vaz Lopes |                    | 27    | 14760.81 | [Link](https://github.com/gcmgomes/pace2023)                                     |
+| 8    | trex-ufmg                    | Alan Cabral Trindade Prado, Emanuel Juliano Morais Silva, Guilherme de Castro Mendes Gomes, Kaio Henrique Masse Vieira and Laila Melo Vaz Lopes | x                  | 27    | 14760.81 | [Link](https://github.com/gcmgomes/pace2023)                                     |
 | 9    | tuw                          | Andre Schidler and Stefan Szeider                                                                                                               |                    | 26    | 967.03   | [Link](https://github.com/ASchidler/tww-bb)                                      |
 | 10   | HeiTwin                      | Thomas Möller, Nikita-Nick Funk, Dennis Jakob and Ernestine Großmann                                                                            | x                  | 15    | 1187.19  | [Link](https://github.com/HeiTwin/HeiTwin-Exact)                                 |
 | 11   | A Simple Twin-width Searcher | Alexander Meiburg                                                                                                                               |                    | 14    | 1490.55  | [Link](https://github.com/Timeroot/Twinwidth)                                    |
@@ -62,11 +62,12 @@ awarding the top three student submissions of each track. By honoring
 their achievements, we aim to inspire and motivate young researchers to
 participate in PACE.
 
-| Rank        | Team            | Member                                                                                                            |
-| :--         | :--             |                                                                                                                   |
-| Exact 1     | UAIC Twin Width | Andrei Arhire, Matei Chiriac and Radu Timofte                                                                     |
-| Exact 2     | HeiTwin         | Thomas Möller, Nikita-Nick Funk, Dennis Jakob and Ernestine Großmann                                              |
-|             |                 |                                                                                                                   |
-| Heuristic 1 | GUTHM           | Alexander Leonhardt, Holger Dell, Anselm Haak, Frank Kammer, Johannes Meintrup, Ulrich Meyer and Manuel Penschuck |
-| Heuristic 2 | HATTER          | Aman Jain, Sachin Agarwal, Talika Gupta and Srinibas Swain                                                        |
-| Heuristic 3 | HeiTwin         | Thomas Möller, Nikita-Nick Funk, Dennis Jakob and Ernestine Großmann                                              |
+| Rank        | Team            | Member                                                                                                                                          |
+| :--         | :--             |                                                                                                                                                 |
+| Exact 1     | UAIC Twin Width | Andrei Arhire, Matei Chiriac and Radu Timofte                                                                                                   |
+| Exact 2     | trex-ufmg       | Alan Cabral Trindade Prado, Emanuel Juliano Morais Silva, Guilherme de Castro Mendes Gomes, Kaio Henrique Masse Vieira and Laila Melo Vaz Lopes |
+| Exact 2     | HeiTwin         | Thomas Möller, Nikita-Nick Funk, Dennis Jakob and Ernestine Großmann                                                                            |
+|             |                 |                                                                                                                                                 |
+| Heuristic 1 | GUTHM           | Alexander Leonhardt, Holger Dell, Anselm Haak, Frank Kammer, Johannes Meintrup, Ulrich Meyer and Manuel Penschuck                               |
+| Heuristic 2 | HATTER          | Aman Jain, Sachin Agarwal, Talika Gupta and Srinibas Swain                                                                                      |
+| Heuristic 3 | HeiTwin         | Thomas Möller, Nikita-Nick Funk, Dennis Jakob and Ernestine Großmann                                                                            |
