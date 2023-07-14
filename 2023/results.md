@@ -51,9 +51,9 @@ decompositions, a divide-and-conquer strategy that features compact
 vertex separators. 
 
 
-| Team        | Member                              |
-| :--         | :--                                 |
-| Hydra Prime | Yosuke Mizutani and David Dursteler |
+| Team        | Member                                                  |
+| :--         | :--                                                     |
+| Hydra Prime | Yosuke Mizutani, David Dursteler, and Blair D. Sullivan |
 
 # Awards for Student Submissions
 
