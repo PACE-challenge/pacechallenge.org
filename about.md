@@ -51,5 +51,7 @@ PACE is supported by the NWO Gravitation project ‘[NETWORKS](http://thenetwork
 
 ### Other Challenges
 
-Martin Josef Geiger keeps a nice [list of various other computational challenges](https://www.hsu-hh.de/logistik/research/challenges) out there.
+- In 2023, the [International Competition on Graph Counting Algorithms
+](https://afsa.jp/icgca/) featured the problem of counting paths of a given length.
+- Martin Josef Geiger keeps a nice [list of various other computational challenges](https://www.hsu-hh.de/logistik/research/challenges) out there.
 
