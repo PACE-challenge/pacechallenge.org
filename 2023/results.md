@@ -35,7 +35,7 @@ We are happy to announce the results of PACE 2023. Congratulations to the winner
 | 6    | UAIC Twin Width          | Andrei Arhire, Matei Chiriac and Radu Timofte                                                                     | x                  | 5937  | 28015.79 | [Link](https://github.com/AndreiiArhire/PACE2023)                                    |
 | 7    | Greetwin                 | Jippe Hoogeveen                                                                                                   | x                  | 5749  | 7265.07  | [Link](https://github.com/jippehoogeveenuu/Greetwin)                                 |
 | 8    | METATWW                  | William Bille Meyling                                                                                             | x                  | 4265  | 27756.51 | [Link](https://gitlab.com/willthbill/pace2023-twinwidth)                             |
-| 9    | twin width fmi           | Lucian Trepteanu, Adrian Miclaus, Alexandru Enache and Alexandru Popa                                             | x                  | 3231  | 16081.96 | [Link](https://gitlab.com/willthbill/pace2023-twinwidth)                             |
+| 9    | twin width fmi           | Lucian Trepteanu, Adrian Miclaus, Alexandru Enache and Alexandru Popa                                             | x                  | 3231  | 16081.96 | [Link](https://github.com/lucianTrepteanu/PACE2023)                             |
 | 10   | jbalasin                 | Jonathan Balasingham, Sebastian Wild and Viktor Zamaraev                                                          |                    | 342   | 2345.66  | [Link](https://github.com/jonathanBalasingham/PACE2023)                              |
  
 # Theory Award
