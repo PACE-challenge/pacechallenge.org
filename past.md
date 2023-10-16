@@ -11,11 +11,12 @@ The results of each PACE challenge are documented in a report that is published 
   [results](/2023/results/),
   [challenge description](/2023/))
 - PACE 2022: **Directed Feedback Vertex Set**<br/>
-  ([slides](/2022/PACE22-slides.pdf),
+  ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2022.26),
+  [slides](/2022/PACE22-slides.pdf),
   [results](/2022/results/),
   [challenge description](/2022/))
 - PACE 2021: **Cluster Editing**<br/>
-  ([official report](/2021/pace21-report.pdf),
+  ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2021.26),
   [slides](/2021/pace2021-award-ceremony.pdf),
   [video](https://fpt.akt.tu-berlin.de/pace2021/pace-award-recording.mp4),
   [results](/2021/results/), 
