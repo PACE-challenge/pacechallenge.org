@@ -24,7 +24,7 @@ of algorithm engineering
 
 ### Steering Committee
 
-- (since 2023) [Max Bannach](http://www.tcs.uni-luebeck.de/mitarbeiter/bannach/) (Universität zu Lübeck)
+- (since 2023) [Max Bannach](https://www.esa.int/gsp/ACT/team/max_bannach/) (European Space Agency)
 - (since 2023) [Sebastian Berndt](http://www.tcs.uni-luebeck.de/de/mitarbeiter/berndt/) (Universität zu Lübeck)
 - (since 2016) [Holger Dell](https://holgerdell.com) (Goethe University Frankfurt and IT University of Copenhagen)
 - (since 2016) [Bart M. P. Jansen](https://www.win.tue.nl/~bjansen/) (chair) (Eindhoven University of Technology)
