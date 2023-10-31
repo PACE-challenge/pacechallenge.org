@@ -17,7 +17,7 @@ The graph is presented as input in essentially the same graph (`.gr`) format use
 	- `n1` is the number of vertices in bipartition $B$ (the free partition);
 	- `m` the number of edges to follow.
 - The p-line is unique and no other line starts with `p`.
-- The vertices in are numbered from $1$ to $n_0$, the vertices in $B$ are numbered from $n_0+1$ to $n_0+n_1$.
+- The vertices in $A$ are numbered from $1$ to $n_0$, the vertices in $B$ are numbered from $n_0+1$ to $n_0+n_1$.
 - After the p-line there will be exactly `m` non-comment lines that encode the edges:
 	- These are formatted as `x y` and define an edge between $x$ and $y$, where $x$ is a number between $1$ and $n_0$, and $y$ is a number between $n_0+1$ and $n_0+n_1$.
 
@@ -26,7 +26,7 @@ Here is an example:
 
 ```
 c this is a comment
-p ocr n0 n1 m
+p ocr 3 3 3
 1 5
 2 4
 3 6
@@ -38,7 +38,7 @@ For the parameterized track, the p-line contains an additional parameter `cw` th
 The first $n_0+n_1$ lines then list a total order of the vertices attaining this cutwidth.
 ```
 c this is a comment
-p ocr n0 n1 m cw
+p ocr 3 3 3 1
 1
 5
 2
