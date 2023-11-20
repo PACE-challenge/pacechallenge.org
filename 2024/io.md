@@ -35,6 +35,7 @@ p ocr 3 3 3
 ![Input](../img/input.svg)
 
 For the parameterized track, the p-line contains an additional parameter `cw` that gives the cutwidth of the graph. 
+The first line is then formatted as 'p ocr n0 n1 m cw'
 The first $n_0+n_1$ lines then list a total order of the vertices attaining this cutwidth.
 ```
 c this is a comment

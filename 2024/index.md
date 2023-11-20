@@ -12,8 +12,7 @@ For an extended overview, see [Chapter 13.5 of the Handbook of Graph Drawing](ht
 
 ### Challenge Description
 
-The goal of this year's challenge is to compute a 2-layered drawing of a bipartite graph, where one side is fixed, with a minimum number of crossings.
-for a given graph of small width. More precisely: 
+The goal of this year's challenge is to compute a 2-layered drawing of a bipartite graph, where one side is fixed, with a minimum number of crossings. More precisely: 
 
 **Input:** A bipartite graph $G=((A\dot\cup B),E)$, and a linear order of $A$. <br/>
 **Output:** A linear order of $B$. <br/>
@@ -39,8 +38,9 @@ solver has to output a solution within a time limit of <em
 style="color:#db8a00">30 minutes</em> and a memory limit of <em
 style="color:#db8a00">8 GB</em>.
 
-Instances in this track have solutions with a small number of crossings 
-is small compared to the number of vertices, but we do not 
+Instances in this track have solutions where the number of crossings 
+is smaller than the number of vertices, but we do not 
+give explicit bounds.
 
 Submissions should be based on provably optimal algorithms, however,
 this is *not* a formal requirement. Submissions that output an
@@ -58,7 +58,7 @@ SIGTERM afterwards. When receiving this signal, the process has to
 output a linear order of $B$ immediately to the standard
 output and terminate. If the program does not halt in a reasonable
 time after reserving the signal, it will be stopped via SIGKILL. In
-this case the instance is counted as *time limited exceeded*. 
+this case the instance is counted as *time limit exceeded*. 
 Information on how to handle Unix signals in various
 programming languages can be found on the [optil.io webpage](https://www.optil.io/optilion/help/signals). 
 The memory limit for this track is <em style="color:#db8a00">8 GB</em> as well.
@@ -106,11 +106,11 @@ There will be four benchmark set:
 ### Timeline
 
 - [x] September 2023: Announcement of the Challenge
-- [x] November 2024: Definition of the input and output format. 
+- [x] November 2023: Definition of the input and output format. 
   - [x] A [tiny test set](./tiny_test_set.zip) will be provided.
   - [x] A [verifier](./verifier) will be provided.
   - [ ] A [visualizer](./visualizer) will be provided.
-- [ ] December 2024: Announcement of the ranking methods and additional
+- [ ] December 2023: Announcement of the ranking methods and additional
   information about the submission process.
   - [ ] A repository for an autotester (like a JUnit test) and public
     test instances will be provided
