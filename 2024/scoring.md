@@ -26,12 +26,3 @@ your submission and `(PC #crossings)` is the number of crossings in
 the best solution known to the PC 
 *(which may not be optimal and may decrease in the course of the contest)*.  
 
-## Technical Notes on Optil.io
-
-Note that the [optil.io](https://www.optil.io) platform ranking differs here
-slightly due to technical reasons: On optil.io if the output of your
-program turns out to be invalid, it will use $|V|$.  If your program
-does not return an output on SIGKILL for some instance, (solution
-size) for the instance will be considered as $|V|$.
-
-

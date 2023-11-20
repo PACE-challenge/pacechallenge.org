@@ -8,11 +8,9 @@ title: "PACE 2024 - Submission requirements"
 If you plan to participate in the challenge, please register your team
 as follows:
 
-1. Register an account for your team at [optil.io](https://www.optil.io/optilion/login).
-2. Access [EasyChair](https://easychair.org/conferences/?conf=pace2024) and register your team:
-   - Use as paper title your login name from [optil.io](https://www.optil.io/optilion/login);
-   - Place the name of your solver in the abstract.
-3. Submit your solution via [optil.io](https://www.optil.io/optilion/login) (as soon as the submission is open).
+TBA
+
+We are still in the process of selecting this year's submission system.	
 
 ## Source Code Requirements
 
@@ -59,13 +57,12 @@ This allows other researchers to later use your code and improve upon your solve
 We allow a limited use of external <em style="color:#db8a00">open
 source</em> dependencies, preferably with source code included in
 the submission. If you need to install software on the target
-platform, please contact the organizers in advance, and we will ask the
-[optil.io](https://www.optil.io/optilion/about) team if it is
-possible.
+platform, please contact the organizers in advance, and we will try
+to figure out whether it is possible.
 
 ## Sequential Requirement
 
-Only sequential algorithms are permited. Submussions that actively use
+Only sequential algorithms are permitted. Submissions that actively use
 parallelism will be <em style="color:#db8a00">disqualified</em>. 
 *Non-active* parallelism such as Java's garbage collector are, however,
 allowed. If you are unsure whether some subroutine falls under this
@@ -74,22 +71,7 @@ you have questions.
 
 ## Submission Process
 
-Solvers have to be submitted via [optil.io](https://www.optil.io/) and
-[EasyChair](https://easychair.org/conferences/?conf=pace2024) as
-follows:
-
-1. Submit the solver via [optil.io](https://www.optil.io/), please refer
-      to their [help page](https://www.optil.io/optilion/help). 
-2. Register the team and the solver via
-   [EasyChair](https://easychair.org/conferences/?conf=pace2024). 
-3. Create a release in the public repository of the solver (name:
-      <em style="color:#db8a00">pace-2024</em>).    
-4. Place the source code of the solver in a digital library (e.g.,
-      [Zenodo](https://zenodo.org/)) and generate a DOI. 
-5. Submit the solver description via
-      [EasyChair](https://easychair.org/conferences/?conf=pace2024)
-      and use the DOI to refer to the solver and include a reference
-      to the public source code repository.	  
+TBA
 
 ## Student Submissions
 

@@ -68,10 +68,12 @@ Hence, the output file contains just $n_1$ numbers separated by newlines.
 
 ## Verifier
 
-This [Python script](../verifier.py) can be used to check whether a given
+We provide a [verifier](verifier) to check whether a given
 linear order is valid for a given graph. The output will
 either be the number of crossings or an error message.
 
-```
- python verifier.py <graph.gr> <result.tww>
-```
+## Autotester
+
+We will provide a repository that contains a script to automatically test your
+implementation on a set of instances and solutions, together with a public
+test set (TBA December 2024).

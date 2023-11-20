@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "PACE 2024"
-sidebar_link: false
+sidebar_link: true
 sidebar_sort_order: 10
 ---
 
@@ -25,9 +25,10 @@ See an example here with two different linear orders for $B$.
 
 ### Tracks
 
-As in previous incarnations of the challenge, we will have *two*
-tracks: One focusing on **Exact** algorithms and one for **Heuristic**
-solutions. 
+This year, we will have *three* tracks: 
+- one focusing on **Exact** algorithms for instances with "few" crossings
+- one for **Heuristic** algorithms for instances that might require many crossings
+- one for exact **Parameterized** algorithms for instances with small [cutwidth](https://en.wikipedia.org/wiki/Cutwidth).
 
 
 #### The Exact Track
@@ -37,6 +38,9 @@ is, a linear order of $B$ that *minimizes the number of crossings*. For each ins
 solver has to output a solution within a time limit of <em
 style="color:#db8a00">30 minutes</em> and a memory limit of <em
 style="color:#db8a00">8 GB</em>.
+
+Instances in this track have solutions with a small number of crossings 
+is small compared to the number of vertices, but we do not 
 
 Submissions should be based on provably optimal algorithms, however,
 this is *not* a formal requirement. Submissions that output an
@@ -51,7 +55,7 @@ In this track, the solver shall compute a *good* solution
 *quickly*. The solver will be run on each instance for <em
 style="color:#db8a00">5 minutes</em> and receives the Unix signal
 SIGTERM afterwards. When receiving this signal, the process has to
-output a correct contraction sequence immediately to the standard
+output a linear order of $B$ immediately to the standard
 output and terminate. If the program does not halt in a reasonable
 time after reserving the signal, it will be stopped via SIGKILL. In
 this case the instance is counted as *time limited exceeded*. 
@@ -64,55 +68,66 @@ that produce *incorrect* solution will be **disqualified**.
 
 #### Parameterized Track
 
-TBA
+This track has the same rules as the Exact Track. 
+However, the instances here can require a large number of crossings,
+but they have small [cutwidth](https://en.wikipedia.org/wiki/Cutwidth):
+there is an ordering of the vertices of the graph, such that every cut obtained by 
+partitioning the vertices into earlier and later subsets of the ordering is crossed 
+by at most $k$ edges. Note that in this order the vertices of $A$ and $B$ might
+be interleaved. An ordering that achieves minimum cutwidth will be provided
+together with the graph.
+
 
 ### Benchmark Sets
 
 There will be four benchmark set:
 
 1. A *tiny set* for debugging that contains graphs together with their
-   twinwidth. On optil.io this set as a time limit of 
-   <em style="color:#db8a00">60 seconds</em> and memory limit of 
-   <em style="color:#db8a00">100 Kb</em>.
+   one-sided crossing number. 
+   - [instances](./tiny_test_set.zip)
+   - [solutions](./tiny_test_set-sol.zip)
+   - [images](./tiny_test_set-overview.pdf)
 2. The *exact set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
 3. The *heuristic set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for evaluation.
-2. The *parameterized set* containing 200 instances divided into 100
+4. The *parameterized set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
    
 ### Details
 
 - [**Input and Output Format**](./io)     
+- [**Verifier**](./verifier)     
 - [**Scoring Methods**](./scoring)     
 - [**Submission Requirements**](submissions)
 
-### Evaluation
-
-The final evaluation will be done on a local machine by the Program Committee,
-to remove inconsistencies in the performance of [optil.io](www.optil.io).
-
 ### Timeline
 
-- September 2023: Announcement of the Challenge
-- October 2024: Definition of the input and output format. 
-  - A tiny test set will be provided.
-  - A verifier will be provided.
-  - A visualizer will be provided.
-- November 2024: Announcement of the ranking methods and additional
+- [x] September 2023: Announcement of the Challenge
+- [x] November 2024: Definition of the input and output format. 
+  - [x] A [tiny test set](./tiny_test_set.zip) will be provided.
+  - [x] A [verifier](./verifier) will be provided.
+  - [ ] A [visualizer](./visualizer) will be provided.
+- [ ] December 2024: Announcement of the ranking methods and additional
   information about the submission process.
-- January 2024: Public instances and details about the benchmark set
+  - [ ] A repository for an autotester (like a JUnit test) and public
+    test instances will be provided
+- [ ] January 2024: Public instances and details about the benchmark set
   get published.
-- March 2024: Submission on [optil.io](www.optil.io) opens with public
-  leaderboard.
-- May 2024: The public leaderboard gets frozen.
-- June 2024: Submission Deadline.
-	- June 1st, 2024 (AoE): Submission deadline for solver.
-	- June 15th, 2024 (AoE): Submission deadline for solver description.
-- July 2024: Announcement of the Results.
-- IPEC 2024: Award ceremony.
+- [ ] March 2024: Submission opens with public leaderboard.
+- [ ] May 2024: The public leaderboard gets frozen.
+- [ ] June 2024: Submission Deadline.
+	- [ ] June 1st, 2024 (AoE): Submission deadline for solver.
+	- [ ] June 15th, 2024 (AoE): Submission deadline for solver description.
+- [ ] July 2024: Announcement of the Results.
+- [ ] IPEC 2024: Award ceremony.
+
+### Zulip
+
+Join us on [Zulip](https://pacechallenge.zulipchat.com/join/prysn4f3rn7grsxgmbx6vkfg/)
+for discussions and updates.
 
 ### Program Committee
 
