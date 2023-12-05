@@ -69,7 +69,7 @@ Hence, the output file contains just $n_1$ numbers separated by newlines.
 
 ## Verifier
 
-We provide a [verifier](verifier) to check whether a given
+We provide a [verifier](../verifier) to check whether a given
 linear order is valid for a given graph. The output will
 either be the number of crossings or an error message.
 
