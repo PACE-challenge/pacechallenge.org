@@ -109,7 +109,7 @@ There will be four benchmark set:
 - [x] November 2023: Definition of the input and output format. 
   - [x] A [tiny test set](./tiny_test_set.zip) will be provided.
   - [x] A [verifier](./verifier) will be provided.
-  - [ ] A [visualizer](./visualizer) will be provided.
+  - [x] A [visualizer](./visualizer) will be provided.
 - [ ] December 2023: Announcement of the ranking methods and additional
   information about the submission process.
   - [ ] A repository for an autotester (like a JUnit test) and public

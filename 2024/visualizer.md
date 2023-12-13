@@ -3,7 +3,7 @@ layout: page
 title: "PACE 2024 - Visualizer"
 ---
 
-The visualizer (*coming soon*) can be used to visualize a given instance and solution.
+The [visualizer](visualizer.py) can be used to visualize a given instance and solution.
 
 ## Usage
 
@@ -14,6 +14,6 @@ $ visualizer <path/to/graph.gr> <path/to/solution.sol>
 ```
 
 The visualizer has three ways to draw the graph:
-- Draw 2-sided: draw the given instance in the order provided by the instance file (<path/to/graph.gr>)
-- Draw 2-sided solved: draw the given instance in the order provided by the solution file (<path/to/solution.gr>)
-- Draw force: draw the given instance with a force-directed algorithm.
+- Force layout: draw the given instance with a force-directed algorithm.
+- Input: draw the given instance in the order provided by the instance file (<path/to/graph.gr>). The fixed partition is displayed at the top, the free partition at the bottom.
+- Solution: draw the given instance in the order provided by the solution file (<path/to/solution.sol>). The fixed partition is displayed at the top, the free partition at the bottom.
