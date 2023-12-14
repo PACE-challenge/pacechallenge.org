@@ -10,7 +10,7 @@ This package can be used to verify a given solution against a set of crossing co
 Install the [verifier](https://pypi.org/project/pace2024-verifier/) from [pip](https://pypi.org/project/pip/):
 
 ```console
-$ pip install pace2024verifier
+$ pip install pace2024-verifier
 ```
 
 Alternatively you can download the code [here](./pace2024_verifier-0.2.0.tar.gz). Building the project works easily with [poetry](https://python-poetry.org/). After installing poetry, download and unpack the verifier, switch to the unpacked directory and execute:
