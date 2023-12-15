@@ -3,15 +3,22 @@ layout: page
 title: "PACE 2024 - Visualizer"
 ---
 
-The [visualizer](visualizer.py) can be used to visualize a given instance and solution.
+The [visualizer](visualizer.zip) can be used to visualize a given instance and solution.
+
+## Requirements
+
+The visualizer requires `networkx` and `numpy`. After unpacking the archive, you can install them with
+
+```console
+$ pip install -r requirements.txt```
+
 
 ## Usage
 
 To start the visualizer, use the following command:
 
 ```console
-$ visualizer <path/to/graph.gr> <path/to/solution.sol>
-```
+$ visualizer <path/to/graph.gr> <path/to/solution.sol>```
 
 The visualizer has three ways to draw the graph:
 - Force layout: draw the given instance with a force-directed algorithm.

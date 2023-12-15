@@ -100,6 +100,7 @@ There will be four benchmark set:
 
 - [**Input and Output Format**](./io)     
 - [**Verifier**](./verifier)     
+- [**Visualizer**](./visualizer)     
 - [**Scoring Methods**](./scoring)     
 - [**Submission Requirements**](submissions)
 
