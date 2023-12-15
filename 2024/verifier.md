@@ -21,12 +21,16 @@ $ poetry build
 
 This generates a `dist` directory containing the necessary wheel-file that can be installed via pip.
 
+```console
+$ pip install .\dist\pace2024_verifier-0.2.0-py3-none-any.whl
+```
+
 ## Usage
 
 To verify a solution use the following command:
 
 ```console
-$ pace2024verify <path/to/graph.gr> <path/to/solution.sol>
+$ pace2024verifier <path/to/graph.gr> <path/to/solution.sol>
 ```
 
 The verifier has three different methods for verification usable via the switches:
