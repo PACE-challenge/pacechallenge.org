@@ -74,8 +74,9 @@ but they have small [cutwidth](https://en.wikipedia.org/wiki/Cutwidth):
 there is an ordering of the vertices of the graph, such that every cut obtained by 
 partitioning the vertices into earlier and later subsets of the ordering is crossed 
 by at most $k$ edges. Note that in this order the vertices of $A$ and $B$ might
-be interleaved. An ordering that achieves minimum cutwidth will be provided
-together with the graph.
+be interleaved. An ordering that achieves minimum cutwidth 
+**where the order of the vertices in $A$ is the same as in the problem instance**
+will be provided together with the graph.
 
 
 ### Benchmark Sets
