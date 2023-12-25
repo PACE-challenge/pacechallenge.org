@@ -100,24 +100,23 @@ There will be four benchmark set:
 ### Details
 
 - [**Input and Output Format**](./io)     
-- [**Verifier**](./verifier)     
+- [**Verifier and Tester**](./verifier)     
 - [**Visualizer**](./visualizer)     
 - [**Scoring Methods**](./scoring)     
 - [**Submission Requirements**](submissions)
 
 ### Timeline
 
-- [x] September 2023: Announcement of the Challenge
+- [x] September 2023: Announcement of the Challenge.
 - [x] November 2023: Definition of the input and output format. 
   - [x] A [tiny test set](./tiny_test_set.zip) will be provided.
   - [x] A [verifier](./verifier) will be provided.
   - [x] A [visualizer](./visualizer) will be provided.
-- [ ] December 2023: Announcement of the ranking methods and additional
-  information about the submission process.
-  - [ ] A repository for an autotester (like a JUnit test) and public
-    test instances will be provided
-- [ ] January 2024: Public instances and details about the benchmark set
-  get published.
+- [x] December 2023: Announcement of the ranking methods.
+  - [x] An [autotester](./verifier) (like a JUnit test) will be provided.
+- [ ] January 2024: Public instances and details about the benchmark set get published.
+  - [ ] Additional information about the submission process get published.
+  - [ ] A repository for public test instances will be provided.
 - [ ] March 2024: Submission opens with public leaderboard.
 - [ ] May 2024: The public leaderboard gets frozen.
 - [ ] June 2024: Submission Deadline.
