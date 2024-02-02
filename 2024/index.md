@@ -114,7 +114,7 @@ There will be four benchmark set:
   - [x] A [visualizer](./visualizer) will be provided.
 - [x] December 2023: Announcement of the ranking methods.
   - [x] An [autotester](./verifier) (like a JUnit test) will be provided.
-- [ ] January 2024: Public instances and details about the benchmark set get published.
+- [ ] Early February 2024: Public instances and details about the benchmark set get published.
   - [ ] Additional information about the submission process get published.
   - [ ] A repository for public test instances will be provided.
 - [ ] March 2024: Submission opens with public leaderboard.
