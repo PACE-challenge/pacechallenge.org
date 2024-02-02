@@ -72,7 +72,7 @@ $ <solver> path/to/input path/to/output
 
 If you prefer using `stdin` or `stdout` use the following switches:
 * --instanceas file/stdin = provide the input file as a path to the `file` or on `stdin`
-* --solutionas file/stdin = expect the output to be written to a `file` or on `stdout`
+* --solutionas file/stdout = expect the output to be written to a `file` or on `stdout`
 
 For solution files the tester creates temporary file using the `tempdir` library of `python`. All created files are deleted by this library after execution.
 
