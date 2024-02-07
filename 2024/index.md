@@ -39,8 +39,9 @@ style="color:#db8a00">30 minutes</em> and a memory limit of <em
 style="color:#db8a00">8 GB</em>.
 
 Instances in this track have solutions where the number of crossings 
-is smaller than the number of vertices, but we do not 
-give explicit bounds.
+is *not too large* compared to the number of vertices. We give some
+bounds on the crossing numbers for all instances on the
+[properties](./properties) page.
 
 Submissions should be based on provably optimal algorithms, however,
 this is *not* a formal requirement. Submissions that output an
@@ -91,8 +92,11 @@ There will be four benchmark set:
 2. The *exact set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
+   - [public instances](./exact-public.zip)
+   - [properties](./properties)
 3. The *heuristic set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for evaluation.
+   - [public instances](./heuristic-public.zip)
 4. The *parameterized set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
