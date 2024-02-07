@@ -27,7 +27,7 @@ Most graphs (but not all) belong to one of the following families:
 We tried to create instances where the crossing number is not *too* large compared to the number of vertices $n$.
 - Instances 1 - 12 have at most $n$ crossings
 - Instances 13 - 30 have at least $n$ and at most $10n$ crossings
-- Instance 31 - 49 have at least $10n$ and at most $50n$ crossings
-- Instance 50 - 65 have at least $50n$ and at most $100n$ crossings
-- Instance 66 - 91 have at least $100n$ and at most $200n$ crossings
-- Instance 92 - 100 have at least $200n$ and at most $300n$ crossings
+- Instances 31 - 49 have at least $10n$ and at most $50n$ crossings
+- Instances 50 - 65 have at least $50n$ and at most $100n$ crossings
+- Instances 66 - 91 have at least $100n$ and at most $200n$ crossings
+- Instances 92 - 100 have at least $200n$ and at most $300n$ crossings
