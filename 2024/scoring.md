@@ -26,3 +26,5 @@ your submission and `(PC #crossings)` is the number of crossings in
 the best solution known to the PC 
 *(which may not be optimal and may decrease in the course of the contest)*.  
 
+If there is a crossing-free solution, then you receive 1 point if you find
+it and 0 points if your solution has crossings.
