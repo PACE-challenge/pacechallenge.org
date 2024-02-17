@@ -100,6 +100,7 @@ There will be four benchmark set:
 4. The *parameterized set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
+   - [public instances](./cutwidth-public.zip)
    
 ### Details
 
@@ -118,7 +119,7 @@ There will be four benchmark set:
   - [x] A [visualizer](./visualizer) will be provided.
 - [x] December 2023: Announcement of the ranking methods.
   - [x] An [autotester](./verifier) (like a JUnit test) will be provided.
-- [ ] Early February 2024: Public instances and details about the benchmark set get published.
+- [X] Early February 2024: Public instances and details about the benchmark set get published.
   - [ ] Additional information about the submission process get published.
   - [ ] A repository for public test instances will be provided.
 - [ ] March 2024: Submission opens with public leaderboard.
