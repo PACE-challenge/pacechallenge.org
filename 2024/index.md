@@ -85,19 +85,23 @@ will be provided together with the graph.
 There will be four benchmark set:
 
 1. A *tiny set* for debugging that contains graphs together with their
-   one-sided crossing number. 
+   one-sided crossing number.   
+   We created a [public GitHub repository](https://github.com/PhKindermann/Pace2024-Testsets/tree/main)
+   for interesting testing instances that also contains a test set with medium sized graphs
+   (larger than in the tiny set but smaller than in the other benchmark sets).
+   Feel free to contribute your own interesting test instances!
    - [instances](./tiny_test_set.zip)
    - [solutions](./tiny_test_set-sol.zip)
-   - [images](./tiny_test_set-overview.pdf)
-2. The *exact set* containing 200 instances divided into 100
+   - [images](./tiny_test_set-overview.pdf)   
+3. The *exact set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
    - [public instances](./exact-public.zip)
    - [properties](./properties)
-3. The *heuristic set* containing 200 instances divided into 100
+4. The *heuristic set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for evaluation.
    - [public instances](./heuristic-public.zip)
-4. The *parameterized set* containing 200 instances divided into 100
+5. The *parameterized set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
    - [public instances](./cutwidth-public.zip)
@@ -121,7 +125,7 @@ There will be four benchmark set:
   - [x] An [autotester](./verifier) (like a JUnit test) will be provided.
 - [X] Early February 2024: Public instances and details about the benchmark set get published.
   - [ ] Additional information about the submission process get published.
-  - [ ] A repository for public test instances will be provided.
+  - [x] A [repository](https://github.com/PhKindermann/Pace2024-Testsets/tree/main) for public test instances will be provided.
 - [ ] March 2024: Submission opens with public leaderboard.
 - [ ] May 2024: The public leaderboard gets frozen.
 - [ ] June 2024: Submission Deadline.
