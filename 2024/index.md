@@ -101,7 +101,7 @@ There will be four benchmark set:
 4. The *heuristic set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for evaluation.
    - [public instances](./heuristic-public.zip)
-5. The *parameterized set* containing 200 instances divided into 100
+5. The *parameterized set* containing 225 instances divided into 125
    public instances for development and 100 private instances used for
    evaluation.
    - [public instances](./cutwidth-public.zip)
