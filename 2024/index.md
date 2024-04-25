@@ -93,18 +93,39 @@ There will be four benchmark set:
    - [instances](./tiny_test_set.zip)
    - [solutions](./tiny_test_set-sol.zip)
    - [images](./tiny_test_set-overview.pdf)   
+   - [optil.io](https://www.optil.io/optilion/problem/3209)
 3. The *exact set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
    - [public instances](./exact-public.zip)
    - [properties](./properties)
+   - [optil.io](https://www.optil.io/optilion/problem/3210)
 4. The *heuristic set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for evaluation.
    - [public instances](./heuristic-public.zip)
+   - [optil.io](https://www.optil.io/optilion/problem/3212)
 5. The *parameterized set* containing 225 instances divided into 125
    public instances for development and 100 private instances used for
    evaluation.
    - [public instances](./cutwidth-public.zip)
+   - [optil.io](https://www.optil.io/optilion/problem/3211)
+   
+   
+### Final Evaluation
+
+The final score will be computed over all public and private instances (for the parameterized track,
+we use a selection of 100 public instances, which are the ones provided on optil.io).
+
+Since the hardware on optil.io is not reliable and can provide different results
+upon uploading the same solver, we will compute the final score on our own hardware.
+Note that this hardware is slightly stronger than the one on optil.io:
+They use [Intel(R) Xeon(R) CPU E5-2695 v3 computing cores at 2.30GHz](https://www.optil.io/optilion/environment),
+while we will use Intel(R) Xeon(R) Gold CPU 6342 computing cores at 2.80GHz.
+
+Note also that the [optil.io](https://www.optil.io) platform ranking differs for the
+heuristic track. The correct score can be seen on the [results](./results) page,
+which we will update regularly until the public leaderboard freezes.
+
    
 ### Details
 
@@ -112,7 +133,8 @@ There will be four benchmark set:
 - [**Verifier and Tester**](./verifier)     
 - [**Visualizer**](./visualizer)     
 - [**Scoring Methods**](./scoring)     
-- [**Submission Requirements**](submissions)
+- [**Submission Requirements**](./submissions)
+- [**Current Standings**](./results)
 
 ### Timeline
 
@@ -123,14 +145,14 @@ There will be four benchmark set:
   - [x] A [visualizer](./visualizer) will be provided.
 - [x] December 2023: Announcement of the ranking methods.
   - [x] An [autotester](./verifier) (like a JUnit test) will be provided.
-- [X] Early February 2024: Public instances and details about the benchmark set get published.
-  - [ ] Additional information about the submission process get published.
+- [x] Early February 2024: Public instances and details about the benchmark set get published.
+  - [x] Additional information about the submission process get published.
   - [x] A [repository](https://github.com/PhKindermann/Pace2024-Testsets/tree/main) for public test instances will be provided.
-- [ ] March 2024: Submission opens with public leaderboard.
-- [ ] May 2024: The public leaderboard gets frozen.
+- [x] April 2024: Submission opens with public leaderboard.
+- [ ] May 20th, 2024: The public leaderboard gets frozen.
 - [ ] June 2024: Submission Deadline.
-	- [ ] June 1st, 2024 (AoE): Submission deadline for solver.
-	- [ ] June 15th, 2024 (AoE): Submission deadline for solver description.
+	- [ ] June 9th, 2024 (AoE): Submission deadline for solver.
+	- [ ] June 23rd, 2024 (AoE): Submission deadline for solver description.
 - [ ] July 2024: Announcement of the Results.
 - [ ] IPEC 2024: Award ceremony.
 

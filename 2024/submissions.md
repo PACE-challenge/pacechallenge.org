@@ -8,9 +8,8 @@ title: "PACE 2024 - Submission requirements"
 If you plan to participate in the challenge, please register your team
 as follows:
 
-TBA
-
-We are still in the process of selecting this year's submission system.	
+1. Register an account for your team at [optil.io](https://www.optil.io/optilion/login).
+2. Submit your solution via [optil.io](https://www.optil.io/optilion/login).
 
 ## Source Code Requirements
 
@@ -46,6 +45,9 @@ PDF. The document:
   LaTeX style;
 - should briefly describe the used techniques and references to the original publications. The description can have <em
    style="color:#db8a00">at most 3 pages</em> including title page and excluding references.
+- Use as paper title your login name from [optil.io](https://www.optil.io/optilion/login);
+- Place your login name from [optil.io](https://www.optil.io/optilion/login), the name of your solver and a reference
+  to the public source code repository in the paper.
 
 ## Build Tool Requirements
 
@@ -57,8 +59,9 @@ This allows other researchers to later use your code and improve upon your solve
 We allow a limited use of external <em style="color:#db8a00">open
 source</em> dependencies, preferably with source code included in
 the submission. If you need to install software on the target
-platform, please contact the organizers in advance, and we will try
-to figure out whether it is possible.
+platform, please contact the organizers in advance, and we will ask the
+[optil.io](https://www.optil.io/optilion/login) team if it is
+possible.
 
 ## Sequential Requirement
 
@@ -71,7 +74,19 @@ you have questions.
 
 ## Submission Process
 
-TBA
+Solvers have to be submitted via [optil.io](https://www.optil.io/) and
+Google Drive (link TBA) as follows:
+
+1. Submit the solver via [optil.io](https://www.optil.io/), please refer
+      to their [help page](https://www.optil.io/optilion/help). 
+2. Create a release in the public repository of the solver (name:
+      <em style="color:#db8a00">pace-2024</em>).    
+3. Place the source code of the solver in a digital library (e.g.,
+      [Zenodo](https://zenodo.org/)) and generate a DOI. 
+4. Submit the solver description via
+      Google Drive (link TBA)
+      and use the DOI to refer to the solver and include a reference
+      to the public source code repository.	  
 
 ## Student Submissions
 
