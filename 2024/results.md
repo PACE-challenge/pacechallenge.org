@@ -9,21 +9,22 @@ Please find here the current standings (as of **April 30th, 2024, 12:45 CEST**).
  
 | Rank | Team | Score | Time |
 | - | - | - |
-| 1 | guilhermefonseca | 199 | 16323.44 |
-| 2 | Tsch | 172 | 39456.35 |
-| 3 | crossy | 167 | 35155.46 |
-| 4 | *mjdv\** | 128 | 36876.76 |
-| 5 | *Bob\** | 115 | 3600.12 |
-| 6 | *Martin_J_Geiger\** | 114 | 18740.73 |
-| 7 | bin101 | 89 | 95059.47 |
-| 8 | *Zygosity\** | 80 | 37310.1 |
-| 9 | *axs\** | 73 | 196.56 |
-| 10 | *michele__\** | 30 | 0.01 |
-| 11 | *emengdeath\** | 25 | 147872.13 |
-| 12 | *sxlxc\** | 12 | 135367.79 |
-| 13 | polka625 | 0 | 0 |
-| 14 | clip | 0 | 0 |
-| 15 | asdf | 0 | 0 |
+| 1 | guilhermefonseca | 100 | 16323.44 |
+| 2 | Tsch | 92 | 23095.37 |
+| 3 | crossy | 83 | 34440.68 |
+| 4 | *Zygosity\** | 80 | 37310.1 |
+| 5 | *mjdv\** | 66 | 36876.76 |
+| 6 | *Bob\** | 60 | 3600.12 |
+| 7 | *Martin_J_Geiger\** | 53 | 18740.73 |
+| 8 | bin101 | 51 | 87656.17 |
+| 9 | gverger | 41 | 105329.98 |
+| 10 | *axs\** | 35 | 196.56 |
+| 11 | *michele__\** | 30 | 0.01 |
+| 12 | *emengdeath\** | 10 | 147872.13 |
+| 13 | *asdf\** | 5 | 117828.18 |
+| 14 | *sxlxc\** | 5 | 135367.79 |
+| 15 | polka625 | 0 | 0 |
+| 16 | clip | 0 | 0 |
 
 *\* Has submitted a wrong solution for at least one instance.*
 
@@ -31,29 +32,34 @@ Please find here the current standings (as of **April 30th, 2024, 12:45 CEST**).
  
 | Rank | Team | Score | Time |
 | - | - | - |
-| 1 | Martin_J_Geiger | 199.98 | 19320.44 |
-| 2 | guilhermefonseca | 199 | 12136.7 |
-| 3 | Bob | 197.92 | 5260.63 |
-| 4 | Arcee | 196.96 | 18880.67 |
-| 5 | axs | 196.07 | 1161.05 |
-| 6 | bin101 | 187.13 | 11443.48 |
-| 7 | maxime51 | 186.69 | 3.97 |
-| 8 | dabaez | 175.37 | 1.09 |
-| 9 | Macs | 51 | 19793.78 |
-| 10 | gmusya | 45.44 | 0 |
-| 11 | polka625 | 38 | 23992.9 |
-| 12 | lysander051 | 0 | 0 |
+| 1 | guilhermefonseca | 100 | 12805.83 |
+| 2 | Arcee | 100 | 19348.46 |
+| 3 | Bob | 99.96 | 5260.63 |
+| 4 | Martin_J_Geiger | 99 | 19808.19 |
+| 5 | axs | 98.05 | 1161.05 |
+| 6 | maxime51 | 93.45 | 3.97 |
+| 7 | ericweidner | 91.91 | 0.96 |
+| 8 | gmusya | 91.74 | 3641.03 |
+| 9 | Macs | 89.87 | 13.24 |
+| 10 | dabaez | 87.3 | 1.09 |
+| 11 | bin101 | 76.08 | 4258.83 |
+| 12 | xxmatexx5 | 42.16 | 0 |
+| 13 | asdf | 24.1 | 25110.34 |
+| 14 | polka625 | 19 | 23992.9 |
+| 15 | Earendil | 0 | 0 |
 
 # Results of the Parameterized Track
  
 | Rank | Team | Score | Time |
 | - | - | - |
-| 1 | crossy | 200 | 22.06 |
-| 2 | Tsch | 200 | 24.71 |
-| 3 | Bob | 200 | 110.72 |
-| 4 | *mjdv\** | 122 | 142.39 |
+| 1 | crossy | 100 | 24.04 |
+| 2 | Tsch | 100 | 24.71 |
+| 3 | Earendil | 100 | 54.07 |
+| 4 | Bob | 100 | 110.72 |
 | 5 | guilhermefonseca | 100 | 893.89 |
-| 6 | bin101 | 0 | 0.17 |
-| 7 | axs | 0 | 0 |
+| 6 | *mjdv\** | 61 | 142.39 |
+| 7 | gverger | 0 | 0 |
+| 8 | bin101 | 0 | 0.17 |
+| 9 | axs | 0 | 2461.8 |
 
 *\* Has submitted a wrong solution for at least one instance.*
