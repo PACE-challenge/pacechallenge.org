@@ -83,10 +83,12 @@ Google Drive (link TBA) as follows:
       <em style="color:#db8a00">pace-2024</em>).    
 3. Place the source code of the solver in a digital library (e.g.,
       [Zenodo](https://zenodo.org/)) and generate a DOI. 
-4. Submit the solver description via
+4. Submit the link to the public repository containing your release via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeOfYj3jKWZa7gEqfjRGhUj5lVypoX5FXuCTwD7KetOWhgBVg/viewform?usp=sharing) until June 9th, 2024 (AoE).
+5. Submit the solver description via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScAH0yhQn6C_h8Aec27hvePpaAVm3mtcfM3mi1tOJ7UaDrlew/viewform?usp=sharing) and use the DOI to refer to the solver and include a reference to the public source code repository until June 23rd, 2024 (AoE).
+<!-- 4. Submit the solver description via
       Google Drive (link TBA)
       and use the DOI to refer to the solver and include a reference
-      to the public source code repository.	  
+      to the public source code repository.	   -->
 
 ## Student Submissions
 
