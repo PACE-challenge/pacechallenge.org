@@ -75,7 +75,7 @@ you have questions.
 ## Submission Process
 
 Solvers have to be submitted via [optil.io](https://www.optil.io/) and
-Google Drive (link TBA) as follows:
+Google Drive as follows:
 
 1. Submit the solver via [optil.io](https://www.optil.io/), please refer
       to their [help page](https://www.optil.io/optilion/help). 
