@@ -15,14 +15,15 @@ as follows:
 
 All submissions have to be published with the following requirements:
 
-1. The source code must be available in a public repository (e.g.,
+1. The source code must be available in a repository (e.g.,
    [Bitbucket](https://bitbucket.org), [GitHub](https://github.com),
-   [Gitlab](https://gitlab.com)).      
-2. The submission has to have an <em style="color:#db8a00">open
+   [Gitlab](https://gitlab.com)).   
+2. The project must be publicly visible by June 10th, 2024 (AoE).      
+3. The submission has to have an <em style="color:#db8a00">open
    source</em> licence (e.g., GPL, MIT, or public domain).   
-3. The repository has to contain a release with the name <em
+4. The repository has to contain a release with the name <em
    style="color:#db8a00">pace-2024</em>.
-4. The release must be placed in a digital library (e.g.,
+5. The release must be placed in a digital library (e.g.,
       [Zenodo](https://zenodo.org/)) and has to be equipped with a DOI. 
 
 The repository must contain the following files:
@@ -79,16 +80,13 @@ Google Drive as follows:
 
 1. Submit the solver via [optil.io](https://www.optil.io/), please refer
       to their [help page](https://www.optil.io/optilion/help). 
-2. Create a release in the public repository of the solver (name:
-      <em style="color:#db8a00">pace-2024</em>).    
-3. Place the source code of the solver in a digital library (e.g.,
+2. Create a release in the repository of the solver (name:
+      <em style="color:#db8a00">pace-2024</em>).   
+3. Make the repository publicly visible until June 10th, 2024 (AoE).
+4. Place the source code of the solver in a digital library (e.g.,
       [Zenodo](https://zenodo.org/)) and generate a DOI. 
-4. Submit the link to the public repository containing your release via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeOfYj3jKWZa7gEqfjRGhUj5lVypoX5FXuCTwD7KetOWhgBVg/viewform?usp=sharing) until June 9th, 2024 (AoE).
-5. Submit the solver description via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScAH0yhQn6C_h8Aec27hvePpaAVm3mtcfM3mi1tOJ7UaDrlew/viewform?usp=sharing) and use the DOI to refer to the solver and include a reference to the public source code repository until June 23rd, 2024 (AoE).
-<!-- 4. Submit the solver description via
-      Google Drive (link TBA)
-      and use the DOI to refer to the solver and include a reference
-      to the public source code repository.	   -->
+5. Submit the link to the public repository containing your release via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeOfYj3jKWZa7gEqfjRGhUj5lVypoX5FXuCTwD7KetOWhgBVg/viewform?usp=sharing) until June 9th, 2024 (AoE).
+6. Submit the solver description via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScAH0yhQn6C_h8Aec27hvePpaAVm3mtcfM3mi1tOJ7UaDrlew/viewform?usp=sharing) and use the DOI to refer to the solver and include a reference to the public source code repository until June 23rd, 2024 (AoE).
 
 ## Student Submissions
 
