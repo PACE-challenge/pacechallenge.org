@@ -28,7 +28,7 @@ This generates a `dist` directory containing the necessary wheel-file that can b
 To verify a solution use the following command:
 
 ```console
-$ pace2024verify <path/to/graph.gr> <path/to/solution.sol>
+$ pace2024verifier <path/to/graph.gr> <path/to/solution.sol>
 ```
 
 The verifier has three different methods for verification usable via the switches:
@@ -46,7 +46,7 @@ To test a solver against a set of tests use:
 $ pace2024tester <solver>
 ```
 
-where `<solver>` has to be an executable. So if for example you run your solver via a shell-script `solver.sh` run the command `$ pace2024tester solver.sh`. The solver will then be run using the [tiny test set](https://pacechallenge.org/2024/tiny_test_set-overview.pdf). The instances and solutions of this set are included with the verifier. To add your own tests create a folder `mytests` containing a subfolder `instances` and a subfolder `<solutions>`. You can then run 
+where `<solver>` has to be an executable. So if for example you run your solver via a shell-script `solver.sh` run the command `$ pace2024tester ./solver.sh`. The solver will then be run using the [tiny test set](https://pacechallenge.org/2024/tiny_test_set-overview.pdf). The instances and solutions of this set are included with the verifier. To add your own tests create a folder `mytests` containing a subfolder `instances` and a subfolder `<solutions>`. You can then run 
 
 ```console
 $ pace2024tester --test <path/to/mytests> <solver>
