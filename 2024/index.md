@@ -10,6 +10,10 @@ This problem involves arranging the nodes of a bipartite graph on two layers (ty
 OCM is one of the basic building block used for drawing [hierarchical graphs](https://doi.org/10.1109%2FTSMC.1981.4308636). It is [NP-hard](https://doi.org/10.1016/0304-3975(94)90179-1), even [for trees](https://arxiv.org/abs/2306.15339), but admits good heuristics, can be [constant-factor approximated](https://doi.org/10.1007/BF01187020) and solved in [FPT time](https://doi.org/10.1007/s00453-004-1093-2). 
 For an extended overview, see [Chapter 13.5 of the Handbook of Graph Drawing](https://cs.brown.edu/people/rtamassi/gdhandbook/chapters/hierarchical.pdf).
 
+### Results of the Challenge
+
+We are happy to announce the [results of PACE 2024](./results). Congratulations to the winners and all the participants!
+
 ### Challenge Description
 
 The goal of this year's challenge is to compute a 2-layered drawing of a bipartite graph, where one side is fixed, with a minimum number of crossings. More precisely: 
@@ -97,17 +101,20 @@ There will be four benchmark set:
 3. The *exact set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
-   - [public instances](./exact-public.zip)
+   - [public instances](./exact-public.zip) + [solutions](./exact-public.zip)
+   - [private instances](./exact-private.zip) + [solutions](./exact-private.zip)
    - [properties](./properties)
    - [optil.io](https://www.optil.io/optilion/problem/3210)
 4. The *heuristic set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for evaluation.
    - [public instances](./heuristic-public.zip)
+   - [private instances](./heuristic-private.zip)
    - [optil.io](https://www.optil.io/optilion/problem/3212)
-5. The *parameterized set* containing 225 instances divided into 125
+5. The *parameterized set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
-   - [public instances](./cutwidth-public.zip)
+   - [public instances](./cutwidth-public.zip) + [solutions](./cutwidth-public.zip)
+   - [private instances](./cutwidth-private.zip) + [solutions](./cutwidth-private.zip)
    - [optil.io](https://www.optil.io/optilion/problem/3211)
    
    
@@ -123,8 +130,7 @@ They use [Intel(R) Xeon(R) CPU E5-2695 v3 computing cores at 2.30GHz](https://ww
 while we will use Intel(R) Xeon(R) Gold CPU 6342 computing cores at 2.80GHz.
 
 Note also that the [optil.io](https://www.optil.io) platform ranking differs for the
-heuristic track. The correct score can be seen on the [results](./results) page,
-which we will update regularly until the public leaderboard freezes.
+heuristic track. The correct score can be seen on the [results](./results) page.
 
    
 ### Details
@@ -134,7 +140,7 @@ which we will update regularly until the public leaderboard freezes.
 - [**Visualizer**](./visualizer)     
 - [**Scoring Methods**](./scoring)     
 - [**Submission Requirements**](./submissions)
-- [**Current Standings**](./results)
+- [**Results**](./results)
 
 ### Timeline
 
@@ -149,11 +155,11 @@ which we will update regularly until the public leaderboard freezes.
   - [x] Additional information about the submission process get published.
   - [x] A [repository](https://github.com/PhKindermann/Pace2024-Testsets/tree/main) for public test instances will be provided.
 - [x] April 2024: Submission opens with public leaderboard.
-- [ ] May 20th, 2024: The public leaderboard gets frozen.
-- [ ] June 2024: Submission Deadline.
-	- [ ] June 9th, 2024 (AoE): Submission deadline for solver.
-	- [ ] June 23rd, 2024 (AoE): Submission deadline for solver description.
-- [ ] July 2024: Announcement of the Results.
+- [x] May 20th, 2024: The public leaderboard gets frozen.
+- [x] June 2024: Submission Deadline.
+	- [x] June 9th, 2024 (AoE): Submission deadline for solver.
+	- [x] June 23rd, 2024 (AoE): Submission deadline for solver description.
+- [x] July 2024: Announcement of the Results.
 - [ ] IPEC 2024: Award ceremony.
 
 ### Zulip
