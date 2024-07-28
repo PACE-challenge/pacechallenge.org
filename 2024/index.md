@@ -101,8 +101,8 @@ There will be four benchmark set:
 3. The *exact set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
-   - [public instances](./exact-public.zip) + [solutions](./exact-public.zip)
-   - [private instances](./exact-private.zip) + [solutions](./exact-private.zip)
+   - [public instances](./exact-public.zip) + [solutions](./exact-public-sol.zip)
+   - [private instances](./exact-private.zip) + [solutions](./exact-private-sol.zip)
    - [properties](./properties)
    - [optil.io](https://www.optil.io/optilion/problem/3210)
 4. The *heuristic set* containing 200 instances divided into 100
@@ -113,8 +113,8 @@ There will be four benchmark set:
 5. The *parameterized set* containing 200 instances divided into 100
    public instances for development and 100 private instances used for
    evaluation.
-   - [public instances](./cutwidth-public.zip) + [solutions](./cutwidth-public.zip)
-   - [private instances](./cutwidth-private.zip) + [solutions](./cutwidth-private.zip)
+   - [public instances](./cutwidth-public.zip) + [solutions](./cutwidth-public-sol.zip)
+   - [private instances](./cutwidth-private.zip) + [solutions](./cutwidth-private-sol.zip)
    - [optil.io](https://www.optil.io/optilion/problem/3211)
    
    

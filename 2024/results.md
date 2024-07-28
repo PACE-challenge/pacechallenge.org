@@ -31,7 +31,7 @@ We are happy to announce the results of PACE 2024. Congratulations to the winner
 | *DQ* | *weberknecht* | *Johannes Rauch* |  | *163 (-1)* | *21344.04* | [*Link*](https://github.com/johannesrauch/PACE-2024) |
 | *DQ* | *mjdv* | *Ragnar Groot Koerkamp and Mees de Vries* |  | *157 (-1)* | *5000.98* | [*Link*](https://github.com/mjdv/ocmu64) |
 | *DQ* | *axs* | *Haochen Zhu, Yi Zhou and Bo Peng* | *X* | *146 (-54)* | *254258.87* | [*Link*](https://github.com/axs7385/pace2024EXACT-PARAMETERIZED) |
-| *DQ* | *UAIC_OCM* | *Andrei Arhire, Eugen Croitoru, Matei Chiriac and Alex Dumitrescu* |  | *129 (-4)* | *2126.36* | [*Link*](https://github.com/AndreiiArhire/PACE2024) |
+| *DQ* | *UAIC_OCM* | *Andrei Arhire, Eugen Croitoru, Matei Chiriac and Alex Dumitrescu* | X | *129 (-4)* | *2126.36* | [*Link*](https://github.com/AndreiiArhire/PACE2024) |
 | *DQ* | *oscmpp* | *Sahaj Gupta, Swati Nanda Gupta, Sampriti Patel and Srinibas Swain* |  | *48 (-2)* | *2239.19* | [*Link*](https://github.com/sampritip/TEAM-IIITG-v3/tree/v1.0.0) |
 | *DQ* | *WINTER* | *Sahaj Gupta, Swati Nanda Gupta, Sampriti Patel and Srinibas Swain* |  | *36 (-2)* | *2339.48* | [*Link*](https://github.com/sampritip/TEAM-IIITG-v2/tree/v1.0.0) |
 
@@ -46,7 +46,7 @@ We are happy to announce the results of PACE 2024. Congratulations to the winner
 | 3 | Martin_J_Geiger | Martin Josef Geiger |  | 199.99978 | 41957.6 | [Link](https://github.com/MartinJGeiger/pace-2024) |
 | 4 | uzl | Max Bannach, Florian Chudigiewitsch, Kim-Manuel Klein and Marcel Wienöbst |  | 199.99961 | 80153.55 | [Link](https://github.com/mwien/sisyphus) |
 | 5 | guilhermefonseca | Guilherme D. da Fonseca |  | 199.99838 | 26179.71 | [Link](https://github.com/gfonsecabr/shadoks-PACE2024) |
-| 6 | UAIC_OCM | Andrei Arhire, Eugen Croitoru, Matei Chiriac and Alex Dumitrescu |  | 199.99741 | 56044.17 | [Link](https://github.com/AndreiiArhire/PACE2024) |
+| 6 | UAIC_OCM | Andrei Arhire, Eugen Croitoru, Matei Chiriac and Alex Dumitrescu | X | 199.99741 | 56044.17 | [Link](https://github.com/AndreiiArhire/PACE2024) |
 | 7 | slimmer | Steffen Limmer and Nils Einecke |  | 199.9964 | 54759.52 | [Link](www.github.com/HRI-EU/PACE_LNS) |
 | 8 | axs | Haochen Zhu, Yi Zhou and Bo Peng | X | 199.99047 | 58258.33 | [Link](https://github.com/axs7385/pace2024) |
 | 9 | weberknecht | Johannes Rauch |  | 199.97518 | 4919.58 | [Link](https://github.com/johannesrauch/PACE-2024) |
@@ -111,11 +111,11 @@ participate in PACE.
 | Exact 2         | crossy               | Tobias Röhr and Kirill Simonov 																											 	  |
 | Exact 3         | studentgroupfuberlin | Garvin Konopka, Colin Alexander Voigt and Joshua Alexander Hanheiser                                                                       |
 |                 |                      |                                                                                                                                                 |
-| Heuristic 1     | axs                  | Haochen Zhu, Yi Zhou and Bo Peng                               |
-| Heuristic 2     | tlopez               | Toan Lopez and Florian Sikora                                                                                      |
-| Heuristic 3     | KongQi               | Qi Kong, Zhouxing Su and Zhipeng lü                                                                            |
-| Heuristic 4     | heiCross             | Adil Chhabra, Marlon Dittes, Alvaro Garmendia, Ernestine Großmann, Tomer Haham, Shai Peretz, Henrik Reinstädtler, Antonie Wagner and Henning Woydt                                                                            |
-| Heuristic 5     | Arcee                | Kimon Boehmer, Lukas Lee George, Fanny Hauser and Jesse Palarus                                                                            |
+| Heuristic 1     | UAIC_OCM             | Andrei Arhire, Eugen Croitoru, Matei Chiriac and Alex Dumitrescu                               |
+| Heuristic 2     | axs                  | Haochen Zhu, Yi Zhou and Bo Peng                               |
+| Heuristic 3     | tlopez               | Toan Lopez and Florian Sikora                                                                                      |
+| Heuristic 4     | KongQi               | Qi Kong, Zhouxing Su and Zhipeng lü                                                                            |
+| Heuristic 5     | heiCross             | Adil Chhabra, Marlon Dittes, Alvaro Garmendia, Ernestine Großmann, Tomer Haham, Shai Peretz, Henrik Reinstädtler, Antonie Wagner and Henning Woydt          
 |                 |                      |                                                                                                                                                 |
 | Parameterized&nbsp;1 | Arcee                | Kimon Boehmer, Lukas Lee George, Fanny Hauser and Jesse Palarus                               |
 | Parameterized&nbsp;2 | crossy               | Tobias Röhr and Kirill Simonov                                                                                 |
