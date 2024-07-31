@@ -65,7 +65,7 @@ We are happy to announce the results of PACE 2024. Congratulations to the winner
 | 22 | asdf | *Unknown - no solver description submitted* |  | 193.25197 | 28955.94 | [Link](https://github.com/yo9299/pace-2024/releases/tag/v1.0.0) |
 | 23 | HCPS42 | Temirkhan Zimanov |  | 192.17653 | 2113.38 | [Link](https://github.com/HCPS42/PACE2024) |
 | 24 | GOAT | Patrik Drbal, Michal Dvořák, Dušan Knop, Jozef Koleda, Jan Pokorný and Ondřej Suchý |  | 191.5935 | 222.55 | [Link](https://gitlab.fit.cvut.cz/pace-challenge/2024/goat/heuristic) |
-| 25 | simonhol | Simon Hol |  | 185.56719 | 4059.58 | [Link](https://git.science.uu.nl/s.hol/pace2024-heuristic-submission) |
+| 25 | simonhol | Simon Hol | X | 185.56719 | 4059.58 | [Link](https://git.science.uu.nl/s.hol/pace2024-heuristic-submission) |
 | 26 | U_OCM | Mert Biyikli, Kathrin Hanauer, Sophia Heck, Lukas Krumpeck, Lara Ost, Tobias Prisching, Ole Schlüter, Matej Vedak and Maximilian Vötsch |  | 181.11642 | 80123.32 | [Link](https://gitlab.com/vietaa/pace/u_ocm) |
 | 27 | iiitg | Sahaj Gupta, Swati Nanda Gupta, Sampriti Patel and Srinibas Swain |  | 180.18082 | 479.46 | [Link](https://github.com/sampritip/TEAM-iiitg-heuristics/tree/v1.0.0) |
 | 28 | Guilucand | *Unknown - no solver description submitted* |  | 172.2589 | 16302.91 | [Link](https://github.com/Guilucand/pace2024-challenge) |
