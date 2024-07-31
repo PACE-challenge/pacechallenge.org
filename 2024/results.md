@@ -79,7 +79,7 @@ We are happy to announce the results of PACE 2024. Congratulations to the winner
 | Rank | Team                         | Member                                                                                                                                          | Student | Score | Time     | Repo                                                                             |
 |:-----|:-----------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|:------|:---------|:---------------------------------------------------------------------------------|
 | 1 | LUNCH | Kenneth Langedal, Matthias Bentert, Thorgal Blanco and Pål Grønås Drange |  | 200 | 5.15 | [Link](https://github.com/KennethLangedal/PACE2024-UiB/tree/main) |
-| 2 | mjdv | Ragnar Groot Koerkamp and Mees de Vries |  | 200 | 10.37 | [Link](https://github.com/mjdv/ocmu64) |
+| 1 | mjdv | Ragnar Groot Koerkamp and Mees de Vries |  | 200 | 10.37 | [Link](https://github.com/mjdv/ocmu64) |
 | 3 | mppeg | Michael Jünger, Paul Jünger, Petra Mutzel and Gerhard Reinelt |  | 200 | 25.22 | [Link](https://github.com/pauljngr/PACE2024) |
 | 4 | Arcee | Kimon Boehmer, Lukas Lee George, Fanny Hauser and Jesse Palarus | X | 200 | 28.54 | [Link](https://github.com/lucidLuckylee/pace_2024) |
 | 5 | crossy | Tobias Röhr and Kirill Simonov | X | 200 | 34.98 | [Link](https://github.com/roehrt/crossy) |
