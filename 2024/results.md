@@ -14,7 +14,7 @@ We are happy to announce the results of PACE 2024. Congratulations to the winner
 | 3 | CRGone | Alexander Dobler |  | 192 | 15520.39 | [Link](https://github.com/Doblalex/CRGone) |
 | 4 | Guilucand | Andrea Cracco |  | 187 | 9358.96 | [Link](https://github.com/Guilucand/pace2024-challenge) |
 | 5 | crossy | Tobias Röhr and Kirill Simonov | X | 180 | 19099.31 | [Link](https://github.com/roehrt/crossy) |
-| 6 | weberknecht | *Unknown - no solver description submitted* |  | 164 | 21408.17 | [Link](https://github.com/johannesrauch/PACE-2024) |
+| 6 | weberknecht | Johannes Rauch |  | 164 | 21408.17 | [Link](https://github.com/johannesrauch/PACE-2024) |
 | 7 | LUNCH | Kenneth Langedal, Matthias Bentert, Thorgal Blanco and Pål Grønås Drange |  | 157 | 10425.52 | [Link](https://github.com/KennethLangedal/PACE2024-UiB/tree/main) |
 | 8 | Arcee | Kimon Boehmer, Lukas Lee George, Fanny Hauser and Jesse Palarus | X | 152 | 11189.13 | [Link](https://github.com/lucidLuckylee/pace_2024) |
 | 9 | lcs | Mohamed Mahmoud Abdelwahab, Faisal N. Abu-Khzam and Lucas Isenmann |  | 136 | 1186.94 | [Link](https://github.com/lucas-test/pace24-ocm/tree/final) |
@@ -51,7 +51,7 @@ We are happy to announce the results of PACE 2024. Congratulations to the winner
 | 8 | slimmer | Steffen Limmer and Nils Einecke |  | 199.99865 | 54761.13 | [Link](www.github.com/HRI-EU/PACE_LNS) |
 | 9 | UAIC_OCM | Andrei Arhire, Eugen Croitoru, Matei Chiriac and Alex Dumitrescu | X | 199.99735 | 56047.38 | [Link](https://github.com/AndreiiArhire/PACE2024) |
 | 10 | axs | Haochen Zhu, Yi Zhou and Bo Peng | X | 199.99037 | 59409.74 | [Link](https://github.com/axs7385/pace2024) |
-| 11 | weberknecht | *Unknown - no solver description submitted* |  | 199.97621 | 6187.64 | [Link](https://github.com/johannesrauch/PACE-2024) |
+| 11 | weberknecht | Johannes Rauch |  | 199.97621 | 6187.64 | [Link](https://github.com/johannesrauch/PACE-2024) |
 | 12 | tlopez | Toan Lopez and Florian Sikora | X | 199.93344 | 80556.06 | [Link](https://github.com/toanlpz/PACE2024-TLPZ) |
 | 13 | KongQi | Qi Kong, Zhouxing Su and Zhipeng lü | X | 199.66556 | 38664.61 | [Link](https://github.com/Little-Eye/pace-2024.git) |
 | 14 | heiCross | Adil Chhabra, Marlon Dittes, Alvaro Garmendia, Ernestine Großmann, Tomer Haham, Shai Peretz, Henrik Reinstädtler, Antonie Wagner and Henning Woydt | X | 199.46119 | 80480.59 | [Link](https://github.com/MarlonDittes/heiCross) |
@@ -87,7 +87,7 @@ We are happy to announce the results of PACE 2024. Congratulations to the winner
 | 7 | roundabout | Emmanuel Arrighi and Petra Wolf |  | 200 | 121.23 | [Link](https://bitbucket.org/arrighi/roundabout/src/main/) |
 | 8 | CRGone | Alexander Dobler |  | 200 | 125.07 | [Link](https://github.com/Doblalex/CRGone) |
 | 9 | guilucand | *Unknown - no solver description submitted* |  | 200 | 162.07 | [Link](https://github.com/Guilucand/pace2024-challenge) |
-| 10 | weberknecht | *Unknown - no solver description submitted* |  | 200 | 287.41 | [Link](https://github.com/johannesrauch/PACE-2024) |
+| 10 | weberknecht | Johannes Rauch |  | 200 | 287.41 | [Link](https://github.com/johannesrauch/PACE-2024) |
 | 11 | sherby | Manuel Lafond, Alitzel López Sánchez and Bertrand Marchand |  | 199 | 20.84 | [Link](https://github.com/bmarchand/sherby-pace-2024) |
 | 12 | trex-ufmg-ilp | Luis Henrique Gomes Higino, Kaio Henrique Masse Vieira, Alan Prado, Guilherme de Castro Mendes Gomes, Laila Melo Vaz Lopes, Gabriel Ubiratan Barreto Pereira de Oliveira, Gabriel Lucas Costa Martins, Heitor Gonçalves Leite, Matheus Torres Prates, Gabriel Vieira and Vinicius Fernandes dos Santos |  | 198 | 14848 | [Link](https://github.com/heittpr/pace2024) |
 | 13 | narekb95 | Narek Bojikian |  | 163 | 13082.35 | [Link](https://github.com/narekb95/ocr-ctw) |
