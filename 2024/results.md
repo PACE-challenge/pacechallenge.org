@@ -30,7 +30,7 @@ We are happy to announce the results of PACE 2024. Congratulations to the winner
 | *DQ* | *guilhermefonseca* | *Guilherme D. da Fonseca* |  | *199* | *32324.21* | [*Link*](https://github.com/gfonsecabr/shadoks-PACE2024) |
 | *DQ* | *Bob* | *Sergey Pupyrev* |  | *196* | *6676.3* | [*Link*](https://github.com/spupyrev/pace2024-bob) |
 | *DQ* | *mjdv* | *Ragnar Groot Koerkamp and Mees de Vries* |  | *157 (-1)* | *5000.98* | [*Link*](https://github.com/mjdv/ocmu64) |
-| *DQ* | *axs* | *Haochen Zhu, Yi Zhou and Bo Peng* | *X* | *146 (-54)* | *254258.87* | [*Link*](https://github.com/axs7385/pace2024EXACT-PARAMETERIZED) |
+| *DQ* | *axs* | *Chenghao Zhu, Yi Zhou and Bo Peng* | *X* | *146 (-54)* | *254258.87* | [*Link*](https://github.com/axs7385/pace2024EXACT-PARAMETERIZED) |
 | *DQ* | *UAIC_OCM* | *Andrei Arhire, Eugen Croitoru, Matei Chiriac and Alex Dumitrescu* | X | *129 (-4)* | *2126.36* | [*Link*](https://github.com/AndreiiArhire/PACE2024) |
 | *DQ* | *oscmpp* | *Sahaj Gupta, Swati Nanda Gupta, Sampriti Patel and Srinibas Swain* |  | *48 (-2)* | *2239.19* | [*Link*](https://github.com/sampritip/TEAM-IIITG-v3/tree/v1.0.0) |
 | *DQ* | *WINTER* | *Sahaj Gupta, Swati Nanda Gupta, Sampriti Patel and Srinibas Swain* |  | *36 (-2)* | *2339.48* | [*Link*](https://github.com/sampritip/TEAM-IIITG-v2/tree/v1.0.0) |
@@ -50,7 +50,7 @@ We are happy to announce the results of PACE 2024. Congratulations to the winner
 | 7 | uzl | Max Bannach, Florian Chudigiewitsch, Kim-Manuel Klein and Marcel Wienöbst |  | 199.9996 | 80644.98 | [Link](https://github.com/mwien/sisyphus) |
 | 8 | slimmer | Steffen Limmer and Nils Einecke |  | 199.99865 | 54761.13 | [Link](www.github.com/HRI-EU/PACE_LNS) |
 | 9 | UAIC_OCM | Andrei Arhire, Eugen Croitoru, Matei Chiriac and Alex Dumitrescu | X | 199.99735 | 56047.38 | [Link](https://github.com/AndreiiArhire/PACE2024) |
-| 10 | axs | Haochen Zhu, Yi Zhou and Bo Peng | X | 199.99037 | 59409.74 | [Link](https://github.com/axs7385/pace2024) |
+| 10 | axs | Chenghao Zhu, Yi Zhou and Bo Peng | X | 199.99037 | 59409.74 | [Link](https://github.com/axs7385/pace2024) |
 | 11 | weberknecht | Johannes Rauch |  | 199.97621 | 6187.64 | [Link](https://github.com/johannesrauch/PACE-2024) |
 | 12 | tlopez | Toan Lopez and Florian Sikora | X | 199.93344 | 80556.06 | [Link](https://github.com/toanlpz/PACE2024-TLPZ) |
 | 13 | KongQi | Qi Kong, Zhouxing Su and Zhipeng lü | X | 199.66556 | 38664.61 | [Link](https://github.com/Little-Eye/pace-2024.git) |
@@ -115,7 +115,7 @@ participate in PACE.
 |              		   |                     	|                                                                        	|
 | Heuristic 1  		   | Arcee		    		| Kimon Boehmer, Lukas Lee George, Fanny Hauser and Jesse Palarus       	|
 | Heuristic 2  		   | UAIC_OCM            	| Andrei Arhire, Eugen Croitoru, Matei Chiriac and Alex Dumitrescu       	|
-| Heuristic 3  		   | axs                 	| Haochen Zhu, Yi Zhou and Bo Peng                            				|
+| Heuristic 3  		   | axs                 	| Chenghao Zhu, Yi Zhou and Bo Peng                            				|
 | Heuristic 4  		   | tlopez              	| Toan Lopez and Florian Sikora                                            	|
 | Heuristic 5  		   | KongQi              	| Qi Kong, Zhouxing Su and Zhipeng lü                                      	|
 |              		   |                     	|                                                                          	|
