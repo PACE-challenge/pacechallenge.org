@@ -86,7 +86,7 @@ We are happy to announce the results of PACE 2024. Congratulations to the winner
 | 6 | uzl | Max Bannach, Florian Chudigiewitsch, Kim-Manuel Klein and Marcel Wienöbst |  | 200 | 60.49 | [Link](https://github.com/mwien/pingpong-light) |
 | 7 | roundabout | Emmanuel Arrighi and Petra Wolf |  | 200 | 121.23 | [Link](https://bitbucket.org/arrighi/roundabout/src/main/) |
 | 8 | CRGone | Alexander Dobler |  | 200 | 125.07 | [Link](https://github.com/Doblalex/CRGone) |
-| 9 | guilucand | *Unknown - no solver description submitted* |  | 200 | 162.07 | [Link](https://github.com/Guilucand/pace2024-challenge) |
+| 9 | Guilucand | Andrea Cracco |  | 200 | 162.07 | [Link](https://github.com/Guilucand/pace2024-challenge) |
 | 10 | weberknecht | Johannes Rauch |  | 200 | 287.41 | [Link](https://github.com/johannesrauch/PACE-2024) |
 | 11 | sherby | Manuel Lafond, Alitzel López Sánchez and Bertrand Marchand |  | 199 | 20.84 | [Link](https://github.com/bmarchand/sherby-pace-2024) |
 | 12 | trex-ufmg-ilp | Luis Henrique Gomes Higino, Kaio Henrique Masse Vieira, Alan Prado, Guilherme de Castro Mendes Gomes, Laila Melo Vaz Lopes, Gabriel Ubiratan Barreto Pereira de Oliveira, Gabriel Lucas Costa Martins, Heitor Gonçalves Leite, Matheus Torres Prates, Gabriel Vieira and Vinicius Fernandes dos Santos |  | 198 | 14848 | [Link](https://github.com/heittpr/pace2024) |
