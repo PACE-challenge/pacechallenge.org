@@ -18,7 +18,7 @@ body.index h2.post-title {
   p.lead {
     font-size: 1rem;
   }
-  
+
   img.logo {
     display: none;
   }
@@ -34,4 +34,28 @@ ul,
 ol,
 dl {
   margin-left: 1rem;
+}
+
+// Make entire container background white to contrast against sidebar
+.container {
+  background: $body-bg;
+  color: $body-color;
+  min-height: 100vh;
+  padding: 2rem;
+
+  > .content {
+    padding: 0;
+    margin: 0;
+  }
+
+  > header {
+    color: $heading-color;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.container > header h1:last-child,
+.container > header h2:last-child {
+  margin-bottom: 0.5rem;
 }

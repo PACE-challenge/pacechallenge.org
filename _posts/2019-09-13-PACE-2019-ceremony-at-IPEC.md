@@ -1,15 +1,18 @@
 ---
-layout: gallery
+layout: post
 title: "PACE 2019 ceremony at IPEC"
 sidebar_link: true
 permalink: /PACE2019_gallery/
 ---
 
-The award ceremony took place in Garching at TU Munich. 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
+
+The award ceremony took place in Garching at TU Munich.
 The [slides](/files/PACE19-slides.pdf) are available now. Report will follow soon.
 
 Some pictures (courtesy of Bettina Ulrich and Johannes Fichte):
-
 
 <div ID="PACE2019" data-nanogallery2='{
         "thumbnailWidth": "200",
