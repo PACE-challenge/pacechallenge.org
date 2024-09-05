@@ -24,7 +24,7 @@ url: "https://pacechallenge.org" # the base hostname & protocol for your site, e
 permalink: pretty
 
 twitter_username: PACE_challenge
-github_username:  PACE-challenge
+github_username: PACE-challenge
 
 logo: /assets/img/turtle.svg
 repository: PACE-challenge/pacechallenge.org
@@ -43,7 +43,6 @@ plugins:
   - jekyll-paginate
 
 sidebar_home_link: false
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
