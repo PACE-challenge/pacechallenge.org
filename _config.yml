@@ -35,7 +35,6 @@ author:
 
 # Build settings
 markdown: kramdown
-remote_theme: holgerdell/hydeout
 
 paginate: 99
 plugins:

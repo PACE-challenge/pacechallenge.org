@@ -4,7 +4,7 @@
 $sidebar-bg-color: #ab9764 !default;
 $sidebar-fg-color: #3a4507 !default;
 
-@import "{{ site.theme }}";
+@import "hydeout.scss";
 
 body.index h2.post-title {
   font-size: 1.2rem;
