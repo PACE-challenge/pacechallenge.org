@@ -6,6 +6,10 @@ sidebar_sort_order: 3
 ---
 
 The results of each PACE challenge are documented in a report that is published in the IPEC proceedings.
+
+- PACE 2024: **One-sided Crossing Minimization**<br/>
+  ([results](/2024/results/),
+  [challenge description](/2024/))
 - PACE 2023: **Twinwidth**<br/>
   ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2023.35), [slides](https://docs.google.com/presentation/d/1zXZ56B6dg6aDPGPK9IjXLj-DzCaZH1KIEFxTo-4t0zM/edit?usp=sharing),
   [results](/2023/results/),
@@ -19,14 +23,14 @@ The results of each PACE challenge are documented in a report that is published 
   ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2021.26),
   [slides](/2021/pace2021-award-ceremony.pdf),
   [video](https://fpt.akt.tu-berlin.de/pace2021/pace-award-recording.mp4),
-  [results](/2021/results/), 
-  [instances](https://github.com/PACE-challenge/Cluster-Editing-PACE-2021-instances), 
+  [results](/2021/results/),
+  [instances](https://github.com/PACE-challenge/Cluster-Editing-PACE-2021-instances),
   [challenge description](/2021/))
 - PACE 2020: **Treedepth**<br/>
   ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2020.37),
   [slides](/2020/slides.pdf),
-  [results](/2020/results/), 
-  [instances](https://github.com/lkowalik/Treedepth-PACE-2020-instances), 
+  [results](/2020/results/),
+  [instances](https://github.com/lkowalik/Treedepth-PACE-2020-instances),
   [challenge description](/2020/))
 - PACE 2019: **Vertex Cover** and **Hypertree Width**<br/>
   ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2019.25),
@@ -47,7 +51,7 @@ The results of each PACE challenge are documented in a report that is published 
 PACE has inspired some great papers:
 
 - Rajesh Pandian M, Rupesh Nasre and N.S. Narayanaswamy.
-[Accelerating Computation of Steiner Trees on GPUs](https://doi.org/10.1007/s10766-021-00723-0). International Journal of Parallel Programming, Vol 50, pgs 152–185 (2022). [[pdf](https://mrprajesh.co.in/pdfs/steiner-ijpp22-preprint.pdf)] [[doi](https://doi.org/10.1007/s10766-021-00723-0)] [[slides](https://mrprajesh.co.in/pdfs/sem2-v4.pdf)] [[code](https://doi.org/10.5281/zenodo.4477087)]
+  [Accelerating Computation of Steiner Trees on GPUs](https://doi.org/10.1007/s10766-021-00723-0). International Journal of Parallel Programming, Vol 50, pgs 152–185 (2022). [[pdf](https://mrprajesh.co.in/pdfs/steiner-ijpp22-preprint.pdf)] [[doi](https://doi.org/10.1007/s10766-021-00723-0)] [[slides](https://mrprajesh.co.in/pdfs/sem2-v4.pdf)] [[code](https://doi.org/10.5281/zenodo.4477087)]
 - Hisao Tamaki. [Positive-instance driven dynamic programming for treewidth](https://dx.doi.org/10.4230/LIPIcs.ESA.2017.68) (ESA 2017, **best paper award**)
 - Ben Strasser. [Computing Tree Decompositions with FlowCutter: PACE 2017 Submission](https://arxiv.org/abs/1709.08949) (arXiv:1709.08949 [cs.DS])
 - Max Bannach, Sebastian Berndt and Thorsten Ehlers. [Jdrasil: A Modular Library for Computing Tree Decompositions](https://dx.doi.org/10.4230/LIPIcs.SEA.2017.28) (SEA 2017)
