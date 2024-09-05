@@ -7,7 +7,7 @@ sidebar_sort_order: 3
 
 The results of each PACE challenge are documented in a report that is published in the IPEC proceedings.
 - PACE 2023: **Twinwidth**<br/>
-  ([slides](https://docs.google.com/presentation/d/1zXZ56B6dg6aDPGPK9IjXLj-DzCaZH1KIEFxTo-4t0zM/edit?usp=sharing),
+  ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2023.35), [slides](https://docs.google.com/presentation/d/1zXZ56B6dg6aDPGPK9IjXLj-DzCaZH1KIEFxTo-4t0zM/edit?usp=sharing),
   [results](/2023/results/),
   [challenge description](/2023/))
 - PACE 2022: **Directed Feedback Vertex Set**<br/>
