@@ -41,9 +41,9 @@ body {
   padding: $section-spacing;
 
   .site-title {
-    font-family: "Abril Fatface", serif;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: $large-font-size;
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: $heading-spacing;
     margin-top: 0;
   }
