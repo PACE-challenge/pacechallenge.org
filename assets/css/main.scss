@@ -38,12 +38,13 @@ body.index h2.post-title {
     display: none;
   }
 
-  @media (min-width: $large-breakpoint) {
+  @media (min-width: $large-breakpoint) and (min-height: 680px) {
     img.logo {
       display: block;
     }
   }
 }
+
 
 ul,
 ol,

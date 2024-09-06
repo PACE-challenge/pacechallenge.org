@@ -15,8 +15,7 @@ Topics from multivariate algorithms, exact algorithms, fine-grained complexity, 
 
 PACE aims to:
 
-- Bridge the divide between the theory of algorithm design and analysis, and the practice
-  of algorithm engineering
+- Bridge the divide between the theory of algorithm design and analysis, and the practice of algorithm engineering
 - Inspire new theoretical developments
 - Investigate in how far theoretical algorithms from parameterized complexity and related fields are competitive in practice
 - Produce universally accessible libraries of implementations and repositories of benchmark instances
