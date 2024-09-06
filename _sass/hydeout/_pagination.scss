@@ -38,16 +38,6 @@
   margin-top: -$section-spacing * 2;
 }
 
-// Make room for larger header by extending margin below title
-.index #sidebar {
-  padding-bottom: calc(#{$section-spacing} + #{$padding-v});
-}
-
-// But not on page1
-.home.index #sidebar {
-  padding-bottom: $section-spacing;
-}
-
 // Undo for larger screens
 @media (min-width: $large-breakpoint) {
   .pagination > a {
@@ -66,9 +56,5 @@
       margin-top: $section-spacing;
       padding-top: $section-spacing;
     }
-  }
-
-  .index #sidebar {
-    padding-bottom: $section-spacing;
   }
 }

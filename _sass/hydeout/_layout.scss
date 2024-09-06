@@ -41,7 +41,6 @@ body {
 
   .site-title {
     font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-    font-size: $large-font-size;
     font-weight: bold;
     margin-bottom: $heading-spacing;
     margin-top: 0;
@@ -88,7 +87,6 @@ body {
   padding: 1rem 2rem;
 }
 
-
 // Make header elements blend into sidebar / background
 .container > header {
   background: transparent;
@@ -115,13 +113,8 @@ body {
   // Center sidebar content
   text-align: center;
 
-  // Bigger title
-  .site-title {
-    font-size: 3.25rem;
-  }
-
   // Show secondary nav content + lead
-  header ~ *,
+  // header ~ *,
   p.lead {
     display: block;
   }
@@ -130,11 +123,19 @@ body {
     display: flex;
   }
 
-  // Slightly more bottom padding to compensate for heading not match 100% of
-  // line-height on top
-  > *:last-child {
-    margin-bottom: 0.5rem;
+  .site-title {
+    font-size: 1.75rem;
   }
+}
+
+#sidebar-nav-links {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+  row-gap: 0.25rem;
+  width: 100%;
 }
 
 /* -----------------------------------------------------------
@@ -185,7 +186,6 @@ body {
     }
 
     .site-title {
-      font-size: 3.25rem;
       .back-arrow {
         display: none;
       }
@@ -201,8 +201,14 @@ body {
     }
   }
 
-  .index #sidebar {
-    margin-bottom: 0;
+  .site-title,
+  .home #sidebar .site-title {
+    font-size: 1.5rem;
+  }
+
+  #sidebar-nav-links {
+    justify-content: center;
+    flex-direction: column;
   }
 
   // Make entire container background white to contrast against sidebar
@@ -281,10 +287,6 @@ body {
 
 #sidebar nav {
   display: flex;
-}
-
-#sidebar-nav-links {
-  flex-flow: column nowrap;
 }
 
 #sidebar-icon-links {

@@ -2,14 +2,14 @@
 //
 // Update the foundational and global aspects of the page.
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-html,
-body {
+* {
   margin: 0;
-  padding: 0;
 }
 
 html {
@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 
 main,
@@ -79,33 +79,22 @@ tbody tr:nth-child(odd) th {
   background-color: $gray-1;
 }
 
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  letter-spacing: inherit;
+}
+
 button,
 input[type="text"],
 input[type="email"],
 input[type="search"],
 input[type="submit"] {
   border: 1px solid $border-color;
-  border-radius: $border-radius;
-  padding: $padding-v $padding-h;
-}
-
-button,
-input[type="submit"] {
-  background: transparent;
-  border-color: $border-color;
-  color: $link-color;
-  cursor: pointer;
-  transition:
-    color 0.6s ease-in-out,
-    border-color 0.6s ease-in-out,
-    background 0.6s ease-in-out;
-
-  &:hover {
-    background: $link-color;
-    border-color: $link-color;
-    box-shadow: $default-box-shadow;
-    color: #fff;
-  }
+  padding: 0.1rem 0.5rem;
 }
 
 .video-container {
