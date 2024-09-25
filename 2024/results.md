@@ -4,6 +4,7 @@ title: "PACE 2024 - Results"
 ---
 
 We are happy to announce the results of PACE 2024. Congratulations to the winners and all the participants!
+You can find the slides from the award ceremony [here](./PACE24-slides.pdf).
 
 # Results of the Exact Track
  

@@ -12,7 +12,7 @@ For an extended overview, see [Chapter 13.5 of the Handbook of Graph Drawing](ht
 
 ### Results of the Challenge
 
-We are happy to announce the [results of PACE 2024](./results). Congratulations to the winners and all the participants!
+We are happy to announce the [results of PACE 2024](./results) (you can find the [slides from the award ceremony here](./PACE24-slides.pdf)). Congratulations to the winners and all the participants!
 
 ### Challenge Description
 
