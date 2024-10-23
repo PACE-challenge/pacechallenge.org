@@ -18,19 +18,29 @@ A _dominating set_ for a graph $G$ is a set $D \subseteq V(G)$ such that every v
 
 ### Complexity
 
-This problem is known to be $W[2]$-hard and hence believed to be not fixed-parameter tractable (fpt). However, it becomes fpt on several structurally restricted classes of graphs, e.g. planar graphs, degenerate graphs, or graphs with girth at least 5 (see [Literature](#literature)).
+Dominating set is known to be NP-complete, even on planar graphs of maximum degree $3$. 
+The problem is also W$[2]$-hard (parameterized by solution size), and hence believed to be not fixed-parameter tractable (fpt) in general. 
+However, it is fpt on many structurally restricted classes of graphs, e.g. planar graphs, degenerate graphs, biclique-free graphs, and more (see [Literature](#literature)).
 
-### Tracks
+A simple greedy algorithm on $n$-vertex graphs yields an $\ln n$ approximation, and it is NP-complete to compute better approximations in general. 
+On several restricted graph classes we can compute much better approximations. 
+For instance, the problem admits a polynomial-time approximation scheme
+(PTAS) on planar graphs and, more generally, on graph classes with subexponential expansion. 
+It admits a constant factor approximation on classes of bounded degeneracy and an $O(d\cdot \ln k)$ approximation (where $k$ denotes
+the size of a minimum dominating set) on classes of VC dimension $d$. 
 
-## Exact Track
+
+## Tracks
+
+### Exact Track
 todo
 
-## Heuristic Track
+### Heuristic Track
 todo
 
-### Input and Output
+## Input and Output
 
-## Input Format
+### Input Format
 
 We use the standard DIMACS-like .gr format for graphs. 
 
@@ -52,7 +62,7 @@ The example graph above can be described by the following file.
     6 7
 ```
 
-## Output Format
+### Output Format
 The output format is similar, the main difference being that each line consists of a single number (representing a vertex of the solution instead of an edge).
 We expect the first line to be a number representing the size of your solution. Every other (non-comment) line is expected to be a single number, representing a vertex of the solution.
 Hence, the total file consists of $k+1$ non-empty non-comment lines, where $k$ is your solution size.
