@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "PACE 2024"
-sidebar_link: true
+sidebar_link: false
 sidebar_sort_order: 10
 ---
 
