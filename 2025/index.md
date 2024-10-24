@@ -24,4 +24,4 @@ This year features two problems.
 ## Program Committee
 
 - [Sebastian Siebertz](https://www.uni-bremen.de/en/theorie/team/profiles/prof-dr-sebastian-siebertz) (Universität Bremen, chair)
-- Mario Grobler (Universität Bremen)
+- [Mario Grobler](https://user.informatik.uni-bremen.de/grobler/) (Universität Bremen)
