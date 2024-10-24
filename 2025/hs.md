@@ -62,7 +62,7 @@ The example set system above can be described by the following file.
     2 3 4
     2 4 5
     1 3 6
-    4 6
+    5 6
 ```
 
 ### Output Format
