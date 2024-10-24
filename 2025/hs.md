@@ -6,7 +6,7 @@ title: "PACE 2025 - Hitting Set"
 
 ## Hitting Set
 
-The second challenge for this year is **Hitting Set**
+The second challenge for this year is **Hitting Set**:
 
 **Input**: A set system (hypergraph) $\mathcal{S}$ <br/>
 **Output**: A hitting set for $\mathcal{S}$
@@ -15,6 +15,8 @@ The second challenge for this year is **Hitting Set**
 
 A _hitting set_ for a set system $\mathcal{S}$ is a set $H \subseteq V(G)$ such that every set $S \in E(\mathcal{S})$ contains at least one vertex from $H$, that is, for all $S \in E(\mathcal{S})$ we have $S \cap H \neq \varnothing$.
 
+![Example](/2025/img/example_hs.png)
+
 The Hitting Set problem is a natural generalization of many well-known graph problems, including
 
  - **Vertex Cover**, by considering the set of all edges
@@ -22,11 +24,11 @@ The Hitting Set problem is a natural generalization of many well-known graph pro
  - **(Directed) Feedback Vertex Set**, by considering the set of all (directed) cycles
 
 ### Complexity
-As Dominating Set is NP-hard and $W[2]$-hard, it is immediate that also Hitting Set is NP-hard and $W[2]$-hard. 
-In fact, Hitting Set is also NP-complete and $W[2]$-complete.
-However, it becomes fpt on several structurally restricted classes of set systems, e.g. set systems where the size of each set is bounded by a constant (see [Literature](#literature)).
+As Dominating Set is NP-hard and W$[2]$-hard, it is immediate that also Hitting Set is NP-hard and W$[2]$-hard. 
+In fact, Hitting Set is also NP-complete and W$[2]$-complete.
+However, it is fpt on several structurally restricted classes of set systems, e.g. set systems where the size of each set is bounded by a constant and set systems of bounded VC-dimension (see [Literature](#literature)).
 
-### Tracks
+## Tracks
 
 ### Exact Track
 
@@ -34,7 +36,7 @@ The task is to compute an optimal solution for each given graph, that is, a mini
 
 Instances in this track will satisfy structural properties that theoretically allow the efficient solution of the problem, e.g. encode graph instances (of dominating set, vertex cover, feedback vertex set, etc.) that admit efficient solutions, however, it will not be given with the input what type of problem is encoded. 
 
-Submissions should be based on provably optimal algorithms, however, this is not a formal requirement. Submissions that output an incorrect solution or a solution that is known to be non-optimal will be disqualified. Besides dedicated algorithms, we also encourage submissions based on other paradigms such as SAT, MaxSAT, or ILPs.
+Submissions should be based on provably optimal algorithms, however, this is not a formal requirement. Submissions that output an incorrect solution or a solution that is known to be non-optimal will be disqualified. Besides dedicated algorithms, we also encourage submissions based on other paradigms such as SAT, MaxSAT, or ILPs. We allow the use of open source SAT solvers and ILP solvers.
 
 ### Heuristic Track
 
@@ -45,9 +47,7 @@ For this track solutions do not have to be optimal. However, solvers that produc
 
 ## Input and Output
 
-### Input and Output
-
-## Input Format
+### Input Format
 
 We use a natural extension for standard DIMACS-like .gr for hypergraphs, namely .hgr files, where every line represents a set.
 
@@ -57,19 +57,28 @@ Every other line contains a list of numbers representing a set. The total file c
 The example set system above can be described by the following file.
 ```
     c I am a comment
-    p hs x x
-    TODO
+    p hs 6 5
+    1 2
+    2 3 4
+    2 4 5
+    1 3 6
+    4 6
 ```
 
-## Output Format
+### Output Format
 The output format is as for the dominating set problem.
 We expect the first line to be a number representing the size of your solution. Every other (non-comment) line is expected to be a single number, representing a vertex of the solution.
-Hence, the total file consists of $k+1$ non-empty non-comment lines, where $k$ is your solution size.
+Hence, the total file consists of $k+1$ non-comment lines, where $k$ is your solution size.
 The solution in the example above can be specified by the following output.
 ```
     c The first non-comment line represents the solution size
-    TODO
+    2
+    2
+    6
 ```
 
 
-### Literature
+## Literature
+
+ - M. Cygan, F. V. Fomin, Ł. Kowalik, D. Lokshtanov, D. Marx, M. Pilipczuk, M. Pilipczuk, S. Saurabh: Parameterized Algorithms.
+ - H. Brönnimann, M. T. Goodrich: Almost optimal set covers in finite VC-dimension.

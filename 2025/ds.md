@@ -14,7 +14,7 @@ The first challenge for this year is **Dominating Set**:
 
 A _dominating set_ for a graph $G$ is a set $D \subseteq V(G)$ such that every vertex or one of its neighbors is contained in $D$, that is, for all $v \in V(G)$ we have $v \in D$ or there is $u \in S$ with $uv \in E(G)$.
 
-![Example](/2025/img/example.png)
+![Example](/2025/img/example_ds.png)
 
 ### Complexity
 
@@ -39,7 +39,7 @@ The task is to compute an optimal solution for each given graph, that is, a mini
 
 Instances in this track will satisfy structural properties that theoretically allow the efficient solution of the problem, e.g. be planar and have a moderately small domination number, have moderately small treewidth or cliquewidth, etc. 
 
-Submissions should be based on provably optimal algorithms, however, this is not a formal requirement. Submissions that output an incorrect solution or a solution that is known to be non-optimal will be disqualified. Besides dedicated algorithms, we also encourage submissions based on other paradigms such as SAT, MaxSAT, or ILPs.
+Submissions should be based on provably optimal algorithms, however, this is not a formal requirement. Submissions that output an incorrect solution or a solution that is known to be non-optimal will be disqualified. Besides dedicated algorithms, we also encourage submissions based on other paradigms such as SAT, MaxSAT, or ILPs. We allow the use of open source SAT solvers and ILP solvers.
 
 ### Heuristic Track
 
@@ -56,7 +56,7 @@ We use the standard DIMACS-like .gr format for graphs.
 
 Lines are separated by `\n`. Lines starting with a `c` are considered to be a comment and hence ignored. The first (non-comment) line starts with a `p` followed by a problem descriptor, which is `ds` for the Dominating Set problem, followed by the number of vertices `n` and number of edges `m`.
 The vertices are numbered from `1` to `n`.
-Every other line contains two numbers representing an edge. Hence, the total file consists of $m+1$ non-empty non-comment lines.
+Every other line contains two numbers representing an edge. Hence, the total file consists of $m+1$ non-comment lines.
 The example graph above can be described by the following file.
 ```
     c I am a comment
@@ -74,8 +74,8 @@ The example graph above can be described by the following file.
 
 ### Output Format
 The output format is similar, the main difference being that each line consists of a single number (representing a vertex of the solution instead of an edge).
-We expect the first line to be a number representing the size of your solution. Every other (non-comment) line is expected to be a single number, representing a vertex of the solution.
-Hence, the total file consists of $k+1$ non-empty non-comment lines, where $k$ is your solution size.
+We expect the first non-comment line to be a number representing the size of your solution. Every other (non-comment) line is expected to be a single number, representing a vertex of the solution.
+Hence, the total file consists of $k+1$ non-comment lines, where $k$ is your solution size.
 The solution in the example above can be specified by the following output.
 ```
     c The first non-comment line represents the solution size
@@ -91,7 +91,7 @@ The final score will be computed over all public and private instances (for the 
 
 - T. W. Haynes, S. Hedetniemi, P. Slater. 
 Fundamentals of Domination in Graphs (book).
--  F. V. Fomin, D. Kratsch, and G. J. Woeginger. Exact (exponential) algorithms for the dominating set problem.
+- F. V. Fomin, D. Kratsch, and G. J. Woeginger. Exact (exponential) algorithms for the dominating set problem.
 - B. Randerath and I. Schiermeyer. Exact algorithms for minimum dominating set. 
 - F. V. Fomin, F. Grandoni, D. Kratsch. Measure and conquer: Domination – a case study.
 

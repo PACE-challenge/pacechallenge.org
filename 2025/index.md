@@ -16,7 +16,7 @@ This year features two problems.
  - September 2024. Announcement of the challenge and tracks
  - October 2024. Definition of input and output formats
  - November 2024. Tiny test set and verifier are provided
- - December 2024. Additional information on the ranking method
+ - January 2025. Release of public instances and details about the benchmark
  - April 2025. Submission via [optil.io](https://optil.io/) opens
  - June 2025. Submission deadline
  - July 2025. Results
