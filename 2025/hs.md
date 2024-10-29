@@ -82,3 +82,4 @@ The solution in the example above can be specified by the following output.
 
  - M. Cygan, F. V. Fomin, Ł. Kowalik, D. Lokshtanov, D. Marx, M. Pilipczuk, M. Pilipczuk, S. Saurabh: Parameterized Algorithms.
  - H. Brönnimann, M. T. Goodrich: Almost optimal set covers in finite VC-dimension.
+ - F. N. Abu-Khzam. A kernelization algorithm for d-hitting set.

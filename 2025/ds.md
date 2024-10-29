@@ -94,6 +94,13 @@ Fundamentals of Domination in Graphs (book).
 - F. V. Fomin, D. Kratsch, and G. J. Woeginger. Exact (exponential) algorithms for the dominating set problem.
 - B. Randerath and I. Schiermeyer. Exact algorithms for minimum dominating set. 
 - F. V. Fomin, F. Grandoni, D. Kratsch. Measure and conquer: Domination – a case study.
+- D. S. Johnson. Approximation algorithms for combinatorial problems.
+- L. Lovász. On the ratio of optimal integral and fractional covers.
+- B. S. Baker. Approximation algorithms for NP-complete problems on planar graphs.
+- N. Bansal and S. W. Umboh. Tight approximation bounds for dominating set on graphs of bounded arboricity.
+- J. Alber, M. R. Fellows, and R. Niedermeier. Polynomial-time data reduction for Dominating Set. 
+- G. Philip, V. Raman, and S. Sikdar. Polynomial kernels for Dominating Set in graphs of bounded
+degeneracy and beyond.
 
 
 
