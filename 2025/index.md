@@ -5,9 +5,11 @@ sidebar_link: true
 sidebar_sort_order: 10
 ---
 
-## Problems
+<style media="screen and (max-width:1020px)"> img {display:none;} </style>
 
-This year features two problems.
+## Problems <img src="/2025/img/turtle2.png" width=300 height=300 style="position:absolute; top:50px; right:30px" />
+
+This year features two problems. 
 1. [Dominating Set](./ds)
 2. [Hitting Set](./hs)
 
