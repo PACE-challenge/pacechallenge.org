@@ -89,8 +89,7 @@ The final score will be computed over all public and private instances (for the 
 
 ## Literature
 
-- T. W. Haynes, S. Hedetniemi, P. Slater. 
-Fundamentals of Domination in Graphs (book).
+- T. W. Haynes, S. Hedetniemi, P. Slater. Fundamentals of Domination in Graphs (book).
 - F. V. Fomin, D. Kratsch, and G. J. Woeginger. Exact (exponential) algorithms for the dominating set problem.
 - B. Randerath and I. Schiermeyer. Exact algorithms for minimum dominating set. 
 - F. V. Fomin, F. Grandoni, D. Kratsch. Measure and conquer: Domination – a case study.

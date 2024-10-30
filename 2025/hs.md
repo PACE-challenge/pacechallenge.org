@@ -53,7 +53,9 @@ We use a natural extension for standard DIMACS-like .gr for hypergraphs, namely 
 
 Lines are separated by `\n`. Lines starting with a `c` are considered to be a comment and hence ignored. The first (non-comment) line starts with a `p` followed by a problem descriptor, which is `hs` for the Hitting Set problem, followed by the number of vertices `n` and number of sets `m`.
 The vertices are numbered from `1` to `n`.
-Every other line contains a list of numbers representing a set. The total file consists of $m+1$ non-empty non-comment lines.
+Every other line contains a list of numbers representing a set. 
+We expect every set to be *non-empty*. This implies that every empty line is expected to be ignored (it does *not* represent the empty set).
+Hence, the total file consists of $m+1$ non-empty non-comment lines.
 The example set system above can be described by the following file.
 ```
     c I am a comment
@@ -80,6 +82,7 @@ The solution in the example above can be specified by the following output.
 
 ## Literature
 
- - M. Cygan, F. V. Fomin, Ł. Kowalik, D. Lokshtanov, D. Marx, M. Pilipczuk, M. Pilipczuk, S. Saurabh: Parameterized Algorithms.
- - H. Brönnimann, M. T. Goodrich: Almost optimal set covers in finite VC-dimension.
+ - M. Cygan, F. V. Fomin, Ł. Kowalik, D. Lokshtanov, D. Marx, M. Pilipczuk, M. Pilipczuk, S. Saurabh. Parameterized Algorithms.
+ - H. Brönnimann and M. T. Goodrich. Almost optimal set covers in finite VC-dimension.
  - F. N. Abu-Khzam. A kernelization algorithm for d-hitting set.
+ - L. Shi and X. Cai. An Exact Fast Algorithm for Minimum Hitting Set.
