@@ -12,7 +12,7 @@ The first challenge for this year is **Dominating Set**:
 
 ### What is a dominating set?
 
-A _dominating set_ for a graph $G$ is a set $D \subseteq V(G)$ such that every vertex or one of its neighbors is contained in $D$, that is, for all $v \in V(G)$ we have $v \in D$ or there is $u \in S$ with $uv \in E(G)$.
+A _dominating set_ for a graph $G$ is a set $D \subseteq V(G)$ such that every vertex or one of its neighbors is contained in $D$, that is, for all $v \in V(G)$ we have $v \in D$ or there is $u \in D$ with $uv \in E(G)$.
 
 ![Example](/2025/img/example_ds.png)
 
@@ -39,14 +39,17 @@ The task is to compute an optimal solution for each given graph, that is, a mini
 
 Instances in this track will satisfy structural properties that theoretically allow the efficient solution of the problem, e.g. be planar and have a moderately small domination number, have moderately small treewidth or cliquewidth, etc. 
 
-Submissions should be based on provably optimal algorithms, however, this is not a formal requirement. Submissions that output an incorrect solution or a solution that is known to be non-optimal will be disqualified. Besides dedicated algorithms, we also encourage submissions based on other paradigms such as SAT, MaxSAT, or ILPs. We allow the use of open source SAT solvers and ILP solvers.
+Submissions should be based on provably optimal algorithms. With the solver we ask for a sketch of correctness. Submissions that output an incorrect solution or a solution that is known to be non-optimal will be disqualified. Besides dedicated algorithms, we also encourage submissions based on other paradigms such as SAT, MaxSAT, or ILPs. We allow the use of open source SAT solvers and ILP solvers.
 
 ### Heuristic Track
 
 In this track, the solver shall compute a good solution quickly. The solver will be run on each instance for 5 minutes and a memory limit of 8GB. After 5 minutes the solver receives the Unix signal SIGTERM. When receiving this signal, the process has to output a dominating set to the standard output and terminate. 
 If the program does not halt in a reasonable time after reserving the signal, it will be stopped via SIGKILL. In this case the instance is counted as time limit exceeded. 
 
-For this track solutions do not have to be optimal. However, solvers that produce incorrect solution will be disqualified.
+For this track solutions do not have to be optimal. However, solvers that produce an incorrect solution will be disqualified.
+
+### Final Evaluation
+The final score will be computed over a set of 100 private instances that are similar to the 100 public instances.
 
 ## Input and Output
 
@@ -83,9 +86,6 @@ The solution in the example above can be specified by the following output.
     3
     5
 ```
-
-## Final Evaluation
-The final score will be computed over all public and private instances (for the parameterized track, we use a selection of 100 public instances, which are the ones provided on optil.io).
 
 ## Literature
 

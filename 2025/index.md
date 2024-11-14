@@ -23,6 +23,17 @@ This year features two problems.
  - June 2025. Submission deadline
  - July 2025. Results
 
+## Evaluation and correctness of exact solvers
+
+This year we will take special efforts to ensure the correctness of the exact solvers. 
+
+- We kindly ask all teams to publish their source code (open source) and make it available to the other teams after submission (on github or a similar platform). 
+- With the submission we ask for a sketch of proof of correctness of the solver. 
+- Within two weeks after submission the teams may inspect the code of the other teams and point out mistakes or simply provide instances that yield wrong results for these solvers. 
+- In a following rebuttal phase of one week the teams may respond, and in close contact with the organizers fix small bugs in the code. Fundamentally wrong solvers will be disqualified. In particular, solvers that are based on heuristics only will be disqualified. 
+- We will also verify the solvers against a huge database of smaller random instances. These instances will be made publicly available. 
+- The evaluation of the solvers will be based on a set of 100 private instances that are similar to 100 publicly available test instances. 
+
 ## Program Committee
 
 - [Sebastian Siebertz](https://www.uni-bremen.de/en/theorie/team/profiles/prof-dr-sebastian-siebertz) (Universität Bremen, chair)

@@ -36,7 +36,7 @@ The task is to compute an optimal solution for each given graph, that is, a mini
 
 Instances in this track will satisfy structural properties that theoretically allow the efficient solution of the problem, e.g. encode graph instances (of dominating set, vertex cover, feedback vertex set, etc.) that admit efficient solutions, however, it will not be given with the input what type of problem is encoded. 
 
-Submissions should be based on provably optimal algorithms, however, this is not a formal requirement. Submissions that output an incorrect solution or a solution that is known to be non-optimal will be disqualified. Besides dedicated algorithms, we also encourage submissions based on other paradigms such as SAT, MaxSAT, or ILPs. We allow the use of open source SAT solvers and ILP solvers.
+Submissions should be based on provably optimal algorithms. With the solver we ask for a sketch of correctness. Submissions that output an incorrect solution or a solution that is known to be non-optimal will be disqualified. Besides dedicated algorithms, we also encourage submissions based on other paradigms such as SAT, MaxSAT, or ILPs. We allow the use of open source SAT solvers and ILP solvers.
 
 ### Heuristic Track
 
@@ -44,6 +44,9 @@ In this track, the solver shall compute a good solution quickly. The solver will
 If the program does not halt in a reasonable time after reserving the signal, it will be stopped via SIGKILL. In this case the instance is counted as time limit exceeded. 
 
 For this track solutions do not have to be optimal. However, solvers that produce incorrect solution will be disqualified.
+
+### Final Evaluation
+The final score will be computed over a set of 100 private instances that are similar to the 100 public instances.
 
 ## Input and Output
 
