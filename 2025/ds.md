@@ -30,6 +30,9 @@ For instance, the problem admits a polynomial-time approximation scheme
 It admits a constant factor approximation on classes of bounded degeneracy and an $O(d\cdot \ln k)$ approximation (where $k$ denotes
 the size of a minimum dominating set) on classes of VC dimension $d$. 
 
+## Verifier and test set
+A verifier with a small test set is now available on [Github](https://github.com/MarioGrobler/ds_verifier).
+
 
 ## Tracks
 
