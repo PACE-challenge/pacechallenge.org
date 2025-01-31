@@ -23,17 +23,19 @@ PACE aims to:
 
 ### Steering Committee
 
+- (since 2024) [Philipp Kindermann](https://algo.uni-trier.de/~kindermann) (Universität Trier)
+- (since 2024) [Soeren Terziadis](https://www.ac.tuwien.ac.at/people/sterziadis/) (TU Eindhoven)
 - (since 2023) [Max Bannach](https://www.esa.int/gsp/ACT/team/max_bannach/) (European Space Agency)
 - (since 2023) [Sebastian Berndt](http://www.tcs.uni-luebeck.de/de/mitarbeiter/berndt/) (Universität zu Lübeck)
 - (since 2016) [Holger Dell](https://holgerdell.com) (Goethe University Frankfurt and IT University of Copenhagen)
 - (since 2016) [Bart M. P. Jansen](https://www.win.tue.nl/~bjansen/) (chair) (Eindhoven University of Technology)
-- (since 2020) [Łukasz Kowalik](https://www.mimuw.edu.pl/~kowalik/) (University of Warsaw)
 - (since 2021) [André Nichterlein](https://www.akt.tu-berlin.de/menue/team/nichterlein_andre/) (Technical University of Berlin)
 - (since 2022) [Christian Schulz](https://schulzchristian.github.io/) (Universität Heidelberg)
-- (since 2020) [Manuel Sorge](https://manyu.pro/) (Technische Universität Wien)
 
 ### Former members
 
+- (2020-2024) [Łukasz Kowalik](https://www.mimuw.edu.pl/~kowalik/) (University of Warsaw)
+- (2020-2024) [Manuel Sorge](https://manyu.pro/) (Technische Universität Wien)
 - (2021-2023) [Marcin Pilipczuk](https://www.mimuw.edu.pl/~malcin/) (University of Warsaw)
 - (2020-2023) [Johannes Fichte](https://iccl.inf.tu-dresden.de/web/Johannes_Fichte) (Technische Universität Dresden)
 - (2020-2023) [Markus Hecher](https://www.dbai.tuwien.ac.at/staff/hecher/) (Technische Universität Wien)
