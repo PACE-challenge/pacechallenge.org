@@ -18,10 +18,13 @@ This year features two problems.
  - September 2024. Announcement of the challenge and tracks
  - October 2024. Definition of input and output formats
  - November 2024. Tiny test set and verifier are provided
- - ~~January 2025~~ Early February 2025. Release of public instances and details about the benchmark
+ - ~~January 2025~~ February 2025. Release of public instances and details about the benchmark
  - April 2025. Submission via [optil.io](https://optil.io/) opens
  - June 2025. Submission deadline
  - July 2025. Results
+
+## Instances 
+Currently, we provide a *preliminary* set of 50 instances for the exact track of the Dominating Set Challenge. Find them on [GitHub](https://github.com/MarioGrobler/PACE2025-instances).
 
 ## Evaluation and correctness of exact solvers
 
