@@ -23,14 +23,14 @@ PACE aims to:
 
 ### Steering Committee
 
-- (since 2024) [Philipp Kindermann](https://algo.uni-trier.de/~kindermann) (Universität Trier)
-- (since 2024) [Soeren Terziadis](https://www.ac.tuwien.ac.at/people/sterziadis/) (TU Eindhoven)
 - (since 2023) [Max Bannach](https://www.esa.int/gsp/ACT/team/max_bannach/) (European Space Agency)
 - (since 2023) [Sebastian Berndt](http://www.tcs.uni-luebeck.de/de/mitarbeiter/berndt/) (Universität zu Lübeck)
 - (since 2016) [Holger Dell](https://holgerdell.com) (Goethe University Frankfurt and IT University of Copenhagen)
 - (since 2016) [Bart M. P. Jansen](https://www.win.tue.nl/~bjansen/) (chair) (Eindhoven University of Technology)
+- (since 2024) [Philipp Kindermann](https://algo.uni-trier.de/~kindermann) (Universität Trier)
 - (since 2021) [André Nichterlein](https://www.akt.tu-berlin.de/menue/team/nichterlein_andre/) (Technical University of Berlin)
 - (since 2022) [Christian Schulz](https://schulzchristian.github.io/) (Universität Heidelberg)
+- (since 2024) [Soeren Terziadis](https://www.ac.tuwien.ac.at/people/sterziadis/) (TU Eindhoven)
 
 ### Former members
 
