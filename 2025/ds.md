@@ -33,6 +33,9 @@ the size of a minimum dominating set) on classes of VC dimension $d$.
 ## Verifier and test set
 A verifier with a small test set is now available on [Github](https://github.com/MarioGrobler/ds_verifier).
 
+## Public instances
+Find the set of public instances for the Dominating Set Problem on [Github](https://github.com/MarioGrobler/PACE2025-instances/tree/master/ds).
+
 
 ## Tracks
 

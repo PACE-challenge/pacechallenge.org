@@ -31,6 +31,9 @@ However, it is fpt on several structurally restricted classes of set systems, e.
 ## Verifier and test set
 A verifier with a small test set is now available on [Github](https://github.com/MarioGrobler/hs_verifier).
 
+## Public instances
+Find the set of public instances for the Dominating Set Problem on [Github](https://github.com/MarioGrobler/PACE2025-instances/tree/master/hs).
+
 ## Tracks
 
 ### Exact Track
