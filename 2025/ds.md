@@ -41,15 +41,15 @@ Find the set of public instances for the Dominating Set Problem on [Github](http
 
 ### Exact Track
 
-The task is to compute an optimal solution for each given graph, that is, a minimum dominating set. For each instance, the solver has to output a solution within a time limit of 30 minutes and a memory limit of 8 GB.
+The task is to compute an optimal solution for each given graph, that is, a minimum dominating set. For each instance, the solver has to output a solution within a time limit of 30 minutes and a memory limit of 16 GB.
 
 Instances in this track will satisfy structural properties that theoretically allow the efficient solution of the problem, e.g. be planar and have a moderately small domination number, have moderately small treewidth or cliquewidth, etc. 
 
-Submissions should be based on provably optimal algorithms. With the solver we ask for a sketch of correctness. Submissions that output an incorrect solution or a solution that is known to be non-optimal will be disqualified. Besides dedicated algorithms, we also encourage submissions based on other paradigms such as SAT, MaxSAT, or ILPs. We allow the use of open source SAT solvers and ILP solvers.
+Submissions should be based on provably optimal algorithms. With the solver we ask for a sketch of correctness. Submissions that output an incorrect solution or a solution that is known to be non-optimal will be disqualified. Besides dedicated algorithms, we also encourage submissions based on other paradigms such as SAT, MaxSAT, or ILPs. We allow the use of non-commercial SAT solvers and ILP solvers provided they are not subject to licenses that restrict the free distribution of your solvers.
 
 ### Heuristic Track
 
-In this track, the solver shall compute a good solution quickly. The solver will be run on each instance for 5 minutes and a memory limit of 8GB. After 5 minutes the solver receives the Unix signal SIGTERM. When receiving this signal, the process has to output a dominating set to the standard output and terminate. 
+In this track, the solver shall compute a good solution quickly. The solver will be run on each instance for 5 minutes and a memory limit of 16 GB. After 5 minutes the solver receives the Unix signal SIGTERM. When receiving this signal, the process has to output a dominating set to the standard output and terminate. 
 If the program does not halt in a reasonable time after reserving the signal, it will be stopped via SIGKILL. In this case the instance is counted as time limit exceeded. 
 
 For this track solutions do not have to be optimal. However, solvers that produce an incorrect solution will be disqualified.
