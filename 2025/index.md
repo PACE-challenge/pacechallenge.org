@@ -34,7 +34,7 @@ You find the set of public instances on [Github](https://github.com/MarioGrobler
 
 This year we will take special efforts to ensure the correctness of the exact solvers. 
 
-- We kindly ask all teams to publish their source code (open source) and make it available to the other teams after submission (on Github or a similar platform). Shortly after the submission deadline for the solvers (13.06.2025), we provide a list links for all solvers on this webpage.
+- We kindly ask all teams to publish their source code (open source) and make it available to the other teams after submission (on Github or a similar platform). Shortly after the submission deadline for the solvers (13.06.2025), we provide a list of links for all solvers on this webpage.
 - With the submission we ask for a sketch of proof of correctness of the solver. 
 - Within two weeks after submission the teams may inspect the code of the other teams and point out mistakes or simply provide instances that yield wrong results for these solvers. The deadline is the 27.06.2025
 - In a following rebuttal phase of one week the teams may respond, and in close contact with the organizers fix small bugs in the code. Fundamentally wrong solvers will be disqualified. In particular, solvers that are based on heuristics only will be disqualified. 
