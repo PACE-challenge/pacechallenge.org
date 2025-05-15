@@ -27,6 +27,13 @@ This year features two problems.
  - **Friday, 04.07.2025, 23:59 AOE** Final submission deadline
  - July 2025. Results
 
+## Preliminary leaderboard on optil
+The preliminary leaderboard on [optil](https://optil.io) is now live. You can submit your solvers on this platform and compare your results with the solvers of other participants.
+ - The input is provided via the standard input `stdin`, eg `sys.stdin` in Python or `System.in` in Java.
+ - Please write your output to the standard output stream, eg by calling `print` in Python or `System.out.print` in Java
+ - In addition to the exact and heuristic tracks for this years problems, you will find two "Lite" tracks on optil. These tracks contain only five instances each, their main prupose being to test your solvers on a technical level (does the program compile, do input and output work correctly, etc). Please use these tracks first to ensure that your programs run on the platform.
+ - In case you need external libraries that are not already installed on the platform, please contact the team behind optil directly.
+
 ## Instances 
 You find the set of public instances on [Github](https://github.com/MarioGrobler/PACE2025-instances).
 
