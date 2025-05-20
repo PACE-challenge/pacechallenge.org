@@ -40,7 +40,7 @@ We will use the following scoring system. For the exact tracks as well the heuri
 The preliminary leaderboard on [optil](https://optil.io) is now live. You can submit your solvers on this platform and compare your results with the solvers of other participants.
  - The input is provided via the standard input `stdin`, eg `sys.stdin` in Python or `System.in` in Java.
  - Please write your output to the standard output stream, eg by calling `print` in Python or `System.out.print` in Java
- - In addition to the exact and heuristic tracks for this years problems, you will find two "Lite" tracks on optil. These tracks contain only five instances each, their main prupose being to test your solvers on a technical level (does the program compile, do input and output work correctly, etc). Please use these tracks first to ensure that your programs run on the platform, as you can only submit a solver every 12 hours for the full tracks.
+ - In addition to the exact and heuristic tracks for this years problems, you will find two "Lite" tracks on optil. These tracks contain only five instances each, their main purpose being to test your solvers on a technical level (does the program compile, do input and output work correctly, etc). Please use these tracks first to ensure that your programs run on the platform, as you can only submit a solver every 12 hours for the full tracks.
  - In case you need external libraries that are not already installed on the platform, please contact the team behind optil directly.
 
 ## Instances 
