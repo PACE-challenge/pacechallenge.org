@@ -27,6 +27,15 @@ This year features two problems.
  - **Friday, 04.07.2025, 23:59 AOE** Final submission deadline
  - July 2025. Results
 
+## Scoring
+We will use the following scoring system. For the exact tracks as well the heuristic tracks a maximum of 100 points can be achieved. Note that this system is **not** used on optil.
+ - **Exact tracks**: every correctly solved instance awards 1 point. Whenever a solver does not finish an instance in time (time limit exceeded), this instance awards 0 points. If a solver produces an incorrect answer on any instance, it will be disqualified.
+ - **Heuristic tracks**: every instance produces a score between 0 and 1. Fix an instance with $n$ vertices and optimal solution $k^\*$. Note that $k^\* < n$ holds for every instance (as all instances have at least a single edge). Let $k$ be the solution produced by a solver. The score for the instance is computed according to the formula
+ $$f(k) = \left(\frac{n - k}{n - k^*}\right)^2$$.
+ This means that producing an optimal solution yields 1 point, producing a trivial solution yields 0 points, and improving an already good solution is more beneficial than improving a bad solution. The following shows an example where $k^\* = 50$ and $n = 100$.
+
+ ![Scoring](/2025/img/heur.png)
+
 ## Preliminary leaderboard on optil
 The preliminary leaderboard on [optil](https://optil.io) is now live. You can submit your solvers on this platform and compare your results with the solvers of other participants.
  - The input is provided via the standard input `stdin`, eg `sys.stdin` in Python or `System.in` in Java.
@@ -53,7 +62,7 @@ In case you want to apply changes, please contact us **latest Sunday, 29.06.2025
 
 **Is there a leaderboard for submissions where students are the main contributors?** <br>
 Yes. For each problem and track there is a global ranking as well as a student ranking, that is, 8 leaderboards in total.
-The student ranking is only eligible for submission where students are the main contributors, for example, teams of student being part of a student project. These student groups may be supervised by non-student people as long as the students are the main contributors. If your submission is eligible for the student ranking, please send a short mail to the [program committee](#program-committee) <br>
+The student ranking is only eligible for submission where students are the main contributors, for example, teams of student being part of a student project. These student groups may be supervised by non-student people as long as the students are the main contributors. If your submission is eligible for the student ranking, please send a short mail to the [program committee](#program-committee). <br>
 
 **Are external solvers allowed?** <br>
 The use of external solvers such as ILP solvers, SAT solvers, etc, is allowed and encouraged, provided they are non-commercial and not subject to licenses that restrict the free distribution of your solvers. <br>
