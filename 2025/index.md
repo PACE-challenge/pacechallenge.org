@@ -35,7 +35,7 @@ The following files are required.
  - the codebase
  - the solver description
 
-The deadlines mentioned above apply. Note that changes on the codebase and the solver description after their respective deadlines are prohibited, except for small changes resulting from the reviewing phase in close contact with the organizers.
+The deadlines mentioned above apply. Note that changes on the codebase and the solver description after their respective deadlines are prohibited, except for small changes resulting from the reviewing phase in close contact with the organizers. We kindly ask all participants to send us an email by the submission deadline, including a link to their Github repository (or a similar platform). If your submission is eligible for the student ranking, please also include a brief note indicating this.
 
 ## Scoring
 We will use the following scoring system. For the exact tracks as well the heuristic tracks a maximum of 100 points can be achieved. Note that this system is **not** used on optil.
