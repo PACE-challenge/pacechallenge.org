@@ -27,12 +27,22 @@ This year features two problems.
  - **Friday, 04.07.2025, 23:59 AOE** Final submission deadline
  - July 2025. Results
 
+## Submission Guideline
+We ask all participants to publish their codebase and solver description on Github or a similar platform that is publicly available.
+The following files are required.
+ - A license file at the root containing the license
+ - An installation guide at the root that also contains information about external dependencies
+ - the codebase
+ - the solver description
+
+The deadlines mentioned above apply. Note that changes on the codebase and the solver description after their respective deadlines are prohibited, except for small changes resulting from the reviewing phase in close contact with the organizers.
+
 ## Scoring
 We will use the following scoring system. For the exact tracks as well the heuristic tracks a maximum of 100 points can be achieved. Note that this system is **not** used on optil.
- - **Exact tracks**: every correctly solved instance awards 1 point. Whenever a solver does not finish an instance in time (time limit exceeded), this instance awards 0 points. If a solver produces an incorrect answer on any instance, it will be disqualified.
- - **Heuristic tracks**: every instance produces a score between 0 and 1. Fix an instance with $n$ vertices and optimal solution $k^\*$. Note that $k^\* < n$ holds for every instance (as all instances have at least a single edge). Let $k$ be the solution produced by a solver. The score for the instance is computed according to the formula
- $$f(k) = \left(\frac{n - k}{n - k^*}\right)^2$$.
- This means that producing an optimal solution yields 1 point, producing a trivial solution yields 0 points, and improving an already good solution is more beneficial than improving a bad solution. The following shows an example where $k^\* = 50$ and $n = 100$.
+ - **Exact tracks**: every correctly solved instance awards 1 point. Whenever a solver does not finish an instance in time (time limit exceeded), this instance awards 0 points. If a solver produces an incorrect answer on any instance, it will be disqualified. Solvers achieving the same score will be ranked according to their total runtimes.
+ - **Heuristic tracks**: every instance produces a score between 0 and 1. Fix an instance with $n$ vertices and optimal solution $k^\*$. Note that $k^\* < n$ holds for every instance (as all instances have at least a single edge). Let $k$ be the solution produced by a solver and let $u = \min(n, 2\cdot k^*)$. The score for the instance is computed according to the formula
+ $$f(k) = \left(\frac{u - k}{u - k^*}\right)^2$$.
+ This means that producing an optimal solution yields 1 point, producing a trivial solution or a solution outside factor 2 of the optimal solution yields 0 points, and improving an already good solution is more beneficial than improving a bad solution. The following shows an example where $k^\* = 50$ and $n = 100$.
 
  ![Scoring](/2025/img/heur.png)
 
@@ -69,6 +79,9 @@ The use of external solvers such as ILP solvers, SAT solvers, etc, is allowed an
 
 **What are the specs of the machine the final evaluation is done? Are parallel, multi-threaded algorithms allowed?**<br>
 For each solver, we provide 16 GB of memory and a single thread, as we believe that the focus of the competition is novel algorithm engineering instead of parallel programming. We encourage all teams to configure their software to be single-threaded to obtain results as representative as possible.<br>
+
+**How many submissions per team are allowed?**<br>
+We allow three submission per team. However, we allow exceptions for big students groups. For example, for a student group of 10 people divided into 2 (more or less independent) subgroups of 5 students each, we allow both subgroups to submit three solvers each. However, the ranking will be per team, not per solver. If you are unsure, feel free to contact us.<br>
 
 **Are the private instances similar to the public instances?**<br>
 Yes. The private instances have similar structural properties and sizes as the public instances.<br>
