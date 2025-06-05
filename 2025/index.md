@@ -37,6 +37,10 @@ The following files are required.
 
 The deadlines mentioned above apply. Note that changes on the codebase and the solver description after their respective deadlines are prohibited, except for small changes resulting from the reviewing phase in close contact with the organizers. We kindly ask all participants to send us an email by the submission deadline, including a link to their Github repository (or a similar platform). If your submission is eligible for the student ranking, please also include a brief note indicating this.
 
+## Docker environment
+We provide a docker stack on [Github](https://github.com/MarioGrobler/PACE2025-docker) containing the evaluation environment as it will be used for the final evaluation. The stack consists of four containers, one for each combination of problem and track. The aforementioned repository contains the evaluation script and a demo solver. For further information, we refer to the included readme file.
+We recommend all participants to install their solver(s) into the docker environment in order to minimize unexpected problems occuring during the evalution phase. We are very grateful if you provide a `Dockerfile` installing your solver(s) into the docker environemnt. This is *not* mandatory, but helps us a lot! :).
+
 ## Scoring
 We will use the following scoring system. For the exact tracks as well the heuristic tracks a maximum of 100 points can be achieved. Note that this system is **not** used on optil.
  - **Exact tracks**: every correctly solved instance awards 1 point. Whenever a solver does not finish an instance in time (time limit exceeded), this instance awards 0 points. If a solver produces an incorrect answer on any instance, it will be disqualified. Solvers achieving the same score will be ranked according to their total runtimes.
