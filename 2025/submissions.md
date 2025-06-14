@@ -11,7 +11,7 @@ title: "PACE 2025 - Submissions"
  - Yi-Hui Fan, Arthur Gisbrecht, Rashid Harvey, Vinzent Jörß, Bernadette Keßler, Oliver Seitz. [Gitlab](https://git.imp.fu-berlin.de/rh0457fu/anwendung-von-algorithmen/-/tree/DS_Exact) (Student Submission)
  - Guilherme D. da Fonseca, Fabien Feschet, Yan Gerard. [Github](https://github.com/gfonsecabr/shadoks-PACE2025)
  - Lukas Geis, Alexander Leonhardt, Johannes Meintrup, Ulrich Meyer, Manuel Penschuck. *PaceYourself*. [Github](https://github.com/manpen/pace25)
- - Fedor Kurmazov. [Github](https://github.com/spefk/pace2025-ds-solver)
+ - Marina Fridman, Viktoriia Krivogornitsyna, Fedor Kurmazov. [Github](https://github.com/spefk/pace2025-ds-solver)
  - Tobias Röhr. [Github](https://github.com/roehrt/alpaca) (Student Submission)
  - Paweł Putra. [Github](https://github.com/Kulezi/pace2025) (Student Submission)
  - Floris van der Hout. [Github](https://github.com/gamingwithaflo/minimum-dominating-set/tree/pace_2025_RTS) (Student Submission)
