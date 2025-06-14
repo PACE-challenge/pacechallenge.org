@@ -22,6 +22,7 @@ title: "PACE 2025 - Submissions"
  - Guilherme D. da Fonseca, Fabien Feschet, Yan Gerard. [Github](https://github.com/gfonsecabr/shadoks-PACE2025)
  - Florian Fontan, Guillaume Verger. [Github](https://github.com/fontanf/pace2025)
  - Samuel Füßinger. [Github](https://github.com/Samsu-F/PACE-2025-heuristic-dominating-set-solver) (Student Submission)
+ - Canhui Luo, Zhipeng Lv, Zhouxing Su, Qingyun Zhang. [Github](https://github.com/lxily/PACE2025.DS-HS)
  - Viacheslav Khrushchev. [Github](https://github.com/B2Corner/PACE_2025) (Student Submission)
  - Hui Kong, Bo Peng, Yexin Peng, Xinyun Wu. [Github](https://github.com/xinyepeng521/DominatingSat_Pace2025_Heuristic) (Student Submission)
  - Marcin Mennemann. [Github](https://github.com/mennemann/MDS/) (Student Submission)
@@ -36,9 +37,10 @@ title: "PACE 2025 - Submissions"
  - Tobias Röhr. [Github](https://github.com/roehrt/alpaca) (Student Submission)
 
 ## Hitting Set, Heuristic Track
- - Sebastian Angrick, Mirza Redzic, Patrick Steil, Mariette Vasen [Github](https://github.com/mariette03/HittingSetPace) (Student Submission)
+ - Sebastian Angrick, Mirza Redzic, Patrick Steil, Mariette Vasen. [Github](https://github.com/mariette03/HittingSetPace) (Student Submission)
  - Deepak Ajwani, Syed Mahmudul Kabir Ratul, Saurabh Ray. [Github](https://github.com/mamodul-kabir/PACE-25-HS-heuristic) (Student Submission)
  - Adil Chhabra, Marlon Dittes, Ernestine Großmann, Kenneth Langedal, Henrik Reinstädtler, Christian Schulz, Darren Strash, and Henning Woydt. [Github](https://github.com/KennethLangedal/PACE2025)
  - Guilherme D. da Fonseca, Fabien Feschet, Yan Gerard. [Github](https://github.com/gfonsecabr/shadoks-PACE2025)
  - Florian Fontan, Guillaume Verger. [Github](https://github.com/fontanf/pace2025)
+ - Canhui Luo, Zhipeng Lv, Zhouxing Su, Qingyun Zhang. [Github](https://github.com/lxily/PACE2025.DS-HS)
  - Adam Polak, Jonas Schmidt. *Greeduce*. [Github](https://github.com/adampolak/greeduce)
