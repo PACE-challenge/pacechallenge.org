@@ -27,6 +27,9 @@ This year features two problems.
  - **Friday, 04.07.2025, 23:59 AOE** Final submission deadline
  - July 2025. Results
 
+## Submitted Solvers
+Find the list of all participating solvers [here](/2025/submissions).
+
 ## Submission Guideline
 We ask all participants to publish their codebase and solver description on Github or a similar platform that is publicly available.
 The following files are required.
