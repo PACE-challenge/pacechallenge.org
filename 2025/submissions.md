@@ -14,6 +14,7 @@ title: "PACE 2025 - Submissions"
  - Marina Fridman, Viktoriia Krivogornitsyna, Fedor Kurmazov. [Github](https://github.com/spefk/pace2025-ds-solver)
  - Tobias Röhr. [Github](https://github.com/roehrt/alpaca) (Student Submission)
  - Paweł Putra. [Github](https://github.com/Kulezi/pace2025) (Student Submission)
+ - Sylwester Swat. [Github](https://github.com/swacisko/pace-2025)
  - Floris van der Hout. [Github](https://github.com/gamingwithaflo/minimum-dominating-set/tree/pace_2025_RTS) (Student Submission)
 
 ## Dominating Set, Heuristic Track
@@ -27,6 +28,7 @@ title: "PACE 2025 - Submissions"
  - Hui Kong, Bo Peng, Yexin Peng, Xinyun Wu. [Github](https://github.com/xinyepeng521/DominatingSat_Pace2025_Heuristic) (Student Submission)
  - Marcin Mennemann. [Github](https://github.com/mennemann/MDS/) (Student Submission)
  - Adam Polak, Jonas Schmidt. *Greeduce*. [Github](https://github.com/adampolak/greeduce)
+ - Sylwester Swat. [Github](https://github.com/swacisko/pace-2025)
 
 
 ## Hitting Set, Exact Track
@@ -35,6 +37,7 @@ title: "PACE 2025 - Submissions"
  - Alexander Dobler, Simon D. Fink, Mathis Rocton. *Bad Dominating Set Maker*. [Github](https://github.com/Doblalex/pace2025)
  - Guilherme D. da Fonseca, Fabien Feschet, Yan Gerard. [Github](https://github.com/gfonsecabr/shadoks-PACE2025)
  - Tobias Röhr. [Github](https://github.com/roehrt/alpaca) (Student Submission)
+ - Sylwester Swat. [Github](https://github.com/swacisko/pace-2025)
 
 ## Hitting Set, Heuristic Track
  - Sebastian Angrick, Mirza Redzic, Patrick Steil, Mariette Vasen. [Github](https://github.com/mariette03/HittingSetPace) (Student Submission)
@@ -44,3 +47,4 @@ title: "PACE 2025 - Submissions"
  - Florian Fontan, Guillaume Verger. [Github](https://github.com/fontanf/pace2025)
  - Canhui Luo, Zhipeng Lv, Zhouxing Su, Qingyun Zhang. [Github](https://github.com/lxily/PACE2025.DS-HS)
  - Adam Polak, Jonas Schmidt. *Greeduce*. [Github](https://github.com/adampolak/greeduce)
+ - Sylwester Swat. [Github](https://github.com/swacisko/pace-2025)
