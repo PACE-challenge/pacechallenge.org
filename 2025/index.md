@@ -62,6 +62,7 @@ The preliminary leaderboard on [optil](https://optil.io) is now live. You can su
 
 ## Instances 
 You find the set of public instances on [Github](https://github.com/MarioGrobler/PACE2025-instances).
+We would also like to draw your attention to the [Stride](https://domset.algorithm.engineering/) project, which aims to collect the best solutions for a large dataset. Many thanks to Manuel Penschuck for initiating this project!
 
 ## Evaluation and correctness of exact solvers
 

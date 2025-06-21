@@ -19,6 +19,7 @@ title: "PACE 2025 - Submissions"
  - Venislav Varbanov. [Github](https://github.com/v777v/PACE2025-v777v)
 
 ## Dominating Set, Heuristic Track
+ - Aslam Ameen, Ashwin Jacob, Sahil Muhammed, Nithin R, Pankaj Kumar R, Edwin Thomas. [Github](https://github.com/nithinraj04/pace2025_heuristic) (Student Submission)
  - Adil Chhabra, Marlon Dittes, Ernestine Großmann, Kenneth Langedal, Henrik Reinstädtler, Christian Schulz, Darren Strash, and Henning Woydt. [Github](https://github.com/KennethLangedal/PACE2025)
  - Yi-Hui Fan, Arthur Gisbrecht, Rashid Harvey, Vinzent Jörß, Bernadette Keßler, Oliver Seitz. [Gitlab](https://git.imp.fu-berlin.de/rh0457fu/anwendung-von-algorithmen/-/tree/DS_Heuristic_1) and [Gitlab](https://git.imp.fu-berlin.de/rh0457fu/anwendung-von-algorithmen/-/tree/DS_Heuristic_2) (Student Submissions)
  - Guilherme D. da Fonseca, Fabien Feschet, Yan Gerard. [Github](https://github.com/gfonsecabr/shadoks-PACE2025)
@@ -41,6 +42,7 @@ title: "PACE 2025 - Submissions"
  - Alexander Dobler, Simon D. Fink, Mathis Rocton. *Bad Dominating Set Maker*. [Github](https://github.com/Doblalex/pace2025)
  - Guilherme D. da Fonseca, Fabien Feschet, Yan Gerard. [Github](https://github.com/gfonsecabr/shadoks-PACE2025)
  - Tobias Röhr. [Github](https://github.com/roehrt/alpaca) (Student Submission)
+ - André Schidler. [Github](https://github.com/ASchidler/PACE25-submission)
  - Sylwester Swat. [Github](https://github.com/swacisko/pace-2025)
  - Venislav Varbanov. [Github](https://github.com/v777v/PACE2025-v777v)
 
