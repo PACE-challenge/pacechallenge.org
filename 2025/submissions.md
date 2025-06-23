@@ -12,12 +12,12 @@ title: "PACE 2025 - Submissions"
  - Guilherme D. da Fonseca, Fabien Feschet, Yan Gerard. [Github](https://github.com/gfonsecabr/shadoks-PACE2025)
  - Lukas Geis, Alexander Leonhardt, Johannes Meintrup, Ulrich Meyer, Manuel Penschuck. *PaceYourself*. [Github](https://github.com/manpen/pace25)
  - Marina Fridman, Viktoriia Krivogornitsyna, Fedor Kurmazov. [Github](https://github.com/spefk/pace2025-ds-solver)
+ - Elias Rasmussen, Thor Vejen Eriksen. [Github](https://github.com/Slemmie/PACE-2025-ds-et)
  - Tobias Röhr. [Github](https://github.com/roehrt/alpaca) (Student Submission)
  - Paweł Putra. [Github](https://github.com/Kulezi/pace2025) (Student Submission)
  - Sylwester Swat. [Github](https://github.com/swacisko/pace-2025)
  - Floris van der Hout. [Github](https://github.com/gamingwithaflo/minimum-dominating-set/tree/pace_2025_RTS) (Student Submission)
  - Venislav Varbanov. [Github](https://github.com/v777v/PACE2025-v777v)
- - Elias Rasmussen, Thor Vejen Eriksen. [Github] (https://github.com/Slemmie/PACE-2025-ds-et)
 
 ## Dominating Set, Heuristic Track
  - Aslam Ameen, Ashwin Jacob, Sahil Muhammed, Nithin R, Pankaj Kumar R, Edwin Thomas. [Github](https://github.com/nithinraj04/pace2025_heuristic) (Student Submission)
