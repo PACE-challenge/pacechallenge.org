@@ -17,6 +17,7 @@ title: "PACE 2025 - Submissions"
  - Sylwester Swat. [Github](https://github.com/swacisko/pace-2025)
  - Floris van der Hout. [Github](https://github.com/gamingwithaflo/minimum-dominating-set/tree/pace_2025_RTS) (Student Submission)
  - Venislav Varbanov. [Github](https://github.com/v777v/PACE2025-v777v)
+ - Elias Rasmussen, Thor Vejen Eriksen. [Github] (https://github.com/Slemmie/PACE-2025-ds-et)
 
 ## Dominating Set, Heuristic Track
  - Aslam Ameen, Ashwin Jacob, Sahil Muhammed, Nithin R, Pankaj Kumar R, Edwin Thomas. [Github](https://github.com/nithinraj04/pace2025_heuristic) (Student Submission)
