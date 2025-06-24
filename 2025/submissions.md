@@ -12,7 +12,7 @@ title: "PACE 2025 - Submissions"
  - Guilherme D. da Fonseca, Fabien Feschet, Yan Gerard. [Github](https://github.com/gfonsecabr/shadoks-PACE2025)
  - Lukas Geis, Alexander Leonhardt, Johannes Meintrup, Ulrich Meyer, Manuel Penschuck. *PaceYourself*. [Github](https://github.com/manpen/pace25)
  - Marina Fridman, Viktoriia Krivogornitsyna, Fedor Kurmazov. [Github](https://github.com/spefk/pace2025-ds-solver)
- - Elias Rasmussen, Thor Vejen Eriksen. [Github](https://github.com/Slemmie/PACE-2025-ds-et)
+ - Elias Rasmussen, Thor Vejen Eriksen. [Github](https://github.com/Slemmie/PACE-2025-ds-et) (Student Submission)
  - Tobias Röhr. [Github](https://github.com/roehrt/alpaca) (Student Submission)
  - Paweł Putra. [Github](https://github.com/Kulezi/pace2025) (Student Submission)
  - Sylwester Swat. [Github](https://github.com/swacisko/pace-2025)
