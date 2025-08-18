@@ -21,7 +21,6 @@ We are happy to announce the results of PACE 2025. Congratulations to the winner
 | 10 |  | Paweł Putra | X | 22 | 142227.51 | [Github](https://github.com/Kulezi/pace2025) |
 | 11 | AOA FU Berlin | Yi-Hui Fan, Arthur Gisbrecht, Rashid Harvey, Vinzent Jörß, Bernadette Keßler, Oliver Seitz | X | 19 | 163971.12 | [Gitlab](https://git.imp.fu-berlin.de/rh0457fu/anwendung-von-algorithmen/-/tree/DS_Exact) |
 | 12 |  |  Elias Rasmussen, Thor Vejen Eriksen | X | 18 | 156973.66 | [Github](https://github.com/Slemmie/PACE-2025-ds-et) |
-| *DQ* | v777v | *Venislav Varbanov* |  | *65 (-35)* | *69110.54* | [Github](https://github.com/v777v/PACE2025-v777v) |
 | *DQ* |  | *Marina Fridman, Viktoriia Krivogornitsyna, Fedor Kurmazov* | X | *40 (-32)* | *115764.00* | [Github](https://github.com/spefk/pace2025-ds-solver) |
 
 
@@ -45,7 +44,6 @@ We are happy to announce the results of PACE 2025. Congratulations to the winner
 | 12 |  | Zhaojie Liu, Zhipeng Lv, Zhouxing Su, Qingyun Zhang | X | 87.90 | 1054.43 | [Github](https://github.com/G2LiuZhaoJie/pace2025-DS) |
 | 13 |  | Marcin Mennemann | X | 75.06 | 30018.85 | [Github](https://github.com/mennemann/MDS/) |
 | 14 | fu2025_pace (1st submission) | Yi-Hui Fan, Arthur Gisbrecht, Rashid Harvey, Vinzent Jörß, Bernadette Keßler, Oliver Seitz | X | 34.11 | 18421.45 | [Gitlab](https://git.imp.fu-berlin.de/rh0457fu/anwendung-von-algorithmen/-/tree/DS_Heuristic_1) |
-| 15 | v777v | Venislav Varbanov |  | 1.00 | 29779.32 | [Github](https://github.com/v777v/PACE2025-v777v) |
 | *DQ* | fu2025_pace (2nd submission) | Yi-Hui Fan, Arthur Gisbrecht, Rashid Harvey, Vinzent Jörß, Bernadette Keßler, Oliver Seitz | X | - | 17099.08 | [Gitlab](https://git.imp.fu-berlin.de/rh0457fu/anwendung-von-algorithmen/-/tree/DS_Heuristic_2) |
 
 
@@ -60,7 +58,6 @@ We are happy to announce the results of PACE 2025. Congratulations to the winner
 | 5 | Shadoks | Guilherme D. da Fonseca, Fabien Feschet, Yan Gerard |  | 74 | 60728.70 | [Github](https://github.com/gfonsecabr/shadoks-PACE2025) |
 | 6 | Swats | Sylwester Swat |  | 64 | 67148.36 | [Github](https://github.com/swacisko/pace-2025) |
 | 7 | AEG Heidelberg | Adil Chhabra, Marlon Dittes, Ernestine Großmann, Kenneth Langedal, Henrik Reinstädtler, Christian Schulz, Darren Strash, and Henning Woydt | X | 63 | 77045.11 | [Github](https://github.com/KennethLangedal/PACE2025) |
-| *DQ* | v777v | *Venislav Varbanov* |  | *100 (-10)* | *117838.44* | [Github](https://github.com/v777v/PACE2025-v777v) |
 
 
 
@@ -73,12 +70,11 @@ We are happy to announce the results of PACE 2025. Congratulations to the winner
 | 1 | Root | Canhui Luo, Zhipeng Lv, Zhouxing Su, Qingyun Zhang |  | 99.79 | 30024.15 | [Github](https://github.com/lxily/PACE2025.DS-HS) |
 | 2 |  | Florian Fontan, Guillaume Verger |  | 99.73 | 29534.86 | [Github](https://github.com/fontanf/pace2025) |
 | 3 | Shadoks | Guilherme D. da Fonseca, Fabien Feschet, Yan Gerard |  | 99.21 | 31522.31 | [Github](https://github.com/gfonsecabr/shadoks-PACE2025) |
-| 4 | AEG Heidelberg | Adil Chhabra, Marlon Dittes, Ernestine Großmann, Kenneth Langedal, Henrik Reinstädtler, Christian Schulz, Darren Strash, and Henning Woydt | | 98.01 | 30013.20 | [Github](https://github.com/KennethLangedal/PACE2025) |
-| 5 | Greeduce | Adam Polak, Jonas Schmidt |  | 95.73 | 30011.14 | [Github](https://github.com/adampolak/greeduce) |
-| 6 | |  Deepak Ajwani, Syed Mahmudul Kabir Ratul, Saurabh Ray | X | 82.50 | 29463.70 | [Github](https://github.com/mamodul-kabir/PACE-25-HS-heuristic) |
-| 7 | Swats | Sylwester Swat |  | 78.39 | 23088.71 | [Github](https://github.com/swacisko/pace-2025) |
+| 4 | Swats | Sylwester Swat |  | 99.18 | 23088.71 | [Github](https://github.com/swacisko/pace-2025) |
+| 5 | AEG Heidelberg | Adil Chhabra, Marlon Dittes, Ernestine Großmann, Kenneth Langedal, Henrik Reinstädtler, Christian Schulz, Darren Strash, and Henning Woydt | | 98.01 | 30013.20 | [Github](https://github.com/KennethLangedal/PACE2025) |
+| 6 | Greeduce | Adam Polak, Jonas Schmidt |  | 95.73 | 30011.14 | [Github](https://github.com/adampolak/greeduce) |
+| 7 | |  Deepak Ajwani, Syed Mahmudul Kabir Ratul, Saurabh Ray | X | 82.50 | 29463.70 | [Github](https://github.com/mamodul-kabir/PACE-25-HS-heuristic) |
 | 8 |  | Sebastian Angrick, Mirza Redzic, Patrick Steil, Mariette Vasen | X | 1.83 | 32054.93 | [Github](https://github.com/mariette03/HittingSetPace) |
-| 9 | v777v | Venislav Varbanov |  | 0.00 | 30011.86 | [Github](https://github.com/v777v/PACE2025-v777v) |
 
 # Awards for Student Submissions
 
