@@ -33,16 +33,16 @@ We are happy to announce the results of PACE 2025. Congratulations to the winner
 |:-----|:-----------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|:------|:---------|:---------------------------------------------------------------------------------|
 | 1 |  | Florian Fontan, Guillaume Verger |  | 99.81 | 28552.97 | [Github](https://github.com/fontanf/pace2025) |
 | 2 | Root | Canhui Luo, Zhipeng Lv, Zhouxing Su, Qingyun Zhang |  | 99.64 | 30034.62 | [Github](https://github.com/lxily/PACE2025.DS-HS) |
-| 3 | Shadoks | Guilherme D. da Fonseca, Fabien Feschet, Yan Gerard |  | 99.02 | 31545.23 | [Github](https://github.com/gfonsecabr/shadoks-PACE2025) |
-| 4 | AEG Heidelberg | Adil Chhabra, Marlon Dittes, Ernestine Großmann, Kenneth Langedal, Henrik Reinstädtler, Christian Schulz, Darren Strash, and Henning Woydt. | | 98.06 | 30014.01 | [Github](https://github.com/KennethLangedal/PACE2025) |
-| 5 | PaceYourself | Lukas Geis, Alexander Leonhardt, Johannes Meintrup, Ulrich Meyer, Manuel Penschuck |  | 96.92 | 30024.37 | [Github](https://github.com/manpen/pace25)
-| 6 | | Samuel Füßinger | X | 96.80 |30016.65 | [Github](https://github.com/Samsu-F/PACE-2025-heuristic-dominating-set-solver)
-| 7 | | Viacheslav Khrushchev | X | 96.27 | 30023.59 | [Github](https://github.com/B2Corner/PACE_2025) |
-| 8 | | Hui Kong, Bo Peng, Yexin Peng, Xinyun Wu | X | 96.16 | 30024.88 | [Github](https://github.com/xinyepeng521/DominatingSat_Pace2025_Heuristic) |
-| 9 | Greeduce | Adam Polak, Jonas Schmidt |  | 95.82 | 30016.28 | [Github](https://github.com/adampolak/greeduce) |
-| 10 | | Aslam Ameen, Ashwin Jacob, Sahil Muhammed, Nithin R, Pankaj Kumar R, Edwin Thomas | X | 88.99 | 149.73 | [Github](https://github.com/nithinraj04/pace2025_heuristic) |
-| 11 |  | Zhaojie Liu, Zhipeng Lv, Zhouxing Su, Qingyun Zhang | X | 87.90 | 1054.43 | [Github](https://github.com/G2LiuZhaoJie/pace2025-DS) |
-| 12 | Swats | Sylwester Swat |  | 75.52 | 22062.19 | [Github](https://github.com/swacisko/pace-2025) |
+| 3 | Swats | Sylwester Swat |  | 99.35 | 22062.19 | [Github](https://github.com/swacisko/pace-2025) |
+| 4 | Shadoks | Guilherme D. da Fonseca, Fabien Feschet, Yan Gerard |  | 99.02 | 31545.23 | [Github](https://github.com/gfonsecabr/shadoks-PACE2025) |
+| 5 | AEG Heidelberg | Adil Chhabra, Marlon Dittes, Ernestine Großmann, Kenneth Langedal, Henrik Reinstädtler, Christian Schulz, Darren Strash, and Henning Woydt. | | 98.06 | 30014.01 | [Github](https://github.com/KennethLangedal/PACE2025) |
+| 6 | PaceYourself | Lukas Geis, Alexander Leonhardt, Johannes Meintrup, Ulrich Meyer, Manuel Penschuck |  | 96.92 | 30024.37 | [Github](https://github.com/manpen/pace25)
+| 7 | | Samuel Füßinger | X | 96.80 |30016.65 | [Github](https://github.com/Samsu-F/PACE-2025-heuristic-dominating-set-solver)
+| 8 | | Viacheslav Khrushchev | X | 96.27 | 30023.59 | [Github](https://github.com/B2Corner/PACE_2025) |
+| 9 | | Hui Kong, Bo Peng, Yexin Peng, Xinyun Wu | X | 96.16 | 30024.88 | [Github](https://github.com/xinyepeng521/DominatingSat_Pace2025_Heuristic) |
+| 10 | Greeduce | Adam Polak, Jonas Schmidt |  | 95.82 | 30016.28 | [Github](https://github.com/adampolak/greeduce) |
+| 11 | | Aslam Ameen, Ashwin Jacob, Sahil Muhammed, Nithin R, Pankaj Kumar R, Edwin Thomas | X | 88.99 | 149.73 | [Github](https://github.com/nithinraj04/pace2025_heuristic) |
+| 12 |  | Zhaojie Liu, Zhipeng Lv, Zhouxing Su, Qingyun Zhang | X | 87.90 | 1054.43 | [Github](https://github.com/G2LiuZhaoJie/pace2025-DS) |
 | 13 |  | Marcin Mennemann | X | 75.06 | 30018.85 | [Github](https://github.com/mennemann/MDS/) |
 | 14 | fu2025_pace (1st submission) | Yi-Hui Fan, Arthur Gisbrecht, Rashid Harvey, Vinzent Jörß, Bernadette Keßler, Oliver Seitz | X | 34.11 | 18421.45 | [Gitlab](https://git.imp.fu-berlin.de/rh0457fu/anwendung-von-algorithmen/-/tree/DS_Heuristic_1) |
 | 15 | v777v | Venislav Varbanov |  | 1.00 | 29779.32 | [Github](https://github.com/v777v/PACE2025-v777v) |
