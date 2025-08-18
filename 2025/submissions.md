@@ -17,7 +17,6 @@ title: "PACE 2025 - Submissions"
  - Paweł Putra. [Github](https://github.com/Kulezi/pace2025) (Student Submission)
  - Sylwester Swat. [Github](https://github.com/swacisko/pace-2025)
  - Floris van der Hout. [Github](https://github.com/gamingwithaflo/minimum-dominating-set/tree/pace_2025_RTS) (Student Submission)
- - Venislav Varbanov. [Github](https://github.com/v777v/PACE2025-v777v)
 
 ## Dominating Set, Heuristic Track
  - Aslam Ameen, Ashwin Jacob, Sahil Muhammed, Nithin R, Pankaj Kumar R, Edwin Thomas. [Github](https://github.com/nithinraj04/pace2025_heuristic) (Student Submission)
@@ -34,7 +33,6 @@ title: "PACE 2025 - Submissions"
  - Marcin Mennemann. [Github](https://github.com/mennemann/MDS/) (Student Submission)
  - Adam Polak, Jonas Schmidt. *Greeduce*. [Github](https://github.com/adampolak/greeduce)
  - Sylwester Swat. [Github](https://github.com/swacisko/pace-2025)
- - Venislav Varbanov. [Github](https://github.com/v777v/PACE2025-v777v)
 
 
 ## Hitting Set, Exact Track
@@ -45,7 +43,6 @@ title: "PACE 2025 - Submissions"
  - Tobias Röhr. [Github](https://github.com/roehrt/alpaca) (Student Submission)
  - André Schidler. [Github](https://github.com/ASchidler/PACE25-submission)
  - Sylwester Swat. [Github](https://github.com/swacisko/pace-2025)
- - Venislav Varbanov. [Github](https://github.com/v777v/PACE2025-v777v)
 
 ## Hitting Set, Heuristic Track
  - Sebastian Angrick, Mirza Redzic, Patrick Steil, Mariette Vasen. [Github](https://github.com/mariette03/HittingSetPace) (Student Submission)
@@ -56,4 +53,3 @@ title: "PACE 2025 - Submissions"
  - Canhui Luo, Zhipeng Lv, Zhouxing Su, Qingyun Zhang. [Github](https://github.com/lxily/PACE2025.DS-HS)
  - Adam Polak, Jonas Schmidt. *Greeduce*. [Github](https://github.com/adampolak/greeduce)
  - Sylwester Swat. [Github](https://github.com/swacisko/pace-2025)
- - Venislav Varbanov. [Github](https://github.com/v777v/PACE2025-v777v)
