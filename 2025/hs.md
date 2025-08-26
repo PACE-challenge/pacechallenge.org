@@ -26,7 +26,7 @@ The Hitting Set problem is a natural generalization of many well-known graph pro
 ### Complexity
 As Dominating Set is NP-hard and W$[2]$-hard, it is immediate that also Hitting Set is NP-hard and W$[2]$-hard. 
 In fact, Hitting Set is also NP-complete and W$[2]$-complete.
-However, it is fpt on several structurally restricted classes of set systems, e.g. set systems where the size of each set is bounded by a constant and set systems of bounded VC-dimension (see [Literature](#literature)).
+However, it is fpt on several structurally restricted classes of set systems, e.g. set systems where the size of each set is bounded by a constant (see [Literature](#literature)).
 
 ## Verifier and test set
 A verifier with a small test set is now available on [Github](https://github.com/MarioGrobler/hs_verifier).

@@ -8,7 +8,7 @@ sidebar_sort_order: 3
 The results of each PACE challenge are documented in a report that is published in the IPEC proceedings.
 
 - PACE 2024: **One-sided Crossing Minimization**<br/>
-  ([slides](/2024/PACE24-slides.pdf), [results](/2024/results/),
+  ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2024.26), [slides](/2024/PACE24-slides.pdf), [results](/2024/results/),
   [challenge description](/2024/))
 - PACE 2023: **Twinwidth**<br/>
   ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2023.35), [slides](https://docs.google.com/presentation/d/1zXZ56B6dg6aDPGPK9IjXLj-DzCaZH1KIEFxTo-4t0zM/edit?usp=sharing),
