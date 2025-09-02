@@ -18,8 +18,8 @@ We are happy to announce the results of PACE 2025. Congratulations to the winner
 | 7 | Swats | Sylwester Swat |  | 64 | 70325.46 | [Github](https://github.com/swacisko/pace-2025) |
 | 8 |  | Floris van der Hout | X | 62 | 92309.30 | [Github](https://github.com/gamingwithaflo/minimum-dominating-set/tree/pace_2025_RTS) |
 | 9 | AEG Heidelberg | Adil Chhabra, Marlon Dittes, Ernestine Großmann, Kenneth Langedal, Henrik Reinstädtler, Christian Schulz, Darren Strash, and Henning Woydt | X | 48 | 107050.18 | [Github](https://github.com/KennethLangedal/PACE2025) |
-| 10 |  | Paweł Putra | X | 22 | 142227.51 | [Github](https://github.com/Kulezi/pace2025) |
-| 11 | AOA FU Berlin | Yi-Hui Fan, Arthur Gisbrecht, Rashid Harvey, Vinzent Jörß, Bernadette Keßler, Oliver Seitz | X | 19 | 163971.12 | [Gitlab](https://git.imp.fu-berlin.de/rh0457fu/anwendung-von-algorithmen/-/tree/DS_Exact) |
+| 10 | DSHunter | Paweł Putra | X | 22 | 142227.51 | [Github](https://github.com/Kulezi/pace2025) |
+| 11 | fu2025_pace | Yi-Hui Fan, Arthur Gisbrecht, Rashid Harvey, Vinzent Jörß, Bernadette Keßler, Oliver Seitz | X | 19 | 163971.12 | [Gitlab](https://git.imp.fu-berlin.de/rh0457fu/anwendung-von-algorithmen/-/tree/DS_Exact) |
 | 12 |  |  Elias Rasmussen, Thor Vejen Eriksen | X | 18 | 156973.66 | [Github](https://github.com/Slemmie/PACE-2025-ds-et) |
 | *DQ* |  | *Marina Fridman, Viktoriia Krivogornitsyna, Fedor Kurmazov* | X | *40 (-32)* | *115764.00* | [Github](https://github.com/spefk/pace2025-ds-solver) |
 
@@ -76,9 +76,19 @@ We are happy to announce the results of PACE 2025. Congratulations to the winner
 | 7 | |  Deepak Ajwani, Syed Mahmudul Kabir Ratul, Saurabh Ray | X | 82.50 | 29463.70 | [Github](https://github.com/mamodul-kabir/PACE-25-HS-heuristic) |
 | 8 |  | Sebastian Angrick, Mirza Redzic, Patrick Steil, Mariette Vasen | X | 1.83 | 32054.93 | [Github](https://github.com/mariette03/HittingSetPace) |
 
+# Prize money
+
+There is prize money; distributed as follows:
+ - the first place of each track receives 300€ each, that is, 1200€ in total for all first places.
+ - the second place of each track receives 200€ each, that is, 800€ in total for all second places.
+ - the third place of each track receives 100€ each, that is, 400€ in total for all third places.
+
 # Awards for Student Submissions
 
 We recognizing outstanding achievements from student submission, by
 awarding the top student submissions of each track. By honoring
 their achievements, we aim to inspire and motivate young researchers to
-participate in PACE. More information will follow soon.
+participate in PACE. Hence, there is additional prize money distributed among the student submissions as follows:
+ - the first student place of each track receives 200€ each, that is, 800€ in total for all first student places.
+ - the second student place of each track receives 150€ each, that is, 600€ in total for all second student places.
+ - the third student place of each track receives 100€ each, that is, 200 in total for all third student places (note that two tracks have less than three student submissions).
