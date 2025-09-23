@@ -69,7 +69,7 @@ The final score will be computed over a set of $x$ private instances that are si
 
 ### Input Format
 
-We use the standard [[Newick format]](https://en.wikipedia.org/wiki/Newick_format) for phylogenetic trees.
+We use the standard [Newick format](https://en.wikipedia.org/wiki/Newick_format) for phylogenetic trees.
 
 Each tree is represented by a valid parenthesis-expression. Each internal vertex $u$ of the tree is represented by the expression $(E_1,E_2,\ldots,E_d)$ where each $E_i$ is an expression for the subtree rooted at the $i$'th child of $u$. Each leaf of the tree is represented by its label. The whole expression is terminated with a semi-colon.
 
