@@ -16,7 +16,7 @@ A _phylogenetic tree_ $T$ is a tree whose edges are directed away from the uniqu
 
 ### What is an agreement-forest?
 
-An _agreement forest_ of a set of trees $T_1$, $T_2$, $\ldots$ on the same set $X$ of leaves (leaf-labels) is a forest $F$ of phylogenetic trees whose leaf-set is $X$ such that $F$ can be obtained from each $T_i$ by first removing directed edges and then exhaustively contracting vertices that are not in $X$ but have in- and out-degree at most one ("cleanup").
+An _agreement forest_ for a set of trees $T_1$, $T_2$, $\ldots$ on the same set $X$ of leaves (leaf-labels) is a forest $F$ of phylogenetic trees whose leaf-set is $X$ such that $F$ can be obtained from each $T_i$ by first removing directed edges and then exhaustively contracting vertices that are not in $X$ but have in- and out-degree at most one ("cleanup").
 
 ![Example](/2026/img/example_MAF.png)
 
