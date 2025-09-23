@@ -26,9 +26,9 @@ Results for computing the rooted SPR-distance are often applicable for computing
 ### Complexity
 
 Deciding whether two rooted binary trees on $n$ leaves have an agreement forest with $k$ trees is known to be NP-complete.
-However, this problem can be solved in $O^*(2.35^k)$ time and there is a kernel with $28k$ leaves.
+However, this problem can be solved in $O^\star(2.35^k)$ time and there is a kernel with $28k$ leaves.
 It also admits a polynomial-time 2-approximation algorithm.
-If the input consists of $t>2$ trees, then the problem can be solved in $O(3^knt)$ time or $O*2.42^kn^4t^3)$ time.
+If the input consists of $t>2$ trees, then the problem can be solved in $O(3^knt)$ time or $O^\star(2.42^kn^4t^3)$ time.
 Structural parameters have not been explored for either case.
 
 ## Verifier and test set
