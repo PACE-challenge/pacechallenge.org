@@ -29,7 +29,10 @@ This year features two problems.
 
 ## Results
 Find the results of PACE 2025 [here](/2025/results).
-The list of all participating solvers from the reviewing phase is still available [here](/2025/submissions).
+The list of all participating solvers from the reviewing phase is still available [here](/2025/submissions). Additional links:
+ - [Pictures from the ceremony](/2025/gallery)
+ - [Offical slides from the ceremony](/2025/PACE25-slides.pdf)
+ - Official Report (coming soon)
 
 ## Submission Guideline
 We ask all participants to publish their codebase and solver description on Github or a similar platform that is publicly available.
