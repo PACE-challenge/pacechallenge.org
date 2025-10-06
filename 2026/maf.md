@@ -69,23 +69,59 @@ The final score will be computed over a set of $x$ private instances that are si
 
 ### Input Format
 
-We use the standard [Newick format](https://en.wikipedia.org/wiki/Newick_format) for phylogenetic trees.
+Each instance is described by a single text file that consists of different line types:
+ - Empty lines carry no strict meaning and can be ignored. 
+ - Lines starting with the symbol `#` and *can* always be ignored, but may contain useful additional data.
+   The meaning of these lines is determined by the second character:
+   - `#p {t} {n}` indicates that the file contains $t$ trees with $n$ leaves each.
+     This line appears in the header as the first non-comment line.
+   - `# ` is a comment line.
+   - We may add further line types in a backward-compatible way later, in the sense that it is never wrong to ignore an unrecognized `#` line.
+ - All other non-empty lines contain a tree description in the Newick format (see below) and represent an input tree.
+   There are exactly $t$ such lines.
 
-Each tree is represented by a valid parenthesis-expression. Each internal vertex $u$ of the tree is represented by the expression $(E_1,E_2,\ldots,E_d)$ where each $E_i$ is an expression for the subtree rooted at the $i$'th child of $u$. Each leaf of the tree is represented by its label. The whole expression is terminated with a semi-colon.
+Files do not contain unnecessary whitespace anywhere (e.g., Newick expression contain no whitespace, lines do not start or end with a whitespace, ...).
 
-The two trees above can be represented as follows:
+### Relevant subset of the Newick format
+
+We use a subset of the standard [Newick format](https://en.wikipedia.org/wiki/Newick_format) for phylogenetic trees:
+Each tree is represented by a valid parenthesis-expression in a dedicated line. 
+The whole expression is terminated with a semicolon.
+It is defined recursively:
+ - Each leaf is represented by its label, a positive integer from $1, 2, ..., n$ where $n$ is the number of leaves indicated in the `#p` line.
+ - Each internal node has exactly two children and no own label.
+   It is denoted as `(A,B)` where `A` and `B` are the expressions of the two children.
+
+The two trees in the introduction example above can be represented as follows:
 ```
-(((E,F),(C,D)),(A,B));
-(((((D,B),A),E),C),F);
+#p 2 6
+(((5,6),(3,4)),(1,2));
+(((((4,2),1),5),3),6);
 ```
+
+But it may also contain comments:
+```
+# This is a demo file consisting of two trees with 6 leaves each:
+#p 2 6
+# It may have comments here, ...
+(((5,6),(3,4)),(1,2));
+# ... or here ...
+
+(((((4,2),1),5),3),6);
+# ... or even here ...
+```
+
 
 ### Output Format
-The output format is the same as the input format, but consisting of $k$ phylogenetic trees whose leaf-labels are a partition of the leaf-labels of each input tree.
+The output format is the same as the input format, but consisting of $k$ phylogenetic trees whose leaf labels are a partition of the leaf labels of each input tree.
+Empty lines and lines starting with `#` are ignored.
 
 The solution for the example above could be the following:
 ```
+# internal debugging message 1
 (F,E);
 D;
+# internal debugging message 2
 C;
 (A,B);
 ```
