@@ -73,12 +73,12 @@ Each instance is described by a single text file that consists of different line
  - Empty lines carry no strict meaning and can be ignored. 
  - Lines starting with the symbol `#` and *can* always be ignored, but may contain useful additional data.
    The meaning of these lines is determined by the second character:
-   - `#p {k} {L}` indicate that the file contains $k$ trees with $L$ leaves each.
+   - `#p {t} {n}` indicates that the file contains $t$ trees with $n$ leaves each.
      This line appears in the header as the first non-comment line.
    - `# ` is a comment line.
    - We may add further line types in a backward-compatible way later, in the sense that it is never wrong to ignore an unrecognized `#` line.
  - All other non-empty lines contain a tree description in the Newick format (see below) and represent an input tree.
-   There are exactly $k$ such lines.
+   There are exactly $t$ such lines.
 
 Files do not contain unnecessary whitespace anywhere (e.g., Newick expression contain no whitespace, lines do not start or end with a whitespace, ...).
 
@@ -88,9 +88,9 @@ We use a subset of the standard [Newick format](https://en.wikipedia.org/wiki/Ne
 Each tree is represented by a valid parenthesis-expression in a dedicated line. 
 The whole expression is terminated with a semicolon.
 It is defined recursively:
- - Each leaf is represented by its label, a positive integer from $1, 2, ..., L$ where $L$ is the number of leaves indicated in the `#p` line.
+ - Each leaf is represented by its label, a positive integer from $1, 2, ..., n$ where $n$ is the number of leaves indicated in the `#p` line.
  - Each internal node has exactly two children and no own label.
-   It is denoted as `(A,B)` where `A` and `B` are the expression of the two children.
+   It is denoted as `(A,B)` where `A` and `B` are the expressions of the two children.
 
 The two trees in the introduction example above can be represented as follows:
 ```
@@ -114,7 +114,7 @@ But it may also contain comments:
 
 ### Output Format
 The output format is the same as the input format, but consisting of $k$ phylogenetic trees whose leaf labels are a partition of the leaf labels of each input tree.
-All lines starting with `#` are ignored.
+Empty lines and lines starting with `#` are ignored.
 
 The solution for the example above could be the following:
 ```
