@@ -20,7 +20,7 @@ An _agreement forest_ for a set of trees $T_1$, $T_2$, $\ldots$ on the same set 
 
 ![Example](/2026/img/example_MAF.png)
 
-It is worth to note that a maximum-agreement forest for two phylogenetic trees $T_1$ and $T_2$ contains exactly one more tree than the so-called "rooted subtree prune and regraft" (SPR) distance between $T_1$ and $T_2$. Formally, the distance is defined as the smallest number of "SPR-moves" necessary to turn $T_1$ into $T_2$ (or vice versa -- the distance is a metric), where an SPR-move consist of removing any edge $uv$, subdividing any edge $xy$ of the weak component of $u$ with a new vertex $z$, contracting $u$ and adding the edge $zv$.
+It is worth to note that a maximum-agreement forest for two phylogenetic trees $T_1$ and $T_2$ contains exactly one more tree than the so-called "rooted subtree prune and regraft" (SPR) distance between $T_1$ and $T_2$. Formally, the distance is defined as the smallest number of "SPR-moves" necessary to turn $T_1$ into $T_2$ (or vice versa -- the distance is a metric), where an SPR-move consists of removing any edge $uv$, subdividing any edge $xy$ of the weak component of $u$ with a new vertex $z$, contracting $u$ and adding the edge $zv$.
 Results for computing the rooted SPR-distance are often applicable for computing MAFs **for two trees**.
 
 ### Complexity
