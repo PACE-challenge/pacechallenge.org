@@ -84,10 +84,10 @@ The output format is the same as the input format, but consisting of $k$ phyloge
 
 The solution for the example above could be the following:
 ```
-(F,E);
-D;
-C;
-(A,B);
+(6,5);
+4;
+3;
+(1,2);
 ```
 
 ## Literature
