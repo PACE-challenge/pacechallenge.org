@@ -15,7 +15,7 @@ This year features the [Maximum-Agreement Forest (MAF)](./maf) problem arising i
 
  - September 2025: Announcement of the challenge and tracks
  - October 2025: Definition of input and output formats
- - November 2025: Tiny test set and verifier are provided
+ - November 2025 (last week): Tiny test set, verifier and benchmark tools are provided
  - January 2026: Release of public instances and details about the benchmark
  - April 2026: Submission via [optil.io](https://optil.io/) opens
  - July 2026: Final submission deadline and Results
@@ -51,7 +51,12 @@ The exact scoring rules are to be determined.
 As in previous years, a preliminary leaderboard on [optil](https://optil.io) will be available.
 
 ## Instances 
-Public instances are to be published shortly.
+Public instances are to be published in January 2026.
+
+### Zulip
+
+Join us on [Zulip](https://pacechallenge.zulipchat.com/join/l3eavdfbytkcjiypecpzetuw/) for discussions and updates.
+
 
 ## Program Committee
 
