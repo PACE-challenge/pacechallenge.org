@@ -1,17 +1,21 @@
+---
+layout: page
+title: "PACE 2026: Format specification"
+sidebar_link: false
+---
 
 ## Input format
 
-Each instance consists of a single text file that consists of different line types:
+Each instance consists of a single text with different line types:
  - Empty lines carry no strict meaning and can be ignored. 
- - Lines starting with the symbol `#` and *can* always be ignored, but may contain useful additional data.
+ - Lines starting with the symbol `#` and *can* always be ignored, but may contain useful data.
    The meaning of these lines is determined by the second character:
    - `#p {t} {n}` indicates that the file contains $t$ trees with $n$ leaves each.
-     This line appears in the header as the first non-comment line.
+     This line appears before the first Newick line (see below).
    - `#x {parameter-key} {value}` contains a precomputed instance parameters (see [Parameters](#parameters) below).
       The value is formatted in an JSON subset, such that parsing should be easy, even if your language does not support a fully fledged JSON parser.
-   - `#s {key} {value}` are reserved for the stride tool and will be removed for the final evaluation.
+   - `#s {key} {value}` are reserved for the official tools and will be removed for the final evaluation.
    - `# ` is a comment line.
-   - We may add further line types in a backward-compatible way later, in the sense that it is never wrong to ignore an unrecognized `#` line.
  - All other non-empty lines contain a tree description in the Newick format (see [below](#relevant-subset-of-the-newick-format)) and represent an input tree.
    There are exactly $t$ such lines.
 
@@ -28,7 +32,7 @@ It is defined recursively:
    It is denoted as `(A,B)` where `A` and `B` are the expressions of the two children.
    The order of children does not carry meaning (other than definining the [indices of inner nodes](#indices-of-inner-nodes)), i.e. `(A,B)` and `(B,A)` imply the same tree.
 
-Each label $1, 2, ..., n$ appears exactly once per Newick expression.
+Each leaf label $1, 2, ..., n$ appears exactly once per Newick expression.
 
 ![Example](/2026/img/example_MAF.png)
 
@@ -79,18 +83,18 @@ A line is formated as `#x {parameter-key} {value}` where `{value}` is a JSON for
 ### Indices of inner nodes
 Parameters provided may include labels for inner nodes.
 Here we use the following convention: the root of the $i$-th tree ($i \ge 1$) has index $i(n - 1) + 2$.
-The remaining inner nodes are follow in preorder.
+The remaining inner nodes follow in preorder.
 This choice conviently coincides with the Newick format:
 An inner node has index $j = i(n - 1) + 1 + b$ iff it is represented by the $b$-th ($b \ge 1$) opening bracket in the $i$-th Newick line.
 
 ### Tree decomposition of display graph: `treedecomp`
 
-A display graph of forest $F$ with trees $T_1, \ldots, T_t$ can be obtained by merging all leaves with the same label.
+An undirect display graph of forest $F$ with trees $T_1, \ldots, T_t$ can be obtained by merging all leaves with the same label and replacing directed edges with undirected ones.
 The parameter `treedecomp` is a [tree decomposition](https://en.wikipedia.org/wiki/Tree_decomposition) of small [treewidth](https://en.wikipedia.org/wiki/Treewidth).
 It is provided in the format `#x treedecomp [{tw},{bags},{edges}]` where 
- - `{tw}` is the treewidth of the provided tree decomposition, i.e. the largest bag has size `{tw} + 1`.
+ - `{tw}` is the treewidth of the provided tree decomposition, i.e. the largest bag has size `{tw} + 1`. This may or may not minimal.
  - `bags` is a list of bags, each containing nodes where the indices $\{1, \ldots, n\}$ are leaf labels and all remaining refer to [inner nodes](#indices-of-inner-nodes).
- - `edges` are edges between bags. 
+ - `edges` are edges between bags; the first bag has index $1$.
 
 ```
 #x treedecomp [2,[[8,16],[8,11,16],[1,11,15],[2,11,16],[7,8,11],[8,10,16],[3,10,13],[4,10,16],[8,9],[5,9,14],[6,9,12]],[[1,2],[1,6],[1,9],[2,3],[2,4],[2,5],[6,7],[6,8],[9,10],[9,11]]]
