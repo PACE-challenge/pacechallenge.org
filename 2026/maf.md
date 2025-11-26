@@ -36,13 +36,6 @@ Structural parameters have not been explored for either case.
 ## Format
 See [Format specification](./format)
 
-## Verifier and test set
-A verifier with a small test set will be made available.
-
-## Public instances
-Public instances will be made available.
-
-
 ## Tracks
 
 ### Exact Track
