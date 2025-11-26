@@ -65,11 +65,8 @@ For this track, solutions do not have to be optimal. However, solvers that produ
 
 The goal of this track is to encourage research on good lower bounds. The idea is that good lower bound allow solvers to determine early that a solution is "good enough" to be within some radius of the optimum. Only solutions within a fixed radius will be considered valid and valid solutions will be scored by their running time.
 
-
 ### Final Evaluation
 The final score will be computed over a set of $x$ private instances that are similar to the public instances.
-
-
 
 ## Literature
 
