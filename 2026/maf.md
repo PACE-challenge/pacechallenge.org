@@ -10,6 +10,8 @@ The challenge problem for this year is (rooted) **Maximum-Agreement Forest**:
 **Input:** A list of phylogenetic trees on the same leaf-set $X$ <br/>
 **Output:** An agreement forest for all input trees with a minimum number of trees
 
+See also the [Format specification](./format).
+
 ### What is a phylogenetic tree?
 
 A _phylogenetic tree_ $T$ is a tree whose edges are directed away from the unique _root_. Its sinks/leaves (vertices with out-degree zero) are bijectively labelled with a set $X$ (for simplicity, it is often assumed that $X$ **is** the set of leaves of $T$).
@@ -20,7 +22,7 @@ An _agreement forest_ for a set of trees $T_1$, $T_2$, $\ldots$ on the same set 
 
 ![Example](/2026/img/example_MAF.png)
 
-It is worth to note that a maximum-agreement forest for two phylogenetic trees $T_1$ and $T_2$ contains exactly one more tree than the so-called "rooted subtree prune and regraft" (SPR) distance between $T_1$ and $T_2$. Formally, the distance is defined as the smallest number of "SPR-moves" necessary to turn $T_1$ into $T_2$ (or vice versa -- the distance is a metric), where an SPR-move consist of removing any edge $uv$, subdividing any edge $xy$ of the weak component of $u$ with a new vertex $z$, contracting $u$ and adding the edge $zv$.
+It is worth to note that a maximum-agreement forest for two phylogenetic trees $T_1$ and $T_2$ contains exactly one more tree than the so-called "rooted subtree prune and regraft" (SPR) distance between $T_1$ and $T_2$. Formally, the distance is defined as the smallest number of "SPR-moves" necessary to turn $T_1$ into $T_2$ (or vice versa -- the distance is a metric), where an SPR-move consists of removing any edge $uv$, subdividing any edge $xy$ of the weak component of $u$ with a new vertex $z$, contracting $u$ and adding the edge $zv$.
 Results for computing the rooted SPR-distance are often applicable for computing MAFs **for two trees**.
 
 ### Complexity
@@ -30,6 +32,9 @@ However, this problem can be solved in $O^\star(2.35^k)$ time and there is a ker
 It also admits a polynomial-time 2-approximation algorithm.
 If the input consists of $t>2$ trees, then the problem can be solved in $O(3^knt)$ time or $O^\star(2.42^kn^4t^3)$ time.
 Structural parameters have not been explored for either case.
+
+## Format
+See [Format specification](./format)
 
 ## Verifier and test set
 A verifier with a small test set will be made available.
@@ -65,66 +70,6 @@ The goal of this track is to encourage research on good lower bounds. The idea i
 The final score will be computed over a set of $x$ private instances that are similar to the public instances.
 
 
-## Input and Output
-
-### Input Format
-
-Each instance is described by a single text file that consists of different line types:
- - Empty lines carry no strict meaning and can be ignored. 
- - Lines starting with the symbol `#` and *can* always be ignored, but may contain useful additional data.
-   The meaning of these lines is determined by the second character:
-   - `#p {t} {n}` indicates that the file contains $t$ trees with $n$ leaves each.
-     This line appears in the header as the first non-comment line.
-   - `# ` is a comment line.
-   - We may add further line types in a backward-compatible way later, in the sense that it is never wrong to ignore an unrecognized `#` line.
- - All other non-empty lines contain a tree description in the Newick format (see below) and represent an input tree.
-   There are exactly $t$ such lines.
-
-Files do not contain unnecessary whitespace anywhere (e.g., Newick expression contain no whitespace, lines do not start or end with a whitespace, ...).
-
-### Relevant subset of the Newick format
-
-We use a subset of the standard [Newick format](https://en.wikipedia.org/wiki/Newick_format) for phylogenetic trees:
-Each tree is represented by a valid parenthesis-expression in a dedicated line. 
-The whole expression is terminated with a semicolon.
-It is defined recursively:
- - Each leaf is represented by its label, a positive integer from $1, 2, ..., n$ where $n$ is the number of leaves indicated in the `#p` line.
- - Each internal node has exactly two children and no own label.
-   It is denoted as `(A,B)` where `A` and `B` are the expressions of the two children.
-
-The two trees in the introduction example above can be represented as follows:
-```
-#p 2 6
-(((5,6),(3,4)),(1,2));
-(((((4,2),1),5),3),6);
-```
-
-But it may also contain comments:
-```
-# This is a demo file consisting of two trees with 6 leaves each:
-#p 2 6
-# It may have comments here, ...
-(((5,6),(3,4)),(1,2));
-# ... or here ...
-
-(((((4,2),1),5),3),6);
-# ... or even here ...
-```
-
-
-### Output Format
-The output format is the same as the input format, but consisting of $k$ phylogenetic trees whose leaf labels are a partition of the leaf labels of each input tree.
-Empty lines and lines starting with `#` are ignored.
-
-The solution for the example above could be the following:
-```
-# internal debugging message 1
-(F,E);
-D;
-# internal debugging message 2
-C;
-(A,B);
-```
 
 ## Literature
 
