@@ -8,13 +8,13 @@ sidebar_link: false
 
 Each instance consists of a single text with different line types:
  - Empty lines carry no strict meaning and can be ignored. 
- - Lines starting with the symbol `#` and *can* always be ignored, but may contain useful data.
+ - Lines starting with the symbol `#`. They *can* always be ignored, but may contain useful data.
    The meaning of these lines is determined by the second character:
    - `#p {t} {n}` indicates that the file contains $t$ trees with $n$ leaves each.
      This line appears before the first Newick line (see below).
-   - `#x {parameter-key} {value}` contains a precomputed instance parameters (see [Parameters](#parameters) below).
-      The value is formatted in an JSON subset, such that parsing should be easy, even if your language does not support a fully fledged JSON parser.
-   - `#s {key} {value}` are reserved for the official tools and will be removed for the final evaluation.
+   - `#x {parameter-key} {value}` contains a precomputed instance parameter (see [Parameters](#parameters) below).
+      The value is formatted in a JSON subset, such that parsing should be easy, even if your language does not support a fully fledged JSON parser.
+   - `#s {key} {value}` is reserved for the official tools. Solvers may not use these values.
    - `# ` is a comment line.
  - All other non-empty lines contain a tree description in the Newick format (see [below](#relevant-subset-of-the-newick-format)) and represent an input tree.
    There are exactly $t$ such lines.
@@ -78,10 +78,10 @@ Each parameter is computed with a limited time budget (at most 30s);
 if no solution could be obtained within the predetermined time budget, we omit the parameter from the instance.
 
 Each parameter is provided in its own line and only after the last Newick line (i.e., if a solver does not use parameters, it can stop parsing the input).
-A line is formated as `#x {parameter-key} {value}` where `{value}` is a JSON formatted.
+A line is formated as `#x {parameter-key} {value}` where `{value}` is a JSON formatted expression.
 
 ### Indices of inner nodes
-Parameters provided may include labels for inner nodes.
+Parameters may reference inner nodes.
 Here we use the following convention: the root of the $i$-th tree ($i \ge 1$) has index $i(n - 1) + 2$.
 The remaining inner nodes follow in preorder.
 This choice conviently coincides with the Newick format:
@@ -89,7 +89,7 @@ An inner node has index $j = i(n - 1) + 1 + b$ iff it is represented by the $b$-
 
 ### Tree decomposition of display graph: `treedecomp`
 
-An undirect display graph of forest $F$ with trees $T_1, \ldots, T_t$ can be obtained by merging all leaves with the same label and replacing directed edges with undirected ones.
+An undirected display graph of forest $F$ with trees $T_1, \ldots, T_t$ can be obtained by merging all leaves with the same label and replacing directed edges with undirected ones.
 The parameter `treedecomp` is a [tree decomposition](https://en.wikipedia.org/wiki/Tree_decomposition) of small [treewidth](https://en.wikipedia.org/wiki/Treewidth).
 It is provided in the format `#x treedecomp [{tw},{bags},{edges}]` where 
  - `{tw}` is the treewidth of the provided tree decomposition, i.e. the largest bag has size `{tw} + 1`. This may or may not minimal.
@@ -102,5 +102,5 @@ It is provided in the format `#x treedecomp [{tw},{bags},{edges}]` where
 
 ### Your favorite parameter is missing?
 
-We strongly invite participants to propose additional parameters via [Zulip](https://pacechallenge.zulipchat.com/join/l3eavdfbytkcjiypecpzetuw/)!
+We strongly encourage participants to propose additional parameters via [Zulip](https://pacechallenge.zulipchat.com/join/l3eavdfbytkcjiypecpzetuw/)!
 Each proposal should reference a publically available solver.

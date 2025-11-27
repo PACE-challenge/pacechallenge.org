@@ -55,7 +55,7 @@ The exact scoring rules are to be determined.
 As in previous years, a preliminary leaderboard on [optil](https://optil.io) will be available.
 
 ## Instances 
- - [Tiny example instance](https://pace2026.imada.sdu.dk/datasets/tiny.tar)
+ - [Tiny example instances](https://pace2026.imada.sdu.dk/datasets/tiny.tar)
  - Public instances are to be published in January 2026.
 
 
