@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "PACE 2025"
-sidebar_link: false
+sidebar_link: true
 sidebar_sort_order: 10
 ---
 
