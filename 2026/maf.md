@@ -10,7 +10,7 @@ The challenge problem for this year is (rooted) **Maximum-Agreement Forest**:
 **Input:** A list of phylogenetic trees on the same leaf-set $X$ <br/>
 **Output:** An agreement forest for all input trees with a minimum number of trees
 
-See also the [Format specification](./format).
+See also the [Format specification](/2026/format).
 
 ### What is a phylogenetic tree?
 
@@ -34,7 +34,7 @@ If the input consists of $t>2$ trees, then the problem can be solved in $O(3^knt
 Structural parameters have not been explored for either case.
 
 ## Format
-See [Format specification](./format)
+See [Format specification](/2026/format)
 
 ## Tracks
 
