@@ -18,14 +18,14 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
 
  - September 2025: Announcement of the challenge and tracks &#x2705;
  - October 2025: Definition of input and output formats &#x2705;
- - November 2025 (last week): [Tiny test set](https://pace2026.imada.sdu.dk/datasets/tiny.tar) &#x2705;
+ - November 2025 (last week): **updated 15. Dec** [Tiny test set](https://pace2026.imada.sdu.dk/datasets/tiny01.tar) &#x2705;
  - December 2025 (early): [Checker](https://github.com/manpen/pace26checker) &#x2705;, benchmark tools &#128528;, [Rust library](https://crates.io/crates/pace26io) &#x2705; for reading instance are provided
  - January 2026: Release of public instances and details about the benchmark
  - April 2026: Submission via [optil.io](https://optil.io/) opens
  - July 2026: Final submission deadline and Results
 
 ## Instances 
- - [Tiny example instances](https://pace2026.imada.sdu.dk/datasets/tiny.tar)
+ - **updated 15. Dec**: [Tiny example instances](https://pace2026.imada.sdu.dk/datasets/tiny01.tar) (the original set contained infeasible tree decompositions)
  - Public instances are to be published in January 2026.
 
 ## Tools
