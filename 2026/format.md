@@ -14,7 +14,7 @@ Each instance consists of a single text with different line types:
      This line appears before the first Newick line (see below).
    - `#a {a} {b}` only used in the "lower bound" track. 
       Let $k^*$ be the (unknown) size of an MAF. 
-      Then it suffices if the solver returns a solution of size $ \lfloor a \cdot $k^*$ \rfloor + b$ or better.
+      Then it suffices if the solver returns a solution of size $\lfloor a \cdot $k^*$ \rfloor + b$ or better.
       Parameter $a$ with $1 \le a < 1.5$ is always denoted in the fixed precision format starting with `1.` and followed by at least one decimal digit.
       Parameter $b$ is a non-negative integer.
    - `#x {parameter-key} {value}` contains a precomputed instance parameter (see [Parameters](#parameters) below).
