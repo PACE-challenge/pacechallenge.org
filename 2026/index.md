@@ -42,7 +42,7 @@ The following software tools are available:
 [STRIDE is a tool](https://github.com/manpen/pace26stride) that has two main objectives:
  - STRIDE offers a runner that allows you to execute and monitor your solver. 
    You simply provide a set of instances and STRIDE will run your solver (in parallel), monitor its resource usage, verify the solution and provide a machine-readable summary.
- - It is tightly integrated with our [STRIDE instance server](https://pace2026.imada.sdk.dk).
+ - It is tightly integrated with our [STRIDE instance server](https://pace2026.imada.sdu.dk).
    This server hosts several thousand instances together with solutions provided by the community.
    The majority of instances are small and should be relatively fast to solve;
    we recommend regularly testing your solvers against the database to detect errors and find regressions.
