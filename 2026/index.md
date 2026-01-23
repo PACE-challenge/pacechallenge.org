@@ -90,8 +90,8 @@ Then a score of $(2 - t/610)/2$ is awarded (i.e., 0.5 points for the solution an
 
 In contrast to the exact track, suboptimal solutions are acceptable to a certain extend.
 Each instance contains an approximation line (`#a`) with two parameters $1 \le a < 1.5$ and $0 \le b$.
-Let $k^*$ be the (unknown) size of an MAF. 
-Then, a solver needs to produce a solution of size at most $\lfloor a k^* \rfloor + b$; 
+Let $k^\*$ be the (unknown) size of an MAF. 
+Then, a solver needs to produce a solution of size at most $\lfloor a k^\* \rfloor + b$; 
 if a solver produces an infeasible solution or exceeds the instance-specific threshold, the solver will be disqualified.
 
 ### Heuristic track
@@ -99,10 +99,10 @@ Depending on quality, every correctly solved instance awards between 0 and 1 poi
 Whenever a solver does not finish an instance in time (time +grace limit exceeded), this instance awards 0 points. 
 If a solver produces an infeasible solution on any instance, it will be disqualified.
 
-Fix an instance with $n$ leaves, and let $k^*$ be the best solution size known to the PC.
-Note that $k^* < n$ holds for every instance.
-Let $k$ be the solution produced by a solver and let $u = \min(n, 2\cdot k^*)$.
-The score for the instance is calculated according to the formula $$f(k) = \left(\max\left(0, \frac{u - k}{u - k^*}\right)\right)^2.$$
+Fix an instance with $n$ leaves, and let $k^\*$ be the best solution size known to the PC.
+Note that $k^\* < n$ holds for every instance.
+Let $k$ be the solution produced by a solver and let $u = \min(n, 2\cdot k^\*)$.
+The score for the instance is calculated according to the formula $$f(k) = \left(\max\left(0, \frac{u - k}{u - k^\*}\right)\right)^2.$$
 This means that producing an optimal solution yields 1 point, producing a trivial solution or a solution outside factor 2 of the optimal solution yields 0 points, and improving an already good solution is more beneficial than improving a bad solution. 
 
 ### Overview
@@ -112,8 +112,8 @@ This means that producing an optimal solution yields 1 point, producing a trivia
 | Timeout                |         30min | 10min                                           | 5min                                                                                                                                        | 
 | Grace Time             |           10s | 10s                                             | 10s                                                                                                                                         | 
 | RAM                    |          8 GB | 8 GB                                            | 8 GB                                                                                                                                        |
-| Solution size          | Optimal $k^*$ | $\le \lfloor a k^* \rfloor + b$ (see `#a` line) | $\le n$                                                                                                                                     |
-| Instance score         | 1 per solved  | $(1 + t/600\text{s})/2$ with $t$: runtime       | $\left(\max\left(0, [u - k]/[u - k^*]\right)\right)^2 $ with $k^*$: best known solution size, $k$: produced size, and $u = \min(n, 2k^*)$   |
+| Solution size          | Optimal $k^\*$ | $\le \lfloor a k^\* \rfloor + b$ (see `#a` line) | $\le n$                                                                                                                                     |
+| Instance score         | 1 per solved  | $(1 + t/610)/2$ with $t$: runtime (in sec)       | $\left(\max\left(0, [u - k]/[u - k^\*]\right)\right)^2 $ with $k^\*$: best known solution size, $k$: produced size, and $u = \min(n, 2k^\*)$   |
 
 
 ## Evaluation and correctness of exact and lower-bound solvers
