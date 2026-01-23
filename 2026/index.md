@@ -102,7 +102,7 @@ If a solver produces an infeasible solution on any instance, it will be disquali
 Fix an instance with $n$ leaves, and let $k^\*$ be the best solution size known to the PC.
 Note that $k^\* < n$ holds for every instance.
 Let $k$ be the solution produced by a solver and let $u = \min(n, 2\cdot k^\*)$.
-The score for the instance is calculated according to the formula $$f(k) = \left(\max\left(0, \frac{u - k}{u - k^\*}\right)\right)^2.$$
+The score for the instance is calculated according to the formula $$f(k) = \left(\max\left(0, \frac{u - k}{u - k^*}\right)\right)^2.$$
 This means that producing an optimal solution yields 1 point, producing a trivial solution or a solution outside factor 2 of the optimal solution yields 0 points, and improving an already good solution is more beneficial than improving a bad solution. 
 
 ### Overview
@@ -113,7 +113,7 @@ This means that producing an optimal solution yields 1 point, producing a trivia
 | Grace Time             |           10s | 10s                                             | 10s                                                                                                                                         | 
 | RAM                    |          8 GB | 8 GB                                            | 8 GB                                                                                                                                        |
 | Solution size          | Optimal $k^\*$ | $\le \lfloor a k^\* \rfloor + b$ (see `#a` line) | $\le n$                                                                                                                                     |
-| Instance score         | 1 per solved  | $(1 + t/610)/2$ with $t$: runtime (in sec)       | $\left(\max\left(0, [u - k]/[u - k^\*]\right)\right)^2 $ with $k^\*$: best known solution size, $k$: produced size, and $u = \min(n, 2k^\*)$   |
+| Instance score         | 1 per solved  | $(2 - t/610)/2$ with $t$: runtime (in sec)       | $\left(\max\left(0, [u - k]/[u - k^\*]\right)\right)^2 $ with $k^\*$: best known solution size, $k$: produced size, and $u = \min(n, 2k^\*)$   |
 
 
 ## Evaluation and correctness of exact and lower-bound solvers
