@@ -20,7 +20,7 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
  - October 2025: Definition of input and output formats &#x2705;
  - November 2025 (last week): **updated 15. Dec** [Tiny test set](https://pace2026.imada.sdu.dk/datasets/tiny01.tar) &#x2705;
  - December 2025 (early): [Checker](https://github.com/manpen/pace26checker) &#x2705;, [STRIDE tool](https://github.com/manpen/pace26stride) and [STRIDE database](https://pace2026.imada.sdu.dk) &#x2705;, [Rust library](https://crates.io/crates/pace26io) &#x2705; for reading instance are provided
- - January 2026: Release of public instances and details about the benchmark
+ - ~~January~~ February 2026: Release of public instances and details about the benchmark
  - April 2026: Submission via [optil.io](https://optil.io/) opens
  - July 2026: Final submission deadline and Results
  - July 2026 (after submission): Review and rebuttal phase
