@@ -12,6 +12,11 @@ Each instance consists of a single text with different line types:
    The meaning of these lines is determined by the second character:
    - `#p {t} {n}` indicates that the file contains $t$ trees with $n$ leaves each.
      This line appears before the first Newick line (see below).
+   - `#a {a} {b}` only used in the "lower bound" track. 
+      Let $k^*$ be the (unknown) size of an MAF. 
+      Then it suffices if the solver returns a solution of size $\lfloor a \cdot $k^*$ \rfloor + b$ or better.
+      Parameter $a$ with $1 \le a < 1.5$ is always denoted in the fixed precision format starting with `1.` and followed by at least one decimal digit.
+      Parameter $b$ is a non-negative integer.
    - `#x {parameter-key} {value}` contains a precomputed instance parameter (see [Parameters](#parameters) below).
       The value is formatted in a JSON subset, such that parsing should be easy, even if your language does not support a fully fledged JSON parser.
    - `#s {key} {value}` is reserved for the official tools. Solvers may not use these values.
@@ -30,7 +35,7 @@ It is defined recursively:
  - Each leaf is represented by its label, a positive integer from $1, 2, ..., n$ where $n$ is the number of leaves indicated in the `#p` line.
  - Each internal node has exactly two children and no own label.
    It is denoted as `(A,B)` where `A` and `B` are the expressions of the two children.
-   The order of children does not carry meaning (other than definining the [indices of inner nodes](#indices-of-inner-nodes)), i.e. `(A,B)` and `(B,A)` imply the same tree.
+   The order of children does not carry meaning (other than defining the [indices of inner nodes](#indices-of-inner-nodes)), i.e. `(A,B)` and `(B,A)` imply the same tree.
 
 Each leaf label $1, 2, ..., n$ appears exactly once per Newick expression.
 
