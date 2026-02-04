@@ -18,7 +18,7 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
 
  - September 2025: Announcement of the challenge and tracks &#x2705;
  - October 2025: Definition of input and output formats &#x2705;
- - November 2025 (last week): **updated 15. Dec** [Tiny test set](https://pace2026.imada.sdu.dk/datasets/tiny01.tar) &#x2705;
+ - November 2025 (last week): **updated 04. Feb** [Tiny test set](https://pace2026.imada.sdu.dk/datasets/tiny02.tar) &#x2705;
  - December 2025 (early): [Checker](https://github.com/manpen/pace26checker) &#x2705;, [STRIDE tool](https://github.com/manpen/pace26stride) and [STRIDE database](https://pace2026.imada.sdu.dk) &#x2705;, [Rust library](https://crates.io/crates/pace26io) &#x2705; for reading instance are provided
  - ~~January~~ February 2026: Release of public instances and details about the benchmark
  - April 2026: Submission via [optil.io](https://optil.io/) opens
@@ -26,11 +26,11 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
  - July 2026 (after submission): Review and rebuttal phase
 
 ## Instances 
- - **updated 15. Dec**: [Tiny example instances](https://pace2026.imada.sdu.dk/datasets/tiny01.tar) (the original set contained infeasible tree decompositions)
- - Public instances are to be published in January 2026.
+ - **updated 04. Feb**: [Tiny example instances](https://pace2026.imada.sdu.dk/datasets/tiny02.tar) (changes only to `summary.pdf`)
+ - Public instances are to be published in ~~January~~ February 2026.
 
 ## Tools
-The following software tools are available:
+The following software tools are available. There is **no** requirement to use them:
  - [pace26stride](https://github.com/manpen/pace26stride)
    Solver runner and instance verifier with tight integration of the [STRIDE database](https://pace2026.imada.sdu.dk) (see below).
  - [pace26checker](https://github.com/manpen/pace26checker) (deprecated -- use stride!): 
