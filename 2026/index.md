@@ -27,7 +27,8 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
 
 ## Instances 
  - [Tiny example instances](https://pace2026.imada.sdu.dk/datasets/tiny02.tar) (changes only to `summary.pdf`)
- - Public instances for **exact track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub.tar.gz) 
+ - Public instances for **exact track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub.tar.gz)
+ - Public instances for **heuristic track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub.tar.gz)
  - Public instances are to be published in ~~January~~ February 2026.
 
 ## Tools
