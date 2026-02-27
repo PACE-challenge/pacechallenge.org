@@ -20,7 +20,7 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
  - October 2025: Definition of input and output formats &#x2705;
  - November 2025 (last week): **updated 04. Feb** [Tiny test set](https://pace2026.imada.sdu.dk/datasets/tiny02.tar) &#x2705;
  - December 2025 (early): [Checker](https://github.com/manpen/pace26checker) &#x2705;, [STRIDE tool](https://github.com/manpen/pace26stride) and [STRIDE database](https://pace2026.imada.sdu.dk) &#x2705;, [Rust library](https://crates.io/crates/pace26io) &#x2705; for reading instance are provided
- - ~~January~~ February 2026: Release of public instances and details about the benchmark
+ - ~~January~~ February 2026: Release of public instances and details about the benchmark &#x2705;
  - April 2026: Submission via [optil.io](https://optil.io/) opens
  - July 2026: Final submission deadline and Results
  - July 2026 (after submission): Review and rebuttal phase
@@ -29,7 +29,7 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
  - [Tiny example instances](https://pace2026.imada.sdu.dk/datasets/tiny02.tar) (changes only to `summary.pdf`)
  - Public instances for **exact track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub.tar.gz)
  - Public instances for **heuristic track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub.tar.gz)
- - Public instances are to be published in ~~January~~ February 2026.
+ - Public instances for **lower-bound track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_lower_pub.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_lower_pub.tar.gz)
 
 ## Tools
 The following software tools are available. There is **no** requirement to use them:
