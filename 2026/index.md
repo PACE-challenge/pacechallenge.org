@@ -29,7 +29,7 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
  - [Tiny example instances](https://pace2026.imada.sdu.dk/datasets/tiny02.tar) (changes only to `summary.pdf`)
  - Public instances for **exact track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub.tar.gz)
  - Public instances for **heuristic track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub.tar.gz)
- - ~~Public instances for **lower-bound track**. [STRIDE list], [tar.gz]~~ Due to an technical issue the lower bound instances need to be updated. They will be made available on Monday 2.3.
+ - Public instances for **lower-bound track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_lower_pub_v2.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_lower_pub_v2.tar.gz) **updated 03. March** Due to an technical issue, we needed to slightly modify the lower bound instances. Please update.
 
 ## Tools
 The following software tools are available. There is **no** requirement to use them:
