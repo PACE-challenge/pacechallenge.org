@@ -21,7 +21,7 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
  - November 2025 (last week): **updated 04. Feb** [Tiny test set](https://pace2026.imada.sdu.dk/datasets/tiny02.tar) &#x2705;
  - December 2025 (early): [Checker](https://github.com/manpen/pace26checker) &#x2705;, [STRIDE tool](https://github.com/manpen/pace26stride) and [STRIDE database](https://pace2026.imada.sdu.dk) &#x2705;, [Rust library](https://crates.io/crates/pace26io) &#x2705; for reading instance are provided
  - ~~January~~ February 2026: Release of public instances and details about the benchmark &#x2705;
- - April 2026: Submission via [optil.io](https://optil.io/) opens
+ - April 2026: Preliminary leaderboard via [optil.io](https://optil.io/) available &#x2705;
  - July 2026: Final submission deadline and Results
  - July 2026 (after submission): Review and rebuttal phase
 
@@ -76,6 +76,9 @@ The challenge features three distinct tracks:
 3. a "lower-bound" track, also with two trees per instance -- the aim is to reach an approximate solution quickly
 
 ## Scoring
+The scoring functions are applied for the final evalution of the submitted solvers.
+Please note that the scoring on [optil](https://optil.io) deviates for technical reasons.
+
 ### Exact track
 Every correctly solved instance awards 1 point. 
 Whenever a solver does not finish an instance in time (time + grace limit exceeded), this instance awards 0 points.
@@ -135,7 +138,9 @@ Shortly after submission, there will be a peer-review phase:
 - The evaluation of the solvers will be based on a set of 100 private instances that are similar to 100 publicly available test instances. 
 
 ## Preliminary leaderboard on optil
-As in previous years, a preliminary leaderboard on [optil](https://optil.io) will be available.
+
+A preliminary leaderboard is available on [optil](https://optil.io).
+We strongly encourage all teams to submit their solvers.
 
 ### Zulip
 
