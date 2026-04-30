@@ -22,8 +22,11 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
  - December 2025 (early): [Checker](https://github.com/manpen/pace26checker) &#x2705;, [STRIDE tool](https://github.com/manpen/pace26stride) and [STRIDE database](https://pace2026.imada.sdu.dk) &#x2705;, [Rust library](https://crates.io/crates/pace26io) &#x2705; for reading instance are provided
  - ~~January~~ February 2026: Release of public instances and details about the benchmark &#x2705;
  - April 2026: Preliminary leaderboard via [optil.io](https://optil.io/) available &#x2705;
- - July 2026: Final submission deadline and Results
- - July 2026 (after submission): Review and rebuttal phase
+
+ - Solver submission:  5th July 2026 23:59 AoE
+ - Solver description: 8th July 2026 23:59 AoE
+ - End of the public reviewing phase: 19th July 2026 23:59 AoE
+ - Final solver submission (see below): 26th July 2026 23:59 AoE
 
 ## Instances 
  - [Tiny example instances](https://pace2026.imada.sdu.dk/datasets/tiny02.tar) (changes only to `summary.pdf`)
