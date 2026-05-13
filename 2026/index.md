@@ -31,8 +31,8 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
 ## Instances 
  - [Tiny example instances](https://pace2026.imada.sdu.dk/datasets/tiny02.tar) (changes only to `summary.pdf`)
  - Public instances for **exact track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub_v2.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub_v2.tar.gz) **updated 08. May** Added 50 new instances (renamed instances with three digit numbers; the first 100 instances are otherwise unmodified).
- - Public instances for **heuristic track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub.tar.gz)
- - Public instances for **lower-bound track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_lower_pub_v2.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_lower_pub_v2.tar.gz) **updated 03. March** Due to an technical issue, we needed to slightly modify the lower bound instances. Please update.
+ - Public instances for **heuristic track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub_v2.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub_v2.tar.gz) **updated 13. May** Added 50 new instances (renamed instances with three digit numbers; the first 100 instances are otherwise unmodified).
+ - Public instances for **lower-bound track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_lower_pub_v3.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_lower_pub_v3.tar.gz) **updated 13. May** Added 50 new instances (renamed instances with three digit numbers; the first 100 instances are otherwise unmodified).
 
 ## Tools
 The following software tools are available. There is **no** requirement to use them:
