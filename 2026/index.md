@@ -69,8 +69,18 @@ The following files are required.
 
 The deadlines mentioned above apply. Note that changes on the codebase and the solver description after their respective deadlines are prohibited, except for small changes resulting from the reviewing phase in close contact with the organizers. We kindly ask all participants to send us an email by the submission deadline, including a link to their Github repository (or a similar platform). If your submission is eligible for the student ranking, please also include a brief note indicating this.
 
-## Docker Environment
-A docker stack containing the evaluation environment is being prepared.
+### Solver Description
+Each solver has to be accompanied by a solver description that outlines the algorithmic and implementation details.
+For the exact and lower-bound tracks, we also ask teams to sketch why the solver is correct (no formal proof is required).
+
+We recommend using the LIPIcs template, as in each track the three best-scoring teams will be invited to include a short-paper in the IPEC 2026 proceedings.
+After the official ranking has been published, we will reach out to these teams with submission instructions for these short papers.
+
+The solver description is subject to a page limit of four pages (including the title page and bibliography).
+In case of a submission to multiple tracks, a shared description may be submitted; 
+in this case, the page limit increases by three pages for each additional track.
+
+To simplify the peer-review phase in July, please make sure to include an email address on the title page where other teams can report issues to you.
 
 ## Tracks
 The challenge features three distinct tracks:
