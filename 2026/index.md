@@ -70,7 +70,7 @@ The following files are required.
 The deadlines mentioned above apply. Note that changes on the codebase and the solver description after their respective deadlines are prohibited, except for small changes resulting from the reviewing phase in close contact with the organizers. We kindly ask all participants to send us an email by the submission deadline, including a link to their Github repository (or a similar platform). If your submission is eligible for the student ranking, please also include a brief note indicating this.
 
 ### Solver Description
-Each solver has to be accompanied by a solver description that outlines the algorithmic and implementation details.
+Each solver has to be accompanied by a solver description (PDF) that outlines the algorithmic and implementation details.
 For the exact and lower-bound tracks, we also ask teams to sketch why the solver is correct (no formal proof is required).
 
 We recommend using the LIPIcs template, as in each track the three best-scoring teams will be invited to include a short-paper in the IPEC 2026 proceedings.
