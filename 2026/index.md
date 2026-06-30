@@ -23,7 +23,7 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
  - ~~January~~ February 2026: Release of public instances and details about the benchmark &#x2705;
  - April 2026: Preliminary leaderboard via [optil.io](https://optil.io/) available &#x2705;
 
- - Solver submission:  5th July 2026 23:59 AoE
+ - Solver submission:  5th July 2026 23:59 AoE, see [guideline](#submission-guidelines), [registration form](https://forms.cloud.microsoft/e/XTcX9jTaut)
  - Solver description: 8th July 2026 23:59 AoE
  - End of the public reviewing phase: 19th July 2026 23:59 AoE
  - Final solver submission (see below): 26th July 2026 23:59 AoE
@@ -60,14 +60,18 @@ The following software tools are available. There is **no** requirement to use t
 No results yet.
 
 ## Submission Guideline
-We ask all participants to publish their codebase and solver description on Github or a similar platform that is publicly available.
+We ask all participants to publish their codebase and solver description on Codeberg, Github, Gitlab (et cetera) or a ZIP/TAR archivew; the code needs to be publically accessible without registering with the platform.
+We will retrieve the sources shortly after the submission deadline.
 The following files are required.
  - A license file at the root containing the license
  - An installation guide at the root that also contains information about external dependencies
  - the codebase
  - the solver description
+ - recommended, but not required: `docker_setup.sh` containing all steps necessary to build the solver in a Debian 13.5 container.
 
-The deadlines mentioned above apply. Note that changes on the codebase and the solver description after their respective deadlines are prohibited, except for small changes resulting from the reviewing phase in close contact with the organizers. We kindly ask all participants to send us an email by the submission deadline, including a link to their Github repository (or a similar platform). If your submission is eligible for the student ranking, please also include a brief note indicating this.
+**Registration link**: [Registration form](https://forms.cloud.microsoft/e/XTcX9jTaut)
+
+The deadlines mentioned above apply. Note that changes on the codebase and the solver description after their respective deadlines are prohibited, except for small changes resulting from the reviewing phase in close contact with the organizers.
 
 ### Solver Description
 Each solver has to be accompanied by a solver description (PDF) that outlines the algorithmic and implementation details.
