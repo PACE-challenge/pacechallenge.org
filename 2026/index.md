@@ -71,6 +71,9 @@ The following files are required.
 
 **Registration link**: [Registration form](https://forms.cloud.microsoft/e/XTcX9jTaut)
 
+Each team may submit up to three different solvers per track if they are substantially different (i.e. exploit different algorithmic ideas that substantially go beyond 'parameter tweaking').
+In this case, please submit one registration per solver and use different solver names.
+
 The deadlines mentioned above apply. Note that changes on the codebase and the solver description after their respective deadlines are prohibited, except for small changes resulting from the reviewing phase in close contact with the organizers.
 
 ### Solver Description
