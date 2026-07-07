@@ -23,10 +23,17 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
  - ~~January~~ February 2026: Release of public instances and details about the benchmark &#x2705;
  - April 2026: Preliminary leaderboard via [optil.io](https://optil.io/) available &#x2705;
 
- - Solver submission:  5th July 2026 23:59 AoE, see [guideline](#submission-guidelines), [registration form](https://forms.cloud.microsoft/e/XTcX9jTaut)
+ - Solver submission:  5th July 2026 23:59 AoE &#x2705;
  - Solver description: 8th July 2026 23:59 AoE
  - End of the public reviewing phase: 19th July 2026 23:59 AoE
  - Final solver submission (see below): 26th July 2026 23:59 AoE
+
+## Submissions
+- list of [all submissions including a preliminary ranking](https://algorithm.engineering/pace26/index.html) based only on the public instances.
+  Please observe that we the ranking does not include all solvers yet, and that we intend to a large test suite, so expect changes.
+- a collection of all [build scripts and submission commits](https://codeberg.org/manpen/pace-build)
+
+Please scrutize all the available algorithms and code. Feel free to reach out to the authors directly (preferred) or reach out to the PC.
 
 ## Instances 
  - [Tiny example instances](https://pace2026.imada.sdu.dk/datasets/tiny02.tar) (changes only to `summary.pdf`)
