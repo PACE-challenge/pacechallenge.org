@@ -28,12 +28,19 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
  - End of the public reviewing phase: 19th July 2026 23:59 AoE
  - Final solver submission (see below): 26th July 2026 23:59 AoE
 
-## Submissions
+## Review Phase
+Resources:
 - list of [all submissions including a preliminary ranking](https://algorithm.engineering/pace26/index.html) based only on the public instances.
   Please observe that we the ranking does not include all solvers yet, and that we intend to a large test suite, so expect changes.
 - a collection of all [build scripts and submission commits](https://codeberg.org/manpen/pace-build)
 
 Please scrutize all the available algorithms and code. Feel free to reach out to the authors directly (preferred) or reach out to the PC.
+
+### Changes during Review Phase
+The [build scripts](https://codeberg.org/manpen/pace-build) are tied to a specific reference commit hash, X, which corresponds to the most recent commit at the time the submission deadline passed.
+You may continue adding to your repository. As long as the reference commit X remains part of the Git history, we will simply ignore any later updates.
+If you would like us to update the reference commit, please contact both Alexander Leonhardt and Manuel Penschuck preferably via Zulip or via email.
+Please remember that the review phase is intended primarily for bugfixes.
 
 ## Instances 
  - [Tiny example instances](https://pace2026.imada.sdu.dk/datasets/tiny02.tar) (changes only to `summary.pdf`)
