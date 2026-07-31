@@ -46,11 +46,11 @@ Please remember that the review phase is intended primarily for bugfixes.
 
 ## Instances 
 
-| Track | Public  | Public | All  |
+| Track | Public  | Private | All  |
 | ----- | ------  | ------ | ---- |
 | Tiny  |         |        | [[tar]](https://pace2026.imada.sdu.dk/datasets/tiny02.tar) |
 | Exact | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub_v2.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub_v2.tar.gz) | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_exact_prv.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_exact_prv.tar.gz) | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_exact_all.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_exact_all.tar.gz) |
-| Heuristic | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub_v2.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub_v2.tar.gz) | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_priv.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_prv.tar.gz) | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_all.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_all.tar.gz) |
+| Heuristic | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub_v2.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub_v2.tar.gz) | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_prv.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_prv.tar.gz) | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_all.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_all.tar.gz) |
 | Lower | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_lower_pub_v3.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_lower_pub_v3.tar.gz) | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_lower_prv.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_lower_prv.tar.gz) | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_lower_all.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_lower_all.tar.gz) |
 
 **[lst]**: [STRIDE](https://github.com/manpen/pace26stride) lists, **[tar.gz]** Archive of the instances
