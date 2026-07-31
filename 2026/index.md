@@ -24,9 +24,11 @@ See also the [Format Specification](./format) and the [IPEC'25 Announcement Slid
  - April 2026: Preliminary leaderboard via [optil.io](https://optil.io/) available &#x2705;
 
  - Solver submission:  5th July 2026 23:59 AoE &#x2705;
- - Solver description: 8th July 2026 23:59 AoE
- - End of the public reviewing phase: 19th July 2026 23:59 AoE
- - Final solver submission (see below): 26th July 2026 23:59 AoE
+ - Solver description: 8th July 2026 23:59 AoE &#x2705;
+ - End of the public reviewing phase: 19th July 2026 23:59 AoE &#x2705;
+ - Final solver submission (see below): 26th July 2026 23:59 AoE &#x2705;
+ - 31th July 2026: [Preliminary results](./results) &#x2705;
+ - 7th August 2026: Final results
 
 ## Review Phase
 Resources:
@@ -34,7 +36,7 @@ Resources:
   Please observe that we the ranking does not include all solvers yet, and that we intend to a large test suite, so expect changes.
 - a collection of all [build scripts and submission commits](https://codeberg.org/manpen/pace-build)
 
-Please scrutize all the available algorithms and code. Feel free to reach out to the authors directly (preferred) or reach out to the PC.
+Please scrutinize all the available algorithms and code. Feel free to reach out to the authors directly (preferred) or reach out to the PC.
 
 ### Changes during Review Phase
 The [build scripts](https://codeberg.org/manpen/pace-build) are tied to a specific reference commit hash, X, which corresponds to the most recent commit at the time the submission deadline passed.
@@ -43,10 +45,16 @@ If you would like us to update the reference commit, please contact both Alexand
 Please remember that the review phase is intended primarily for bugfixes.
 
 ## Instances 
- - [Tiny example instances](https://pace2026.imada.sdu.dk/datasets/tiny02.tar) (changes only to `summary.pdf`)
- - Public instances for **exact track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub_v2.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub_v2.tar.gz) **updated 08. May** Added 50 new instances (renamed instances with three digit numbers; the first 100 instances are otherwise unmodified).
- - Public instances for **heuristic track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub_v2.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub_v2.tar.gz) **updated 13. May** Added 50 new instances (renamed instances with three digit numbers; the first 100 instances are otherwise unmodified).
- - Public instances for **lower-bound track**. [STRIDE list](https://pace2026.imada.sdu.dk/datasets/pace26_lower_pub_v3.lst), [tar.gz](https://pace2026.imada.sdu.dk/datasets/pace26_lower_pub_v3.tar.gz) **updated 13. May** Added 50 new instances (renamed instances with three digit numbers; the first 100 instances are otherwise unmodified).
+
+| Track | Public  | Public | All  |
+| ----- | ------  | ------ | ---- |
+| Tiny  |         |        | [[tar]](https://pace2026.imada.sdu.dk/datasets/tiny02.tar) |
+| Exact | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub_v2.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_exact_pub_v2.tar.gz) | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_exact_priv.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_exact_priv.tar.gz) | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_exact_all.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_exact_all.tar.gz) |
+| Heuristic | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub_v2.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_pub_v2.tar.gz) | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_priv.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_priv.tar.gz) | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_all.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_heuristic_all.tar.gz) |
+| Lower | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_lower_pub_v3.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_lower_pub_v3.tar.gz) | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_lower_priv.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_lower_priv.tar.gz) | [[lst]](https://pace2026.imada.sdu.dk/datasets/pace26_lower_all.lst) [[tar.gz]](https://pace2026.imada.sdu.dk/datasets/pace26_lower_all.tar.gz) |
+
+**[lst]**: [STRIDE](https://github.com/manpen/pace26stride) lists, **[tar.gz]** Archive of the instances
+
 
 ## Tools
 The following software tools are available. There is **no** requirement to use them:

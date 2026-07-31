@@ -87,4 +87,6 @@ Congratulations to the winners and all the participants!
 **(DQ)**: solver produced illegal solutions (number indicated in brackets in column *Solved*)
 
 ### Acknowledgements
-We gratefully acknowledge the computing time provided by [UCloud](https://docs.cloud.sdu.dk/) interactive HPC system, which is managed by the eScience Center at the University of Southern Denmark, and the NHR Center NHR@SW at Goethe University Frankfurt. 
+We gratefully acknowledge the computing time provided by 
+- [UCloud](https://docs.cloud.sdu.dk/) interactive HPC system, which is managed by the eScience Center at the University of Southern Denmark, and
+- the NHR Center NHR@SW at Goethe University Frankfurt. 
