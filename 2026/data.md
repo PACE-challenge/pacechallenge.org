@@ -1,4 +1,7 @@
-# PACE 2026: Instance selection
+---
+layout: page 
+title: "PACE 2026: Instance selection"
+---
 
 The PACE 2026 benchmark is built from a collection of instance generators
 and data sources. The goal is not to represent a single model of phylogenetic
