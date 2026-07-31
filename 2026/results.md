@@ -14,13 +14,13 @@ Congratulations to the winners and all the participants!
   - 2x AMD EPYC 9534 64-Core @ 2.45Ghz (at most 96 cores used due to limited RAM)
   - 1536 GB DDR5-4800 RAM
 
-- Each track consists contains [400 instances (see details on selection)](2026/data.md)
+- Each track contains [400 instances (see details on selection)](./data)
 - Each solver is evaluated thrice on random (but identical) machines in their own container, each time working on all 400 instances.
 - Thus each solver can score a total of 1200 points
 
 ## Exact Track
 Rank      | Stud Rank | Solver                                                                                                                   | Authors                                                                                                                     | Solved     | Runtime    | Score | Delta
---------: | --------: | :----------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- | ---------: | ---------: | ----: | ----:
+--------- | --------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | ----- | -----
 1         | 1         | [maffe](https://github.com/roehrt/maffe/tree/eb55f1a3c5c1a7c47e7d5f97c1c2d8943171875c)                                   | Anton Hoof, Tobias Röhr                                                                                                     | 1063       | 35043.6s   | 1063  |      
 2         |           | [woodcutter](https://github.com/jovarga/woodcutter/tree/530d29aca7543dd19abb4f50fa1ca7d76c4addc4)                        | Johannes Varga, Enrico Iurlano, Hai Xia                                                                                     | 1056       | 31544.8s   | 1056  | -7   
 3         | 2         | [klados](https://github.com/Buchineers/klados/tree/c3d2d556a979216a8ffcef7326918611060bd24d)                             | Christian Inhetveen, Marcin Mennemann, Marius Maximilian Hille                                                              | 866        | 117499.0s  | 866   | -190 
@@ -45,7 +45,7 @@ Rank      | Stud Rank | Solver                                                  
 
 ## Heuristic Track
 Rank | Stud Rank | Solver                                                                                                              | Authors                                                                                                                    | Solved   | Runtime   | Score     | Delta   
----: | --------: | :------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------- | -------: | --------: | --------: | -------:
+---- | --------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | --------- | --------
 1    | 1         | [maffe](https://github.com/roehrt/maffe/tree/eb55f1a3c5c1a7c47e7d5f97c1c2d8943171875c)                              | Anton Hoof, Tobias Röhr                                                                                                    | 1197     | 155934.5s | 1196.109  |         
 2    | 2         | [searchsPACE](https://github.com/ManuelRonhaar/searchsPACE/tree/1e10a2bc0d0984175172fa7b60cba9ede402d3d6)           | Manuel Ronhaar                                                                                                             | 1199     | 142675.5s | 1195.654  | -0.455  
 3    | 3         | [Dakopen](https://github.com/dakopen/PACE-2026-Submission/tree/8e5dc38ec019e4b4ac7110396ad061fadf2f7a27)            | Daniel Busch                                                                                                               | 1200     | 198280.9s | 1195.266  | -0.388  
@@ -69,7 +69,7 @@ Rank | Stud Rank | Solver                                                       
 
 ## Lower Bound
 Rank | Stud Rank | Solver                                                                                                           | Authors                                                                                                      | Solved    | Runtime   | Score     | Delta   
----: | --------: | :--------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- | --------: | --------: | --------: | -------:
+---- | --------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | --------- | --------- | --------- | --------
 1    | 1         | [maffe](https://github.com/roehrt/maffe/tree/48a08df701cb6e6eb20074d5c5c6c5f59f1bff31)                           | Anton Hoof, Tobias Röhr                                                                                      | 1128      | 6785.4s   | 1122.438  |         
 2    | 2         | [CherryPicker 1](https://github.com/jdziura/PACE2026_CherryPicker/tree/cc2b3e9ba2dc9d445e76840e712f7452cd2d147c) | Jakub Dziura, Tomáš Masařík                                                                                  | 1104      | 21721.2s  | 1086.196  | -36.242 
 3    | 3         | [searchsPACE](https://github.com/ManuelRonhaar/searchsPACE/tree/1e10a2bc0d0984175172fa7b60cba9ede402d3d6)        | Manuel Ronhaar                                                                                               | 1107      | 26028.5s  | 1085.665  | -0.531  
