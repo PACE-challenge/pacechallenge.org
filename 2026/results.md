@@ -19,6 +19,7 @@ Congratulations to the winners and all the participants!
 - Thus each solver can score a **total of 1200 points**
 
 ## Exact Track
+
 | Rank      | Stud Rank | Solver                                                                                                                   | Authors                                                                                                                     | Solved     | Runtime    | Score | Delta |
 | --------: | --------: | :----------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- | ---------: | ---------: | ----: | ----: |
 | 1         | 1         | [maffe](https://github.com/roehrt/maffe/tree/eb55f1a3c5c1a7c47e7d5f97c1c2d8943171875c)                                   | Anton Hoof, Tobias Röhr                                                                                                     | 1063       | 35043.6s   | 1063  |       |
@@ -44,6 +45,7 @@ Congratulations to the winners and all the participants!
 
 
 ## Heuristic Track
+
 | Rank | Stud Rank | Solver                                                                                                              | Authors                                                                                                                    | Solved   | Runtime   | Score     | Delta    |
 | ---: | --------: | :------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------- | -------: | --------: | --------: | -------: |
 | 1    | 1         | [maffe](https://github.com/roehrt/maffe/tree/eb55f1a3c5c1a7c47e7d5f97c1c2d8943171875c)                              | Anton Hoof, Tobias Röhr                                                                                                    | 1197     | 155934.5s | 1196.109  |          |
@@ -68,6 +70,7 @@ Congratulations to the winners and all the participants!
 **(DQ)**: solver produced illegal solutions (number indicated in brackets in column *Solved*)
 
 ## Lower Bound
+
 | Rank | Stud Rank | Solver                                                                                                           | Authors                                                                                                      | Solved    | Runtime   | Score     | Delta    |
 | ---: | --------: | :--------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- | --------: | --------: | --------: | -------: |
 | 1    | 1         | [maffe](https://github.com/roehrt/maffe/tree/48a08df701cb6e6eb20074d5c5c6c5f59f1bff31)                           | Anton Hoof, Tobias Röhr                                                                                      | 1128      | 6785.4s   | 1122.438  |          |
