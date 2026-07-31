@@ -14,7 +14,7 @@ Congratulations to the winners and all the participants!
   - 2x AMD EPYC 9534 64-Core @ 2.45Ghz (at most 96 cores used due to limited RAM)
   - 1536 GB DDR5-4800 RAM
 
-- Each track contains [400 instances (see details on selection)](2026/data)
+- Each track contains [400 instances (see details on selection)](./data)
 - Each solver is evaluated thrice on random (but identical) machines in their own container, each time working on all 400 instances.
 - Thus each solver can score a **total of 1200 points**
 
