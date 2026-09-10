@@ -27,13 +27,17 @@ Finding the longest path is NP-hard due to the NP-completeness of the Hamiltonia
 
 ### Literature
 
-- Monien, B. (1985). How to find long paths efficiently.
 - Alon, N., Yuster, R., and Zwick, U. (1995). Color-coding.
-- Bodlaender, H. L., Downey, R. G., Fellows, M. R., and Hermelin, D. (2009). On problems without polynomial kernels.
-- Williams, R. (2009). Finding paths of length $k$ in $O^*(2^k)$ time.
 - Björklund, A., Husfeldt, T., Kaski, P., and Koivisto, M. (2017). Narrow sieves for parameterized paths and packings.
-- Tsur, D. (2019). Faster deterministic parameterized algorithm for $k$-path.
+- Björklund, A., Kaski, P., and Kowalik, Ł. (2014). Fast witness extraction using a decision oracle.
+- Bodlaender, H. L., Downey, R. G., Fellows, M. R., and Hermelin, D. (2009). On problems without polynomial kernels.
+- Monien, B. (1985). How to find long paths efficiently.
+- Nederlof, J. (2025). Weighted $k$-Path and Other Problems in Almost $O^*(2^k)$ Deterministic Time via Dynamic Representative Sets.
 - Nederlof, J., Pilipczuk, M., Swennenhuis, C. M., and Węgrzycki, K. (2023). Hamiltonian cycle parameterized by treedepth in single exponential time and polynomial space.
+- Tsur, D. (2019). Faster deterministic parameterized algorithm for $k$-path.
+- Williams, R. (2009). Finding paths of length $k$ in $O^*(2^k)$ time.
+
+We also wish to acknowledge the past [ICGCA](https://afsa.jp/icgca2024/) contests on *counting* paths as potentially relevant sources for ideas and literature.
 
 ## Timeline
 
@@ -47,8 +51,8 @@ Finding the longest path is NP-hard due to the NP-completeness of the Hamiltonia
 
 ## Tracks
 The challenge features three distinct tracks:
-1. an "exact unweighted" track -- output the largest integer $k$ in an undirected unweighted graph $G$ such that $G$ contains a $k$-path together with the path as a certificate.
-2. an "exact weighted" track -- output a $k$-path of maximum weight in a weighted directed graph. 
+1. an "exact unweighted" track -- output the largest integer $k$ in an undirected unweighted graph $G$ such that $G$ contains a $k$-path together with the path as a witness.
+2. an "exact weighted" track -- output a $k$-path of maximum weight for a given $k$ in a weighted directed graph. 
 3. a "heuristic" track -- output a valid lower bound for the maximum path length in an undirected unweighted graph, computed within a reasonable time limit, and a path witnessing the lower bound.
 
 ## Zulip
