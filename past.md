@@ -6,12 +6,14 @@ sidebar_sort_order: 3
 ---
 
 The results of each PACE challenge are documented in a report that is published in the IPEC proceedings.
+- PACE 2027: **$k$-Path**<br/>
+  ([challenge description](/2027/))
 - PACE 2026: **Maximum-Agreement Forest**<br/>
   ([slides](/2026/announcement_slides.pdf),
   [results](/2026/results/), 
   [challenge description](/2026/))
 - PACE 2025: **Dominating Set** and **Hitting Set**<br/>
-  ([slides](/2025/PACE25-slides.pdf), [results](/2025/results/),
+  ([official report](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.IPEC.2025.32), [slides](/2025/PACE25-slides.pdf), [results](/2025/results/),
   [challenge description](/2025/))
 - PACE 2024: **One-sided Crossing Minimization**<br/>
   ([official report](https://doi.org/10.4230/LIPIcs.IPEC.2024.26), [slides](/2024/PACE24-slides.pdf), [results](/2024/results/),
