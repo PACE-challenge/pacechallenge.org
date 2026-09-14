@@ -5,8 +5,6 @@ sidebar_link: true
 sidebar_sort_order: 10
 ---
 
-<style media="screen and (max-width:1020px)"> img {display:none;} </style>
-
 ## Problem
 
 This year features the $k$-Path problem of finding a path of length $k$ in a graph. See also the [IPEC'26 Announcement Slides](./announcement_slides.pdf).
