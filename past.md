@@ -9,7 +9,7 @@ The results of each PACE challenge are documented in a report that is published 
 - PACE 2027: **$k$-Path**<br/>
   ([challenge description](/2027/))
 - PACE 2026: **Maximum-Agreement Forest**<br/>
-  ([slides](/2026/announcement_slides.pdf),
+  ([award-slides](/2026/award_slides.pdf),[slides](/2026/announcement_slides.pdf),
   [results](/2026/results/), 
   [challenge description](/2026/))
 - PACE 2025: **Dominating Set** and **Hitting Set**<br/>
